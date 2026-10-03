@@ -10,7 +10,7 @@ pat=re.compile(r"Marée (basse|haute) le ([A-Za-zÀ-ÿ]+) (\d{1,2}) à (\d{2}:\d
 items=[]
 now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))
 months={} # page does not expose month in tide snippet; order on page is used, then upcoming clock/date reconstructed.
-for typ,daynum,hhmm,coef in pat.findall(txt):
+for typ,weekday,daynum,hhmm,coef in pat.findall(txt):
     items.append({"type":"BM" if typ.lower()=="basse" else "PM","time":hhmm,"coefficient":int(coef)})
 # Deduplicate and choose next items based on today's clock; official page typically exposes current adjacent tides.
 uniq=[]
