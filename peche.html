@@ -1,5 +1,18 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🎣 Pêche & araignées</title><style>*{box-sizing:border-box}body{margin:0;background:#eef5f4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#17323d}header{background:linear-gradient(135deg,#073b4c,#07838d);color:#fff;padding:25px 16px}.wrap{max-width:950px;margin:auto}main{padding:14px}h1{margin:4px 0}h2{font-size:18px;margin:22px 3px 9px}.nav{display:flex;gap:7px;overflow:auto;margin-top:15px}.nav a{background:#fff;color:#073b4c;text-decoration:none;padding:9px 12px;border-radius:999px;font-weight:700;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{background:#fff;border-radius:18px;padding:15px;box-shadow:0 3px 14px #063b5212}.big{font-size:25px;font-weight:800}.score{font-size:38px;font-weight:850}.muted{font-size:12px;color:#65747a;line-height:1.5}.hourly{display:flex;gap:8px;overflow:auto}.hour{min-width:150px;background:#fff;border-radius:15px;padding:12px}.good{color:#16825d}.warn{color:#bb741f}.webcam{height:170px;background:#dbe7e6;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;color:#65747a;margin-top:8px}.note{font-size:12px;color:#65747a;line-height:1.5;margin:15px 3px 30px}@media(min-width:700px){.grid.four{grid-template-columns:repeat(4,1fr)}}</style></head><body><header><div class="wrap"><small>BAIE DE LA BAULE</small><h1>🎣 Pêche & araignées</h1><div>Deux indices séparés sur 100</div><div class="nav"><a href="index.html">🌊 Accueil</a><a href="peche.html">🎣 Pêche & araignées</a><a href="wingfoil.html">🏄 Wingfoil</a><a href="surf.html">🏄 Surf</a></div></div></header><main class="wrap"><h2>Indices du moment</h2><div class="grid"><div class="card"><b>🎣 Pêche</b><div class="score" id="fish">—%</div><div class="muted">Marée 25% · vent 20% · vagues 15% · aube/crépuscule 15% · saison/eau 10% · météo 10% · lune 5%</div></div><div class="card"><b>🦀 Araignées</b><div class="score" id="crab">—%</div><div class="muted">Marée/coefficient · clarté · vagues · vent · saison/température</div></div></div>
-<h2>Meilleurs créneaux</h2><div class="card"><div class="big">À finaliser après connexion des marées et de la clarté</div><div class="muted">Le calcul sera heure par heure et affichera les meilleurs créneaux des 7 prochains jours.</div></div>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🎣 Pêche & araignées</title><style>*{box-sizing:border-box}body{margin:0;background:#eef5f4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#17323d}header{background:linear-gradient(135deg,#073b4c,#07838d);color:#fff;padding:25px 16px}.wrap{max-width:950px;margin:auto}main{padding:14px}h1{margin:4px 0}h2{font-size:18px;margin:22px 3px 9px}.nav{display:flex;gap:7px;overflow:auto;margin-top:15px}.nav a{background:#fff;color:#073b4c;text-decoration:none;padding:9px 12px;border-radius:999px;font-weight:700;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{background:#fff;border-radius:18px;padding:15px;box-shadow:0 3px 14px #063b5212}.big{font-size:25px;font-weight:800}.score{font-size:38px;font-weight:850}.muted{font-size:12px;color:#65747a;line-height:1.5}.hourly{display:flex;gap:8px;overflow:auto}.hour{min-width:150px;background:#fff;border-radius:15px;padding:12px}.good{color:#16825d}.warn{color:#bb741f}.webcam{height:170px;background:#dbe7e6;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;color:#65747a;margin-top:8px}.note{font-size:12px;color:#65747a;line-height:1.5;margin:15px 3px 30px}@media(min-width:700px){.grid.four{grid-template-columns:repeat(4,1fr)}}.webcams .grid{grid-template-columns:1fr!important}.webcams iframe{width:100%;min-height:360px}
+</style></head><body><header><div class="wrap"><small>BAIE DE LA BAULE</small><h1>🎣 Pêche & araignées</h1><div>Deux indices séparés sur 100</div><div class="nav"><a href="index.html">🌊 Accueil</a><a href="peche.html">🎣 Pêche & araignées</a><a href="wingfoil.html">🏄 Wingfoil</a><a href="surf.html">🏄 Surf</a></div></div></header><main class="wrap"><h2>Indices du moment</h2><div class="grid"><div class="card"><b>🎣 Pêche</b><div class="score" id="fish">—%</div><div class="muted">Marée 25% · vent 20% · vagues 15% · aube/crépuscule 15% · saison/eau 10% · météo 10% · lune 5%</div></div><div class="card"><b>🦀 Araignées</b><div class="score" id="crab">—%</div><div class="muted">Marée/coefficient · clarté · vagues · vent · saison/température</div></div></div>
+<h2>Meilleurs créneaux</h2>
+<div class="grid">
+  <div class="card">
+    <div class="muted">🎣 Pêche</div>
+    <div class="big" id="bestFish">Calcul…</div>
+    <div class="muted" id="bestFishWhy">Recherche du meilleur créneau à partir des données disponibles.</div>
+  </div>
+  <div class="card">
+    <div class="muted">🦀 Araignées</div>
+    <div class="big" id="bestCrab">Calcul…</div>
+    <div class="muted" id="bestCrabWhy">Recherche du meilleur créneau à partir des données disponibles.</div>
+  </div>
+</div>
 <h2>Conditions utiles</h2><div class="grid four"><div class="card"><div class="muted">🌊 Vagues</div><div class="big" id="fw">—</div></div><div class="card"><div class="muted">💨 Vent</div><div class="big" id="fv">—</div></div><div class="card"><div class="muted">🌡️ Eau</div><div class="big" id="ft">—</div></div></div>
 <h2>💧 Clarté de l’eau — 3 dernières observations</h2><div class="grid"><div class="card" data-clarity="0"><div class="big">Chargement…</div></div><div class="card" data-clarity="1"><div class="big">Chargement…</div></div><div class="card" data-clarity="2"><div class="big">Chargement…</div></div></div>
 <div class="card" style="margin-top:10px"><div class="muted"><b>Comment lire :</b> la valeur ZSD estime la profondeur de transparence de l’eau. Plus elle est élevée, meilleure est la visibilité pour chercher les araignées en masque/tuba.<br><b>&lt; 1 m</b> : mauvaise · <b>1–2 m</b> : faible · <b>2–3 m</b> : moyenne · <b>3–5 m</b> : bonne · <b>≥ 5 m</b> : très bonne. Les dates sont celles des observations Copernicus disponibles.</div></div>
@@ -63,6 +76,26 @@ function updateScores(){
   document.getElementById("coefNow").textContent=c+" · "+coefLabel(c);
   document.getElementById("coefRating").textContent="≥ 90 excellent · 75–89 moyen · < 75 mauvais";
 }
+
+
+function updateBestSlots(){
+  const tides=window.__tides||[];
+  function fmt(t){
+    if(!t) return "Données insuffisantes";
+    const d=t.date?new Date(t.date+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"short",day:"numeric",month:"short"}):"";
+    return `${d} · ${t.time} · coef. ${t.coefficient}`;
+  }
+  // With only the next two official tides available, rank those rather than pretending to know 7 days.
+  const ranked=[...tides].sort((a,b)=>(Number(b.coefficient)||0)-(Number(a.coefficient)||0));
+  const best=ranked[0];
+  const fish=document.getElementById("bestFish"), crab=document.getElementById("bestCrab");
+  if(fish) fish.textContent=fmt(best);
+  if(crab) crab.textContent=fmt(best);
+  const lab=best?coefLabel(Number(best.coefficient)):"";
+  const fwhy=document.getElementById("bestFishWhy"), cwhy=document.getElementById("bestCrabWhy");
+  if(fwhy) fwhy.textContent=best?`Meilleure des prochaines marées disponibles · coefficient ${lab.toLowerCase()}.`:"Les marées ne sont pas disponibles.";
+  if(cwhy) cwhy.textContent=best?`Priorité au coefficient : ${best.coefficient} = ${lab}. Pour les araignées, privilégier la basse mer et une bonne clarté.`:"Les marées ne sont pas disponibles.";
+}
 async function loadCoastalData(){
   try{
     const t=await fetch("api/tides.json?ts="+Date.now()).then(r=>r.json());
@@ -87,6 +120,7 @@ async function loadCoastalData(){
     });
   }catch(e){console.warn("Clarté",e)}
   updateScores();
+  updateBestSlots();
   setTimeout(updateScores,700);
 }
 loadCoastalData();
