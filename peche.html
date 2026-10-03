@@ -7,73 +7,87 @@
 <div class="grid">
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
-</div><div class="note">Marées : Ville de Pornichet · clarté : Copernicus Marine ZSD. Les indices /100 restent provisoirement en attente jusqu’à la connexion de tous les critères nécessaires au calcul, afin de ne pas afficher un score trompeur.</div></main><script>
+</div>
+<div class="card" style="margin-top:10px">
+  <div class="muted">Coefficient utilisé pour l’indice</div>
+  <div class="big" id="coefNow">—</div>
+  <div class="muted" id="coefRating">≥ 90 excellent · 75–89 moyen · &lt; 75 mauvais</div>
+</div>
+<div class="note">Marées : Ville de Pornichet · clarté : Copernicus Marine ZSD. Les indices /100 restent provisoirement en attente jusqu’à la connexion de tous les critères nécessaires au calcul, afin de ne pas afficher un score trompeur.</div></main><script>
 const lat=47.25,lon=-2.35,F=(v,n=1)=>v==null?"—":Number(v).toFixed(n).replace(".",","),C=d=>["N","NE","E","SE","S","SO","O","NO"][Math.round((d||0)/45)%8];
 function B(k){let n=k/1.852;return n<1?0:n<4?1:n<7?2:n<11?3:n<17?4:n<22?5:n<28?6:n<34?7:n<41?8:9}
-async function go(){let[m,w]=await Promise.all([fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=sea_surface_temperature,wave_height&timezone=Europe%2FParis`).then(r=>r.json()),fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=wind_speed_10m&timezone=Europe%2FParis`).then(r=>r.json())]);fw.textContent=F(m.current.wave_height)+" m";fv.textContent=F(w.current.wind_speed_10m,0)+" km/h";ft.textContent=F(m.current.sea_surface_temperature)+" °C"}go();
-async function loadCoastalData(){
-  try{
-    const t=await fetch("api/tides.json?ts="+Date.now()).then(r=>r.json());
-    document.querySelectorAll("[data-tide]").forEach((el,i)=>{
-      const x=t.next?.[i];
-      if(x) el.innerHTML=`<div class="muted">${x.type}</div><div class="big">${x.time}</div><div class="muted">Coef. ${x.coefficient}${x.height?` · ${x.height}`:""}</div>`;
-    });
-  }catch(e){}
-  try{
-    const c=await fetch("api/clarity.json?ts="+Date.now()).then(r=>r.json());
-    document.querySelectorAll("[data-clarity]").forEach((el,i)=>{
-      const x=c.days?.[i];
-      if(x){const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Mesure";el.innerHTML=`<b>${d}</b><div class="big">${x.value==null?"Pas de mesure":Number(x.value).toFixed(2).replace(".",",")+" m"}</div><div class="muted">${x.rating||""} · observation Copernicus</div>`;}
-    });
-  }catch(e){}
-}
-loadCoastalData();
-</script></body></html
+async function go(){let[m,w]=await Promise.all([fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=sea_surface_temperature,wave_height&timezone=Europe%2FParis`).then(r=>r.json()),fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=wind_speed_10m&timezone=Europe%2FParis`).then(r=>r.json())]);fw.textContent=F(m.current.wave_height)+" m";fv.textContent=F(w.current.wind_speed_10m,0)+" km/h";ft.textContent=F(m.current.sea_surface_temperature)+" °C";setTimeout(updateScores,200)}go();
 function clamp(v,a=0,b=100){return Math.max(a,Math.min(b,v))}
 function coefScore(c){
   c=Number(c);
-  if(!Number.isFinite(c)) return null;
+  if(!Number.isFinite(c)) return 0;
   if(c>=90) return 100;
-  if(c>=75) return 60 + (c-75)*(25/14); // "moyen": 60 -> 85
-  return clamp((c/75)*35);               // <75 = mauvaise note
+  if(c>=75) return 60+(c-75)*(25/14);
+  return clamp(c/75*35);
 }
 function coefLabel(c){return c>=90?"Excellent":c>=75?"Moyen":"Mauvais"}
 function waveScore(h){return h<=0.4?100:h<=0.8?80:h<=1.2?55:h<=1.8?25:5}
-function windScore(kmh){return kmh<=10?100:kmh<=20?85:kmh<=30?55:kmh<=40?25:5}
+function windScore(k){return k<=10?100:k<=20?85:k<=30?55:k<=40?25:5}
 function clarityScore(m){return m>=5?100:m>=3?85:m>=2?60:m>=1?30:10}
-function seasonScore(temp){return temp>=14&&temp<=20?100:temp>=11&&temp<=22?70:40}
-function tideCycleScore(nextTide){
-  if(!nextTide||!nextTide.date||!nextTide.time)return 50;
-  const t=new Date(nextTide.date+"T"+nextTide.time+":00");
-  const dh=(t-Date.now())/3600000;
-  // Favorise l'approche d'une basse mer / période proche d'un étale, sans prétendre reconstruire tout le cycle.
-  if(nextTide.type==="BM"){
-    if(dh>=0&&dh<=1.5)return 100;
-    if(dh<=3)return 80;
-    if(dh<=5)return 55;
+function tempScore(t){return t>=14&&t<=20?100:t>=11&&t<=22?70:40}
+function cycleScore(t){
+  if(!t?.date||!t?.time) return 50;
+  const dt=new Date(t.date+"T"+t.time+":00");
+  const h=(dt-Date.now())/3600000;
+  if(t.type==="BM"){
+    if(h>=0&&h<=1.5)return 100;
+    if(h<=3)return 80;
+    if(h<=5)return 55;
   }
   return 45;
 }
-function updateScores(){
-  const tides=window.__tides||[];
-  const c=tides[0]?.coefficient;
-  const cs=coefScore(c);
-  if(cs==null)return;
-  document.getElementById("coefNow").textContent=c;
-  document.getElementById("coefRating").textContent=coefLabel(c)+" · ≥ 90 excellent · 75–89 moyen · < 75 mauvais";
-  const cycle=tideCycleScore(tides[0]);
-  const w=Number((document.getElementById("fv").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
-  const h=Number((document.getElementById("fw").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
-  const temp=Number((document.getElementById("ft").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
-  const cl=window.__clarity;
-  const ws=Number.isFinite(w)?windScore(w):50, hs=Number.isFinite(h)?waveScore(h):50, ts=Number.isFinite(temp)?seasonScore(temp):50;
-  const cls=Number.isFinite(cl)?clarityScore(cl):50;
-  // Les facteurs astronomiques/météo secondaires sont neutres (50) tant qu'ils ne sont pas encore calculés heure par heure.
-  const fish=Math.round(.30*cs+.20*cycle+.15*ws+.10*hs+.10*50+.05*cls+.05*ts+.05*50);
-  const spider=Math.round(.40*cs+.20*cycle+.20*cls+.10*hs+.05*ws+.05*ts);
-  document.getElementById("fishScore").textContent=fish+"%";
-  document.getElementById("spiderScore").textContent=spider+"%";
-  document.getElementById("fishDetail").textContent=`Coef ${c} (${coefLabel(c)}) · marée ${Math.round(cycle)} · vent ${Math.round(ws)} · vagues ${Math.round(hs)}`;
-  document.getElementById("spiderDetail").textContent=`Coef ${c} (${coefLabel(c)}) · marée ${Math.round(cycle)} · clarté ${Math.round(cls)} · vagues ${Math.round(hs)}`;
+function numFrom(id){
+  const m=(document.getElementById(id)?.textContent||"").replace(",",".").match(/[\d.]+/);
+  return m?Number(m[0]):NaN;
 }
->
+function updateScores(){
+  const t=window.__tides?.[0], c=Number(t?.coefficient);
+  if(!Number.isFinite(c)) return;
+  const cs=coefScore(c), cyc=cycleScore(t);
+  const ws=Number.isFinite(numFrom("fv"))?windScore(numFrom("fv")):50;
+  const hs=Number.isFinite(numFrom("fw"))?waveScore(numFrom("fw")):50;
+  const ts=Number.isFinite(numFrom("ft"))?tempScore(numFrom("ft")):50;
+  const cls=Number.isFinite(window.__clarity)?clarityScore(window.__clarity):50;
+
+  // Coefficient = critère dominant, selon la règle définie.
+  const fish=Math.round(.30*cs+.20*cyc+.15*ws+.10*hs+.10*50+.05*cls+.05*ts+.05*50);
+  const crab=Math.round(.40*cs+.20*cyc+.20*cls+.10*hs+.05*ws+.05*ts);
+
+  document.getElementById("fish").textContent=fish+"%";
+  document.getElementById("crab").textContent=crab+"%";
+  document.getElementById("coefNow").textContent=c+" · "+coefLabel(c);
+  document.getElementById("coefRating").textContent="≥ 90 excellent · 75–89 moyen · < 75 mauvais";
+}
+async function loadCoastalData(){
+  try{
+    const t=await fetch("api/tides.json?ts="+Date.now()).then(r=>r.json());
+    window.__tides=t.next||[];
+    document.querySelectorAll("[data-tide]").forEach((el,i)=>{
+      const x=window.__tides[i];
+      if(x){
+        const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"short",day:"numeric",month:"short"}):"";
+        el.innerHTML=`<div class="muted">${x.type} · ${d}</div><div class="big">${x.time}</div><div class="muted">Coef. ${x.coefficient}</div>`;
+      }
+    });
+  }catch(e){console.warn("Marées",e)}
+  try{
+    const c=await fetch("api/clarity.json?ts="+Date.now()).then(r=>r.json());
+    window.__clarity=Number(c.days?.[0]?.value);
+    document.querySelectorAll("[data-clarity]").forEach((el,i)=>{
+      const x=c.days?.[i];
+      if(x){
+        const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Mesure";
+        el.innerHTML=`<b>${d}</b><div class="big">${x.value==null?"Pas de mesure":Number(x.value).toFixed(2).replace(".",",")+" m"}</div><div class="muted">${x.rating||""} · observation Copernicus</div>`;
+      }
+    });
+  }catch(e){console.warn("Clarté",e)}
+  updateScores();
+  setTimeout(updateScores,700);
+}
+loadCoastalData();
+</script></body></html
