@@ -1,5 +1,21 @@
 {
   "source": "Copernicus Marine ZSD",
-  "updated": null,
-  "days": []
+  "updated": "2026-09-24T17:24:11.990908+00:00",
+  "days": [
+    {
+      "date": "2026-09-24",
+      "value": 1.38,
+      "rating": "Faible"
+    },
+    {
+      "date": "2026-09-23",
+      "value": 1.38,
+      "rating": "Faible"
+    },
+    {
+      "date": "2026-09-22",
+      "value": 1.73,
+      "rating": "Faible"
+    }
+  ]
 }
