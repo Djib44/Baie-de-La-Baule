@@ -6,22 +6,99 @@ ROOT=Path(__file__).resolve().parents[1]; API=ROOT/"api"; API.mkdir(exist_ok=Tru
 html=requests.get("https://ville-pornichet.fr/",timeout=30).text
 txt=re.sub(r"<[^>]+>"," ",html)
 txt=re.sub(r"\s+"," ",txt)
-pat=re.compile(r"Marée (basse|haute) le ([A-Za-zÀ-ÿ]+) (\d{1,2}) à (\d{2}:\d{2}) \(Coeff:\s*(\d+)\)",re.I)
-items=[]
-now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))
-months={} # page does not expose month in tide snippet; order on page is used, then upcoming clock/date reconstructed.
-for typ,weekday,daynum,hhmm,coef in pat.findall(txt):
-    items.append({"type":"BM" if typ.lower()=="basse" else "PM","time":hhmm,"coefficient":int(coef)})
-# Deduplicate and choose next items based on today's clock; official page typically exposes current adjacent tides.
-uniq=[]
-for x in items:
-    if (x["type"],x["time"],x["coefficient"]) not in [(y["type"],y["time"],y["coefficient"]) for y in uniq]: uniq.append(x)
-mins=lambda h:int(h[:2])*60+int(h[3:])
-cur=now.hour*60+now.minute
-future=sorted(uniq,key=lambda x:((mins(x["time"])-cur)%1440))
-(API/"tides.json").write_text(json.dumps({"source":"Ville de Pornichet","updated":now.isoformat(),"next":future[:2]},ensure_ascii=False,indent=2))
 
-# CLARITY — Copernicus Marine ZSD (Secchi depth). Requires repository secrets
+pat=re.compile(
+    r"Marée (basse|haute) le ([A-Za-zÀ-ÿ]+) (\d{1,2}) à "
+    r"(\d{2}:\d{2}) \(Coeff:\s*(\d+)\)",
+    re.I
+)
+
+now=datetime.datetime.now(
+    datetime.timezone(datetime.timedelta(hours=2))
+)
+
+raw=pat.findall(txt)
+items=[]
+
+# Reconstruit la date réelle à partir du numéro du jour.
+# La page fournit les marées autour de la date courante.
+for typ,weekday,daynum,hhmm,coef in raw:
+    daynum=int(daynum)
+
+    possible_dates=[]
+    for delta in range(-3,8):
+        d=(now + datetime.timedelta(days=delta)).date()
+        if d.day == daynum:
+            possible_dates.append(d)
+
+    if not possible_dates:
+        continue
+
+    # Date la plus proche de maintenant
+    date=min(
+        possible_dates,
+        key=lambda d: abs((d-now.date()).days)
+    )
+
+    hour,minute=map(int,hhmm.split(":"))
+
+    dt=datetime.datetime(
+        date.year,
+        date.month,
+        date.day,
+        hour,
+        minute,
+        tzinfo=now.tzinfo
+    )
+
+    items.append({
+        "type":"BM" if typ.lower()=="basse" else "PM",
+        "date":date.isoformat(),
+        "time":hhmm,
+        "coefficient":int(coef),
+        "_datetime":dt
+    })
+
+# Suppression des éventuels doublons
+uniq=[]
+seen=set()
+
+for x in items:
+    key=(x["type"],x["date"],x["time"],x["coefficient"])
+    if key not in seen:
+        seen.add(key)
+        uniq.append(x)
+
+# On ne conserve que les marées réellement futures
+future=[
+    x for x in uniq
+    if x["_datetime"] >= now
+]
+
+future.sort(key=lambda x:x["_datetime"])
+
+# Nettoyage du champ interne _datetime
+next_tides=[]
+
+for x in future[:2]:
+    next_tides.append({
+        "type":x["type"],
+        "date":x["date"],
+        "time":x["time"],
+        "coefficient":x["coefficient"]
+    })
+
+(API/"tides.json").write_text(
+    json.dumps(
+        {
+            "source":"Ville de Pornichet",
+            "updated":now.isoformat(),
+            "next":next_tides
+        },
+        ensure_ascii=False,
+        indent=2
+    )
+)
 # COPERNICUSMARINE_SERVICE_USERNAME and COPERNICUSMARINE_SERVICE_PASSWORD.
 try:
  import copernicusmarine, xarray as xr
