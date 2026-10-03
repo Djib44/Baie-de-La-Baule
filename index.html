@@ -10,17 +10,17 @@
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
 </div>
-<h2>Clarté de l’eau — 3 derniers jours</h2><div class="grid">
-<div class="card" data-clarity="0"><b>Aujourd’hui</b><div class="big">Chargement…</div></div>
-<div class="card" data-clarity="1"><b>J-1</b><div class="big">Chargement…</div></div>
-<div class="card" data-clarity="2"><b>J-2</b><div class="big">Chargement…</div></div>
-</div><div class="card" style="margin-top:10px"><div class="muted"><b>Comment lire :</b> plus la profondeur de transparence estimée est élevée, plus l’eau est claire. Les jours sans observation satellite exploitable seront indiqués « pas de mesure ».</div></div>
+<h2>💧 Clarté de l’eau — 3 dernières observations</h2><div class="grid">
+<div class="card" data-clarity="0"><b>Dernière mesure</b><div class="big">Chargement…</div></div>
+<div class="card" data-clarity="1"><b>Mesure précédente</b><div class="big">Chargement…</div></div>
+<div class="card" data-clarity="2"><b>Mesure précédente</b><div class="big">Chargement…</div></div>
+</div><div class="card" style="margin-top:10px"><div class="muted"><b>Comment lire :</b> la valeur ZSD estime la profondeur de transparence de l’eau. Plus elle est élevée, plus l’eau est claire.<br><b>&lt; 1 m</b> : mauvaise · <b>1–2 m</b> : faible · <b>2–3 m</b> : moyenne · <b>3–5 m</b> : bonne · <b>≥ 5 m</b> : très bonne. La date est celle de l’observation Copernicus disponible.</div></div>
 <h2>Météo heure par heure</h2><div class="hourly" id="hours"></div>
 <h2>Webcams</h2><div class="grid">
 <div class="card"><b>La Baule</b><iframe title="Webcam La Baule" src="https://www.skaping.com/la-baule/plage/video" style="width:100%;height:330px;border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe></div>
 <div class="card"><b>Pornichet</b><iframe title="Webcam Pornichet" src="https://www.skaping.com/pornichet/plage" style="width:100%;height:330px;border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe></div>
 </div>
-<div class="note">Données dynamiques : Open‑Meteo Weather/Marine. Marées, clarté et flux webcam sont clairement marqués tant que leur intégration directe n’est pas finalisée.</div></main><script>
+<div class="note">Données dynamiques : Open‑Meteo Weather/Marine · marées : Ville de Pornichet · clarté : Copernicus Marine ZSD.</div></main><script>
 const lat=47.25,lon=-2.35,F=(v,n=1)=>v==null?"—":Number(v).toFixed(n).replace(".",","),C=d=>["N","NE","E","SE","S","SO","O","NO"][Math.round((d||0)/45)%8];
 function B(k){let n=k/1.852;return n<1?0:n<4?1:n<7?2:n<11?3:n<17?4:n<22?5:n<28?6:n<34?7:n<41?8:9}
 async function go(){let [w,m]=await Promise.all([fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m,wind_direction_10m,wind_gusts_10m&hourly=temperature_2m,precipitation_probability,wind_speed_10m,wind_direction_10m&daily=sunrise,sunset&timezone=Europe%2FParis&forecast_days=2`).then(r=>r.json()),fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=sea_surface_temperature,wave_height,wave_period&timezone=Europe%2FParis`).then(r=>r.json())]);air.textContent=F(w.current.temperature_2m)+" °C";water.textContent=F(m.current.sea_surface_temperature)+" °C";wind.textContent=F(w.current.wind_speed_10m,0)+" km/h";windd.textContent=C(w.current.wind_direction_10m)+" · raf. "+F(w.current.wind_gusts_10m,0);wave.textContent=F(m.current.wave_height)+" m";period.textContent=F(m.current.wave_period)+" s";rise.textContent=w.daily.sunrise[0].slice(11,16);set.textContent=w.daily.sunset[0].slice(11,16);hours.innerHTML="";let now=Date.now();w.hourly.time.forEach((t,i)=>{let d=new Date(t);if(d>=now-18e5&&d<now+12*36e5)hours.insertAdjacentHTML("beforeend",`<div class="hour"><b>${d.toLocaleTimeString("fr-FR",{hour:"2-digit"})}</b><div>${F(w.hourly.temperature_2m[i],0)} °C</div><div class="muted">💧 ${F(w.hourly.precipitation_probability[i],0)}%<br>💨 ${F(w.hourly.wind_speed_10m[i],0)} km/h · ${C(w.hourly.wind_direction_10m[i])}</div></div>`)})}go();
@@ -36,7 +36,7 @@ async function loadCoastalData(){
     const c=await fetch("api/clarity.json?ts="+Date.now()).then(r=>r.json());
     document.querySelectorAll("[data-clarity]").forEach((el,i)=>{
       const x=c.days?.[i];
-      if(x) el.innerHTML=`<b>${x.label}</b><div class="big">${x.value==null?"Pas de mesure":x.value.toFixed(1)+" m"}</div><div class="muted">${x.rating||""} · ${x.date||""}</div>`;
+      if(x){const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Mesure";el.innerHTML=`<b>${d}</b><div class="big">${x.value==null?"Pas de mesure":Number(x.value).toFixed(2).replace(".",",")+" m"}</div><div class="muted">${x.rating||""} · observation Copernicus</div>`;}
     });
   }catch(e){}
 }
