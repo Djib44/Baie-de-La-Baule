@@ -103,7 +103,8 @@ for x in future[:2]:
 try:
  import copernicusmarine, xarray as xr
  user=os.environ["COPERNICUSMARINE_SERVICE_USERNAME"]; pwd=os.environ["COPERNICUSMARINE_SERVICE_PASSWORD"]
- end=datetime.datetime.now(datetime.timezone.utc); start=end-datetime.timedelta(days=8)
+end=datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=9)
+start=end-datetime.timedelta(days=10)
  fn=ROOT/"zsd.nc"
  copernicusmarine.subset(dataset_id="cmems_obs-oc_atl_bgc-transp_my_l3-multi-1km_P1D",
    variables=["ZSD"],minimum_longitude=-2.43,maximum_longitude=-2.37,
