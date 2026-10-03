@@ -1,5 +1,16 @@
 {
   "source": "Ville de Pornichet",
-  "updated": null,
-  "next": []
+  "updated": "2026-10-03T19:01:48.677370+02:00",
+  "next": [
+    {
+      "type": "PM",
+      "time": "22:37",
+      "coefficient": 57
+    },
+    {
+      "type": "BM",
+      "time": "05:11",
+      "coefficient": 46
+    }
+  ]
 }
