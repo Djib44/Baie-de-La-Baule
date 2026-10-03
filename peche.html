@@ -28,4 +28,52 @@ async function loadCoastalData(){
   }catch(e){}
 }
 loadCoastalData();
-</script></body></html>
+</script></body></html
+function clamp(v,a=0,b=100){return Math.max(a,Math.min(b,v))}
+function coefScore(c){
+  c=Number(c);
+  if(!Number.isFinite(c)) return null;
+  if(c>=90) return 100;
+  if(c>=75) return 60 + (c-75)*(25/14); // "moyen": 60 -> 85
+  return clamp((c/75)*35);               // <75 = mauvaise note
+}
+function coefLabel(c){return c>=90?"Excellent":c>=75?"Moyen":"Mauvais"}
+function waveScore(h){return h<=0.4?100:h<=0.8?80:h<=1.2?55:h<=1.8?25:5}
+function windScore(kmh){return kmh<=10?100:kmh<=20?85:kmh<=30?55:kmh<=40?25:5}
+function clarityScore(m){return m>=5?100:m>=3?85:m>=2?60:m>=1?30:10}
+function seasonScore(temp){return temp>=14&&temp<=20?100:temp>=11&&temp<=22?70:40}
+function tideCycleScore(nextTide){
+  if(!nextTide||!nextTide.date||!nextTide.time)return 50;
+  const t=new Date(nextTide.date+"T"+nextTide.time+":00");
+  const dh=(t-Date.now())/3600000;
+  // Favorise l'approche d'une basse mer / période proche d'un étale, sans prétendre reconstruire tout le cycle.
+  if(nextTide.type==="BM"){
+    if(dh>=0&&dh<=1.5)return 100;
+    if(dh<=3)return 80;
+    if(dh<=5)return 55;
+  }
+  return 45;
+}
+function updateScores(){
+  const tides=window.__tides||[];
+  const c=tides[0]?.coefficient;
+  const cs=coefScore(c);
+  if(cs==null)return;
+  document.getElementById("coefNow").textContent=c;
+  document.getElementById("coefRating").textContent=coefLabel(c)+" · ≥ 90 excellent · 75–89 moyen · < 75 mauvais";
+  const cycle=tideCycleScore(tides[0]);
+  const w=Number((document.getElementById("fv").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
+  const h=Number((document.getElementById("fw").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
+  const temp=Number((document.getElementById("ft").textContent||"").replace(",",".").match(/[\d.]+/)?.[0]);
+  const cl=window.__clarity;
+  const ws=Number.isFinite(w)?windScore(w):50, hs=Number.isFinite(h)?waveScore(h):50, ts=Number.isFinite(temp)?seasonScore(temp):50;
+  const cls=Number.isFinite(cl)?clarityScore(cl):50;
+  // Les facteurs astronomiques/météo secondaires sont neutres (50) tant qu'ils ne sont pas encore calculés heure par heure.
+  const fish=Math.round(.30*cs+.20*cycle+.15*ws+.10*hs+.10*50+.05*cls+.05*ts+.05*50);
+  const spider=Math.round(.40*cs+.20*cycle+.20*cls+.10*hs+.05*ws+.05*ts);
+  document.getElementById("fishScore").textContent=fish+"%";
+  document.getElementById("spiderScore").textContent=spider+"%";
+  document.getElementById("fishDetail").textContent=`Coef ${c} (${coefLabel(c)}) · marée ${Math.round(cycle)} · vent ${Math.round(ws)} · vagues ${Math.round(hs)}`;
+  document.getElementById("spiderDetail").textContent=`Coef ${c} (${coefLabel(c)}) · marée ${Math.round(cycle)} · clarté ${Math.round(cls)} · vagues ${Math.round(hs)}`;
+}
+>
