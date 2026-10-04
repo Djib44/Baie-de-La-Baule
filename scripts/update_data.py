@@ -2,178 +2,131 @@ import os,re,json,datetime,requests
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; API=ROOT/"api"; API.mkdir(exist_ok=True)
 
-# TIDES — official Ville de Pornichet page.
-html=requests.get("https://ville-pornichet.fr/",timeout=30).text
+# TIDES — 7-day table for Pornichet.
+# Source: maree.info/116. The page exposes a 7-day tide table.
+html=requests.get("https://maree.info/116",timeout=30,headers={"User-Agent":"Mozilla/5.0"}).text
 txt=re.sub(r"<[^>]+>"," ",html)
+txt=re.sub(r"&nbsp;"," ",txt)
 txt=re.sub(r"\s+"," ",txt)
 
-pat=re.compile(
-    r"Marée (basse|haute) le ([A-Za-zÀ-ÿ]+) (\d{1,2}) à "
-    r"(\d{2}:\d{2}) \(Coeff:\s*(\d+)\)",
-    re.I
-)
+now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))
+fr_months={"janvier":1,"février":2,"mars":3,"avril":4,"mai":5,"juin":6,"juillet":7,"août":8,"septembre":9,"octobre":10,"novembre":11,"décembre":12}
 
-now=datetime.datetime.now(
-    datetime.timezone(datetime.timedelta(hours=2))
-)
+# First try to recover the current month/year shown on the page.
+mdate=re.search(r"(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\s+(\d{4})",txt,re.I)
+month=fr_months.get(mdate.group(1).lower(),now.month) if mdate else now.month
+year=int(mdate.group(2)) if mdate else now.year
 
-raw=pat.findall(txt)
-items=[]
-
-# Reconstruit la date réelle à partir du numéro du jour.
-# La page fournit les marées autour de la date courante.
-for typ,weekday,daynum,hhmm,coef in raw:
-    daynum=int(daynum)
-
-    possible_dates=[]
-    for delta in range(-3,8):
-        d=(now + datetime.timedelta(days=delta)).date()
-        if d.day == daynum:
-            possible_dates.append(d)
-
-    if not possible_dates:
+# Parse day rows from the tide table. A row has a day, 3–4 times, heights and 1–2 coefficients.
+# We use the visible text sequence between successive day labels.
+daypat=re.compile(r"\b(?:Lun|Mar|Mer|Jeu|Ven|Sam|Dim)\.?\s*(\d{1,2})\b",re.I)
+matches=list(daypat.finditer(txt))
+tides=[]
+for i,m in enumerate(matches[:8]):
+    day=int(m.group(1))
+    chunk=txt[m.end():matches[i+1].start() if i+1<len(matches) else m.end()+500]
+    times=re.findall(r"\b(\d{1,2})h(\d{2})\b",chunk)
+    heights=[float(x.replace(",",".")) for x in re.findall(r"(\d+[,.]\d+)\s*m\b",chunk)]
+    coeffs=[int(x) for x in re.findall(r"\b(1[01]\d|120|[2-9]\d)\b",chunk)]
+    # Keep only plausible tide coefficients and avoid numbers embedded in heights/times.
+    coeffs=[c for c in coeffs if 20<=c<=120]
+    if len(times)<3 or len(heights)<3:
+        continue
+    try:
+        date=datetime.date(year,month,day)
+    except ValueError:
         continue
 
-    # Date la plus proche de maintenant
-    date=min(
-        possible_dates,
-        key=lambda d: abs((d-now.date()).days)
-    )
+    # The Pornichet table alternates BM/PM. Infer first type from height:
+    first_type="BM" if heights[0] < heights[1] else "PM"
+    types=[]
+    typ=first_type
+    for _ in times[:len(heights)]:
+        types.append(typ)
+        typ="PM" if typ=="BM" else "BM"
 
-    hour,minute=map(int,hhmm.split(":"))
+    # Coefficients conventionally apply to high waters. Associate each event with
+    # the nearest day's coefficient so every candidate slot has a usable coefficient.
+    pm_indices=[j for j,t in enumerate(types) if t=="PM"]
+    pm_coeff={}
+    for j,c in zip(pm_indices,coeffs[:len(pm_indices)]):
+        pm_coeff[j]=c
+    for j,(hh,mm) in enumerate(times[:len(heights)]):
+        nearest=min(pm_indices,key=lambda k:abs(k-j)) if pm_indices else None
+        coef=pm_coeff.get(nearest, coeffs[0] if coeffs else None)
+        dt=datetime.datetime(date.year,date.month,date.day,int(hh),int(mm),tzinfo=now.tzinfo)
+        if dt>=now and dt<=now+datetime.timedelta(days=7):
+            tides.append({"type":types[j],"date":date.isoformat(),"time":f"{int(hh):02d}:{mm}","height":round(heights[j],2),"coefficient":coef,"_dt":dt})
 
-    dt=datetime.datetime(
-        date.year,
-        date.month,
-        date.day,
-        hour,
-        minute,
-        tzinfo=now.tzinfo
-    )
+# Fallback to Ville de Pornichet for the immediate tides if 7-day parsing fails.
+if len(tides)<4:
+    html2=requests.get("https://ville-pornichet.fr/",timeout=30).text
+    txt2=re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",html2))
+    pat=re.compile(r"Marée (basse|haute) le ([A-Za-zÀ-ÿ]+) (\d{1,2}) à (\d{2}:\d{2}) \(Coeff:\s*(\d+)\)",re.I)
+    tides=[]
+    for typ,weekday,daynum,hhmm,coef in pat.findall(txt2):
+        daynum=int(daynum)
+        poss=[(now+datetime.timedelta(days=d)).date() for d in range(-1,8) if (now+datetime.timedelta(days=d)).day==daynum]
+        if not poss: continue
+        date=min(poss,key=lambda d:abs((d-now.date()).days))
+        hh,mm=map(int,hhmm.split(":"))
+        dt=datetime.datetime(date.year,date.month,date.day,hh,mm,tzinfo=now.tzinfo)
+        if dt>=now:
+            tides.append({"type":"BM" if typ.lower()=="basse" else "PM","date":date.isoformat(),"time":hhmm,"coefficient":int(coef),"_dt":dt})
 
-    items.append({
-        "type":"BM" if typ.lower()=="basse" else "PM",
-        "date":date.isoformat(),
-        "time":hhmm,
-        "coefficient":int(coef),
-        "_datetime":dt
-    })
+tides.sort(key=lambda x:x["_dt"])
+clean=[{k:v for k,v in x.items() if k!="_dt"} for x in tides]
+(API/"tides.json").write_text(json.dumps({"source":"maree.info Pornichet / fallback Ville de Pornichet","updated":now.isoformat(),"next":clean[:2],"week":clean},ensure_ascii=False,indent=2))
 
-# Suppression des éventuels doublons
-uniq=[]
-seen=set()
-
-for x in items:
-    key=(x["type"],x["date"],x["time"],x["coefficient"])
-    if key not in seen:
-        seen.add(key)
-        uniq.append(x)
-
-# On ne conserve que les marées réellement futures
-future=[
-    x for x in uniq
-    if x["_datetime"] >= now
-]
-
-future.sort(key=lambda x:x["_datetime"])
-
-# Nettoyage du champ interne _datetime
-next_tides=[]
-
-for x in future[:2]:
-    next_tides.append({
-        "type":x["type"],
-        "date":x["date"],
-        "time":x["time"],
-        "coefficient":x["coefficient"]
-    })
-
-(API/"tides.json").write_text(
-    json.dumps(
-        {
-            "source":"Ville de Pornichet",
-            "updated":now.isoformat(),
-            "next":next_tides
-        },
-        ensure_ascii=False,
-        indent=2
-    )
-)
 # COPERNICUSMARINE_SERVICE_USERNAME and COPERNICUSMARINE_SERVICE_PASSWORD.
 try:
     import copernicusmarine, xarray as xr
-
-    user = os.environ["COPERNICUSMARINE_SERVICE_USERNAME"]
-    pwd = os.environ["COPERNICUSMARINE_SERVICE_PASSWORD"]
-
-    end = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=9)
-    start = end - datetime.timedelta(days=10)
-
-    fn = ROOT / "zsd.nc"
-
-    copernicusmarine.subset(
-        dataset_id="cmems_obs-oc_atl_bgc-transp_my_l3-multi-1km_P1D",
-        variables=["ZSD"],
-        minimum_longitude=-2.43,
-        maximum_longitude=-2.37,
-        minimum_latitude=47.22,
-        maximum_latitude=47.28,
-        start_datetime=start.isoformat(),
-        end_datetime=end.isoformat(),
-        output_filename=str(fn),
-        username=user,
-        password=pwd,
-        overwrite=True
-    )
-
-    ds = xr.open_dataset(fn)
-    z = ds["ZSD"]
-
-    spatial = [d for d in z.dims if d.lower() not in ("time",)]
-    mean = z.mean(dim=spatial, skipna=True)
-
-    vals = []
-
-    for t, v in zip(ds["time"].values, mean.values):
-        try:
-            val = float(v)
-        except:
-            continue
-
-        if val == val:
-            vals.append((str(t)[:10], val))
-
-    vals = vals[-3:][::-1]
-
-    def rating(v):
-        return (
-            "Très bonne" if v >= 5
-            else "Bonne" if v >= 3
-            else "Moyenne" if v >= 2
-            else "Faible" if v >= 1
-            else "Mauvaise"
-        )
-
-    days = []
-
-    for d, v in vals:
-        days.append({
-            "date": d,
-            "value": round(v, 2),
-            "rating": rating(v)
-        })
-
-    (API / "clarity.json").write_text(
-        json.dumps(
-            {
-                "source": "Copernicus Marine ZSD",
-                "updated": end.isoformat(),
-                "days": days
-            },
-            ensure_ascii=False,
-            indent=2
-        )
-    )
-
+    user=os.environ["COPERNICUSMARINE_SERVICE_USERNAME"]; pwd=os.environ["COPERNICUSMARINE_SERVICE_PASSWORD"]
+    end=datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=9)
+    start=end-datetime.timedelta(days=10)
+    fn=ROOT/"zsd.nc"
+    copernicusmarine.subset(dataset_id="cmems_obs-oc_atl_bgc-transp_my_l3-multi-1km_P1D",
+        variables=["ZSD"],minimum_longitude=-2.43,maximum_longitude=-2.37,
+        minimum_latitude=47.22,maximum_latitude=47.28,start_datetime=start.isoformat(),end_datetime=end.isoformat(),
+        output_filename=str(fn),username=user,password=pwd,overwrite=True)
+    ds=xr.open_dataset(fn); z=ds["ZSD"]
+    spatial=[d for d in z.dims if d.lower() not in ("time",)]
+    mean=z.mean(dim=spatial,skipna=True); vals=[]
+    for t,v in zip(ds["time"].values,mean.values):
+        try: val=float(v)
+        except: continue
+        if val==val: vals.append((str(t)[:10],val))
+    vals=vals[-3:][::-1]
+    def rating(v): return "Très bonne" if v>=5 else "Bonne" if v>=3 else "Moyenne" if v>=2 else "Faible" if v>=1 else "Mauvaise"
+    days=[{"date":d,"value":round(v,2),"rating":rating(v)} for d,v in vals]
+    (API/"clarity.json").write_text(json.dumps({"source":"Copernicus Marine ZSD","updated":end.isoformat(),"days":days},ensure_ascii=False,indent=2))
 except Exception as e:
-    print("Clarity update skipped:", e)
+    print("Clarity update skipped:",e)
+
+
+# EVENTS — next 7 days. Municipal Le Pouliguen agenda + link to Presqu'île tourism agenda.
+try:
+    from html import unescape
+    ev_url="https://www.lepouliguen.fr/evenements/"
+    ev_html=requests.get(ev_url,timeout=30,headers={"User-Agent":"Mozilla/5.0"}).text
+    plain=unescape(re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",ev_html)))
+    frmonths={"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
+    # Capture headings and dates from WordPress markup when available.
+    cards=re.findall(r'<h2[^>]*>(.*?)</h2>.*?(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})',ev_html,re.I|re.S)
+    ev=[]
+    today=now.date(); limit=today+datetime.timedelta(days=7)
+    for title,dd,mon,yy in cards:
+        title=re.sub(r"<[^>]+>"," ",unescape(title)); title=re.sub(r"\s+"," ",title).strip()
+        try: d=datetime.date(int(yy),frmonths[mon.title()],int(dd))
+        except: continue
+        if today<=d<=limit:
+            ev.append({"date":d.strftime("%d/%m"),"title":title,"place":"Le Pouliguen","url":ev_url})
+    # Known-safe fallback: don't invent events if parsing changes.
+    (API/"events.json").write_text(json.dumps({
+        "source":"Agenda Le Pouliguen + Office de tourisme La Baule-Presqu'île de Guérande",
+        "updated":now.isoformat(),
+        "events":ev[:12],
+        "agenda_url":"https://www.labaule-guerande.com/explorer/agenda/"
+    },ensure_ascii=False,indent=2))
+except Exception as e:
+    print("Events update skipped:",e)
