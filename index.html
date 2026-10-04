@@ -1,5 +1,6 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>🌊 Mer — La Baule / Pornichet</title><style>*{box-sizing:border-box}body{margin:0;background:#eef5f4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#17323d}header{background:linear-gradient(135deg,#073b4c,#07838d);color:#fff;padding:25px 16px}.wrap{max-width:950px;margin:auto}main{padding:14px}h1{margin:4px 0}h2{font-size:18px;margin:22px 3px 9px}.nav{display:flex;gap:7px;overflow:auto;margin-top:15px}.nav a{background:#fff;color:#073b4c;text-decoration:none;padding:9px 12px;border-radius:999px;font-weight:700;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{background:#fff;border-radius:18px;padding:15px;box-shadow:0 3px 14px #063b5212}.big{font-size:25px;font-weight:800}.score{font-size:38px;font-weight:850}.muted{font-size:12px;color:#65747a;line-height:1.5}.hourly{display:flex;gap:8px;overflow:auto}.hour{min-width:150px;background:#fff;border-radius:15px;padding:12px}.good{color:#16825d}.warn{color:#bb741f}.webcam{height:170px;background:#dbe7e6;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;color:#65747a;margin-top:8px}.note{font-size:12px;color:#65747a;line-height:1.5;margin:15px 3px 30px}@media(min-width:700px){.grid.four{grid-template-columns:repeat(4,1fr)}}</style></head><body><header><div class="wrap"><small>BAIE DE LA BAULE</small><h1>🌊 Mer — La Baule / Pornichet</h1><div>Tableau de bord côtier</div><div class="nav"><a href="index.html">🌊 Accueil</a><a href="peche.html">🎣 Pêche & araignées</a><a href="wingfoil.html">🏄 Wingfoil</a><a href="surf.html">🏄 Surf</a></div></div></header><main class="wrap"><h2>Conditions maintenant</h2><div class="grid four">
 <div class="card"><div class="muted">🌤️ Air</div><div class="big" id="air">—</div></div>
+<div class="card"><div class="muted">🍃 Qualité de l’air</div><div class="big" id="aqi">—</div><div class="muted" id="aqid">Indice européen AQI</div></div>
 <div class="card"><div class="muted">🌡️ Eau</div><div class="big" id="water">—</div></div>
 <div class="card"><div class="muted">💨 Vent</div><div class="big" id="wind">—</div><div class="muted" id="windd"></div></div>
 <div class="card"><div class="muted">🌊 Vagues</div><div class="big" id="wave">—</div><div class="muted" id="period"></div></div>
@@ -20,7 +21,9 @@
 <div class="card"><b>La Baule</b><iframe title="Webcam La Baule" src="https://www.skaping.com/la-baule/plage/video" style="width:100%;height:330px;border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe></div>
 <div class="card"><b>Pornichet</b><iframe title="Webcam Pornichet" src="https://www.skaping.com/pornichet/plage" style="width:100%;height:330px;border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe></div>
 </div>
-<div class="note">Données dynamiques : Open‑Meteo Weather/Marine · marées : Ville de Pornichet · clarté : Copernicus Marine ZSD.</div></main><script>
+<h2>📅 Événements de la Presqu’île — 7 jours</h2>
+<div class="card"><div id="events"><div class="muted">Chargement de l’agenda…</div></div>
+<div class="muted" style="margin-top:10px">Agenda local : sélection automatique disponible dans <code>api/events.json</code>. <a href="https://www.labaule-guerande.com/explorer/agenda/" target="_blank" rel="noopener">Voir l’agenda complet de la Presqu’île</a>.</div></div><div class="note">Données dynamiques : Open‑Meteo Weather/Marine · marées : Ville de Pornichet · clarté : Copernicus Marine ZSD.</div></main><script>
 const lat=47.25,lon=-2.35,F=(v,n=1)=>v==null?"—":Number(v).toFixed(n).replace(".",","),C=d=>["N","NE","E","SE","S","SO","O","NO"][Math.round((d||0)/45)%8];
 function B(k){let n=k/1.852;return n<1?0:n<4?1:n<7?2:n<11?3:n<17?4:n<22?5:n<28?6:n<34?7:n<41?8:9}
 async function go(){let [w,m]=await Promise.all([fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m,wind_direction_10m,wind_gusts_10m&hourly=temperature_2m,precipitation_probability,wind_speed_10m,wind_direction_10m&daily=sunrise,sunset&timezone=Europe%2FParis&forecast_days=2`).then(r=>r.json()),fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=sea_surface_temperature,wave_height,wave_period&timezone=Europe%2FParis`).then(r=>r.json())]);air.textContent=F(w.current.temperature_2m)+" °C";water.textContent=F(m.current.sea_surface_temperature)+" °C";wind.textContent=F(w.current.wind_speed_10m,0)+" km/h";windd.textContent=C(w.current.wind_direction_10m)+" · raf. "+F(w.current.wind_gusts_10m,0);wave.textContent=F(m.current.wave_height)+" m";period.textContent=F(m.current.wave_period)+" s";rise.textContent=w.daily.sunrise[0].slice(11,16);set.textContent=w.daily.sunset[0].slice(11,16);hours.innerHTML="";let now=Date.now();w.hourly.time.forEach((t,i)=>{let d=new Date(t);if(d>=now-18e5&&d<now+12*36e5)hours.insertAdjacentHTML("beforeend",`<div class="hour"><b>${d.toLocaleTimeString("fr-FR",{hour:"2-digit"})}</b><div>${F(w.hourly.temperature_2m[i],0)} °C</div><div class="muted">💧 ${F(w.hourly.precipitation_probability[i],0)}%<br>💨 ${F(w.hourly.wind_speed_10m[i],0)} km/h · ${C(w.hourly.wind_direction_10m[i])}</div></div>`)})}go();
@@ -59,4 +62,22 @@ function moonInfo(date=new Date()){
 }
 const mi=moonInfo();document.getElementById("moonPhase").textContent=mi.emoji+" "+mi.name;
 document.getElementById("moonIllum").textContent="Éclairement ≈ "+mi.illum+" %";
+
+async function loadAirQuality(){
+  try{
+    const a=await fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${lat}&longitude=${lon}&current=european_aqi,pm2_5,pm10,nitrogen_dioxide,ozone&timezone=Europe%2FParis`).then(r=>r.json());
+    const q=Number(a.current?.european_aqi);
+    const label=q<=20?"Bonne":q<=40?"Correcte":q<=60?"Moyenne":q<=80?"Mauvaise":q<=100?"Très mauvaise":"Extrêmement mauvaise";
+    document.getElementById("aqi").textContent=Number.isFinite(q)?`${Math.round(q)} · ${label}`:"—";
+    document.getElementById("aqid").textContent=`PM2.5 ${F(a.current?.pm2_5,1)} · PM10 ${F(a.current?.pm10,1)} · NO₂ ${F(a.current?.nitrogen_dioxide,1)} · O₃ ${F(a.current?.ozone,1)} µg/m³`;
+  }catch(e){document.getElementById("aqid").textContent="Donnée indisponible"}
+}
+async function loadEvents(){
+  try{
+    const d=await fetch("api/events.json?ts="+Date.now()).then(r=>r.json());
+    const el=document.getElementById("events"), arr=d.events||[];
+    el.innerHTML=arr.length?arr.map(x=>`<div style="padding:9px 0;border-bottom:1px solid #e7eeee"><b>${x.date||""} · ${x.title}</b><div class="muted">${x.place||""}${x.url?` · <a href="${x.url}" target="_blank" rel="noopener">détails</a>`:""}</div></div>`).join(""):'<div class="muted">Aucun événement récupéré automatiquement cette semaine. Utilise le lien vers l’agenda complet.</div>';
+  }catch(e){document.getElementById("events").innerHTML='<div class="muted">Agenda automatique indisponible. Utilise le lien vers l’agenda complet.</div>'}
+}
+loadAirQuality();loadEvents();
 </script></body></html>
