@@ -1,30 +1,23 @@
 {
   "source": "maree.info Pornichet / fallback Ville de Pornichet",
-  "updated": "2026-10-04T20:38:50.927332+02:00",
+  "updated": "2026-10-05T01:57:55.163985+02:00",
   "next": [
-    {
-      "type": "PM",
-      "date": "2026-10-05",
-      "time": "01:16",
-      "height": 4.26,
-      "coefficient": 40
-    },
     {
       "type": "BM",
       "date": "2026-10-05",
       "time": "06:19",
       "height": 2.26,
       "coefficient": 40
-    }
-  ],
-  "week": [
+    },
     {
       "type": "PM",
       "date": "2026-10-05",
-      "time": "01:16",
-      "height": 4.26,
-      "coefficient": 40
-    },
+      "time": "13:46",
+      "height": 4.55,
+      "coefficient": 43
+    }
+  ],
+  "week": [
     {
       "type": "BM",
       "date": "2026-10-05",
@@ -161,43 +154,8 @@
     {
       "type": "PM",
       "date": "2026-10-10",
-      "time": "00:55",
-      "height": 0.18,
-      "coefficient": 94
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-10",
-      "time": "01:13",
-      "height": 0.18,
-      "coefficient": 94
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-10",
       "time": "04:49",
       "height": 5.44,
-      "coefficient": 94
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-10",
-      "time": "04:57",
-      "height": 2.17,
-      "coefficient": 41
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-10",
-      "time": "05:31",
-      "height": 2.2,
-      "coefficient": 94
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-10",
-      "time": "07:22",
-      "height": 2.17,
       "coefficient": 94
     },
     {
@@ -208,13 +166,6 @@
       "coefficient": 94
     },
     {
-      "type": "BM",
-      "date": "2026-10-10",
-      "time": "12:19",
-      "height": 4.34,
-      "coefficient": 41
-    },
-    {
       "type": "PM",
       "date": "2026-10-10",
       "time": "17:01",
@@ -222,18 +173,102 @@
       "coefficient": 95
     },
     {
-      "type": "PM",
-      "date": "2026-10-10",
-      "time": "17:50",
-      "height": 2.14,
-      "coefficient": 94
-    },
-    {
       "type": "BM",
       "date": "2026-10-10",
       "time": "23:45",
       "height": 0.8,
       "coefficient": 95
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "00:50",
+      "height": 0.17,
+      "coefficient": 95
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "00:55",
+      "height": 0.21,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "01:14",
+      "height": 0.19,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "01:16",
+      "height": 4.26,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "05:03",
+      "height": 2.0,
+      "coefficient": 43
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "05:17",
+      "height": 5.54,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "05:33",
+      "height": 2.52,
+      "coefficient": 95
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "06:19",
+      "height": 2.26,
+      "coefficient": 40
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "07:27",
+      "height": 2.29,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "11:59",
+      "height": 0.88,
+      "coefficient": 95
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-11",
+      "time": "13:46",
+      "height": 4.55,
+      "coefficient": 40
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "17:32",
+      "height": 5.63,
+      "coefficient": 95
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-11",
+      "time": "19:19",
+      "height": 2.03,
+      "coefficient": 43
     }
   ]
 }
