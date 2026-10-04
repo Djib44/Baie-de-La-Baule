@@ -1,0 +1,31 @@
+{
+  "source": "Agenda Le Pouliguen + Office de tourisme La Baule-Presqu'île de Guérande",
+  "updated": "2026-10-04T17:48:25.475622+02:00",
+  "events": [
+    {
+      "date": "05/10",
+      "title": "LA SEMAINE BLEUE – RELIONS TOUS LES ÂGES DANS DES TERRITOIRES ENGAGÉS !",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "08/10",
+      "title": "Les dépisteuses",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "10/10",
+      "title": "Championnat de France N3 de Beach Ultimate",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "11/10",
+      "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    }
+  ],
+  "agenda_url": "https://www.labaule-guerande.com/explorer/agenda/"
+}
