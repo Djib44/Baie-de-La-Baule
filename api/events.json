@@ -1,6 +1,6 @@
 {
   "source": "Agenda Le Pouliguen + Office de tourisme La Baule-Presqu'île de Guérande",
-  "updated": "2026-10-05T07:41:23.876975+02:00",
+  "updated": "2026-10-05T10:18:48.810049+02:00",
   "events": [
     {
       "date": "05/10",
@@ -9,8 +9,26 @@
       "url": "https://www.lepouliguen.fr/evenements/"
     },
     {
+      "date": "07/10",
+      "title": "Micro-visite • Micro-Folie",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
       "date": "08/10",
       "title": "Les dépisteuses",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "09/10",
+      "title": "Fablab couture • Micro-folie",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "09/10",
+      "title": "Théâtre • Micro-folie",
       "place": "Le Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/"
     },
@@ -29,6 +47,12 @@
     {
       "date": "12/10",
       "title": "LES OCÉANES ATLANTIQUES",
+      "place": "Le Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/"
+    },
+    {
+      "date": "12/10",
+      "title": "Fablab 3D • Micro-folie",
       "place": "Le Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/"
     }
