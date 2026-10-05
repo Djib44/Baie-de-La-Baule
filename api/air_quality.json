@@ -1,0 +1,17 @@
+{
+  "source": "Air Pays de la Loire",
+  "reference": "Saint-Nazaire",
+  "code_zone": "44184",
+  "updated": "2026-10-05T16:45:32.965+02:00",
+  "date": "2026-10-05",
+  "index": 2,
+  "label": "moyen",
+  "color": "#50ccaa",
+  "pollutants": {
+    "NO2": 1,
+    "O3": 2,
+    "PM10": 1,
+    "PM2.5": 1,
+    "SO2": 1
+  }
+}
