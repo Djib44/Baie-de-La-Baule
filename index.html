@@ -12,7 +12,7 @@
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
 </div>
-<h2>💧 Clarté de l’eau — 3 dernières observations</h2><div class="card"><div id="clarityCombined" class="big" style="font-size:20px">Chargement…</div><div class="muted" id="claritySource" style="margin-top:3px"></div><div class="muted" style="margin-top:12px;padding-top:10px;border-top:1px solid #e1e9e8"><b>Comment lire :</b> la valeur ZSD estime la profondeur de transparence de l’eau. Plus elle est élevée, plus l’eau est claire.<br><b>&lt; 1 m</b> : mauvaise · <b>1–2 m</b> : faible · <b>2–3 m</b> : moyenne · <b>3–5 m</b> : bonne · <b>≥ 5 m</b> : très bonne. La date est celle de l’observation Copernicus disponible.</div></div>
+<h2>💧 Clarté de l’eau</h2><div class="card"><div class="muted">3 dernières observations</div><div id="clarityCombined" style="margin-top:8px;line-height:1.9">Chargement…</div><div class="muted" id="claritySource" style="margin-top:7px"></div><div class="muted" style="margin-top:7px"><b>Lecture :</b> &lt;1 m mauvaise · 1–2 m faible · 2–3 m moyenne · 3–5 m bonne · ≥5 m très bonne.</div></div>
 
 <h2>Webcams</h2><div class="grid">
 <div class="card"><b>La Baule</b><iframe title="Webcam La Baule" src="https://www.skaping.com/la-baule/plage/video" style="width:100%;height:330px;border:0;border-radius:12px" loading="lazy" allowfullscreen></iframe></div>
@@ -38,7 +38,7 @@ async function loadCoastalData(){
   try{
     const c=await fetch("api/clarity.json?ts="+Date.now()).then(r=>r.json());
     const xs=(c.days||[]).slice(0,3); const box=document.getElementById("clarityCombined");
-    if(box) box.innerHTML=xs.length?xs.map(x=>{const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Mesure";return `<span style="white-space:nowrap">${d} : <b>${x.value==null?"—":Number(x.value).toFixed(2).replace(".",",")+" m"}</b></span>`}).join(" &nbsp;·&nbsp; "):"—";
+    if(box) box.innerHTML=xs.length?xs.map(x=>{const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"short",day:"numeric",month:"short"}):"Mesure";return `<div><b>${d}</b> · ${x.value==null?"—":Number(x.value).toFixed(2).replace(".",",")+" m"}</div>`}).join(""):"—";
     const src=document.getElementById("claritySource"); if(src) src.textContent="Observations Copernicus Marine ZSD";
   }catch(e){}
 }
@@ -63,16 +63,31 @@ const mi=moonInfo();document.getElementById("moonPhase").textContent=mi.emoji+" 
 document.getElementById("moonIllum").textContent="Éclairement ≈ "+mi.illum+" %";
 
 async function loadAirQuality(){
+  const show=(a)=>{
+    const lab=a&&a.label;
+    document.getElementById("aqi").textContent=lab||"Indisponible";
+    const si=(a&&a.subindices)||{}; const names=Object.entries(si).filter(x=>x[1]!=null).map(x=>x[0]+" "+x[1]).join(" · ");
+    document.getElementById("aqid").textContent=(names?names+" · ":"")+"Source : Air Pays de la Loire";
+    if(a&&a.pollen){document.getElementById("pollen").textContent=a.pollen.label||"Indice disponible";}
+    let note=(a&&a.pollen_note)||"Source : Atmo France / AASQA";
+    if(a&&a.pollen&&["Élevé","Très élevé","Extrêmement élevé"].includes(a.pollen.label)) note += " · Niveau élevé : période pouvant coïncider avec la pollinisation des pins locaux (pin non mesuré par cet indice).";
+    document.getElementById("pollend").textContent=note;
+    return !!lab;
+  };
   try{
     const a=await fetch("api/air.json?ts="+Date.now()).then(r=>r.json());
-    document.getElementById("aqi").textContent=a.label||"Indisponible";
-    const si=a.subindices||{}; const names=Object.entries(si).filter(x=>x[1]!=null).map(x=>x[0]+" "+x[1]).join(" · ");
-    document.getElementById("aqid").textContent=(names?names+" · ":"")+"Source : Air Pays de la Loire";
-    document.getElementById("pollen").textContent=a.pollen?.label||"Voir indice communal";
-    let note=a.pollen_note||"Source : Atmo France / AASQA";
-    if(a.pollen && ["Élevé","Très élevé","Extrêmement élevé"].includes(a.pollen.label)) note += " · Période pouvant coïncider avec la pollinisation des pins locaux (pin non mesuré par cet indice).";
-    document.getElementById("pollend").textContent=note;
-  }catch(e){document.getElementById("aqi").textContent="Indisponible";document.getElementById("aqid").innerHTML='Flux automatique indisponible · <a href="https://www.airpl.org/widgets" target="_blank" rel="noopener">Air Pays de la Loire ↗</a>'}
+    if(show(a)) return;
+  }catch(e){}
+  /* Secours direct sur le flux officiel Air Pays de la Loire si le cache du site n'a pas encore été actualisé. */
+  try{
+    const u="https://data.airpl.org/geoserver/ind_pays_de_la_loire/wfs?version=2.0.0&typeName=ind_pays_de_la_loire%3Aind_pays_de_la_loire&service=WFS&outputFormat=application%2Fjson&request=GetFeature&CQL_FILTER=code_zone%3D%2744055%27";
+    const j=await fetch(u).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+    const fs=j.features||[]; fs.sort((a,b)=>String((b.properties||{}).date_ech||"").localeCompare(String((a.properties||{}).date_ech||"")));
+    const p=fs[0]&&fs[0].properties||{};
+    if(p.lib_qual){show({label:p.lib_qual,subindices:{"NO₂":p.code_no2,"O₃":p.code_o3,"PM10":p.code_pm10,"PM2.5":p.code_pm25,"SO₂":p.code_so2}});return;}
+  }catch(e){}
+  document.getElementById("aqi").textContent="Indisponible";
+  document.getElementById("aqid").innerHTML='Flux officiel momentanément indisponible · <a href="https://www.airpl.org/air-exterieur/indice-et-previsions" target="_blank" rel="noopener">Air Pays de la Loire ↗</a>';
 }
 async function loadEvents(){
   try{
