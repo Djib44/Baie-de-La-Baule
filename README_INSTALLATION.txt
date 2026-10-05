@@ -1,39 +1,23 @@
-BAIE DE LA BAULE — V4
+BAIE DE LA BAULE — VERSION CONSOLIDÉE 05/10/2026
 
-IMPORTANT : conservez exactement cette arborescence lors de l'envoi sur GitHub.
+Cette archive contient volontairement TOUS les fichiers nécessaires, y compris assets/ et les caches api/.
+Ne chargez pas uniquement les fichiers HTML : conservez l'arborescence complète.
 
-Racine :
-  index.html
-  peche.html
-  wingfoil.html
-  surf.html
-  README_INSTALLATION.txt
+1. Décompresser le dossier Baie-de-La-Baule-main.
+2. Envoyer son CONTENU à la racine du dépôt GitHub Pages en conservant :
+   assets/  api/  scripts/  .github/workflows/
+3. Dans GitHub > Settings > Secrets and variables > Actions, conserver/créer :
+   COPERNICUSMARINE_SERVICE_USERNAME
+   COPERNICUSMARINE_SERVICE_PASSWORD
+4. Dans Actions, lancer "Update coastal data" une première fois.
+5. Vérifier api/status.json : les flux opérationnels passent à true.
 
-Dossiers :
-  api/
-    tides.json
-    clarity.json
-  scripts/
-    update_data.py
-  .github/
-    workflows/
-      update-coastal-data.yml
+Sources principales :
+- météo et température d'eau de la baie : Ville de La Baule-Escoublac
+- météo marine complémentaire : Open-Meteo Marine
+- qualité de l'air / pollen : Atmo France / Air Pays de la Loire (WFS open data)
+- clarté : Copernicus Marine ZSD
+- événements : agendas officiels des 4 communes
+- marées courantes : maree.info avec repli Ville de Pornichet
 
-NOUVEAU V4
-- Phase de lune + éclairement approximatif ajoutés à la page principale.
-- Arborescence GitHub corrigée : les fichiers ne doivent PAS être déplacés à la racine.
-- Workflow placé directement dans .github/workflows/.
-- Marées et clarté chargées depuis api/ sur les pages.
-- Webcams intégrées sur l'accueil.
-
-COPERNICUS
-Créer les deux Repository secrets :
-COPERNICUSMARINE_SERVICE_USERNAME
-COPERNICUSMARINE_SERVICE_PASSWORD
-
-Puis : Actions > Update coastal data > Run workflow.
-
-CONSEIL POUR L'UPLOAD GITHUB
-Décompressez le ZIP sur votre PC. Si l'interface GitHub aplati de nouveau les dossiers,
-ne chargez pas les fichiers individuellement : utilisez l'arborescence telle quelle
-ou créez les chemins indiqués ci-dessus.
+IMPORTANT SHOM : l'API officielle de prédiction SHOM nécessite une clé d'abonnement pour l'accès programmatique complet. Les graphiques historiques SHOM ne sont donc pas fabriqués artificiellement.
