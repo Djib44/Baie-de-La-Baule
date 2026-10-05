@@ -77,34 +77,39 @@ const mi=moonInfo();document.getElementById("moonPhase").textContent=mi.emoji+" 
 document.getElementById("moonIllum").textContent="Éclairement ≈ "+mi.illum+" %";
 
 async function loadAirQuality(){
-  const show=(a)=>{
-    const lab=a&&a.label;
-    document.getElementById("aqi").textContent=lab||"Indisponible";
-    const si=(a&&a.subindices)||{}; const names=Object.entries(si).filter(x=>x[1]!=null).map(x=>x[0]+" "+x[1]).join(" · ");
-    const ref=(a&&a.reference)?"Référence : "+a.reference+" · ":"";
-    document.getElementById("aqid").textContent=(names?names+" · ":"")+ref+"Air Pays de la Loire";
-    if(a&&a.pollen){document.getElementById("pollen").textContent=a.pollen.label||"Indice disponible";}
-    let note=(a&&a.pollen_note)||"Source : Atmo France / AASQA";
-    if(a&&a.pollen&&["Élevé","Très élevé","Extrêmement élevé"].includes(a.pollen.label)) note += " · Niveau élevé : période pouvant coïncider avec la pollinisation des pins locaux (pin non mesuré par cet indice).";
-    document.getElementById("pollend").textContent=note;
-    return !!lab;
-  };
   try{
-    const a=await fetch("api/air.json?ts="+Date.now()).then(r=>r.json());
-    if(show(a)) return;
-  }catch(e){}
-  /* Flux public Air Pays de la Loire : La Baule d'abord, puis Saint-Nazaire si La Baule n'est pas publiée. */
-  for(const z of [{code:"44055",name:"La Baule-Escoublac"},{code:"44184",name:"Saint-Nazaire"}]){
-    try{
-      const u="https://data.airpl.org/geoserver/ind_pays_de_la_loire/wfs?version=2.0.0&typeName=ind_pays_de_la_loire%3Aind_pays_de_la_loire&service=WFS&outputFormat=application%2Fjson&request=GetFeature&CQL_FILTER=code_zone%3D%27"+z.code+"%27";
-      const j=await fetch(u).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
-      const fs=j.features||[]; fs.sort((a,b)=>String((b.properties||{}).date_ech||"").localeCompare(String((a.properties||{}).date_ech||"")));
-      const p=fs[0]&&fs[0].properties||{};
-      if(p.lib_qual){show({label:p.lib_qual,reference:z.name,subindices:{"NO₂":p.code_no2,"O₃":p.code_o3,"PM10":p.code_pm10,"PM2.5":p.code_pm25,"SO₂":p.code_so2}});return;}
-    }catch(e){}
+    const a = await fetch("api/air_quality.json?ts="+Date.now()).then(r=>{
+      if(!r.ok) throw Error(r.status);
+      return r.json();
+    });
+
+    const label = a.label
+      ? a.label.charAt(0).toUpperCase()+a.label.slice(1)
+      : "Indisponible";
+
+    document.getElementById("aqi").textContent = label;
+
+    const p = a.pollutants || {};
+    const details = [
+      p.NO2   != null ? "NO₂ "+p.NO2 : null,
+      p.O3    != null ? "O₃ "+p.O3 : null,
+      p.PM10  != null ? "PM10 "+p.PM10 : null,
+      p["PM2.5"] != null ? "PM2.5 "+p["PM2.5"] : null,
+      p.SO2   != null ? "SO₂ "+p.SO2 : null
+    ].filter(Boolean).join(" · ");
+
+    document.getElementById("aqid").innerHTML =
+      "Indice ATMO : <b>"+(a.index ?? "—")+"</b>"+
+      (details ? " · "+details : "")+
+      "<br>Référence : "+(a.reference || "Saint-Nazaire")+
+      " · "+(a.source || "Air Pays de la Loire");
+
+  }catch(e){
+    console.warn("ATMO indisponible :",e);
+    document.getElementById("aqi").textContent="Indisponible";
+    document.getElementById("aqid").textContent=
+      "Air Pays de la Loire · donnée momentanément indisponible";
   }
-  document.getElementById("aqi").textContent="Indisponible";
-  document.getElementById("aqid").textContent="Air Pays de la Loire · donnée momentanément indisponible";
 }
 async function loadEvents(){
   try{
