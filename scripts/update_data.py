@@ -103,7 +103,6 @@ try:
 except Exception as e:
     print("Clarity update skipped:",e)
 
-
 # EVENTS — next 7 days. Municipal Le Pouliguen agenda + link to Presqu'île tourism agenda.
 try:
     from html import unescape
@@ -130,3 +129,93 @@ try:
     },ensure_ascii=False,indent=2))
 except Exception as e:
     print("Events update skipped:",e)
+    # ATMO FRANCE — qualité de l'air
+# Référence utilisée : Saint-Nazaire (code INSEE 44184)
+# car l'indice communal de La Baule n'est pas disponible dans le flux ATMO testé.
+
+try:
+    atmo_user = os.environ["ATMO_USERNAME"]
+    atmo_password = os.environ["ATMO_PASSWORD"]
+
+    # 1. Connexion à l'API ATMO et récupération du JWT
+    login_url = "https://admindata.atmo-france.org/api/login"
+
+    login_response = requests.post(
+        login_url,
+        json={
+            "username": atmo_user,
+            "password": atmo_password
+        },
+        timeout=30
+    )
+    login_response.raise_for_status()
+
+    token = login_response.json()["token"]
+
+    # 2. Récupération de l'indice ATMO de Saint-Nazaire
+    atmo_url = "https://admindata.atmo-france.org/api/v2/data/indices/atmo"
+
+    today = now.date().isoformat()
+
+    response = requests.get(
+        atmo_url,
+        params={
+            "format": "geojson",
+            "date": today,
+            "code_zone": "44184"
+        },
+        headers={
+            "Authorization": f"Bearer {token}"
+        },
+        timeout=30
+    )
+
+    response.raise_for_status()
+    data = response.json()
+
+    features = data.get("features", [])
+
+    if not features:
+        raise RuntimeError("Aucun indice ATMO disponible pour Saint-Nazaire")
+
+    # On prend l'enregistrement le plus récent
+    feature = max(
+        features,
+        key=lambda f: f.get("properties", {}).get("date_maj", "")
+    )
+
+    p = feature["properties"]
+
+    atmo = {
+        "source": p.get("source", "Air Pays de la Loire"),
+        "reference": "Saint-Nazaire",
+        "code_zone": p.get("code_zone", "44184"),
+        "updated": p.get("date_maj"),
+        "date": p.get("date_ech", today),
+        "index": p.get("code_qual"),
+        "label": p.get("lib_qual"),
+        "color": p.get("coul_qual"),
+        "pollutants": {
+            "NO2": p.get("code_no2"),
+            "O3": p.get("code_o3"),
+            "PM10": p.get("code_pm10"),
+            "PM2.5": p.get("code_pm25"),
+            "SO2": p.get("code_so2")
+        }
+    }
+
+    (API/"air_quality.json").write_text(
+        json.dumps(
+            atmo,
+            ensure_ascii=False,
+            indent=2
+        )
+    )
+
+    print(
+        f"ATMO OK: Saint-Nazaire — "
+        f"{atmo['label']} (indice {atmo['index']})"
+    )
+
+except Exception as e:
+    print("ATMO update skipped:", e)
