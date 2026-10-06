@@ -1,37 +1,23 @@
 {
   "source": "maree.info Pornichet / fallback Ville de Pornichet",
-  "updated": "2026-10-06T00:01:37.909660+02:00",
+  "updated": "2026-10-06T08:21:42.749764+02:00",
   "next": [
     {
       "type": "PM",
       "date": "2026-10-06",
-      "time": "02:26",
-      "height": 4.51,
-      "coefficient": 48
+      "time": "14:49",
+      "height": 4.84,
+      "coefficient": 55
     },
     {
       "type": "BM",
       "date": "2026-10-06",
-      "time": "07:43",
-      "height": 2.07,
-      "coefficient": 48
+      "time": "20:35",
+      "height": 1.69,
+      "coefficient": 55
     }
   ],
   "week": [
-    {
-      "type": "PM",
-      "date": "2026-10-06",
-      "time": "02:26",
-      "height": 4.51,
-      "coefficient": 48
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-06",
-      "time": "07:43",
-      "height": 2.07,
-      "coefficient": 48
-    },
     {
       "type": "PM",
       "date": "2026-10-06",
@@ -161,64 +147,8 @@
     {
       "type": "PM",
       "date": "2026-10-11",
-      "time": "00:50",
-      "height": 0.17,
-      "coefficient": 95
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-11",
-      "time": "00:55",
-      "height": 0.21,
-      "coefficient": 95
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-11",
-      "time": "01:14",
-      "height": 0.19,
-      "coefficient": 95
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-11",
-      "time": "01:16",
-      "height": 4.26,
-      "coefficient": 95
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-11",
-      "time": "05:03",
-      "height": 2.0,
-      "coefficient": 43
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-11",
       "time": "05:17",
       "height": 5.54,
-      "coefficient": 95
-    },
-    {
-      "type": "BM",
-      "date": "2026-10-11",
-      "time": "05:33",
-      "height": 2.52,
-      "coefficient": 95
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-11",
-      "time": "06:19",
-      "height": 2.26,
-      "coefficient": 40
-    },
-    {
-      "type": "PM",
-      "date": "2026-10-11",
-      "time": "07:27",
-      "height": 2.29,
       "coefficient": 95
     },
     {
@@ -229,13 +159,6 @@
       "coefficient": 95
     },
     {
-      "type": "BM",
-      "date": "2026-10-11",
-      "time": "13:46",
-      "height": 4.55,
-      "coefficient": 40
-    },
-    {
       "type": "PM",
       "date": "2026-10-11",
       "time": "17:32",
@@ -243,11 +166,102 @@
       "coefficient": 95
     },
     {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "00:21",
+      "height": 0.9,
+      "coefficient": 93
+    },
+    {
       "type": "PM",
-      "date": "2026-10-11",
-      "time": "19:19",
-      "height": 2.03,
-      "coefficient": 43
+      "date": "2026-10-12",
+      "time": "00:52",
+      "height": 0.2,
+      "coefficient": 93
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "00:57",
+      "height": 0.26,
+      "coefficient": 93
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "01:11",
+      "height": 0.23,
+      "coefficient": 93
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "02:26",
+      "height": 4.51,
+      "coefficient": 91
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "05:17",
+      "height": 2.44,
+      "coefficient": 55
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "05:46",
+      "height": 3.15,
+      "coefficient": 93
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "05:48",
+      "height": 5.56,
+      "coefficient": 93
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "07:06",
+      "height": 2.77,
+      "coefficient": 93
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "07:43",
+      "height": 2.07,
+      "coefficient": 48
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "12:35",
+      "height": 0.99,
+      "coefficient": 93
+    },
+    {
+      "type": "BM",
+      "date": "2026-10-12",
+      "time": "14:49",
+      "height": 4.84,
+      "coefficient": 48
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "18:03",
+      "height": 5.54,
+      "coefficient": 91
+    },
+    {
+      "type": "PM",
+      "date": "2026-10-12",
+      "time": "20:35",
+      "height": 1.69,
+      "coefficient": 55
     }
   ]
 }
