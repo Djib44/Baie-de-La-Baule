@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests copernicusmarine xarray netCDF4
 
+      - name: Update temperatures
+        run: python scripts/update_temperatures.py
+
       - name: Update tides and clarity
         run: python scripts/update_data.py
         env:
