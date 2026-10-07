@@ -28,6 +28,7 @@ header .wrap{position:relative!important;z-index:2!important}
 <div class="grid">
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
+<div class="muted" style="margin:8px 2px 14px">Source marées : marée.info Pornichet — prédictions SHOM.</div>
 </div>
 <h2>💧 Clarté de l’eau</h2><div class="card"><div class="muted">3 dernières observations</div><div id="clarityCombined" style="margin-top:8px;line-height:1.9">Chargement…</div><div class="muted" id="claritySource" style="margin-top:7px"></div><div class="muted" style="margin-top:7px"><b>Lecture :</b> &lt;1 m mauvaise · 1–2 m faible · 2–3 m moyenne · 3–5 m bonne · ≥5 m très bonne.</div></div>
 
@@ -63,7 +64,7 @@ async function loadCoastalData(){
     const t=await fetch("api/tides.json?ts="+Date.now()).then(r=>r.json());
     document.querySelectorAll("[data-tide]").forEach((el,i)=>{
       const x=t.next?.[i];
-      if(x) el.innerHTML=`<div class="muted">${x.type}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}${x.height?` · ${x.height}`:""}</div>`;
+      if(x) el.innerHTML=`<div class="muted">${x.type}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}${x.height?` · Hauteur : ${String(x.height).replace(/\s*m\s*$/i,"").replace(".",",")} m`:""}</div>`;
     });
   }catch(e){}
   try{

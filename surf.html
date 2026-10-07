@@ -6,6 +6,7 @@
 <div class="grid">
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
+<div class="muted" style="margin:8px 2px 14px">Source marées : marée.info Pornichet — prédictions SHOM.</div>
 </div><div class="note"><b>Premier jet.</b> L’indice combine vagues/houle, période et vent, avec un profil distinct Pornichet/La Govelle. La marée SHOM sera ajoutée à l’étape suivante. Les hauteurs sont des données marines modélisées, pas une mesure directe du déferlement sur la plage.</div></main>
 <script>
 const S={p:{n:"Pornichet",lat:47.25,lon:-2.35},g:{n:"La Govelle",lat:47.27,lon:-2.47}},D={};let A="p";
@@ -23,7 +24,7 @@ async function loadCoastalData(){
     const t=await fetch("api/tides.json?ts="+Date.now()).then(r=>r.json());
     document.querySelectorAll("[data-tide]").forEach((el,i)=>{
       const x=t.next?.[i];
-      if(x) el.innerHTML=`<div class="muted">${x.type}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}${x.height?` · ${x.height}`:""}</div>`;
+      if(x) el.innerHTML=`<div class="muted">${x.type}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}${x.height?` · Hauteur : ${String(x.height).replace(/\s*m\s*$/i,"").replace(".",",")} m`:""}</div>`;
     });
   }catch(e){}
   try{

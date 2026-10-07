@@ -26,6 +26,7 @@ header{background-position:center;background-size:cover;background-repeat:no-rep
 <div class="grid">
   <div class="card" data-tide="0"><div class="muted">Chargement marée…</div></div>
   <div class="card" data-tide="1"><div class="muted">Chargement marée…</div></div>
+<div class="muted" style="margin:8px 2px 14px">Source marées : marée.info Pornichet — prédictions SHOM.</div>
 </div>
 <div class="note">Marées : maree.info Pornichet (prédictions SHOM) · clarté : Copernicus Marine ZSD. Indices calculés à partir des données disponibles.</div></main><script>
 const lat=47.25,lon=-2.35,F=(v,n=1)=>v==null?"—":Number(v).toFixed(n).replace(".",","),C=d=>["N","NE","E","SE","S","SO","O","NO"][Math.round((d||0)/45)%8];
@@ -54,7 +55,7 @@ async function loadCoastalData(){
       const x=window.__tides[i];
       if(x){
         const d=x.date?new Date(x.date+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"short",day:"numeric",month:"short"}):"";
-        el.innerHTML=`<div class="muted">${x.type} · ${d}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}</div>`;
+        el.innerHTML=`<div class="muted">${x.type} · ${d}</div><div class="big">${x.time}</div><div class="coef">Coef. ${x.coefficient}${x.height?` · Hauteur : ${String(x.height).replace(/\s*m\s*$/i,"").replace(".",",")} m`:""}</div>`;
       }
     });
   }catch(e){console.warn("Marées",e)}
