@@ -1,4 +1,5 @@
 import os,re,json,datetime,requests
+from zoneinfo import ZoneInfo
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; API=ROOT/"api"; API.mkdir(exist_ok=True)
 
@@ -9,13 +10,15 @@ txt=re.sub(r"<[^>]+>"," ",html)
 txt=re.sub(r"&nbsp;"," ",txt)
 txt=re.sub(r"\s+"," ",txt)
 
-now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))
+now=datetime.datetime.now(ZoneInfo("Europe/Paris"))
 fr_months={"janvier":1,"février":2,"mars":3,"avril":4,"mai":5,"juin":6,"juillet":7,"août":8,"septembre":9,"octobre":10,"novembre":11,"décembre":12}
 
 # First try to recover the current month/year shown on the page.
 mdate=re.search(r"(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\s+(\d{4})",txt,re.I)
 month=fr_months.get(mdate.group(1).lower(),now.month) if mdate else now.month
 year=int(mdate.group(2)) if mdate else now.year
+
+txt=txt.split("PM : Pleine Mer BM : Basse Mer",1)[0]
 
 # Parse day rows from the tide table. A row has a day, 3–4 times, heights and 1–2 coefficients.
 # We use the visible text sequence between successive day labels.
@@ -30,7 +33,7 @@ for i,m in enumerate(matches[:8]):
     coeffs=[int(x) for x in re.findall(r"\b(1[01]\d|120|[2-9]\d)\b",chunk)]
     # Keep only plausible tide coefficients and avoid numbers embedded in heights/times.
     coeffs=[c for c in coeffs if 20<=c<=120]
-    if len(times)<3 or len(heights)<3:
+    if not 3<=len(times)<=4 or len(times)!=len(heights):
         continue
     try:
         date=datetime.date(year,month,day)
@@ -76,7 +79,10 @@ if len(tides)<4:
 
 tides.sort(key=lambda x:x["_dt"])
 clean=[{k:v for k,v in x.items() if k!="_dt"} for x in tides]
-(API/"tides.json").write_text(json.dumps({"source":"maree.info Pornichet / fallback Ville de Pornichet","updated":now.isoformat(),"next":clean[:2],"week":clean},ensure_ascii=False,indent=2))
+if clean:
+    (API/"tides.json").write_text(json.dumps({"source":"maree.info Pornichet / fallback Ville de Pornichet","updated":now.isoformat(),"next":clean[:2],"week":clean},ensure_ascii=False,indent=2))
+else:
+    print("Tide source unavailable: last valid cache retained")
 
 # COPERNICUSMARINE_SERVICE_USERNAME and COPERNICUSMARINE_SERVICE_PASSWORD.
 try:
