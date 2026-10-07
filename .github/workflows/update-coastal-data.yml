@@ -27,6 +27,9 @@ jobs:
       - name: Update temperatures
         run: python scripts/update_temperatures.py
 
+      - name: Update events
+        run: python scripts/update_events.py
+
       - name: Update tides and clarity
         run: python scripts/update_data.py
         env:

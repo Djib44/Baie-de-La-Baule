@@ -103,33 +103,8 @@ try:
 except Exception as e:
     print("Clarity update skipped:",e)
 
-# EVENTS — next 7 days. Municipal Le Pouliguen agenda + link to Presqu'île tourism agenda.
-try:
-    from html import unescape
-    ev_url="https://www.lepouliguen.fr/evenements/"
-    ev_html=requests.get(ev_url,timeout=30,headers={"User-Agent":"Mozilla/5.0"}).text
-    plain=unescape(re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",ev_html)))
-    frmonths={"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,"Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
-    # Capture headings and dates from WordPress markup when available.
-    cards=re.findall(r'<h2[^>]*>(.*?)</h2>.*?(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})',ev_html,re.I|re.S)
-    ev=[]
-    today=now.date(); limit=today+datetime.timedelta(days=7)
-    for title,dd,mon,yy in cards:
-        title=re.sub(r"<[^>]+>"," ",unescape(title)); title=re.sub(r"\s+"," ",title).strip()
-        try: d=datetime.date(int(yy),frmonths[mon.title()],int(dd))
-        except: continue
-        if today<=d<=limit:
-            ev.append({"date":d.strftime("%d/%m"),"title":title,"place":"Le Pouliguen","url":ev_url})
-    # Known-safe fallback: don't invent events if parsing changes.
-    (API/"events.json").write_text(json.dumps({
-        "source":"Agenda Le Pouliguen + Office de tourisme La Baule-Presqu'île de Guérande",
-        "updated":now.isoformat(),
-        "events":ev[:12],
-        "agenda_url":"https://www.labaule-guerande.com/explorer/agenda/"
-    },ensure_ascii=False,indent=2))
-except Exception as e:
-    print("Events update skipped:",e)
-    # ATMO FRANCE — qualité de l'air
+# Events are refreshed separately by scripts/update_events.py.
+# ATMO FRANCE — qualité de l’air
 # Référence utilisée : Saint-Nazaire (code INSEE 44184)
 # car l'indice communal de La Baule n'est pas disponible dans le flux ATMO testé.
 

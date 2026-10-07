@@ -1,60 +1,710 @@
 {
-  "source": "Agenda Le Pouliguen + Office de tourisme La Baule-Presqu'île de Guérande",
-  "updated": "2026-10-07T19:05:51.811125+02:00",
+  "source": "Agendas officiels de la presqu’île",
+  "updated": "2026-10-07T22:24:48.298342+02:00",
+  "coverage_start": "2026-10-07",
+  "coverage_end": "2027-01-05",
+  "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 26
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "name": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "url": "https://www.labaule-guerande.com/explorer/agenda/",
+      "status": "ok",
+      "count": 16
+    }
+  ],
   "events": [
     {
-      "date": "07/10",
+      "title": "Conférence - Comprendre l'architecture",
+      "place": "Guérande",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-comprendre-larchitecture-guerande-fr-6694798/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Déjeuners \"Saveurs d'octobre\"",
+      "place": "Guérande",
+      "date": "2026-10-06",
+      "end_date": "2026-10-09",
+      "date_label": "Du 06/10/2026 au 09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/dejeuners-saveurs-doctobre-guerande-fr-6785749/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée de l'Ecoasis",
+      "place": "Guérande",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-de-lecoasis-guerande-fr-6339210/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "62ème Salon de l'Automne",
+      "place": "La Baule-Escoublac",
+      "date": "2026-09-26",
+      "end_date": "2026-10-11",
+      "date_label": "Du 26/09/2026 au 11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/62eme-salon-de-lautomne-la-baule-escoublac-fr-6786980/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Ciné-débat : Un jour, tu vieilliras…",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/cine-debat-un-jour-tu-vieilliras-la-baule-escoublac-fr-6770745/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La semaine bleue",
+      "place": "La Turballe",
+      "date": "2026-10-05",
+      "end_date": "2026-10-09",
+      "date_label": "Du 05/10/2026 au 09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-la-turballe-fr-6030241/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Manger mieux à moindre coût, sans gaspillage c'est possible !",
+      "place": "La Turballe",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/manger-mieux-a-moindre-cout-sans-gaspillage-cest-possible-la-turballe-fr-6821765/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Manger mieux à moindre coût, sans gaspillage c'est possible !",
+      "place": "La Turballe",
+      "date": "2026-10-06",
+      "end_date": "2026-10-10",
+      "date_label": "Du 06/10/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/manger-mieux-a-moindre-cout-sans-gaspillage-cest-possible-la-turballe-fr-6821765/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Balades dessinées au Croisic",
+      "place": "Le Croisic",
+      "date": "2026-06-15",
+      "end_date": "2026-11-02",
+      "date_label": "Du 15/06/2026 au 02/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Fragments au Croisic",
+      "place": "Le Croisic",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1973285/fragments-au-croisic",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "La semaine bleue, à tout âge ensemble",
+      "place": "Le Croisic",
+      "date": "2026-10-05",
+      "end_date": "2026-10-11",
+      "date_label": "Du 05/10/2026 au 11/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969736/la-semaine-bleue-a-tout-age-ensemble",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Les p'tits dévoreurs",
+      "place": "Le Croisic",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1844897/les-ptits-devoreurs-2-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Saveurs d'octobre",
+      "place": "Le Croisic",
+      "date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "date_label": "Du 01/10/2026 au 31/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1979941/saveurs-d-octobre",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Vampire et autres créatures de la nuit",
+      "place": "Le Croisic",
+      "date": "2026-10-01",
+      "end_date": "2026-10-25",
+      "date_label": "Du 01/10/2026 au 25/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969866/vampire-et-autres-creatures-de-la-nuit",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Exposition Jean-Pierre Béroard",
+      "place": "Le Pouliguen",
+      "date": "2026-10-06",
+      "end_date": "2026-10-10",
+      "date_label": "Du 06/10/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-beroard-le-pouliguen-fr-6819704/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Micro-visite",
+      "place": "Le Pouliguen",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6754027/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Micro-visite • Micro-Folie",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "07/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-2/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "08/10",
+      "title": "Balades en calèche",
+      "place": "Mesquer",
+      "date": "2026-04-06",
+      "end_date": "2026-10-10",
+      "date_label": "Du 06/04/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/balades-en-caleche-mesquer-fr-6488179/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition Roland Chevillard",
+      "place": "Mesquer",
+      "date": "2026-10-02",
+      "end_date": "2026-10-11",
+      "date_label": "Du 02/10/2026 au 11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-roland-chevillard-mesquer-fr-6786974/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La semaine bleue",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-05",
+      "end_date": "2026-10-10",
+      "date_label": "Du 05/10/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-piriac-sur-mer-fr-6436973/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "7 comptines d'oiselles et d'oiseaux",
+      "place": "Pornichet",
+      "date": "2026-09-26",
+      "end_date": "2026-11-14",
+      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
+      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tadam ! Coucher de soleil au martinet",
+      "place": "Pornichet",
+      "date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "date_label": "Mercredi 7 octobre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/tadam-coucher-de-soleil-au-martinet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Gestes qui sauvent",
+      "place": "Le Croisic",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1929969/gestes-qui-sauvent-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "--> Comédie Musicale - Les Dépisteuses",
+      "place": "Le Pouliguen",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://reservation.labaule-guerande.com/comedie-musicale-les-depisteuses.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
       "title": "Les dépisteuses",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-depisteuses/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "09/10",
+      "title": "After School",
+      "place": "Pornichet",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "Jeudi 8 octobre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/after-school",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Défis en duel en tous genres",
+      "place": "Pornichet",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "Jeudi 8 octobre 2026 de 14h30 à 16h30.",
+      "url": "https://www.pornichet.fr/agenda/defis-en-duel-en-tous-genres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Les escales mobilités",
+      "place": "Le Croisic",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1953473/les-escales-mobilites-1-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Fablab couture • Micro-folie",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-couture-micro-folie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "09/10",
       "title": "Théâtre • Micro-folie",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/theatre-micro-folie-5/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "10/10",
+      "title": "La vie des animaux nocturnes",
+      "place": "Pornichet",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "Vendredi 9 octobre 2026 de 19h à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/la-vie-des-animaux-nocturnes",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Le tissu, entre conte et modernité",
+      "place": "Pornichet",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "Vendredi 9 octobre 2026 de 15h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/le-tissu-entre-conte-et-modernite",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Matinée petite enfance",
+      "place": "Pornichet",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "Vendredi 9 octobre 2026 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "--> Concert - Splendeurs viennoises à La Baule",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://reservation.labaule-guerande.com/concert-splendeurs-viennoises-a-la-baule.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Après-midi Scrabble",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1570025/apres-midi-scrabble",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Atelier d'écriture",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/547874/atelier-decriture-9",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-17",
+      "date_label": "Du 10/10/2026 au 17/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1935923/le-festival-du-film-de-la-page-a-l-image-le-croisic-guerande",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Championnat de France N3 de Beach Ultimate",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/championnat-de-france-n3-de-beach-ultimate/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "11/10",
+      "title": "A Tire-d'aile",
+      "place": "Pornichet",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "Samedi 10 octobre 2026 de 10h30 à 11h10 et de 11h30 à 12h10.",
+      "url": "https://www.pornichet.fr/agenda/tire-daile",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Les secrets de la nature",
+      "place": "Pornichet",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "Samedi 10 octobre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/les-secrets-de-la-nature",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Salon du chiot",
+      "place": "Pornichet",
+      "date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "date_label": "Du samedi 10 au dimanche 11 octobre 2026 de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/salon-du-chiot",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "12/10",
-      "title": "LES OCÉANES ATLANTIQUES",
-      "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "title": "Randomania",
+      "place": "Pornichet",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "Dimanche 11 octobre 2026 à partir de 8h.",
+      "url": "https://www.pornichet.fr/agenda/randomania",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
-      "date": "12/10",
       "title": "Fablab 3D • Micro-folie",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-4/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "date": "14/10",
+      "title": "LES OCÉANES ATLANTIQUES",
+      "place": "Le Pouliguen",
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-oceanes-atlantiques/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Ciné-club",
+      "place": "Pornichet",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "Mardi 13 octobre 2026 à partir de 20h15.",
+      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Accueil de l’association Victimes Mais pas Démunies",
+      "place": "Le Croisic",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1978069/accueil-de-l-association-victimes-mais-pas-demunies",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Conférence • Micro-folie",
       "place": "Le Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/"
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/conference-micro-folie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Randonnée gourmande - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-15",
+      "end_date": "2026-10-29",
+      "date_label": "Du 15/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/randonnee-gourmande-saveurs-doctobre-batz-sur-mer-fr-6790037/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "OCTOBRE ROSE • TOURNOI DE BRIDGE",
+      "place": "Le Pouliguen",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "SORTIE EN MER",
+      "place": "Le Pouliguen",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "17/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/sortie-en-mer-2/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Enquête au village - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-22",
+      "end_date": "2026-10-29",
+      "date_label": "Du 22/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/enquete-au-village-saveurs-doctobre-batz-sur-mer-fr-6790058/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "--> Musique classique - La toile chante le piano peint - Jeudis de la chapelle",
+      "place": "Le Pouliguen",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://reservation.labaule-guerande.com/musique-classique-la-toile-chante-le-piano-peint-jeudis-de-la-chapelle.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "--> Festival de court métrage : Ecole CinéCréatis Nantes",
+      "place": "Pénestin",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://reservation.labaule-guerande.com/festival-de-court-metrage-ecole-cinecreatis-nantes.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Cum grano salis («Avec un grain de sel») - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "date_label": "Du 24/10/2026 au 25/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/cum-grano-salis-avec-un-grain-de-sel-saveurs-doctobre-batz-sur-mer-fr-6790066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "--> Festival de court métrage : Talents locaux",
+      "place": "Pénestin",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://reservation.labaule-guerande.com/festival-de-court-metrage-talents-locaux.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Les secrets de la nature",
+      "place": "Pornichet",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "Lundi 26 octobre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/les-secrets-de-la-nature",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "--> Spectacle familial - Le chat botté - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://reservation.labaule-guerande.com/spectacle-familial-le-chat-botte-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "--> Théâtre - Antigone de Sophocle",
+      "place": "Le Pouliguen",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-antigone-de-sophocle.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Ciné-club",
+      "place": "Pornichet",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
+      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Matinée petite enfance",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "--> Théâtre - Muse Rouge - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "--> Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2026-12-08",
+      "end_date": "2026-12-08",
+      "date_label": "08/12/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Matinée petite enfance",
+      "place": "Pornichet",
+      "date": "2026-12-11",
+      "end_date": "2026-12-11",
+      "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Ciné-club",
+      "place": "Pornichet",
+      "date": "2026-12-15",
+      "end_date": "2026-12-15",
+      "date_label": "Mardi 15 décembre 2026 à partir de 20h15.",
+      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "--> Humour - Jean-Luc Lemoine - Liquidation",
+      "place": "Le Pouliguen",
+      "date": "2026-12-18",
+      "end_date": "2026-12-18",
+      "date_label": "18/12/2026",
+      "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "--> Théâtre - Je t'aime banane",
+      "place": "Pénestin",
+      "date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "date_label": "19/12/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-je-t-aime-banane.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     }
   ],
   "agenda_url": "https://www.labaule-guerande.com/explorer/agenda/"
