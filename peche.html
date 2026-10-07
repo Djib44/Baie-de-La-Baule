@@ -13,7 +13,7 @@ header{background-position:center;background-size:cover;background-repeat:no-rep
     <div class="muted" id="bestCrabWhy">Recherche du meilleur créneau à partir des données disponibles.</div>
   </div>
 </div>
-<h2>🌡️ Températures</h2><div class="card temps" style="grid-template-columns:repeat(2,1fr)"><div class="tempitem"><div class="muted">Air — Ville de La Baule</div><div class="big" data-airtemp>—</div></div><div class="tempitem"><div class="muted">Eau — Ville de La Baule</div><div class="big" data-baytemp>—</div></div></div><h2>Conditions utiles</h2><div class="grid four"><div class="card"><div class="muted">🌊 Vagues</div><div class="big" id="fw">—</div></div><div class="card"><div class="muted">💨 Vent</div><div class="big" id="fv">—</div></div></div>
+<h2>🌡️ Températures</h2><div class="card temps" style="grid-template-columns:repeat(2,1fr)"><div class="tempitem"><div class="muted">Air — Ville de La Baule</div><div class="big" data-airtemp>—</div></div><div class="tempitem"><div class="muted">Eau — Ville de La Baule</div><div class="big" data-baytemp>—</div></div></div><h2>Conditions utiles</h2><div class="grid four" style="grid-template-columns:repeat(3,1fr)"><div class="card"><div class="muted">🌊 Vagues</div><div class="big" id="fw">—</div></div><div class="card"><div class="muted">💨 Vent</div><div class="big" id="fv">—</div></div><div class="card"><div class="muted">🧭 Orientations</div><div class="big" id="fo">—</div></div></div>
 <h2>💧 Clarté de l’eau</h2><div class="card"><div class="muted">3 dernières observations</div><div id="clarityCombined" style="margin-top:8px;line-height:1.9">Chargement…</div><div class="muted" id="claritySource" style="margin-top:7px"></div><div class="muted" style="margin-top:7px"><b>Lecture :</b> &lt;1 m mauvaise · 1–2 m faible · 2–3 m moyenne · 3–5 m bonne · ≥5 m très bonne.</div></div>
 <h2>🌙 2 prochaines marées</h2>
 <div class="grid">
@@ -64,30 +64,34 @@ async function loadCoastalData(){
 }
 loadCoastalData();
 
-async function loadVilleData(){
-  let cityOk=false;
-  try{
-    const c=await fetch("api/labaule_weather.json?ts="+Date.now()).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()});
-    if(c.air_temperature!=null){document.querySelectorAll("[data-airtemp]").forEach(e=>e.textContent=F(c.air_temperature)+" °C");cityOk=true}
-    if(c.water_temperature!=null)document.querySelectorAll("[data-baytemp]").forEach(e=>e.textContent=F(c.water_temperature)+" °C");
-    if(c.wave_height!=null)fw.textContent=F(c.wave_height)+" m"+(c.wave_period!=null?" · "+F(c.wave_period)+" s":"")+(c.wave_direction_deg!=null?" · "+Math.round(c.wave_direction_deg)+"°":"");
-    if(c.wind_kmh!=null)fv.textContent=F(c.wind_kmh)+" km/h"+(c.gust_kmh!=null?" · raf. "+F(c.gust_kmh)+" km/h":"")+(c.wind_direction_deg!=null?" · "+Math.round(c.wind_direction_deg)+"°":"");
-  }catch(e){console.warn("Données Ville de La Baule indisponibles",e)}
+async function loadFishingConditions(){
+  /* Même logique que l'accueil : Open-Meteo alimente d'abord l'écran,
+     puis les données officielles Ville de La Baule prennent la priorité. */
   try{
     const [w,m]=await Promise.all([
       fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m,wind_direction_10m,wind_gusts_10m&daily=sunrise,sunset&timezone=Europe%2FParis&forecast_days=1`).then(r=>r.json()),
       fetch(`https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=sea_surface_temperature,wave_height,wave_period,wave_direction&timezone=Europe%2FParis`).then(r=>r.json())
     ]);
-    const hm=s=>{const [h,m]=s.slice(11,16).split(":").map(Number);return h*60+m};
-    window.__sunriseMins=hm(w.daily.sunrise[0]);window.__sunsetMins=hm(w.daily.sunset[0]);
-    if(!cityOk){
-      if(w.current?.temperature_2m!=null)document.querySelectorAll("[data-airtemp]").forEach(e=>e.textContent=F(w.current.temperature_2m)+" °C");
-      if(m.current?.sea_surface_temperature!=null)document.querySelectorAll("[data-baytemp]").forEach(e=>e.textContent=F(m.current.sea_surface_temperature)+" °C");
-      if(m.current?.wave_height!=null)fw.textContent=F(m.current.wave_height)+" m"+(m.current.wave_period!=null?" · "+F(m.current.wave_period)+" s":"")+(m.current.wave_direction!=null?" · "+Math.round(m.current.wave_direction)+"°":"");
-      if(w.current?.wind_speed_10m!=null)fv.textContent=F(w.current.wind_speed_10m)+" km/h"+(w.current.wind_gusts_10m!=null?" · raf. "+F(w.current.wind_gusts_10m)+" km/h":"")+(w.current.wind_direction_10m!=null?" · "+Math.round(w.current.wind_direction_10m)+"°":"");
-    }
-  }catch(e){console.warn("Secours Open-Meteo indisponible",e)}
-  updateScores();updateBestSlots();
+    if(w.current?.temperature_2m!=null)document.querySelectorAll("[data-airtemp]").forEach(e=>e.textContent=F(w.current.temperature_2m)+" °C");
+    if(m.current?.sea_surface_temperature!=null)document.querySelectorAll("[data-baytemp]").forEach(e=>e.textContent=F(m.current.sea_surface_temperature)+" °C");
+    if(w.current?.wind_speed_10m!=null)fv.textContent=F(w.current.wind_speed_10m)+" km/h"+(w.current.wind_gusts_10m!=null?" · raf. "+F(w.current.wind_gusts_10m)+" km/h":"");
+    if(m.current?.wave_height!=null)fw.textContent=F(m.current.wave_height)+" m"+(m.current.wave_period!=null?" · "+F(m.current.wave_period)+" s":"");
+    if(w.current?.wind_direction_10m!=null||m.current?.wave_direction!=null)fo.innerHTML="Vent "+(w.current?.wind_direction_10m!=null?Math.round(w.current.wind_direction_10m)+"°":"—")+"<br>Houle "+(m.current?.wave_direction!=null?Math.round(m.current.wave_direction)+"°":"—");
+    const hm=s=>{const [h,mi]=s.slice(11,16).split(":").map(Number);return h*60+mi};
+    if(w.daily?.sunrise?.[0])window.__sunriseMins=hm(w.daily.sunrise[0]);
+    if(w.daily?.sunset?.[0])window.__sunsetMins=hm(w.daily.sunset[0]);
+  }catch(e){console.warn("Open-Meteo indisponible",e)}
+
+  try{
+    const c=await fetch("api/labaule_weather.json?ts="+Date.now()).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()});
+    if(c.air_temperature!=null)document.querySelectorAll("[data-airtemp]").forEach(e=>e.textContent=F(c.air_temperature)+" °C");
+    if(c.water_temperature!=null)document.querySelectorAll("[data-baytemp]").forEach(e=>e.textContent=F(c.water_temperature)+" °C");
+    if(c.wind_kmh!=null)fv.textContent=F(c.wind_kmh)+" km/h"+(c.gust_kmh!=null?" · raf. "+F(c.gust_kmh)+" km/h":"");
+    if(c.wave_height!=null)fw.textContent=F(c.wave_height)+" m"+(c.wave_period!=null?" · "+F(c.wave_period)+" s":"");
+    if(c.wind_direction_deg!=null||c.wave_direction_deg!=null)fo.innerHTML="Vent "+(c.wind_direction_deg!=null?Math.round(c.wind_direction_deg)+"°":"—")+"<br>Houle "+(c.wave_direction_deg!=null?Math.round(c.wave_direction_deg)+"°":"—");
+  }catch(e){console.warn("Ville de La Baule indisponible",e)}
+
+  updateScores(); updateBestSlots();
 }
-loadVilleData();
+loadFishingConditions();
 </script></body></html
