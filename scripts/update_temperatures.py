@@ -41,6 +41,12 @@ def parse_city(markup, now):
         "updated": now.isoformat(), "date": now.date().isoformat(),
         "air_temperature": value(r"Air\s*:\s*" + number + r"\s*°C"),
         "water_temperature": value(r"Eau\s*:\s*" + number + r"\s*°C"),
+        "wind_direction_deg": value(r"Vent\s+Orientation\s*:?\s*" + number + "°"),
+        "wind_kmh": value(r"Vitesse\s*:\s*[\d.,]+\s*nd\s*\|\s*" + number + r"\s*km/h"),
+        "gust_kmh": value(r"Rafale\s*:\s*[\d.,]+\s*nd\s*\|\s*" + number + r"\s*km/h"),
+        "wave_direction_deg": value(r"Houle\s*:.*?Orientation\s*:\s*" + number),
+        "wave_height": value(r"Hauteur\s*:\s*" + number + r"\s*m\b"),
+        "wave_period": value(r"Période\s*:\s*" + number + r"\s*s\b"),
     }
     if any(result[key] is None for key in ("air_temperature", "water_temperature")):
         raise ValueError("Municipal temperatures missing")
@@ -83,7 +89,12 @@ def main():
     water = json.loads(water_path.read_text()) if water_path.exists() else {}
     try:
         city = parse_city(fetch(CITY_URL), now)
-        write("labaule_weather.json", city)
+        write("labaule_weather.json", {key: city[key] for key in
+                                      ("source", "url", "updated", "date", "air_temperature", "water_temperature")})
+        condition_keys = ("wind_kmh", "gust_kmh", "wind_direction_deg", "wave_height", "wave_period", "wave_direction_deg")
+        if all(city[key] is not None for key in condition_keys):
+            write("fishing_conditions.json", {key: city[key] for key in
+                                              ("source", "url", "updated", "date") + condition_keys})
         water["bay"] = {"temperature": city["water_temperature"], "source": city["source"],
                         "url": CITY_URL, "date": city["date"], "updated": city["updated"]}
         print("Municipal temperatures refreshed")
