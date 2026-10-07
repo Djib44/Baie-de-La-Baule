@@ -41,7 +41,7 @@ def tourism_detail(u):
  return out
 
 def collect(key):
- name,u=SOURCES[key];s=get(u);out=[]
+ name,u=SOURCES[key];s=re.sub(r'<!--.*?-->','',get(u),flags=re.S);out=[]
  if key=='tourism':
   urls=set(re.findall(r'href="(https://www\.labaule-guerande\.com/offres/[^"#]+)"',s))
   # Retain linked upcoming offers so they remain visible after leaving the first agenda page.
