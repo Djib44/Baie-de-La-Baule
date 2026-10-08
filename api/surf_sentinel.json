@@ -5,7 +5,7 @@
       "name": "Pornichet",
       "reference": "Plage de Pornichet",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/plage-de-pornichet",
-      "fetched_at": "2026-10-08T14:41:06.291524+02:00",
+      "fetched_at": "2026-10-08T20:51:27.582145+02:00",
       "rows": [
         {
           "time": "2026-10-08T06:00:00+02:00",
@@ -517,7 +517,7 @@
       "name": "La Govelle",
       "reference": "La Govelle",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/batz-sur-mer/la-govelle",
-      "fetched_at": "2026-10-08T14:41:16.066836+02:00",
+      "fetched_at": "2026-10-08T20:51:29.584369+02:00",
       "rows": [
         {
           "time": "2026-10-08T06:00:00+02:00",
@@ -1029,7 +1029,7 @@
       "name": "La Courance",
       "reference": "La Courance",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/la-courance",
-      "fetched_at": "2026-10-08T14:40:55.828529+02:00",
+      "fetched_at": "2026-10-08T20:51:25.670919+02:00",
       "rows": [
         {
           "time": "2026-10-08T06:00:00+02:00",
