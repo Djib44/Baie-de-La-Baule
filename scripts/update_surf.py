@@ -29,7 +29,7 @@ def parse(page):
             if not m:
                 raise ValueError('Missing forecast field: '+pattern)
             return float(m[1].replace(',', '.'))
-        wind = re.search(r'Vent :.*?Orientation : (.*?) Houle :', plain)
+        wind = re.search(r'Vent :.*?Orientation : (.*?) La meilleure configuration', plain)
         swell = re.search(r'Houle :.*?Orientation : (.*?) Plus la période', plain)
         hour = int(clock[:-2]); minute = int(clock[-2:])
         time = datetime.fromisoformat(f'{day}T{hour:02}:{minute:02}').replace(tzinfo=TZ).isoformat()
