@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-07T22:38:39.382353+02:00",
-  "coverage_start": "2026-10-07",
-  "coverage_end": "2027-01-05",
+  "updated": "2026-10-08T03:01:20.725849+02:00",
+  "coverage_start": "2026-10-08",
+  "coverage_end": "2027-01-06",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 26
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 12
+      "count": 25
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,23 +23,19 @@
       "count": 11
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 16
+      "count": 11
     }
   ],
   "events": [
-    {
-      "title": "Conférence - Comprendre l'architecture",
-      "place": "Guérande",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-comprendre-larchitecture-guerande-fr-6694798/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Déjeuners \"Saveurs d'octobre\"",
       "place": "Guérande",
@@ -53,16 +43,6 @@
       "end_date": "2026-10-09",
       "date_label": "Du 06/10/2026 au 09/10/2026",
       "url": "https://www.labaule-guerande.com/offres/dejeuners-saveurs-doctobre-guerande-fr-6785749/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite guidée de l'Ecoasis",
-      "place": "Guérande",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-guidee-de-lecoasis-guerande-fr-6339210/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -77,32 +57,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Ciné-débat : Un jour, tu vieilliras…",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/cine-debat-un-jour-tu-vieilliras-la-baule-escoublac-fr-6770745/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "La semaine bleue",
       "place": "La Turballe",
       "date": "2026-10-05",
       "end_date": "2026-10-09",
       "date_label": "Du 05/10/2026 au 09/10/2026",
       "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-la-turballe-fr-6030241/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Manger mieux à moindre coût, sans gaspillage c'est possible !",
-      "place": "La Turballe",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/manger-mieux-a-moindre-cout-sans-gaspillage-cest-possible-la-turballe-fr-6821765/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -127,12 +87,12 @@
       "source_key": "croisic"
     },
     {
-      "title": "Fragments au Croisic",
+      "title": "Gestes qui sauvent",
       "place": "Le Croisic",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1973285/fragments-au-croisic",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1929969/gestes-qui-sauvent-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -143,16 +103,6 @@
       "end_date": "2026-10-11",
       "date_label": "Du 05/10/2026 au 11/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969736/la-semaine-bleue-a-tout-age-ensemble",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les p'tits dévoreurs",
-      "place": "Le Croisic",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1844897/les-ptits-devoreurs-2-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -177,6 +127,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Comédie Musicale - Les Dépisteuses",
+      "place": "Le Pouliguen",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://reservation.labaule-guerande.com/comedie-musicale-les-depisteuses.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
       "title": "Exposition Jean-Pierre Béroard",
       "place": "Le Pouliguen",
       "date": "2026-10-06",
@@ -187,22 +147,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Micro-visite",
+      "title": "Les dépisteuses",
       "place": "Le Pouliguen",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6754027/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Micro-visite • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "07/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-2/",
+      "date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "date_label": "08/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-depisteuses/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
@@ -245,46 +195,6 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Tadam ! Coucher de soleil au martinet",
-      "place": "Pornichet",
-      "date": "2026-10-07",
-      "end_date": "2026-10-07",
-      "date_label": "Mercredi 7 octobre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/tadam-coucher-de-soleil-au-martinet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Gestes qui sauvent",
-      "place": "Le Croisic",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1929969/gestes-qui-sauvent-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Comédie Musicale - Les Dépisteuses",
-      "place": "Le Pouliguen",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://reservation.labaule-guerande.com/comedie-musicale-les-depisteuses.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Les dépisteuses",
-      "place": "Le Pouliguen",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-depisteuses/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "After School",
@@ -507,6 +417,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Bingo des arnaques",
+      "place": "Le Croisic",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1979174/bingo-des-arnaques",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Conférence • Micro-folie",
       "place": "Le Pouliguen",
       "date": "2026-10-14",
@@ -533,6 +453,26 @@
       "end_date": "2026-10-16",
       "date_label": "16/10/2026",
       "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Initiation & entraînement à la godille",
+      "place": "Le Croisic",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "17/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1913628/initiation-entrainement-a-la-godille-1-1-2-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "LANCEMENT DU « PRIX DES MOTS SALÉS »",
+      "place": "Le Pouliguen",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "17/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/lancement-du-prix-des-mots-sales/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
