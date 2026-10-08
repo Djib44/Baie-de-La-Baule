@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SPOTS = {
+    'c': ('La Courance', 'La Courance', 'https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/la-courance'),
     'p': ('Pornichet', 'Plage de Pornichet', 'https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/plage-de-pornichet'),
     'g': ('La Govelle', 'La Govelle', 'https://www.surf-sentinel.com/surf-report/france/loire-atlantique/batz-sur-mer/la-govelle'),
 }
