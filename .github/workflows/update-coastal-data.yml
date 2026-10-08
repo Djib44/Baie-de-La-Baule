@@ -30,6 +30,9 @@ jobs:
       - name: Update climate
         run: python scripts/update_climate.py
 
+      - name: Update surf forecasts
+        run: python scripts/update_surf.py
+
       - name: Update events
         run: python scripts/update_events.py
 
