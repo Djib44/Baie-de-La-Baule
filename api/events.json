@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-09T03:14:02.129032+02:00",
+  "updated": "2026-10-09T12:34:37.088846+02:00",
   "coverage_start": "2026-10-09",
   "coverage_end": "2027-01-07",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 23
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,10 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 11
+      "count": 23
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,13 +23,29 @@
       "count": 11
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 11
+      "count": 18
     }
   ],
   "events": [
+    {
+      "title": "Concert - Trio Arum avec basson",
+      "place": "Guérande",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-trio-arum-avec-basson-guerande-fr-6734080/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Déjeuners \"Saveurs d'octobre\"",
       "place": "Guérande",
@@ -57,12 +67,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Vente caritative en faveur de l'Association de Protection des Animaux des Hautes-Corbières",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-09",
+      "end_date": "2026-10-10",
+      "date_label": "Du 09/10/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/vente-caritative-en-faveur-de-lassociation-de-protection-des-animaux-des-hautes-corbieres-la-baule-escoublac-fr-6833360/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "La semaine bleue",
       "place": "La Turballe",
       "date": "2026-10-05",
       "end_date": "2026-10-09",
       "date_label": "Du 05/10/2026 au 09/10/2026",
       "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-la-turballe-fr-6030241/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les algues : atelier culinaire - Saveurs d'octobre",
+      "place": "La Turballe",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-algues-atelier-culinaire-saveurs-doctobre-la-turballe-fr-6790024/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -147,6 +177,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Théâtre en folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/theatre-en-folie-le-pouliguen-fr-6755872/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Théâtre • Micro-folie",
       "place": "Le Pouliguen",
       "date": "2026-10-09",
@@ -155,6 +195,16 @@
       "url": "https://www.lepouliguen.fr/evenements/theatre-micro-folie-5/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Balades apéro",
+      "place": "Mesquer",
+      "date": "2026-09-01",
+      "end_date": "2026-10-10",
+      "date_label": "Du 01/09/2026 au 10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/balades-apero-mesquer-fr-6306267/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Balades en calèche",
@@ -225,6 +275,16 @@
       "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Lecture Goûter",
+      "place": "Pénestin",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/lecture-gouter-penestin-fr-6211975/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Concert - Splendeurs viennoises à La Baule",
