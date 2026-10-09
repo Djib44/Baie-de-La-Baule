@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-08T20:51:29.673827+02:00",
-  "coverage_start": "2026-10-08",
-  "coverage_end": "2027-01-06",
+  "updated": "2026-10-09T03:14:02.129032+02:00",
+  "coverage_start": "2026-10-09",
+  "coverage_end": "2027-01-07",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 23
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 26
     },
     {
       "name": "Ville du Pouliguen",
@@ -26,13 +26,13 @@
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 17
+      "count": 11
     }
   ],
   "events": [
@@ -57,36 +57,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Fête de la science conférence - L'IA au service de la gastronomie",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/fete-de-la-science-conference-lia-au-service-de-la-gastronomie-la-baule-escoublac-fr-6819725/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "L'herboristerie d'hier et d'aujourd'hui",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/lherboristerie-dhier-et-daujourdhui-la-baule-escoublac-fr-6761746/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert avec Shawinigan",
-      "place": "La Turballe",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-avec-shawinigan-la-turballe-fr-6742014/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "La semaine bleue",
       "place": "La Turballe",
       "date": "2026-10-05",
@@ -107,16 +77,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier Gestes qui sauvent",
-      "place": "Le Croisic",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-gestes-qui-sauvent-le-croisic-fr-6602677/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
@@ -127,22 +87,22 @@
       "source_key": "croisic"
     },
     {
-      "title": "Gestes qui sauvent",
-      "place": "Le Croisic",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1929969/gestes-qui-sauvent-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "La semaine bleue, à tout âge ensemble",
       "place": "Le Croisic",
       "date": "2026-10-05",
       "end_date": "2026-10-11",
       "date_label": "Du 05/10/2026 au 11/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969736/la-semaine-bleue-a-tout-age-ensemble",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Les escales mobilités",
+      "place": "Le Croisic",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1953473/les-escales-mobilites-1-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -167,16 +127,6 @@
       "source_key": "croisic"
     },
     {
-      "title": "Comédie Musicale - Les Dépisteuses",
-      "place": "Le Pouliguen",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://reservation.labaule-guerande.com/comedie-musicale-les-depisteuses.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
       "title": "Exposition Jean-Pierre Béroard",
       "place": "Le Pouliguen",
       "date": "2026-10-06",
@@ -187,12 +137,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Les dépisteuses",
+      "title": "Fablab couture • Micro-folie",
       "place": "Le Pouliguen",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-depisteuses/",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-couture-micro-folie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Théâtre • Micro-folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "date_label": "09/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/theatre-micro-folie-5/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
@@ -235,66 +195,6 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "After School",
-      "place": "Pornichet",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "Jeudi 8 octobre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/after-school",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Défis en duel en tous genres",
-      "place": "Pornichet",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "Jeudi 8 octobre 2026 de 14h30 à 16h30.",
-      "url": "https://www.pornichet.fr/agenda/defis-en-duel-en-tous-genres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Soirée étudiante - After School",
-      "place": "Pornichet",
-      "date": "2026-10-08",
-      "end_date": "2026-10-08",
-      "date_label": "08/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-etudiante-after-school-pornichet-fr-6835080/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Les escales mobilités",
-      "place": "Le Croisic",
-      "date": "2026-10-09",
-      "end_date": "2026-10-09",
-      "date_label": "09/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1953473/les-escales-mobilites-1-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Fablab couture • Micro-folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-09",
-      "end_date": "2026-10-09",
-      "date_label": "09/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/fablab-couture-micro-folie/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Théâtre • Micro-folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-09",
-      "end_date": "2026-10-09",
-      "date_label": "09/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/theatre-micro-folie-5/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "La vie des animaux nocturnes",
@@ -525,6 +425,26 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1913628/initiation-entrainement-a-la-godille-1-1-2-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Le vampire, figures et symboles",
+      "place": "Le Croisic",
+      "date": "2026-10-17",
+      "end_date": "2026-11-07",
+      "date_label": "Du 17/10/2026 au 07/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Fablab couture • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "17/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-couture-micro-folie-2/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "LANCEMENT DU « PRIX DES MOTS SALÉS »",
