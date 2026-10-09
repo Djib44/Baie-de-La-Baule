@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-09T12:34:37.088846+02:00",
+  "updated": "2026-10-09T20:21:48.945239+02:00",
   "coverage_start": "2026-10-09",
   "coverage_end": "2027-01-07",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 23
+      "count": 28
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -267,12 +267,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée petite enfance",
+      "title": "Matinée jeux",
       "place": "Pornichet",
       "date": "2026-10-09",
       "end_date": "2026-10-09",
       "date_label": "Vendredi 9 octobre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -457,6 +457,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-10-14",
+      "end_date": "2026-10-17",
+      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "La semaine du goût au Marché de Pornichet",
+      "place": "Pornichet",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "Mercredi 14 octobre 2026 de 9h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/la-semaine-du-gout-au-marche-de-pornichet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Randonnée gourmande - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-15",
@@ -597,6 +617,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-11-04",
+      "end_date": "2026-11-07",
+      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Antigone de Sophocle",
       "place": "Le Pouliguen",
       "date": "2026-11-06",
@@ -617,12 +647,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée petite enfance",
+      "title": "Matinée jeux",
       "place": "Pornichet",
       "date": "2026-11-13",
       "end_date": "2026-11-13",
       "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -637,6 +667,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-12-02",
+      "end_date": "2026-12-05",
+      "date_label": "Du mercredi 2 au samedi 5 décembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-12-08",
@@ -647,12 +687,12 @@
       "source_key": "tickets"
     },
     {
-      "title": "Matinée petite enfance",
+      "title": "Matinée jeux",
       "place": "Pornichet",
       "date": "2026-12-11",
       "end_date": "2026-12-11",
       "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-petite-enfance",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
