@@ -1,26 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-10T19:21:12.149135+02:00",
+  "updated": "2026-10-10T23:45:05.099505+02:00",
   "coverage_start": "2026-10-10",
   "coverage_end": "2027-01-08",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 26
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 11
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,10 +17,22 @@
       "count": 12
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 27
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 22
+      "count": 26
     }
   ],
   "events": [
@@ -43,6 +43,16 @@
       "end_date": "2026-10-10",
       "date_label": "10/10/2026",
       "url": "https://www.labaule-guerande.com/offres/chantier-participatif-preservons-la-dune-de-la-falaise-a-batz-sur-mer-batz-sur-mer-fr-6815553/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Vide-Garage & abri de jardin",
+      "place": "Guérande",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/vide-garage-abri-de-jardin-guerande-fr-6815554/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -113,6 +123,26 @@
       "end_date": "2026-10-10",
       "date_label": "10/10/2026",
       "url": "https://www.labaule-guerande.com/offres/fete-de-la-science-conference-lappetit-des-etoiles-la-baule-escoublac-fr-6821767/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Fête de la science - Ateliers interactifs",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/fete-de-la-science-ateliers-interactifs-la-baule-escoublac-fr-6819713/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Haroun - Bonjour quand même",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/haroun-bonjour-quand-meme-la-baule-escoublac-fr-6030188/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -347,6 +377,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Lecture musicale \"Les courts de mes pensées\"",
+      "place": "Pénestin",
+      "date": "2026-10-10",
+      "end_date": "2026-10-10",
+      "date_label": "10/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/lecture-musicale-les-courts-de-mes-pensees-penestin-fr-6819705/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Octobre Rose et bleu : Soirée C'Party's",
       "place": "Pénestin",
       "date": "2026-10-10",
@@ -365,6 +405,16 @@
       "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Braderie d'automne",
+      "place": "Pornichet",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "Dimanche 11 octobre 2026 de 10h à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/braderie-dautomne",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Randomania",
