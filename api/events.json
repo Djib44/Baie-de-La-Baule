@@ -1,26 +1,26 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-10T02:52:14.268231+02:00",
+  "updated": "2026-10-10T11:51:34.777971+02:00",
   "coverage_start": "2026-10-10",
   "coverage_end": "2027-01-08",
   "sources": [
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 11
+    },
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Ville du Pouliguen",
@@ -367,6 +367,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "10 ans de la Soirée filles",
+      "place": "Pornichet",
+      "date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "date_label": "Jeudi 15 octobre 2026 de 19h à 23h.",
+      "url": "https://www.pornichet.fr/agenda/10-ans-de-la-soiree-filles",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "OCTOBRE ROSE • TOURNOI DE BRIDGE",
       "place": "Le Pouliguen",
       "date": "2026-10-16",
@@ -375,6 +385,16 @@
       "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Festival Afro-Latino de Pornichet",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "date_label": "Du vendredi 16 au dimanche 18 octobre 2026.",
+      "url": "https://www.pornichet.fr/agenda/festival-afro-latino-de-pornichet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Créneaux Switch spécial Halloween",
@@ -567,16 +587,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée jeux",
-      "place": "Pornichet",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Théâtre - Muse Rouge - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-11-24",
@@ -605,16 +615,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Matinée jeux",
-      "place": "Pornichet",
-      "date": "2026-12-11",
-      "end_date": "2026-12-11",
-      "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Ciné-club",
