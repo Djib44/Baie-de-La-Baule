@@ -5,7 +5,7 @@
       "name": "Pornichet",
       "reference": "Plage de Pornichet",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/plage-de-pornichet",
-      "fetched_at": "2026-10-11T07:47:33.805602+02:00",
+      "fetched_at": "2026-10-11T14:51:02.697669+02:00",
       "rows": [
         {
           "time": "2026-10-11T06:00:00+02:00",
@@ -517,7 +517,7 @@
       "name": "La Govelle",
       "reference": "La Govelle",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/batz-sur-mer/la-govelle",
-      "fetched_at": "2026-10-11T07:47:35.627562+02:00",
+      "fetched_at": "2026-10-11T14:51:04.310864+02:00",
       "rows": [
         {
           "time": "2026-10-11T06:00:00+02:00",
@@ -1029,7 +1029,7 @@
       "name": "La Courance",
       "reference": "La Courance",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/la-courance",
-      "fetched_at": "2026-10-11T07:47:31.982148+02:00",
+      "fetched_at": "2026-10-11T14:51:00.917514+02:00",
       "rows": [
         {
           "time": "2026-10-11T06:00:00+02:00",
@@ -1063,7 +1063,7 @@
           "height": 0.8,
           "period": 13.2,
           "wind": 15.0,
-          "gusts": 17.0,
+          "gusts": 21.0,
           "wind_direction": "sud-ouest (onshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1075,7 +1075,7 @@
           "height": 0.7,
           "period": 12.6,
           "wind": 19.0,
-          "gusts": 22.0,
+          "gusts": 24.0,
           "wind_direction": "nord-ouest (sideshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1183,7 +1183,7 @@
           "height": 0.3,
           "period": 10.3,
           "wind": 35.0,
-          "gusts": 38.0,
+          "gusts": 39.0,
           "wind_direction": "nord-est (offshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1195,7 +1195,7 @@
           "height": 0.2,
           "period": 10.2,
           "wind": 37.0,
-          "gusts": 49.0,
+          "gusts": 50.0,
           "wind_direction": "nord-est (sideshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1399,7 +1399,7 @@
           "height": 1.6,
           "period": 10.6,
           "wind": 51.0,
-          "gusts": 56.0,
+          "gusts": 54.0,
           "wind_direction": "sud-est (onshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1411,7 +1411,7 @@
           "height": 1.8,
           "period": 10.6,
           "wind": 51.0,
-          "gusts": 63.0,
+          "gusts": 61.0,
           "wind_direction": "sud-est (onshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1435,7 +1435,7 @@
           "height": 1.7,
           "period": 10.6,
           "wind": 54.0,
-          "gusts": 67.0,
+          "gusts": 68.0,
           "wind_direction": "sud-est (onshore)",
           "swell_direction": "ouest (bien orientée)"
         },
@@ -1447,7 +1447,7 @@
           "height": 1.7,
           "period": 10.6,
           "wind": 50.0,
-          "gusts": 57.0,
+          "gusts": 58.0,
           "wind_direction": "sud-ouest (sideshore)",
           "swell_direction": "ouest (bien orientée)"
         },
