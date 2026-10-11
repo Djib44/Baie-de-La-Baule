@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-11T14:51:04.375975+02:00",
+  "updated": "2026-10-11T21:34:23.254921+02:00",
   "coverage_start": "2026-10-11",
   "coverage_end": "2027-01-09",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 25
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,10 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 11
+      "count": 25
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,13 +23,69 @@
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 5
+      "count": 16
     }
   ],
   "events": [
+    {
+      "title": "Concert \"Pêr Vari Kervarec\"",
+      "place": "Assérac",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-per-vari-kervarec-asserac-fr-6739758/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition : L'art à portée de main",
+      "place": "Assérac",
+      "date": "2026-10-02",
+      "end_date": "2026-10-11",
+      "date_label": "Du 02/10/2026 au 11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-lart-a-portee-de-main-asserac-fr-6790098/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La rencontre automnale - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-rencontre-automnale-saveurs-doctobre-guerande-fr-6790027/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Déjeuner champêtre - Saveurs d'octobre",
+      "place": "Herbignac",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/dejeuner-champetre-saveurs-doctobre-herbignac-fr-6790026/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rallye Pédestre",
+      "place": "Herbignac",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/rallye-pedestre-herbignac-fr-6342273/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "62ème Salon de l'Automne",
       "place": "La Baule-Escoublac",
@@ -43,6 +93,16 @@
       "end_date": "2026-10-11",
       "date_label": "Du 26/09/2026 au 11/10/2026",
       "url": "https://www.labaule-guerande.com/offres/62eme-salon-de-lautomne-la-baule-escoublac-fr-6786980/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La turballaise : Courses et Marches",
+      "place": "La Turballe",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-turballaise-courses-et-marches-la-turballe-fr-6030493/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -55,6 +115,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "La semaine bleue, à tout âge ensemble",
+      "place": "Le Croisic",
+      "date": "2026-10-05",
+      "end_date": "2026-10-11",
+      "date_label": "Du 05/10/2026 au 11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-a-tout-age-ensemble-le-croisic-fr-6837383/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
@@ -87,6 +157,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Championnat de France N3 Beach Ultimate",
+      "place": "Le Pouliguen",
+      "date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "date_label": "Du 10/10/2026 au 11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/championnat-de-france-n3-beach-ultimate-le-pouliguen-fr-6803517/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
       "place": "Le Pouliguen",
       "date": "2026-10-11",
@@ -95,6 +175,16 @@
       "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Octobre Rose au Pouliguen - Marche - Vélo - Course",
+      "place": "Le Pouliguen",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-au-pouliguen-marche-velo-course-le-pouliguen-fr-6761735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Exposition Roland Chevillard",
@@ -145,6 +235,26 @@
       "url": "https://www.pornichet.fr/agenda/salon-du-chiot",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Music'occas et tremplin musical",
+      "place": "Pénestin",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/musicoccas-et-tremplin-musical-penestin-fr-6219052/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Octobre Rose",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-saint-lyphard-fr-6792687/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Fablab 3D • Micro-folie",
