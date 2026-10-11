@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-10T23:45:05.099505+02:00",
-  "coverage_start": "2026-10-10",
-  "coverage_end": "2027-01-08",
+  "updated": "2026-10-11T07:47:35.704038+02:00",
+  "coverage_start": "2026-10-11",
+  "coverage_end": "2027-01-09",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -11,20 +11,20 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 27
+      "count": 25
     },
     {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 11
     },
@@ -32,60 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 26
+      "count": 5
     }
   ],
   "events": [
-    {
-      "title": "Chantier participatif : préservons la dune de la Falaise à Batz-sur-Mer",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/chantier-participatif-preservons-la-dune-de-la-falaise-a-batz-sur-mer-batz-sur-mer-fr-6815553/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Vide-Garage & abri de jardin",
-      "place": "Guérande",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/vide-garage-abri-de-jardin-guerande-fr-6815554/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Dîner champêtre - Saveurs d'octobre",
-      "place": "Herbignac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/diner-champetre-saveurs-doctobre-herbignac-fr-6790025/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Observation du ciel nocturne",
-      "place": "Herbignac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/observation-du-ciel-nocturne-herbignac-fr-6795199/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "À la découverte des secrets des forêts et de leur gestion",
-      "place": "Herbignac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/a-la-decouverte-des-secrets-des-forets-et-de-leur-gestion-herbignac-fr-6818112/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "62ème Salon de l'Automne",
       "place": "La Baule-Escoublac",
@@ -97,142 +47,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Concert - Splendeurs viennoises",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-splendeurs-viennoises-la-baule-escoublac-fr-6713886/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert - Splendeurs viennoises à La Baule",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://reservation.labaule-guerande.com/concert-splendeurs-viennoises-a-la-baule.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Fête de la Science conférence - L'appétit des étoiles",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/fete-de-la-science-conference-lappetit-des-etoiles-la-baule-escoublac-fr-6821767/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Fête de la science - Ateliers interactifs",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/fete-de-la-science-ateliers-interactifs-la-baule-escoublac-fr-6819713/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Haroun - Bonjour quand même",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/haroun-bonjour-quand-meme-la-baule-escoublac-fr-6030188/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "La Baule Images - Journée portes ouvertes",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-baule-images-journee-portes-ouvertes-la-baule-escoublac-fr-6821769/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Vente caritative en faveur de l'Association de Protection des Animaux des Hautes-Corbières",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-09",
-      "end_date": "2026-10-10",
-      "date_label": "Du 09/10/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/vente-caritative-en-faveur-de-lassociation-de-protection-des-animaux-des-hautes-corbieres-la-baule-escoublac-fr-6833360/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Journée mondiale du pickleball",
-      "place": "La Turballe",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/journee-mondiale-du-pickleball-la-turballe-fr-6832232/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Manger mieux à moindre coût, sans gaspillage c'est possible !",
-      "place": "La Turballe",
-      "date": "2026-10-06",
-      "end_date": "2026-10-10",
-      "date_label": "Du 06/10/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/manger-mieux-a-moindre-cout-sans-gaspillage-cest-possible-la-turballe-fr-6821765/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Soirée octobre rose sénégalaise",
-      "place": "La Turballe",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-octobre-rose-senegalaise-la-turballe-fr-6818121/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Après-midi Scrabble",
-      "place": "Le Croisic",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1570025/apres-midi-scrabble",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Atelier d'écriture",
-      "place": "Le Croisic",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/547874/atelier-decriture-9",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
       "end_date": "2026-11-02",
       "date_label": "Du 15/06/2026 au 02/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "La semaine bleue, à tout âge ensemble",
-      "place": "Le Croisic",
-      "date": "2026-10-05",
-      "end_date": "2026-10-11",
-      "date_label": "Du 05/10/2026 au 11/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969736/la-semaine-bleue-a-tout-age-ensemble",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -267,44 +87,14 @@
       "source_key": "croisic"
     },
     {
-      "title": "Championnat de France N3 de Beach Ultimate",
+      "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
       "place": "Le Pouliguen",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/championnat-de-france-n3-de-beach-ultimate/",
+      "date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "date_label": "11/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
-    },
-    {
-      "title": "Exposition Jean-Pierre Béroard",
-      "place": "Le Pouliguen",
-      "date": "2026-10-06",
-      "end_date": "2026-10-10",
-      "date_label": "Du 06/10/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-beroard-le-pouliguen-fr-6819704/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Balades apéro",
-      "place": "Mesquer",
-      "date": "2026-09-01",
-      "end_date": "2026-10-10",
-      "date_label": "Du 01/09/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/balades-apero-mesquer-fr-6306267/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Balades en calèche",
-      "place": "Mesquer",
-      "date": "2026-04-06",
-      "end_date": "2026-10-10",
-      "date_label": "Du 06/04/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/balades-en-caleche-mesquer-fr-6488179/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Exposition Roland Chevillard",
@@ -317,26 +107,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Fez-Noz Strollad an Tour-Iliz",
-      "place": "Mesquer",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/fez-noz-strollad-an-tour-iliz-mesquer-fr-6742000/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "La semaine bleue",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-10-05",
-      "end_date": "2026-10-10",
-      "date_label": "Du 05/10/2026 au 10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-piriac-sur-mer-fr-6436973/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -345,66 +115,6 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "A Tire-d'aile",
-      "place": "Pornichet",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "Samedi 10 octobre 2026 de 10h30 à 11h10 et de 11h30 à 12h10.",
-      "url": "https://www.pornichet.fr/agenda/tire-daile",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Les secrets de la nature",
-      "place": "Pornichet",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "Samedi 10 octobre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/les-secrets-de-la-nature",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Salon du chiot",
-      "place": "Pornichet",
-      "date": "2026-10-10",
-      "end_date": "2026-10-11",
-      "date_label": "Du samedi 10 au dimanche 11 octobre 2026 de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/salon-du-chiot",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Lecture musicale \"Les courts de mes pensées\"",
-      "place": "Pénestin",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/lecture-musicale-les-courts-de-mes-pensees-penestin-fr-6819705/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose et bleu : Soirée C'Party's",
-      "place": "Pénestin",
-      "date": "2026-10-10",
-      "end_date": "2026-10-10",
-      "date_label": "10/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-et-bleu-soiree-cpartys-penestin-fr-6783580/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
-      "place": "Le Pouliguen",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Braderie d'automne",
@@ -423,6 +133,16 @@
       "end_date": "2026-10-11",
       "date_label": "Dimanche 11 octobre 2026 à partir de 8h.",
       "url": "https://www.pornichet.fr/agenda/randomania",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Salon du chiot",
+      "place": "Pornichet",
+      "date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "date_label": "Du samedi 10 au dimanche 11 octobre 2026 de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/salon-du-chiot",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -587,6 +307,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Prix des mots salés",
+      "place": "Le Croisic",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "17/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1169079/prix-des-mots-sales",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Documentaire • Micro-folie",
       "place": "Le Pouliguen",
       "date": "2026-10-17",
@@ -627,6 +357,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Beethoven & Co",
+      "place": "Le Croisic",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1909117/beethoven-co",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "LE TRÉSOR DU CAPITAINE MORGANE",
       "place": "Le Pouliguen",
       "date": "2026-10-19",
@@ -635,6 +375,16 @@
       "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Heure du conte",
+      "place": "Le Croisic",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1738687/heure-du-conte-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "LE TRÉSOR DU CAPITAINE MORGANE",
