@@ -5,80 +5,8 @@
       "name": "Pornichet",
       "reference": "Plage de Pornichet",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/plage-de-pornichet",
-      "fetched_at": "2026-10-12T02:32:52.479218+02:00",
+      "fetched_at": "2026-10-12T12:50:29.853606+02:00",
       "rows": [
-        {
-          "time": "2026-10-11T06:00:00+02:00",
-          "rating": "B1",
-          "quality": "B",
-          "size": 1,
-          "height": 0.7,
-          "period": 14.7,
-          "wind": 28.0,
-          "gusts": 29.0,
-          "wind_direction": "nord-ouest (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-11T09:00:00+02:00",
-          "rating": "B1",
-          "quality": "B",
-          "size": 1,
-          "height": 0.8,
-          "period": 13.7,
-          "wind": 21.0,
-          "gusts": 24.0,
-          "wind_direction": "sud-est (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-11T12:00:00+02:00",
-          "rating": "C1",
-          "quality": "C",
-          "size": 1,
-          "height": 0.8,
-          "period": 13.2,
-          "wind": 15.0,
-          "gusts": 19.0,
-          "wind_direction": "sud-ouest (onshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-11T15:00:00+02:00",
-          "rating": "C1",
-          "quality": "C",
-          "size": 1,
-          "height": 0.7,
-          "period": 12.6,
-          "wind": 19.0,
-          "gusts": 24.0,
-          "wind_direction": "nord-ouest (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-11T18:00:00+02:00",
-          "rating": "B1",
-          "quality": "B",
-          "size": 1,
-          "height": 0.8,
-          "period": 12.3,
-          "wind": 24.0,
-          "gusts": 27.0,
-          "wind_direction": "nord-ouest (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-11T21:00:00+02:00",
-          "rating": "B1",
-          "quality": "B",
-          "size": 1,
-          "height": 0.8,
-          "period": 12.2,
-          "wind": 23.0,
-          "gusts": 26.0,
-          "wind_direction": "sud-est (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
         {
           "time": "2026-10-12T06:00:00+02:00",
           "rating": "A1",
@@ -510,6 +438,18 @@
           "gusts": 46.0,
           "wind_direction": "sud-ouest (onshore)",
           "swell_direction": "nord-ouest (mal orientée)"
+        },
+        {
+          "time": "2026-10-18T06:00:00+02:00",
+          "rating": "D1",
+          "quality": "D",
+          "size": 1,
+          "height": 0.6,
+          "period": 5.9,
+          "wind": 28.0,
+          "gusts": 39.0,
+          "wind_direction": "sud-ouest (onshore)",
+          "swell_direction": "nord-ouest (mal orientée)"
         }
       ]
     },
@@ -517,7 +457,7 @@
       "name": "La Govelle",
       "reference": "La Govelle",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/batz-sur-mer/la-govelle",
-      "fetched_at": "2026-10-12T02:32:54.469812+02:00",
+      "fetched_at": "2026-10-12T12:50:31.431603+02:00",
       "rows": [
         {
           "time": "2026-10-12T06:00:00+02:00",
@@ -969,7 +909,7 @@
       "name": "La Courance",
       "reference": "La Courance",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/la-courance",
-      "fetched_at": "2026-10-12T02:32:50.563684+02:00",
+      "fetched_at": "2026-10-12T12:50:28.185858+02:00",
       "rows": [
         {
           "time": "2026-10-12T06:00:00+02:00",
