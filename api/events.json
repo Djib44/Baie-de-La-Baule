@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-12T12:50:31.491611+02:00",
+  "updated": "2026-10-12T23:16:52.332318+02:00",
   "coverage_start": "2026-10-12",
   "coverage_end": "2027-01-10",
   "sources": [
@@ -8,11 +8,17 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 29
+      "count": 30
     },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -23,19 +29,83 @@
       "count": 9
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 3
+      "count": 15
     }
   ],
   "events": [
+    {
+      "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-12",
+      "end_date": "2026-10-28",
+      "date_label": "Du 12/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite insolite – La nature se mange",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-insolite-la-nature-se-mange-batz-sur-mer-fr-6818110/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec la cheffe Ker Astou - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-la-cheffe-ker-astou-saveurs-doctobre-guerande-fr-6790029/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
+      "place": "Guérande",
+      "date": "2026-10-10",
+      "end_date": "2026-10-17",
+      "date_label": "Du 10/10/2026 au 17/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-du-film-de-la-page-a-limage-du-croisic-guerande-guerande-fr-6734081/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Semaine Bleue",
+      "place": "Herbignac",
+      "date": "2026-10-05",
+      "end_date": "2026-10-16",
+      "date_label": "Du 05/10/2026 au 16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/semaine-bleue-herbignac-fr-6798439/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conférence - Les Têtes Renversantes : Le mythe Léonard",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-les-tetes-renversantes-le-mythe-leonard-la-baule-escoublac-fr-6764502/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier sommeil",
+      "place": "La Turballe",
+      "date": "2026-10-12",
+      "end_date": "2026-10-26",
+      "date_label": "Du 12/10/2026 au 26/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-sommeil-la-turballe-fr-6818118/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
@@ -45,6 +115,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-17",
+      "date_label": "Du 10/10/2026 au 17/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-du-film-de-la-page-a-limage-du-croisic-guerande-le-croisic-fr-6632661/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
@@ -87,6 +167,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Initiation à la modélisation et à l'impression 3D",
+      "place": "Le Pouliguen",
+      "date": "2026-10-12",
+      "end_date": "2026-10-12",
+      "date_label": "12/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/initiation-a-la-modelisation-et-a-limpression-3d-le-pouliguen-fr-6754026/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "LES OCÉANES ATLANTIQUES",
       "place": "Le Pouliguen",
       "date": "2026-10-12",
@@ -105,6 +195,26 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Ateliers de l'artisanat",
+      "place": "Saint-Lyphard",
+      "date": "2026-04-01",
+      "end_date": "2026-10-16",
+      "date_label": "Du 01/04/2026 au 16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/ateliers-de-lartisanat-saint-lyphard-fr-6489939/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition Jean-Pierre Diguet",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-01",
+      "end_date": "2026-10-15",
+      "date_label": "Du 01/10/2026 au 15/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-diguet-saint-lyphard-fr-6795196/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Ciné-club",
