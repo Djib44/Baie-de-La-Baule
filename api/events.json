@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-11T21:34:23.254921+02:00",
-  "coverage_start": "2026-10-11",
-  "coverage_end": "2027-01-09",
+  "updated": "2026-10-12T02:32:54.555897+02:00",
+  "coverage_start": "2026-10-12",
+  "coverage_end": "2027-01-10",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,98 +14,28 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 25
+      "count": 29
     },
     {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 16
+      "count": 3
     }
   ],
   "events": [
-    {
-      "title": "Concert \"Pêr Vari Kervarec\"",
-      "place": "Assérac",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-per-vari-kervarec-asserac-fr-6739758/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition : L'art à portée de main",
-      "place": "Assérac",
-      "date": "2026-10-02",
-      "end_date": "2026-10-11",
-      "date_label": "Du 02/10/2026 au 11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-lart-a-portee-de-main-asserac-fr-6790098/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "La rencontre automnale - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-rencontre-automnale-saveurs-doctobre-guerande-fr-6790027/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Déjeuner champêtre - Saveurs d'octobre",
-      "place": "Herbignac",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/dejeuner-champetre-saveurs-doctobre-herbignac-fr-6790026/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Rallye Pédestre",
-      "place": "Herbignac",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/rallye-pedestre-herbignac-fr-6342273/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "62ème Salon de l'Automne",
-      "place": "La Baule-Escoublac",
-      "date": "2026-09-26",
-      "end_date": "2026-10-11",
-      "date_label": "Du 26/09/2026 au 11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/62eme-salon-de-lautomne-la-baule-escoublac-fr-6786980/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "La turballaise : Courses et Marches",
-      "place": "La Turballe",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-turballaise-courses-et-marches-la-turballe-fr-6030493/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
@@ -115,16 +45,6 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "La semaine bleue, à tout âge ensemble",
-      "place": "Le Croisic",
-      "date": "2026-10-05",
-      "end_date": "2026-10-11",
-      "date_label": "Du 05/10/2026 au 11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-semaine-bleue-a-tout-age-ensemble-le-croisic-fr-6837383/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
@@ -157,106 +77,6 @@
       "source_key": "croisic"
     },
     {
-      "title": "Championnat de France N3 Beach Ultimate",
-      "place": "Le Pouliguen",
-      "date": "2026-10-10",
-      "end_date": "2026-10-11",
-      "date_label": "Du 10/10/2026 au 11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/championnat-de-france-n3-beach-ultimate-le-pouliguen-fr-6803517/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "OCTOBRE ROSE – LE POULIGUEN SE MOBILISE CONTRE LE CANCER DU SEIN",
-      "place": "Le Pouliguen",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-le-pouliguen-se-mobilise-contre-le-cancer-du-sein/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Octobre Rose au Pouliguen - Marche - Vélo - Course",
-      "place": "Le Pouliguen",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-au-pouliguen-marche-velo-course-le-pouliguen-fr-6761735/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition Roland Chevillard",
-      "place": "Mesquer",
-      "date": "2026-10-02",
-      "end_date": "2026-10-11",
-      "date_label": "Du 02/10/2026 au 11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-roland-chevillard-mesquer-fr-6786974/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "7 comptines d'oiselles et d'oiseaux",
-      "place": "Pornichet",
-      "date": "2026-09-26",
-      "end_date": "2026-11-14",
-      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
-      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Braderie d'automne",
-      "place": "Pornichet",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "Dimanche 11 octobre 2026 de 10h à 17h30.",
-      "url": "https://www.pornichet.fr/agenda/braderie-dautomne",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Randomania",
-      "place": "Pornichet",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "Dimanche 11 octobre 2026 à partir de 8h.",
-      "url": "https://www.pornichet.fr/agenda/randomania",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Salon du chiot",
-      "place": "Pornichet",
-      "date": "2026-10-10",
-      "end_date": "2026-10-11",
-      "date_label": "Du samedi 10 au dimanche 11 octobre 2026 de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/salon-du-chiot",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Music'occas et tremplin musical",
-      "place": "Pénestin",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/musicoccas-et-tremplin-musical-penestin-fr-6219052/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-11",
-      "end_date": "2026-10-11",
-      "date_label": "11/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-saint-lyphard-fr-6792687/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Fablab 3D • Micro-folie",
       "place": "Le Pouliguen",
       "date": "2026-10-12",
@@ -275,6 +95,16 @@
       "url": "https://www.lepouliguen.fr/evenements/les-oceanes-atlantiques/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "7 comptines d'oiselles et d'oiseaux",
+      "place": "Pornichet",
+      "date": "2026-09-26",
+      "end_date": "2026-11-14",
+      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
+      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Ciné-club",
@@ -377,12 +207,52 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Apéro BD",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "Vendredi 16 octobre 2026 de 18h30 à 20h.",
+      "url": "https://www.pornichet.fr/agenda/apero-bd",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Festival Afro-Latino de Pornichet",
       "place": "Pornichet",
       "date": "2026-10-16",
       "end_date": "2026-10-18",
       "date_label": "Du vendredi 16 au dimanche 18 octobre 2026.",
       "url": "https://www.pornichet.fr/agenda/festival-afro-latino-de-pornichet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Fête de la bière",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "Vendredi 16 octobre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/fete-de-la-biere",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Gildaa & Alma Rechtman",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "Vendredi 16 octobre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/gildaa-alma-rechtman",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Maj & The Blues",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "Vendredi 16 octobre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/maj-blues",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -467,6 +337,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Voyage dans le temps",
+      "place": "Pornichet",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "Samedi 17 octobre 2026 de 14h30 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Beethoven & Co",
       "place": "Le Croisic",
       "date": "2026-10-18",
@@ -497,6 +377,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Jeux-vidéo • Micro-folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/jeux-video-micro-folie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "LE TRÉSOR DU CAPITAINE MORGANE",
       "place": "Le Pouliguen",
       "date": "2026-10-21",
@@ -515,6 +405,16 @@
       "url": "https://www.labaule-guerande.com/offres/enquete-au-village-saveurs-doctobre-batz-sur-mer-fr-6790058/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Les jeudis de la Chapelle : « La toile chante, le piano peint »",
+      "place": "Le Pouliguen",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-jeudis-de-la-chapelle-la-toile-chante-le-piano-peint/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Musique classique - La toile chante le piano peint - Jeudis de la chapelle",
@@ -557,16 +457,6 @@
       "source_key": "tickets"
     },
     {
-      "title": "Les secrets de la nature",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "Lundi 26 octobre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/les-secrets-de-la-nature",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Spectacle familial - Le chat botté - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-10-27",
@@ -603,6 +493,16 @@
       "end_date": "2026-11-10",
       "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
       "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Voyage dans le temps",
+      "place": "Pornichet",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "Samedi 21 novembre 2026 de 14h30 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -655,6 +555,16 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Voyage dans le temps",
+      "place": "Pornichet",
+      "date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "date_label": "Samedi 19 décembre 2026 de 14h30 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Je t'aime banane",
