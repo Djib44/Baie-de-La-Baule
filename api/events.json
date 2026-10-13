@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-12T23:16:52.332318+02:00",
-  "coverage_start": "2026-10-12",
-  "coverage_end": "2027-01-10",
+  "updated": "2026-10-13T04:36:52.227282+02:00",
+  "coverage_start": "2026-10-13",
+  "coverage_end": "2027-01-11",
   "sources": [
+    {
+      "name": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "url": "https://www.labaule-guerande.com/explorer/agenda/",
+      "status": "cached",
+      "count": 10
+    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
@@ -20,19 +26,13 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 9
-    },
-    {
-      "name": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "ok",
-      "count": 15
     }
   ],
   "events": [
@@ -43,26 +43,6 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite insolite – La nature se mange",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-insolite-la-nature-se-mange-batz-sur-mer-fr-6818110/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Démonstration culinaire avec la cheffe Ker Astou - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-la-cheffe-ker-astou-saveurs-doctobre-guerande-fr-6790029/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -83,16 +63,6 @@
       "end_date": "2026-10-16",
       "date_label": "Du 05/10/2026 au 16/10/2026",
       "url": "https://www.labaule-guerande.com/offres/semaine-bleue-herbignac-fr-6798439/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Conférence - Les Têtes Renversantes : Le mythe Léonard",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-les-tetes-renversantes-le-mythe-leonard-la-baule-escoublac-fr-6764502/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,42 +127,32 @@
       "source_key": "croisic"
     },
     {
-      "title": "Fablab 3D • Micro-folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-4/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Initiation à la modélisation et à l'impression 3D",
-      "place": "Le Pouliguen",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/initiation-a-la-modelisation-et-a-limpression-3d-le-pouliguen-fr-6754026/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "LES OCÉANES ATLANTIQUES",
-      "place": "Le Pouliguen",
-      "date": "2026-10-12",
-      "end_date": "2026-10-12",
-      "date_label": "12/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-oceanes-atlantiques/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
       "end_date": "2026-11-14",
       "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Ciné-club",
+      "place": "Pornichet",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "Mardi 13 octobre 2026 à partir de 20h15.",
+      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Noces de cristal - Complet",
+      "place": "Pornichet",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "Mardi 13 octobre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/noces-de-cristal-complet",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -215,26 +175,6 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-diguet-saint-lyphard-fr-6795196/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "Mardi 13 octobre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Noces de cristal - Complet",
-      "place": "Pornichet",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "Mardi 13 octobre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/noces-de-cristal-complet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Accueil de l’association Victimes Mais pas Démunies",
@@ -515,6 +455,16 @@
       "url": "https://www.labaule-guerande.com/offres/enquete-au-village-saveurs-doctobre-batz-sur-mer-fr-6790058/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Exposition virtuelle • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-4/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Les jeudis de la Chapelle : « La toile chante, le piano peint »",
