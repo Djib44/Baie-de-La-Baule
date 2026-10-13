@@ -1,26 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-13T04:36:52.227282+02:00",
+  "updated": "2026-10-13T12:37:01.465800+02:00",
   "coverage_start": "2026-10-13",
   "coverage_end": "2027-01-11",
   "sources": [
     {
-      "name": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "cached",
-      "count": 10
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 30
-    },
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
     },
     {
       "name": "Ville du Pouliguen",
@@ -33,6 +27,12 @@
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 9
+    },
+    {
+      "name": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "url": "https://www.labaule-guerande.com/explorer/agenda/",
+      "status": "cached",
+      "count": 10
     }
   ],
   "events": [
