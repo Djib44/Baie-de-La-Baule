@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-13T12:37:01.465800+02:00",
+  "updated": "2026-10-13T21:18:29.692584+02:00",
   "coverage_start": "2026-10-13",
   "coverage_end": "2027-01-11",
   "sources": [
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 11
+      "count": 32
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,10 +23,16 @@
       "count": 9
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "cached",
-      "count": 10
+      "status": "ok",
+      "count": 17
     }
   ],
   "events": [
@@ -43,6 +43,16 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Takashi Aoki - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "13/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-takashi-aoki-saveurs-doctobre-guerande-fr-6790031/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -73,6 +83,16 @@
       "end_date": "2026-10-26",
       "date_label": "Du 12/10/2026 au 26/10/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-sommeil-la-turballe-fr-6818118/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Collecte alimentaire",
+      "place": "La Turballe",
+      "date": "2026-10-13",
+      "end_date": "2026-10-24",
+      "date_label": "Du 13/10/2026 au 24/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/collecte-alimentaire-la-turballe-fr-6742018/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +177,26 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Octobre Rose - Rencontre avec Mélanie Lebihain",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "13/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-rencontre-avec-melanie-lebihain-penestin-fr-6790105/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Ateliers de l'artisanat",
       "place": "Saint-Lyphard",
       "date": "2026-04-01",
@@ -167,12 +207,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Cours de cuisine avec le chef - Saveurs d'octobre",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "date_label": "13/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/cours-de-cuisine-avec-le-chef-saveurs-doctobre-saint-lyphard-fr-6790030/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition Jean-Pierre Diguet",
       "place": "Saint-Lyphard",
       "date": "2026-10-01",
       "end_date": "2026-10-15",
       "date_label": "Du 01/10/2026 au 15/10/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-diguet-saint-lyphard-fr-6795196/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Magie Improvisée et Musicale - Jazz Magic",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-13",
+      "end_date": "2026-10-14",
+      "date_label": "Du 13/10/2026 au 14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/magie-improvisee-et-musicale-jazz-magic-saint-lyphard-fr-6681866/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -417,6 +477,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Le trésor du capitaine Cavaro",
+      "place": "Pornichet",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "Mardi 20 octobre 2026 de 14h15 à 15h30.",
+      "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Heure du conte",
       "place": "Le Croisic",
       "date": "2026-10-21",
@@ -525,6 +595,16 @@
       "url": "https://reservation.labaule-guerande.com/spectacle-familial-le-chat-botte-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Le trésor du capitaine Cavaro",
+      "place": "Pornichet",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "Mardi 27 octobre 2026 de 14h15 à 15h30.",
+      "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Grignote livres",
