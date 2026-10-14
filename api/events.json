@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-13T21:18:29.692584+02:00",
-  "coverage_start": "2026-10-13",
-  "coverage_end": "2027-01-11",
+  "updated": "2026-10-14T02:18:56.503259+02:00",
+  "coverage_start": "2026-10-14",
+  "coverage_end": "2027-01-12",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 32
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -26,13 +26,13 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 17
+      "count": 14
     }
   ],
   "events": [
@@ -43,16 +43,6 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Démonstration culinaire avec le chef Takashi Aoki - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "13/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-takashi-aoki-saveurs-doctobre-guerande-fr-6790031/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -97,12 +87,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Accueil de l’association Victimes Mais pas Démunies",
+      "place": "Le Croisic",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1978069/accueil-de-l-association-victimes-mais-pas-demunies",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
       "end_date": "2026-11-02",
       "date_label": "Du 15/06/2026 au 02/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Bingo des arnaques",
+      "place": "Le Croisic",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1979174/bingo-des-arnaques",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -147,6 +157,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Conférence • Micro-folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/conference-micro-folie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -157,34 +177,24 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Ciné-club",
+      "title": "Grignote livres",
       "place": "Pornichet",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "Mardi 13 octobre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "date": "2026-10-14",
+      "end_date": "2026-10-17",
+      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Noces de cristal - Complet",
+      "title": "La semaine du goût au Marché de Pornichet",
       "place": "Pornichet",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "Mardi 13 octobre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/noces-de-cristal-complet",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "Mercredi 14 octobre 2026 de 9h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/la-semaine-du-gout-au-marche-de-pornichet",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Octobre Rose - Rencontre avec Mélanie Lebihain",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "13/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-rencontre-avec-melanie-lebihain-penestin-fr-6790105/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
@@ -207,16 +217,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Cours de cuisine avec le chef - Saveurs d'octobre",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-13",
-      "end_date": "2026-10-13",
-      "date_label": "13/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/cours-de-cuisine-avec-le-chef-saveurs-doctobre-saint-lyphard-fr-6790030/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Exposition Jean-Pierre Diguet",
       "place": "Saint-Lyphard",
       "date": "2026-10-01",
@@ -235,56 +235,6 @@
       "url": "https://www.labaule-guerande.com/offres/magie-improvisee-et-musicale-jazz-magic-saint-lyphard-fr-6681866/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Accueil de l’association Victimes Mais pas Démunies",
-      "place": "Le Croisic",
-      "date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "date_label": "14/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1978069/accueil-de-l-association-victimes-mais-pas-demunies",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Bingo des arnaques",
-      "place": "Le Croisic",
-      "date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "date_label": "14/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1979174/bingo-des-arnaques",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Conférence • Micro-folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "date_label": "14/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/conference-micro-folie/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-10-14",
-      "end_date": "2026-10-17",
-      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "La semaine du goût au Marché de Pornichet",
-      "place": "Pornichet",
-      "date": "2026-10-14",
-      "end_date": "2026-10-14",
-      "date_label": "Mercredi 14 octobre 2026 de 9h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/la-semaine-du-gout-au-marche-de-pornichet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Randonnée gourmande - Saveurs d'octobre",
