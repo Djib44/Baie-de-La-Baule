@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-14T10:43:54.119285+02:00",
+  "updated": "2026-10-14T16:31:41.562767+02:00",
   "coverage_start": "2026-10-14",
   "coverage_end": "2027-01-12",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
+      "count": 28
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 14
+      "count": 20
     }
   ],
   "events": [
@@ -47,6 +47,36 @@
       "source_key": "tourism"
     },
     {
+      "title": "Atelier Toc toc toc",
+      "place": "Guérande",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-toc-toc-toc-guerande-fr-6734082/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Laurent Chauvin - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-laurent-chauvin-saveurs-doctobre-guerande-fr-6790032/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Dîner d'exception à 6 mains - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-14",
+      "end_date": "2026-10-15",
+      "date_label": "Du 14/10/2026 au 15/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/diner-dexception-a-6-mains-saveurs-doctobre-guerande-fr-6790033/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
       "place": "Guérande",
       "date": "2026-10-10",
@@ -57,12 +87,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Visitez nos entreprises - Lycée professionnel Olivier Guichard",
+      "place": "Guérande",
+      "date": "2026-10-14",
+      "end_date": "2026-10-15",
+      "date_label": "Du 14/10/2026 au 15/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-lycee-professionnel-olivier-guichard-guerande-fr-6790086/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Semaine Bleue",
       "place": "Herbignac",
       "date": "2026-10-05",
       "end_date": "2026-10-16",
       "date_label": "Du 05/10/2026 au 16/10/2026",
       "url": "https://www.labaule-guerande.com/offres/semaine-bleue-herbignac-fr-6798439/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Octobre rose à Aquabaule",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-a-aquabaule-la-baule-escoublac-fr-6797451/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +207,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Conférence en Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-en-folie-le-pouliguen-fr-6176032/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Conférence • Micro-folie",
       "place": "Le Pouliguen",
       "date": "2026-10-14",
@@ -195,6 +255,16 @@
       "url": "https://www.pornichet.fr/agenda/la-semaine-du-gout-au-marche-de-pornichet",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Atelier Coussins à offrir aux malades du cancer",
+      "place": "Pénestin",
+      "date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "date_label": "14/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-atelier-coussins-a-offrir-aux-malades-du-cancer-penestin-fr-6790107/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
@@ -397,6 +467,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Tempo Swing",
+      "place": "Pornichet",
+      "date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "date_label": "Samedi 17 octobre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/tempo-swing",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Voyage dans le temps",
       "place": "Pornichet",
       "date": "2026-10-17",
@@ -577,16 +657,6 @@
       "source_key": "tickets"
     },
     {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Voyage dans le temps",
       "place": "Pornichet",
       "date": "2026-11-21",
@@ -625,16 +695,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-12-15",
-      "end_date": "2026-12-15",
-      "date_label": "Mardi 15 décembre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Humour - Jean-Luc Lemoine - Liquidation",
