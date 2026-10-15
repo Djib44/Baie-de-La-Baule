@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-15T01:55:26.797079+02:00",
+  "updated": "2026-10-15T06:40:01.161757+02:00",
   "coverage_start": "2026-10-15",
   "coverage_end": "2027-01-13",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Pornichet Tourisme",
@@ -23,16 +23,16 @@
       "count": 27
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 9
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
       "count": 23
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "cached",
-      "count": 9
     }
   ],
   "events": [
@@ -605,6 +605,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1759435/artisans-dart-et-createurs",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "12e salon de la Gastronomie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/12e-salon-de-la-gastronomie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Festival de court métrage : Ecole CinéCréatis Nantes",
