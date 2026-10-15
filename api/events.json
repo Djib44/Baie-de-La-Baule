@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-15T19:01:56.270299+02:00",
+  "updated": "2026-10-15T23:23:57.074329+02:00",
   "coverage_start": "2026-10-15",
   "coverage_end": "2027-01-13",
   "sources": [
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 27
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 10
+      "count": 30
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,10 +23,16 @@
       "count": 12
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 10
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 23
+      "count": 24
     }
   ],
   "events": [
@@ -123,6 +123,16 @@
       "end_date": "2026-10-16",
       "date_label": "Du 05/10/2026 au 16/10/2026",
       "url": "https://www.labaule-guerande.com/offres/semaine-bleue-herbignac-fr-6798439/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Vie des marins cap-horniers",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "date_label": "15/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/vie-des-marins-cap-horniers-la-baule-escoublac-fr-6764490/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -497,6 +507,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Yoga du rire",
+      "place": "Pornichet",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "Dimanche 18 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "LE TRÉSOR DU CAPITAINE MORGANE",
       "place": "Le Pouliguen",
       "date": "2026-10-19",
@@ -695,6 +715,16 @@
       "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Yoga du rire",
+      "place": "Pornichet",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "Dimanche 15 novembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Voyage dans le temps",
