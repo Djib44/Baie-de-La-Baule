@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-16T23:09:20.357318+02:00",
-  "coverage_start": "2026-10-16",
-  "coverage_end": "2027-01-14",
+  "updated": "2026-10-17T01:36:22.494300+02:00",
+  "coverage_start": "2026-10-17",
+  "coverage_end": "2027-01-15",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -11,16 +11,10 @@
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 29
-    },
-    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,10 +23,16 @@
       "count": 10
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 33
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 19
+      "count": 10
     }
   ],
   "events": [
@@ -47,16 +47,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "JOURNÉES NATIONALES DE LA RÉPARATION - Conférence",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/journees-nationales-de-la-reparation-conference-batz-sur-mer-fr-6827104/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Randonnée gourmande - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-15",
@@ -67,52 +57,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Visitez nos entreprises - La Fabrique Barapom",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-la-fabrique-barapom-batz-sur-mer-fr-6783573/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
       "place": "Guérande",
       "date": "2026-10-10",
       "end_date": "2026-10-17",
       "date_label": "Du 10/10/2026 au 17/10/2026",
       "url": "https://www.labaule-guerande.com/offres/festival-du-film-de-la-page-a-limage-du-croisic-guerande-guerande-fr-6734081/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Semaine Bleue",
-      "place": "Herbignac",
-      "date": "2026-10-05",
-      "end_date": "2026-10-16",
-      "date_label": "Du 05/10/2026 au 16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/semaine-bleue-herbignac-fr-6798439/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Soirée Bingo !",
-      "place": "Herbignac",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-bingo-herbignac-fr-6829847/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visitez nos entreprises - Villages Clubs du Soleil La Baule",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-villages-clubs-du-soleil-la-baule-la-baule-escoublac-fr-6786984/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,176 +107,6 @@
       "source_key": "croisic"
     },
     {
-      "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
-      "place": "Le Croisic",
-      "date": "2026-10-10",
-      "end_date": "2026-10-17",
-      "date_label": "Du 10/10/2026 au 17/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/festival-du-film-de-la-page-a-limage-du-croisic-guerande-le-croisic-fr-6632661/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
-      "place": "Le Croisic",
-      "date": "2026-10-10",
-      "end_date": "2026-10-17",
-      "date_label": "Du 10/10/2026 au 17/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1935923/le-festival-du-film-de-la-page-a-l-image-le-croisic-guerande",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Saveurs d'octobre",
-      "place": "Le Croisic",
-      "date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "date_label": "Du 01/10/2026 au 31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1979941/saveurs-d-octobre",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Vampire et autres créatures de la nuit",
-      "place": "Le Croisic",
-      "date": "2026-10-01",
-      "end_date": "2026-10-25",
-      "date_label": "Du 01/10/2026 au 25/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969866/vampire-et-autres-creatures-de-la-nuit",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "OCTOBRE ROSE • TOURNOI DE BRIDGE",
-      "place": "Le Pouliguen",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Octobre Rose - Tournoi de Bridge",
-      "place": "Le Pouliguen",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-tournoi-de-bridge-le-pouliguen-fr-6792688/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "7 comptines d'oiselles et d'oiseaux",
-      "place": "Pornichet",
-      "date": "2026-09-26",
-      "end_date": "2026-11-14",
-      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
-      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Apéro BD",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "Vendredi 16 octobre 2026 de 18h30 à 20h.",
-      "url": "https://www.pornichet.fr/agenda/apero-bd",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Comme dans un fauteuil : \"Le corset\"",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "Vendredi 16 octobre 2026 à partir de 14h.",
-      "url": "https://www.pornichet.fr/agenda/comme-dans-un-fauteuil-le-corset",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Festival Afro-Latino de Pornichet",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-18",
-      "date_label": "Du vendredi 16 au dimanche 18 octobre 2026.",
-      "url": "https://www.pornichet.fr/agenda/festival-afro-latino-de-pornichet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Fête de la bière",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "Vendredi 16 octobre 2026 à partir de 21h.",
-      "url": "https://www.pornichet.fr/agenda/fete-de-la-biere",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Gildaa & Alma Rechtman",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "Vendredi 16 octobre 2026 à partir de 20h30.",
-      "url": "https://www.pornichet.fr/agenda/gildaa-alma-rechtman",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-10-14",
-      "end_date": "2026-10-17",
-      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Maj & The Blues",
-      "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "Vendredi 16 octobre 2026 à partir de 21h.",
-      "url": "https://www.pornichet.fr/agenda/maj-blues",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Octobre Rose - Atelier sensibilisation par la Ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-atelier-sensibilisation-par-la-ligue-contre-le-cancer-penestin-fr-6790108/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-21",
-      "date_label": "Du 13/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Ateliers de l'artisanat",
-      "place": "Saint-Lyphard",
-      "date": "2026-04-01",
-      "end_date": "2026-10-16",
-      "date_label": "Du 01/04/2026 au 16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/ateliers-de-lartisanat-saint-lyphard-fr-6489939/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Créneaux Switch spécial Halloween",
       "place": "Le Croisic",
       "date": "2026-10-17",
@@ -337,12 +117,32 @@
       "source_key": "croisic"
     },
     {
+      "title": "Festival du Film « De la Page à l'Image » du Croisic - Guérande",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-17",
+      "date_label": "Du 10/10/2026 au 17/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-du-film-de-la-page-a-limage-du-croisic-guerande-le-croisic-fr-6632661/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Initiation & entraînement à la godille",
       "place": "Le Croisic",
       "date": "2026-10-17",
       "end_date": "2026-10-17",
       "date_label": "17/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1913628/initiation-entrainement-a-la-godille-1-1-2-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-10-17",
+      "date_label": "Du 10/10/2026 au 17/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1935923/le-festival-du-film-de-la-page-a-l-image-le-croisic-guerande",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -363,6 +163,26 @@
       "end_date": "2026-10-17",
       "date_label": "17/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1169079/prix-des-mots-sales",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Saveurs d'octobre",
+      "place": "Le Croisic",
+      "date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "date_label": "Du 01/10/2026 au 31/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1979941/saveurs-d-octobre",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Vampire et autres créatures de la nuit",
+      "place": "Le Croisic",
+      "date": "2026-10-01",
+      "end_date": "2026-10-25",
+      "date_label": "Du 01/10/2026 au 25/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969866/vampire-et-autres-creatures-de-la-nuit",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -407,6 +227,36 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "7 comptines d'oiselles et d'oiseaux",
+      "place": "Pornichet",
+      "date": "2026-09-26",
+      "end_date": "2026-11-14",
+      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
+      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Festival Afro-Latino de Pornichet",
+      "place": "Pornichet",
+      "date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "date_label": "Du vendredi 16 au dimanche 18 octobre 2026.",
+      "url": "https://www.pornichet.fr/agenda/festival-afro-latino-de-pornichet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-10-14",
+      "end_date": "2026-10-17",
+      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Tempo Swing",
       "place": "Pornichet",
       "date": "2026-10-17",
@@ -425,6 +275,16 @@
       "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Beethoven & Co",
@@ -457,12 +317,42 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "date_label": "Lundi 19 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tournoi Padel Octobre Rose",
+      "place": "Pornichet",
+      "date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "date_label": "Lundi 19 octobre 2026 de 17h45 à 22h15.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-padel-octobre-rose",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Le trésor du capitaine Cavaro",
       "place": "Pornichet",
       "date": "2026-10-20",
       "end_date": "2026-10-20",
       "date_label": "Mardi 20 octobre 2026 de 14h15 à 15h30.",
       "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "Mardi 20 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -507,6 +397,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "Mercredi 21 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Enquête au village - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-22",
@@ -547,6 +447,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "Jeudi 22 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Artisans d'art et créateurs",
       "place": "Le Croisic",
       "date": "2026-10-23",
@@ -565,6 +475,16 @@
       "url": "https://www.lepouliguen.fr/evenements/12e-salon-de-la-gastronomie/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "Vendredi 23 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Festival de court métrage : Ecole CinéCréatis Nantes",
@@ -597,6 +517,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "Lundi 26 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Spectacle familial - Le chat botté - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-10-27",
@@ -613,6 +543,46 @@
       "end_date": "2026-10-27",
       "date_label": "Mardi 27 octobre 2026 de 14h15 à 15h30.",
       "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "Mardi 27 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "Mercredi 28 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "Jeudi 29 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stage multi-activités",
+      "place": "Pornichet",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "Vendredi 30 octobre 2026 de 9h30 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
