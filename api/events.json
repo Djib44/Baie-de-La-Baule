@@ -1,21 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-16T13:25:31.960526+02:00",
+  "updated": "2026-10-16T18:40:25.710764+02:00",
   "coverage_start": "2026-10-16",
   "coverage_end": "2027-01-14",
   "sources": [
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "cached",
-      "count": 10
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 29
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -27,6 +15,18 @@
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 29
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 10
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
