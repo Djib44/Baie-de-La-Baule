@@ -1,24 +1,18 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-15T23:23:57.074329+02:00",
-  "coverage_start": "2026-10-15",
-  "coverage_end": "2027-01-13",
+  "updated": "2026-10-16T06:32:52.438020+02:00",
+  "coverage_start": "2026-10-16",
+  "coverage_end": "2027-01-14",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
     },
@@ -29,10 +23,16 @@
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 24
+      "count": 18
     }
   ],
   "events": [
@@ -47,6 +47,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "JOURNÉES NATIONALES DE LA RÉPARATION - Conférence",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journees-nationales-de-la-reparation-conference-batz-sur-mer-fr-6827104/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Randonnée gourmande - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-15",
@@ -57,32 +67,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Rencontre gratuite - Sel et bandelettes : une recette pour l’éternité",
+      "title": "Visitez nos entreprises - La Fabrique Barapom",
       "place": "Batz-sur-Mer",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/rencontre-gratuite-sel-et-bandelettes-une-recette-pour-leternite-batz-sur-mer-fr-6759149/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Démonstration culinaire avec la cheffe Lorine Hennebelle - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-la-cheffe-lorine-hennebelle-saveurs-doctobre-guerande-fr-6790036/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Dîner d'exception à 6 mains - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-14",
-      "end_date": "2026-10-15",
-      "date_label": "Du 14/10/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/diner-dexception-a-6-mains-saveurs-doctobre-guerande-fr-6790033/",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-la-fabrique-barapom-batz-sur-mer-fr-6783573/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -97,26 +87,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Rencontre conférence - Des pages et des pas",
-      "place": "Guérande",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/rencontre-conference-des-pages-et-des-pas-guerande-fr-6798441/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visitez nos entreprises - Lycée professionnel Olivier Guichard",
-      "place": "Guérande",
-      "date": "2026-10-14",
-      "end_date": "2026-10-15",
-      "date_label": "Du 14/10/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-lycee-professionnel-olivier-guichard-guerande-fr-6790086/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Semaine Bleue",
       "place": "Herbignac",
       "date": "2026-10-05",
@@ -127,12 +97,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Vie des marins cap-horniers",
+      "title": "Soirée Bingo !",
+      "place": "Herbignac",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-bingo-herbignac-fr-6829847/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visitez nos entreprises - Villages Clubs du Soleil La Baule",
       "place": "La Baule-Escoublac",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/vie-des-marins-cap-horniers-la-baule-escoublac-fr-6764490/",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-villages-clubs-du-soleil-la-baule-la-baule-escoublac-fr-6786984/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -153,16 +133,6 @@
       "end_date": "2026-10-24",
       "date_label": "Du 13/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-alimentaire-la-turballe-fr-6742018/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre : La Mouche",
-      "place": "La Turballe",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/theatre-la-mouche-la-turballe-fr-6744934/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -217,44 +187,24 @@
       "source_key": "croisic"
     },
     {
-      "title": "Démonstrations de recettes de cuisine - Saveurs d'octobre",
+      "title": "OCTOBRE ROSE • TOURNOI DE BRIDGE",
       "place": "Le Pouliguen",
-      "date": "2026-10-01",
-      "end_date": "2026-10-15",
-      "date_label": "Du 01/10/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstrations-de-recettes-de-cuisine-saveurs-doctobre-le-pouliguen-fr-6790009/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
-      "title": "Bingo des arnaques",
-      "place": "Mesquer",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/bingo-des-arnaques-mesquer-fr-6790111/",
+      "title": "Octobre Rose - Tournoi de Bridge",
+      "place": "Le Pouliguen",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-tournoi-de-bridge-le-pouliguen-fr-6792688/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Randos Toniques",
-      "place": "Mesquer",
-      "date": "2026-09-10",
-      "end_date": "2026-10-15",
-      "date_label": "Du 10/09/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/randos-toniques-mesquer-fr-6035122/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "10 ans de la Soirée filles",
-      "place": "Pornichet",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "Jeudi 15 octobre 2026 de 19h à 23h.",
-      "url": "https://www.pornichet.fr/agenda/10-ans-de-la-soiree-filles",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -265,76 +215,6 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-10-14",
-      "end_date": "2026-10-17",
-      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Bébé lit",
-      "place": "Pénestin",
-      "date": "2026-09-17",
-      "end_date": "2026-10-15",
-      "date_label": "Du 17/09/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/bebe-lit-penestin-fr-6178222/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-21",
-      "date_label": "Du 13/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Repair café de Pénestin",
-      "place": "Pénestin",
-      "date": "2026-10-15",
-      "end_date": "2026-10-15",
-      "date_label": "15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/repair-cafe-de-penestin-penestin-fr-6257387/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Ateliers de l'artisanat",
-      "place": "Saint-Lyphard",
-      "date": "2026-04-01",
-      "end_date": "2026-10-16",
-      "date_label": "Du 01/04/2026 au 16/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/ateliers-de-lartisanat-saint-lyphard-fr-6489939/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition Jean-Pierre Diguet",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-01",
-      "end_date": "2026-10-15",
-      "date_label": "Du 01/10/2026 au 15/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-jean-pierre-diguet-saint-lyphard-fr-6795196/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "OCTOBRE ROSE • TOURNOI DE BRIDGE",
-      "place": "Le Pouliguen",
-      "date": "2026-10-16",
-      "end_date": "2026-10-16",
-      "date_label": "16/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/octobre-rose-tournoi-de-bridge/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Apéro BD",
@@ -387,6 +267,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-10-14",
+      "end_date": "2026-10-17",
+      "date_label": "Du mercredi 14 au samedi 17 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Maj & The Blues",
       "place": "Pornichet",
       "date": "2026-10-16",
@@ -395,6 +285,36 @@
       "url": "https://www.pornichet.fr/agenda/maj-blues",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Atelier sensibilisation par la Ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "date_label": "16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-atelier-sensibilisation-par-la-ligue-contre-le-cancer-penestin-fr-6790108/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Ateliers de l'artisanat",
+      "place": "Saint-Lyphard",
+      "date": "2026-04-01",
+      "end_date": "2026-10-16",
+      "date_label": "Du 01/04/2026 au 16/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/ateliers-de-lartisanat-saint-lyphard-fr-6489939/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Créneaux Switch spécial Halloween",
