@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-16T18:40:25.710764+02:00",
+  "updated": "2026-10-16T23:09:20.357318+02:00",
   "coverage_start": "2026-10-16",
   "coverage_end": "2027-01-14",
   "sources": [
@@ -11,16 +11,16 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 29
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 18
+      "count": 19
     }
   ],
   "events": [
@@ -133,6 +133,16 @@
       "end_date": "2026-10-24",
       "date_label": "Du 13/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-alimentaire-la-turballe-fr-6742018/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Journée « De la mer à l'assiette » - Saveurs d'octobre",
+      "place": "La Turballe",
+      "date": "2026-10-14",
+      "end_date": "2026-10-21",
+      "date_label": "Du 14/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-de-la-mer-a-lassiette-saveurs-doctobre-la-turballe-fr-6790034/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
