@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-17T01:36:22.494300+02:00",
+  "updated": "2026-10-17T06:26:49.616506+02:00",
   "coverage_start": "2026-10-17",
   "coverage_end": "2027-01-15",
   "sources": [
@@ -11,16 +11,16 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 11
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Pornichet Tourisme",
@@ -133,16 +133,6 @@
       "end_date": "2026-10-17",
       "date_label": "17/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1913628/initiation-entrainement-a-la-godille-1-1-2-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Le Festival du Film de la Page à l’Image Le Croisic - Guérande",
-      "place": "Le Croisic",
-      "date": "2026-10-10",
-      "end_date": "2026-10-17",
-      "date_label": "Du 10/10/2026 au 17/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1935923/le-festival-du-film-de-la-page-a-l-image-le-croisic-guerande",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -467,12 +457,32 @@
       "source_key": "croisic"
     },
     {
+      "title": "COMPLET - Chicken Ring",
+      "place": "Le Croisic",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1958296/complet-chicken-ring",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "12e salon de la Gastronomie",
       "place": "Le Pouliguen",
       "date": "2026-10-23",
       "end_date": "2026-10-23",
       "date_label": "23/10/2026",
       "url": "https://www.lepouliguen.fr/evenements/12e-salon-de-la-gastronomie/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Des histoires qui font peur… mais pas trop, à la bibliothèque du Pouliguen",
+      "place": "Le Pouliguen",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/des-contes-qui-font-peur/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
