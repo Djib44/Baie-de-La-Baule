@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-17T06:26:49.616506+02:00",
+  "updated": "2026-10-17T12:45:04.637824+02:00",
   "coverage_start": "2026-10-17",
   "coverage_end": "2027-01-15",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 55
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -14,19 +20,13 @@
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 33
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
@@ -387,6 +387,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "L'oiseau lumière",
+      "place": "Pornichet",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "Mercredi 21 octobre 2026 de 15h30 à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/loiseau-lumiere",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Le poisson qui vivait dans les arbres...",
+      "place": "Pornichet",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "Mercredi 21 octobre 2026 à partir de 15h30.",
+      "url": "https://www.pornichet.fr/agenda/le-poisson-qui-vivait-dans-les-arbres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-21",
@@ -435,6 +455,26 @@
       "url": "https://reservation.labaule-guerande.com/musique-classique-la-toile-chante-le-piano-peint-jeudis-de-la-chapelle.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Dans les coulisses de la Brasserie de la B",
+      "place": "Pornichet",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "Jeudi 22 octobre 2026 de 14h à 15h.",
+      "url": "https://www.pornichet.fr/agenda/dans-les-coulisses-de-la-brasserie-de-la-b",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Les Incontournables",
+      "place": "Pornichet",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "Jeudi 22 octobre 2026 de 10h à 11h30.",
+      "url": "https://www.pornichet.fr/agenda/les-incontournables",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Stage multi-activités",
@@ -577,6 +617,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Les Incontournables",
+      "place": "Pornichet",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "Jeudi 29 octobre 2026 de 10h à 11h30.",
+      "url": "https://www.pornichet.fr/agenda/les-incontournables",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-29",
@@ -653,6 +703,16 @@
       "end_date": "2026-11-24",
       "date_label": "24/11/2026",
       "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Théâtre - Les Caprices de Cupidon",
+      "place": "Mesquer Quimiac",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
     },
