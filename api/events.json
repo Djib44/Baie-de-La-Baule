@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-18T01:08:33.088529+02:00",
+  "updated": "2026-10-18T06:34:52.264440+02:00",
   "coverage_start": "2026-10-18",
   "coverage_end": "2027-01-16",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 52
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,10 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 8
+      "count": 52
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,13 +23,29 @@
       "count": 12
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 8
+      "count": 20
     }
   ],
   "events": [
+    {
+      "title": "Balade nature «Les dunes» - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/balade-nature-les-dunes-saveurs-doctobre-batz-sur-mer-fr-6790040/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -57,6 +67,56 @@
       "source_key": "tourism"
     },
     {
+      "title": "Rando La Visnonia",
+      "place": "Férel",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/rando-la-visnonia-ferel-fr-6759150/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert - The Wackids Futur 2000",
+      "place": "Guérande",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-the-wackids-futur-2000-guerande-fr-6785755/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Journée douce dans les marais salants",
+      "place": "Guérande",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-douce-dans-les-marais-salants-guerande-fr-6849572/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage de danse contemporaine",
+      "place": "Guérande",
+      "date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "date_label": "Du 17/10/2026 au 18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-de-danse-contemporaine-guerande-fr-6821778/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée thématique Les saveurs du Moyen-Age",
+      "place": "Guérande",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-thematique-les-saveurs-du-moyen-age-guerande-fr-6636467/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier sommeil",
       "place": "La Turballe",
       "date": "2026-10-12",
@@ -73,6 +133,26 @@
       "end_date": "2026-10-24",
       "date_label": "Du 13/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-alimentaire-la-turballe-fr-6742018/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Compétition de Motocross",
+      "place": "La Turballe",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/competition-de-motocross-la-turballe-fr-6478877/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Journée douce dans les marais salants",
+      "place": "La Turballe",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-douce-dans-les-marais-salants-la-turballe-fr-6818115/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -105,6 +185,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1909117/beethoven-co",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Concert - Philharmonie des 2 mondes",
+      "place": "Le Croisic",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-philharmonie-des-2-mondes-le-croisic-fr-6030093/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Créneaux Switch spécial Halloween",
@@ -147,6 +237,26 @@
       "source_key": "croisic"
     },
     {
+      "title": "14ème rencontre des arts créatifs",
+      "place": "Le Pouliguen",
+      "date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "date_label": "Du 17/10/2026 au 18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/14eme-rencontre-des-arts-creatifs-le-pouliguen-fr-6803518/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Vide-Greniers Entente Sportive Maritime",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-18",
+      "end_date": "2026-10-18",
+      "date_label": "18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/vide-greniers-entente-sportive-maritime-piriac-sur-mer-fr-6832233/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -183,6 +293,16 @@
       "end_date": "2026-10-21",
       "date_label": "Du 13/10/2026 au 21/10/2026",
       "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Week-end Champignons : l'exposition - Saveurs d'Octobre",
+      "place": "Saint-Molf",
+      "date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "date_label": "Du 17/10/2026 au 18/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/week-end-champignons-lexposition-saveurs-doctobre-saint-molf-fr-6030139/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -465,6 +585,46 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1976041/octobre-rose-70",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
+      "place": "Le Pouliguen",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-2/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "CONCOURS DE BELOTE",
+      "place": "Le Pouliguen",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/concours-de-belote/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Jeux de société • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/jeux-de-societe-micro-folie-3/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "MATINÉE JEUX DE SOCIÉTÉ",
+      "place": "Le Pouliguen",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/matinee-jeux-de-societe/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Festival de court métrage : Talents locaux",
