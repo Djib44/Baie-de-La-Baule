@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-18T22:44:20.514913+02:00",
-  "coverage_start": "2026-10-18",
-  "coverage_end": "2027-01-16",
+  "updated": "2026-10-19T01:13:14.622520+02:00",
+  "coverage_start": "2026-10-19",
+  "coverage_end": "2027-01-17",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 60
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -23,29 +29,13 @@
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 52
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 8
     }
   ],
   "events": [
-    {
-      "title": "Balade nature «Les dunes» - Saveurs d'octobre",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/balade-nature-les-dunes-saveurs-doctobre-batz-sur-mer-fr-6790040/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -63,56 +53,6 @@
       "end_date": "2026-10-29",
       "date_label": "Du 15/10/2026 au 29/10/2026",
       "url": "https://www.labaule-guerande.com/offres/randonnee-gourmande-saveurs-doctobre-batz-sur-mer-fr-6790037/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Rando La Visnonia",
-      "place": "Férel",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/rando-la-visnonia-ferel-fr-6759150/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert - The Wackids Futur 2000",
-      "place": "Guérande",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-the-wackids-futur-2000-guerande-fr-6785755/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Journée douce dans les marais salants",
-      "place": "Guérande",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/journee-douce-dans-les-marais-salants-guerande-fr-6849572/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage de danse contemporaine",
-      "place": "Guérande",
-      "date": "2026-10-17",
-      "end_date": "2026-10-18",
-      "date_label": "Du 17/10/2026 au 18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-de-danse-contemporaine-guerande-fr-6821778/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite guidée thématique Les saveurs du Moyen-Age",
-      "place": "Guérande",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-guidee-thematique-les-saveurs-du-moyen-age-guerande-fr-6636467/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -137,26 +77,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Compétition de Motocross",
-      "place": "La Turballe",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/competition-de-motocross-la-turballe-fr-6478877/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Journée douce dans les marais salants",
-      "place": "La Turballe",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/journee-douce-dans-les-marais-salants-la-turballe-fr-6818115/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Journée « De la mer à l'assiette » - Saveurs d'octobre",
       "place": "La Turballe",
       "date": "2026-10-14",
@@ -175,26 +95,6 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "Beethoven & Co",
-      "place": "Le Croisic",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1909117/beethoven-co",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Concert - Philharmonie des 2 mondes",
-      "place": "Le Croisic",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-philharmonie-des-2-mondes-le-croisic-fr-6030093/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Créneaux Switch spécial Halloween",
@@ -237,24 +137,14 @@
       "source_key": "croisic"
     },
     {
-      "title": "14ème rencontre des arts créatifs",
+      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
       "place": "Le Pouliguen",
-      "date": "2026-10-17",
-      "end_date": "2026-10-18",
-      "date_label": "Du 17/10/2026 au 18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/14eme-rencontre-des-arts-creatifs-le-pouliguen-fr-6803518/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Vide-Greniers Entente Sportive Maritime",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/vide-greniers-entente-sportive-maritime-piriac-sur-mer-fr-6832233/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "date_label": "19/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -267,54 +157,14 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Festival Afro-Latino de Pornichet",
+      "title": "Festival \"Comme des Images\"",
       "place": "Pornichet",
-      "date": "2026-10-16",
-      "end_date": "2026-10-18",
-      "date_label": "Du vendredi 16 au dimanche 18 octobre 2026.",
-      "url": "https://www.pornichet.fr/agenda/festival-afro-latino-de-pornichet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Yoga du rire",
-      "place": "Pornichet",
-      "date": "2026-10-18",
-      "end_date": "2026-10-18",
-      "date_label": "Dimanche 18 octobre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-21",
-      "date_label": "Du 13/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Week-end Champignons : l'exposition - Saveurs d'Octobre",
-      "place": "Saint-Molf",
-      "date": "2026-10-17",
-      "end_date": "2026-10-18",
-      "date_label": "Du 17/10/2026 au 18/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/week-end-champignons-lexposition-saveurs-doctobre-saint-molf-fr-6030139/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
-      "place": "Le Pouliguen",
       "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
+      "end_date": "2026-10-30",
+      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
+      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Stage multi-activités",
@@ -335,6 +185,16 @@
       "url": "https://www.pornichet.fr/agenda/tournoi-padel-octobre-rose",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Le trésor du capitaine Cavaro",
@@ -537,6 +397,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Bannières et pardons en Bretagne",
+      "place": "Pornichet",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "Vendredi 23 octobre 2026 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/bannieres-et-pardons-en-bretagne",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-23",
@@ -647,6 +517,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Gaming : Luigi's mansion 3",
+      "place": "Le Croisic",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1661389/gaming-luigi-s-mansion-3",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Spectacle familial - Le chat botté - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-10-27",
@@ -717,16 +597,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-11-04",
-      "end_date": "2026-11-07",
-      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Théâtre - Antigone de Sophocle",
       "place": "Le Pouliguen",
       "date": "2026-11-06",
@@ -757,16 +627,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Voyage dans le temps",
-      "place": "Pornichet",
-      "date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "date_label": "Samedi 21 novembre 2026 de 14h30 à 16h.",
-      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Théâtre - Muse Rouge - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-11-24",
@@ -787,16 +647,6 @@
       "source_key": "tickets"
     },
     {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-12-02",
-      "end_date": "2026-12-05",
-      "date_label": "Du mercredi 2 au samedi 5 décembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-12-08",
@@ -815,16 +665,6 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Voyage dans le temps",
-      "place": "Pornichet",
-      "date": "2026-12-19",
-      "end_date": "2026-12-19",
-      "date_label": "Samedi 19 décembre 2026 de 14h30 à 16h.",
-      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Je t'aime banane",

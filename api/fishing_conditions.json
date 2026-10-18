@@ -1,12 +1,12 @@
 {
   "source": "Ville de La Baule",
   "url": "https://www.labaule.fr/decouvrir-et-sortir/meteo/",
-  "updated": "2026-10-18T22:44:11.258563+02:00",
-  "date": "2026-10-18",
-  "wind_kmh": 21.0,
-  "gust_kmh": 47.9,
-  "wind_direction_deg": 10.0,
-  "wave_height": 0.6,
-  "wave_period": 9.5,
+  "updated": "2026-10-19T01:13:06.541606+02:00",
+  "date": "2026-10-19",
+  "wind_kmh": 13.8,
+  "gust_kmh": 28.1,
+  "wind_direction_deg": 47.0,
+  "wave_height": 0.5,
+  "wave_period": 16.5,
   "wave_direction_deg": 277.0
 }
