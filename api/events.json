@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-20T21:17:49.188283+02:00",
-  "coverage_start": "2026-10-20",
-  "coverage_end": "2027-01-18",
+  "updated": "2026-10-21T01:53:29.664680+02:00",
+  "coverage_start": "2026-10-21",
+  "coverage_end": "2027-01-19",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 57
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,16 @@
       "count": 12
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 52
+    },
+    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,20 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 23
+      "count": 13
     }
   ],
   "events": [
-    {
-      "title": "Soirée théâtre d'improvisation",
-      "place": "Assérac",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-theatre-dimprovisation-asserac-fr-6835082/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -53,16 +43,6 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Les épices et le sel à travers le monde - Saveurs d'octobre",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-epices-et-le-sel-a-travers-le-monde-saveurs-doctobre-batz-sur-mer-fr-6790045/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -77,16 +57,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Terre d'Argile",
-      "place": "Cordemais",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/terre-dargile-cordemais-fr-6819715/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Stages de théâtre",
       "place": "Férel",
       "date": "2026-10-19",
@@ -97,52 +67,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Démonstration culinaire avec le chef Ludovic Favrel - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-ludovic-favrel-saveurs-doctobre-guerande-fr-6790047/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage - Tournage de poterie",
-      "place": "Guérande",
-      "date": "2026-10-19",
-      "end_date": "2026-10-20",
-      "date_label": "Du 19/10/2026 au 20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-tournage-de-poterie-guerande-fr-6821773/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visitez nos entreprises - \"Les chemins du goût\" à Terre de Sel",
-      "place": "Guérande",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-les-chemins-du-gout-a-terre-de-sel-guerande-fr-6790088/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Visitez nos entreprises - Sardinette & Cie",
       "place": "Guérande",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage - Danse Mix",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-danse-mix-la-baule-escoublac-fr-6819708/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -217,12 +147,32 @@
       "source_key": "croisic"
     },
     {
+      "title": "Heure du conte",
+      "place": "Le Croisic",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1738687/heure-du-conte-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Le vampire, figures et symboles",
       "place": "Le Croisic",
       "date": "2026-10-17",
       "end_date": "2026-11-07",
       "date_label": "Du 17/10/2026 au 07/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Quel tourisme souhaitons-nous demain ? par Christian Dautel",
+      "place": "Le Croisic",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1602733/quel-tourisme-souhaitons-nous-demain-par-christian-dautel",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -237,122 +187,12 @@
       "source_key": "croisic"
     },
     {
-      "title": "Sortie nature - Au pays des mares",
-      "place": "Le Croisic",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/sortie-nature-au-pays-des-mares-le-croisic-fr-6837388/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Vampire et autres créatures de la nuit",
       "place": "Le Croisic",
       "date": "2026-10-01",
       "end_date": "2026-10-25",
       "date_label": "Du 01/10/2026 au 25/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969866/vampire-et-autres-creatures-de-la-nuit",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "7 comptines d'oiselles et d'oiseaux",
-      "place": "Pornichet",
-      "date": "2026-09-26",
-      "end_date": "2026-11-14",
-      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
-      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Festival \"Comme des Images\"",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-30",
-      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Le trésor du capitaine Cavaro",
-      "place": "Pornichet",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "Mardi 20 octobre 2026 de 14h15 à 15h30.",
-      "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stage multi-activités",
-      "place": "Pornichet",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "Mardi 20 octobre 2026 de 9h30 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Conte interactif avec Luc Bruneau",
-      "place": "Pénestin",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/conte-interactif-avec-luc-bruneau-penestin-fr-6790100/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-21",
-      "date_label": "Du 13/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "AKA Mon filet m'emballe : Création Carnet",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-20",
-      "end_date": "2026-10-20",
-      "date_label": "20/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/aka-mon-filet-memballe-creation-carnet-saint-lyphard-fr-6795198/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage découverte escalade pour enfants - Toussaint",
-      "place": "Saint-Molf",
-      "date": "2026-10-20",
-      "end_date": "2026-10-21",
-      "date_label": "Du 20/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-decouverte-escalade-pour-enfants-toussaint-saint-molf-fr-6030433/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Heure du conte",
-      "place": "Le Croisic",
-      "date": "2026-10-21",
-      "end_date": "2026-10-21",
-      "date_label": "21/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1738687/heure-du-conte-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Quel tourisme souhaitons-nous demain ? par Christian Dautel",
-      "place": "Le Croisic",
-      "date": "2026-10-21",
-      "end_date": "2026-10-21",
-      "date_label": "21/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1602733/quel-tourisme-souhaitons-nous-demain-par-christian-dautel",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -375,6 +215,26 @@
       "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane-3/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "7 comptines d'oiselles et d'oiseaux",
+      "place": "Pornichet",
+      "date": "2026-09-26",
+      "end_date": "2026-11-14",
+      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
+      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Festival \"Comme des Images\"",
+      "place": "Pornichet",
+      "date": "2026-10-19",
+      "end_date": "2026-10-30",
+      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
+      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "L'oiseau lumière",
@@ -405,6 +265,26 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage découverte escalade pour enfants - Toussaint",
+      "place": "Saint-Molf",
+      "date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "date_label": "Du 20/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-decouverte-escalade-pour-enfants-toussaint-saint-molf-fr-6030433/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Enquête au village - Saveurs d'octobre",
@@ -813,6 +693,16 @@
       "end_date": "2027-01-16",
       "date_label": "16/01/2027",
       "url": "https://reservation.labaule-guerande.com/concert-soiree-conservatoire-de-cap-atlantique-paris-new-york.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Ciné-spectacle - À premières vues - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2027-01-19",
+      "end_date": "2027-01-19",
+      "date_label": "19/01/2027",
+      "url": "https://reservation.labaule-guerande.com/cine-spectacle-a-premieres-vues-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
     }
