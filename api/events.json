@@ -1,24 +1,18 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-20T16:19:25.223291+02:00",
+  "updated": "2026-10-20T21:17:49.188283+02:00",
   "coverage_start": "2026-10-20",
   "coverage_end": "2027-01-18",
   "sources": [
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 56
+      "count": 57
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
     },
@@ -29,13 +23,29 @@
       "count": 12
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 13
+      "count": 23
     }
   ],
   "events": [
+    {
+      "title": "Soirée théâtre d'improvisation",
+      "place": "Assérac",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-theatre-dimprovisation-asserac-fr-6835082/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -43,6 +53,16 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/decouverte-des-algues-et-atelier-cuisine-saveurs-doctobre-batz-sur-mer-fr-6790028/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les épices et le sel à travers le monde - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-epices-et-le-sel-a-travers-le-monde-saveurs-doctobre-batz-sur-mer-fr-6790045/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -57,12 +77,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Terre d'Argile",
+      "place": "Cordemais",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/terre-dargile-cordemais-fr-6819715/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Stages de théâtre",
       "place": "Férel",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/stages-de-theatre-ferel-fr-6790110/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Ludovic Favrel - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-ludovic-favrel-saveurs-doctobre-guerande-fr-6790047/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -77,12 +117,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Visitez nos entreprises - \"Les chemins du goût\" à Terre de Sel",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-les-chemins-du-gout-a-terre-de-sel-guerande-fr-6790088/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Visitez nos entreprises - Sardinette & Cie",
       "place": "Guérande",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage - Danse Mix",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-danse-mix-la-baule-escoublac-fr-6819708/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -177,6 +237,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Sortie nature - Au pays des mares",
+      "place": "Le Croisic",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/sortie-nature-au-pays-des-mares-le-croisic-fr-6837388/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Vampire et autres créatures de la nuit",
       "place": "Le Croisic",
       "date": "2026-10-01",
@@ -227,12 +297,42 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Conte interactif avec Luc Bruneau",
+      "place": "Pénestin",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conte-interactif-avec-luc-bruneau-penestin-fr-6790100/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
       "place": "Pénestin",
       "date": "2026-10-13",
       "end_date": "2026-10-21",
       "date_label": "Du 13/10/2026 au 21/10/2026",
       "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "AKA Mon filet m'emballe : Création Carnet",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "date_label": "20/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/aka-mon-filet-memballe-creation-carnet-saint-lyphard-fr-6795198/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage découverte escalade pour enfants - Toussaint",
+      "place": "Saint-Molf",
+      "date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "date_label": "Du 20/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-decouverte-escalade-pour-enfants-toussaint-saint-molf-fr-6030433/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
