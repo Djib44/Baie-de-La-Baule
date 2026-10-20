@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-20T10:33:26.000664+02:00",
+  "updated": "2026-10-20T16:19:25.223291+02:00",
   "coverage_start": "2026-10-20",
   "coverage_end": "2027-01-18",
   "sources": [
@@ -11,28 +11,28 @@
       "count": 12
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 56
+    },
+    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 64
+      "count": 12
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
       "count": 13
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "cached",
-      "count": 12
     }
   ],
   "events": [
@@ -433,6 +433,16 @@
       "end_date": "2026-10-23",
       "date_label": "Vendredi 23 octobre 2026 à 18h30.",
       "url": "https://www.pornichet.fr/agenda/bannieres-et-pardons-en-bretagne",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Marine et Maxence en live",
+      "place": "Pornichet",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "Vendredi 23 octobre 2026 à 21h.",
+      "url": "https://www.pornichet.fr/agenda/marine-et-maxence-en-live",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
