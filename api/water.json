@@ -1,14 +1,14 @@
 {
   "bay": {
-    "temperature": 16.1,
+    "temperature": 15.7,
     "source": "Ville de La Baule",
     "url": "https://www.labaule.fr/decouvrir-et-sortir/meteo/",
-    "date": "2026-10-19",
-    "updated": "2026-10-19T22:35:49.591574+02:00"
+    "date": "2026-10-20",
+    "updated": "2026-10-20T02:20:48.578892+02:00"
   },
   "buoy": {
     "temperature": 15.9,
-    "observed": "2026-10-19T15:00:00+02:00",
+    "observed": "2026-10-19T18:00:00+02:00",
     "source": "Cerema — bouée Plateau du Four 04403, diffusée par Infoclimat",
     "url": "https://www.infoclimat.fr/mer/bouees.php?id=CETF04403"
   }

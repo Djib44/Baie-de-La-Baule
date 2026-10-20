@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-19T22:35:59.126678+02:00",
-  "coverage_start": "2026-10-19",
-  "coverage_end": "2027-01-17",
+  "updated": "2026-10-20T02:20:58.136350+02:00",
+  "coverage_start": "2026-10-20",
+  "coverage_end": "2027-01-18",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 60
+      "count": 64
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 19
+      "count": 13
     }
   ],
   "events": [
@@ -57,32 +57,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Visite traditionnelle du Bourg",
-      "place": "Batz-sur-Mer",
-      "date": "2026-05-23",
-      "end_date": "2026-10-19",
-      "date_label": "Du 23/05/2026 au 19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-traditionnelle-du-bourg-batz-sur-mer-fr-6798440/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Stages de théâtre",
       "place": "Férel",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/stages-de-theatre-ferel-fr-6790110/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Démonstration culinaire avec le chef Aurélien Sindicq - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-aurelien-sindicq-saveurs-doctobre-guerande-fr-6790042/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -103,16 +83,6 @@
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage - Danse orientale fusion",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-danse-orientale-fusion-la-baule-escoublac-fr-6819707/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -217,26 +187,6 @@
       "source_key": "croisic"
     },
     {
-      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
-      "place": "Le Pouliguen",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "L'arbre et le climat, toute une histoire",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/larbre-et-le-climat-toute-une-histoire-piriac-sur-mer-fr-6716694/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -257,56 +207,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Stage multi-activités",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "Lundi 19 octobre 2026 de 9h30 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tournoi Padel Octobre Rose",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "Lundi 19 octobre 2026 de 17h45 à 22h15.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-padel-octobre-rose",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tournoi de Padel Octobre Rose",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/tournoi-de-padel-octobre-rose-pornichet-fr-6833365/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
-      "place": "Pénestin",
-      "date": "2026-10-13",
-      "end_date": "2026-10-21",
-      "date_label": "Du 13/10/2026 au 21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "COMPLET - Atelier de construction de gîtes à chauves-souris",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-19",
-      "end_date": "2026-10-19",
-      "date_label": "19/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/complet-atelier-de-construction-de-gites-a-chauves-souris-saint-lyphard-fr-6761743/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Le trésor du capitaine Cavaro",
       "place": "Pornichet",
       "date": "2026-10-20",
@@ -325,6 +225,16 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Octobre Rose - Stand de prévention de la ligue contre le cancer",
+      "place": "Pénestin",
+      "date": "2026-10-13",
+      "end_date": "2026-10-21",
+      "date_label": "Du 13/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Heure du conte",
@@ -597,6 +507,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Exposition virtuelle • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-6/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Jeux de société • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-10-24",
@@ -725,16 +645,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Yoga du rire",
-      "place": "Pornichet",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "Dimanche 15 novembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Muse Rouge - Mardis de Baudry",
