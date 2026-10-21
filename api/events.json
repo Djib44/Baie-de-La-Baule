@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-21T06:48:23.686072+02:00",
+  "updated": "2026-10-21T13:50:00.409699+02:00",
   "coverage_start": "2026-10-21",
   "coverage_end": "2027-01-19",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
@@ -17,10 +11,10 @@
       "count": 52
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,13 +23,29 @@
       "count": 12
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 13
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 13
+      "count": 25
     }
   ],
   "events": [
+    {
+      "title": "Apprendre à faire son pain - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "date_label": "Du 20/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/apprendre-a-faire-son-pain-saveurs-doctobre-batz-sur-mer-fr-6790048/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -57,6 +67,36 @@
       "source_key": "tourism"
     },
     {
+      "title": "Fouille qui peut",
+      "place": "Cordemais",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/fouille-qui-peut-cordemais-fr-6819718/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les explorateurs",
+      "place": "Cordemais",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-explorateurs-cordemais-fr-6819717/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "P'tites traces",
+      "place": "Cordemais",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/ptites-traces-cordemais-fr-6819716/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Stages de théâtre",
       "place": "Férel",
       "date": "2026-10-19",
@@ -67,12 +107,52 @@
       "source_key": "tourism"
     },
     {
+      "title": "Démonstration culinaire avec la cheffe Nathalie Nectoux - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-la-cheffe-nathalie-nectoux-saveurs-doctobre-guerande-fr-6790052/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Jeux vidéo - Retrogaming",
+      "place": "Guérande",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeux-video-retrogaming-guerande-fr-6785756/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Visitez nos entreprises - Sardinette & Cie",
       "place": "Guérande",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Activité sirènes et tritons à Aquabaule",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/activite-sirenes-et-tritons-a-aquabaule-la-baule-escoublac-fr-6629849/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage - Danse lyrical contemporain",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-danse-lyrical-contemporain-la-baule-escoublac-fr-6819709/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -93,6 +173,16 @@
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/a-la-decouverte-des-champignons-saveurs-doctobre-la-roche-bernard-fr-6790041/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Après-midi : jeux d'adresse",
+      "place": "La Turballe",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/apres-midi-jeux-dadresse-la-turballe-fr-6744938/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -135,6 +225,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Conférence : Quel tourisme souhaitons-nous demain ? par Christian Dautel",
+      "place": "Le Croisic",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-quel-tourisme-souhaitons-nous-demain-par-christian-dautel-le-croisic-fr-6855646/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Créneaux Switch spécial Halloween",
@@ -217,6 +317,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Concours de dessins à la craie",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concours-de-dessins-a-la-craie-piriac-sur-mer-fr-6030076/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -273,6 +383,16 @@
       "end_date": "2026-10-21",
       "date_label": "Du 13/10/2026 au 21/10/2026",
       "url": "https://www.labaule-guerande.com/offres/octobre-rose-stand-de-prevention-de-la-ligue-contre-le-cancer-penestin-fr-6790106/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Après-midi gourmand à la ferme - Saveurs d'octobre",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/apres-midi-gourmand-a-la-ferme-saveurs-doctobre-saint-lyphard-fr-6792689/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
