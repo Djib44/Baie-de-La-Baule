@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-21T19:13:13.255477+02:00",
+  "updated": "2026-10-21T23:43:50.343161+02:00",
   "coverage_start": "2026-10-21",
   "coverage_end": "2027-01-19",
   "sources": [
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 52
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
+      "count": 43
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,13 +23,29 @@
       "count": 13
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 28
     }
   ],
   "events": [
+    {
+      "title": "Atelier : Fabrication d'une potion magique",
+      "place": "Assérac",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-fabrication-dune-potion-magique-asserac-fr-6835083/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Apprendre à faire son pain - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -57,6 +67,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Jeux XXL à Batz-sur-Mer !",
+      "place": "Batz-sur-Mer",
+      "date": "2026-08-01",
+      "end_date": "2026-10-21",
+      "date_label": "Du 01/08/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeux-xxl-a-batz-sur-mer-batz-sur-mer-fr-6210405/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Randonnée gourmande - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-15",
@@ -73,16 +93,6 @@
       "end_date": "2026-10-21",
       "date_label": "21/10/2026",
       "url": "https://www.labaule-guerande.com/offres/fouille-qui-peut-cordemais-fr-6819718/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Les explorateurs",
-      "place": "Cordemais",
-      "date": "2026-10-21",
-      "end_date": "2026-10-21",
-      "date_label": "21/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-explorateurs-cordemais-fr-6819717/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -133,6 +143,16 @@
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les petits chefs de l'automne - Saveurs d'octobre",
+      "place": "Herbignac",
+      "date": "2026-10-14",
+      "end_date": "2026-10-21",
+      "date_label": "Du 14/10/2026 au 21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-petits-chefs-de-lautomne-saveurs-doctobre-herbignac-fr-6790035/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -315,6 +335,16 @@
       "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane-3/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Visite de la Brasserie Vestibule",
+      "place": "Mesquer",
+      "date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "date_label": "21/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-de-la-brasserie-vestibule-mesquer-fr-6537429/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Concours de dessins à la craie",
@@ -647,6 +677,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Fabrication d'une mangeoire à oiseaux",
+      "place": "Pornichet",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "Samedi 24 octobre 2026 de 15h30 à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/fabrication-dune-mangeoire-oiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Festival de court métrage : Talents locaux",
       "place": "Pénestin",
       "date": "2026-10-24",
@@ -675,16 +715,6 @@
       "url": "https://reservation.labaule-guerande.com/spectacle-familial-le-chat-botte-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Le trésor du capitaine Cavaro",
-      "place": "Pornichet",
-      "date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "date_label": "Mardi 27 octobre 2026 de 14h15 à 15h30.",
-      "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Stage multi-activités",
