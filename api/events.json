@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-22T19:11:53.375766+02:00",
+  "updated": "2026-10-22T23:36:33.043436+02:00",
   "coverage_start": "2026-10-22",
   "coverage_end": "2027-01-20",
   "sources": [
@@ -17,12 +17,6 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 13
-    },
-    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
@@ -32,10 +26,26 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 10
+      "count": 22
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "cached",
+      "count": 13
     }
   ],
   "events": [
+    {
+      "title": "Conte des saveurs «Aventures gourmandes dans l'espace» - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conte-des-saveurs-aventures-gourmandes-dans-lespace-saveurs-doctobre-batz-sur-mer-fr-6790056/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -67,6 +77,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Visite insolite - Parcours nocturne",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-insolite-parcours-nocturne-batz-sur-mer-fr-6818108/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Stages de théâtre",
       "place": "Férel",
       "date": "2026-10-19",
@@ -77,12 +97,62 @@
       "source_key": "tourism"
     },
     {
+      "title": "Atelier Bâtisseurs",
+      "place": "Guérande",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-batisseurs-guerande-fr-6785758/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conférence - Restaurer les forêts sous-marines, une première en France",
+      "place": "Guérande",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-restaurer-les-forets-sous-marines-une-premiere-en-france-guerande-fr-6694799/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite nature",
+      "place": "Guérande",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-nature-guerande-fr-6649976/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visitez nos entreprises - \"Fleur de sel\" à Terre de Sel",
+      "place": "Guérande",
+      "date": "2026-10-15",
+      "end_date": "2026-10-22",
+      "date_label": "Du 15/10/2026 au 22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-fleur-de-sel-a-terre-de-sel-guerande-fr-6790087/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Visitez nos entreprises - Sardinette & Cie",
       "place": "Guérande",
       "date": "2026-10-19",
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-sardinette-cie-guerande-fr-6790093/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Contes des saveurs - \"Aventures gourmandes dans l'espace\" - Saveurs d'octobre",
+      "place": "Herbignac",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/contes-des-saveurs-aventures-gourmandes-dans-lespace-saveurs-doctobre-herbignac-fr-6790053/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -123,6 +193,16 @@
       "end_date": "2026-10-24",
       "date_label": "Du 13/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-alimentaire-la-turballe-fr-6742018/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert : Lucie Valentine",
+      "place": "La Turballe",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-lucie-valentine-la-turballe-fr-6754023/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -202,9 +282,19 @@
       "date": "2026-10-22",
       "end_date": "2026-10-22",
       "date_label": "22/10/2026",
-      "url": "https://reservation.labaule-guerande.com/musique-classique-la-toile-chante-le-piano-peint-jeudis-de-la-chapelle.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
+      "url": "https://www.labaule-guerande.com/offres/musique-classique-la-toile-chante-le-piano-peint-jeudis-de-la-chapelle-le-pouliguen-fr-6764445/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Voyage épicé - Saveurs d'octobre",
+      "place": "Mesquer",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/voyage-epice-saveurs-doctobre-mesquer-fr-6780984/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -255,6 +345,26 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Voix et Musique - Les Oreilles en Cœur",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "date_label": "Du 21/10/2026 au 22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/voix-et-musique-les-oreilles-en-coeur-saint-lyphard-fr-6681868/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier culinaire - bouchées apéritives végétariennes - Saveurs d'octobre",
+      "place": "Saint-Molf",
+      "date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "date_label": "22/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-culinaire-bouchees-aperitives-vegetariennes-saveurs-doctobre-saint-molf-fr-6770748/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Artisans d'art et créateurs",
