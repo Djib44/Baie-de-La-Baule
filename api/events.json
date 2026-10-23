@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-23T13:40:34.748996+02:00",
+  "updated": "2026-10-23T19:07:55.639810+02:00",
   "coverage_start": "2026-10-23",
   "coverage_end": "2027-01-21",
   "sources": [
@@ -17,14 +17,14 @@
       "count": 35
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -407,22 +407,22 @@
       "source_key": "tourism"
     },
     {
+      "title": "ANNULÉ - Octobre rose",
+      "place": "Le Croisic",
+      "date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "date_label": "24/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1976041/annule-octobre-rose",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Discu-ciné - vampires",
       "place": "Le Croisic",
       "date": "2026-10-24",
       "end_date": "2026-10-24",
       "date_label": "24/10/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1169131/discu-cine-vampires",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Octobre rose",
-      "place": "Le Croisic",
-      "date": "2026-10-24",
-      "end_date": "2026-10-24",
-      "date_label": "24/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1976041/octobre-rose-70",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
