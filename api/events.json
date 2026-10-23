@@ -1,24 +1,18 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-23T19:07:55.639810+02:00",
+  "updated": "2026-10-23T23:25:01.776260+02:00",
   "coverage_start": "2026-10-23",
   "coverage_end": "2027-01-21",
   "sources": [
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 35
+      "count": 31
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
     },
@@ -29,10 +23,16 @@
       "count": 12
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 22
+      "count": 26
     }
   ],
   "events": [
@@ -103,6 +103,26 @@
       "end_date": "2026-10-24",
       "date_label": "Du 19/10/2026 au 24/10/2026",
       "url": "https://www.labaule-guerande.com/offres/stages-de-theatre-ferel-fr-6790110/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Just dance géant",
+      "place": "Guérande",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/just-dance-geant-guerande-fr-6785759/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visitez nos entreprises - \"Au gré des salines\" à Terre de Sel",
+      "place": "Guérande",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-au-gre-des-salines-a-terre-de-sel-guerande-fr-6790089/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -277,6 +297,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Spectacle - Chicken Ring - Compagnie La Poule",
+      "place": "Le Croisic",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-chicken-ring-compagnie-la-poule-le-croisic-fr-6770724/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Vampire et autres créatures de la nuit",
       "place": "Le Croisic",
       "date": "2026-10-01",
@@ -295,6 +325,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1866594/visite-de-l-eglise-notre-dame-de-pitie-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Visites commentées par l'Association du patrimoine de Notre-Dame-de-Pitié",
+      "place": "Le Croisic",
+      "date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "date_label": "23/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visites-commentees-par-lassociation-du-patrimoine-de-notre-dame-de-pitie-le-croisic-fr-6342277/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "12e salon de la Gastronomie",
@@ -537,6 +577,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Photos de voyages",
+      "place": "Pornichet",
+      "date": "2026-10-26",
+      "end_date": "2026-11-01",
+      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-26",
@@ -633,16 +683,6 @@
       "end_date": "2026-10-28",
       "date_label": "Mercredi 28 octobre 2026 de 9h30 à 17h.",
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Les Incontournables",
-      "place": "Pornichet",
-      "date": "2026-10-29",
-      "end_date": "2026-10-29",
-      "date_label": "Jeudi 29 octobre 2026 de 10h à 11h30.",
-      "url": "https://www.pornichet.fr/agenda/les-incontournables",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
