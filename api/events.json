@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-25T12:30:01.547484+01:00",
+  "updated": "2026-10-25T17:20:22.935477+01:00",
   "coverage_start": "2026-10-25",
   "coverage_end": "2027-01-23",
   "sources": [
@@ -17,14 +17,14 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 11
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 11
     },
