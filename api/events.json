@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-25T21:51:47.780341+01:00",
-  "coverage_start": "2026-10-25",
-  "coverage_end": "2027-01-23",
+  "updated": "2026-10-26T00:17:02.678599+01:00",
+  "coverage_start": "2026-10-26",
+  "coverage_end": "2027-01-24",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 28
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 11
+      "count": 31
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,33 +23,19 @@
       "count": 11
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 16
+      "count": 4
     }
   ],
   "events": [
-    {
-      "title": "CONCERT « LA MÉZANJ »",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-la-mezanj-batz-sur-mer-fr-6829849/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Cum grano salis («Avec un grain de sel») - Saveurs d'octobre",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-24",
-      "end_date": "2026-10-25",
-      "date_label": "Du 24/10/2026 au 25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/cum-grano-salis-avec-un-grain-de-sel-saveurs-doctobre-batz-sur-mer-fr-6790066/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Découverte des algues et atelier cuisine - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
@@ -87,26 +67,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Tournoi régional de Blackball",
-      "place": "Guérande",
-      "date": "2026-10-23",
-      "end_date": "2026-10-25",
-      "date_label": "Du 23/10/2026 au 25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/tournoi-regional-de-blackball-guerande-fr-6751781/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Octobre Rose",
-      "place": "Herbignac",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/octobre-rose-herbignac-fr-6821770/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Atelier sommeil",
       "place": "La Turballe",
       "date": "2026-10-12",
@@ -117,42 +77,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Concours de tir à l'arc",
-      "place": "La Turballe",
-      "date": "2026-10-24",
-      "end_date": "2026-10-25",
-      "date_label": "Du 24/10/2026 au 25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/concours-de-tir-a-larc-la-turballe-fr-6783574/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Loto de l'Amicale Laïque",
-      "place": "La Turballe",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/loto-de-lamicale-laique-la-turballe-fr-6803513/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
       "end_date": "2026-11-02",
       "date_label": "Du 15/06/2026 au 02/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Concert de l'Académie In Fine Celli",
-      "place": "Le Croisic",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2007150/concert-de-l-academie-in-fine-celli",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -187,14 +117,14 @@
       "source_key": "croisic"
     },
     {
-      "title": "Vampire et autres créatures de la nuit",
-      "place": "Le Croisic",
-      "date": "2026-10-01",
-      "end_date": "2026-10-25",
-      "date_label": "Du 01/10/2026 au 25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/vampire-et-autres-creatures-de-la-nuit-le-croisic-fr-6818114/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
+      "place": "Le Pouliguen",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "26/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane-4/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -225,56 +155,6 @@
       "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Chorale du \"Mystère des voix de garage\"",
-      "place": "Pénestin",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/chorale-du-mystere-des-voix-de-garage-penestin-fr-6819710/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Bourse aux jouets du Père Noël",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/bourse-aux-jouets-du-pere-noel-saint-lyphard-fr-6821768/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Conférence dégustée sous le pommier - Saveurs d'octobre",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-degustee-sous-le-pommier-saveurs-doctobre-saint-lyphard-fr-6790067/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Cuisinez un menu végétarien - Saveurs d'octobre",
-      "place": "Saint-Molf",
-      "date": "2026-10-25",
-      "end_date": "2026-10-25",
-      "date_label": "25/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/cuisinez-un-menu-vegetarien-saveurs-doctobre-saint-molf-fr-6770749/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
-      "place": "Le Pouliguen",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane-4/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Les secrets de la nature",
@@ -457,12 +337,42 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Dans les coulisses de l'atelier des Couteaux Morta",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "Mercredi 28 octobre 2026 de 14h à 15h.",
+      "url": "https://www.pornichet.fr/agenda/dans-les-coulisses-de-latelier-des-couteaux-morta",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Dans les pas des cueilleurs d'algues",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "Mercredi 28 octobre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/dans-les-pas-des-cueilleurs-dalgues",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-28",
       "end_date": "2026-10-28",
       "date_label": "Mercredi 28 octobre 2026 de 9h30 à 17h.",
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tadam ! Lego® WeDo",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "Mercredi 28 octobre 2026 de 16h à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/tadam-legor-wedo",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -485,6 +395,16 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Atelier créatif Halloween",
+      "place": "Le Croisic",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1880881/atelier-creatif-halloween",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Marché du Chocolat et des saveurs",
@@ -523,6 +443,16 @@
       "end_date": "2026-10-30",
       "date_label": "Vendredi 30 octobre 2026 de 9h30 à 17h.",
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tadam ! Lego® WeDo",
+      "place": "Pornichet",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "Vendredi 30 octobre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/tadam-legor-wedo",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
