@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-25T01:15:13.771448+02:00",
+  "updated": "2026-10-25T05:42:04.966362+01:00",
   "coverage_start": "2026-10-25",
   "coverage_end": "2027-01-23",
   "sources": [
@@ -20,7 +20,7 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 6
+      "count": 11
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -137,16 +137,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Artisans d'art et créateurs",
-      "place": "Le Croisic",
-      "date": "2026-10-23",
-      "end_date": "2026-10-25",
-      "date_label": "Du 23/10/2026 au 25/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1759435/artisans-dart-et-createurs",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
@@ -202,9 +192,9 @@
       "date": "2026-10-01",
       "end_date": "2026-10-25",
       "date_label": "Du 01/10/2026 au 25/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969866/vampire-et-autres-creatures-de-la-nuit",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
+      "url": "https://www.labaule-guerande.com/offres/vampire-et-autres-creatures-de-la-nuit-le-croisic-fr-6818114/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -427,6 +417,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "« La Nuit vous appartient : mieux dormir pour vivre plus »",
+      "place": "Le Croisic",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "28/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1979057/la-nuit-vous-appartient-mieux-dormir-pour-vivre-plus",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "ATELIER DIY",
       "place": "Le Pouliguen",
       "date": "2026-10-28",
@@ -487,6 +487,36 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Marché du Chocolat et des saveurs",
+      "place": "Le Croisic",
+      "date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "date_label": "Du 30/10/2026 au 01/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1117859/marche-du-chocolat-et-des-saveurs",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Documentaire • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/documentaire-micro-folie-6/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "SOIRÉE JEUX DE SOCIÉTÉ AVEC LA PARTICIPATION DU TEMPLE DU JEU",
+      "place": "Le Pouliguen",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/soiree-jeux-de-societe-avec-la-participation-du-temple-du-jeu/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-30",
@@ -495,6 +525,36 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Atelier • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "31/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/atelier-micro-folie-5/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "CONCOURS DES PLUS HORRIBLES CITROUILLES ET DÉGUISEMENTS",
+      "place": "Le Pouliguen",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "31/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/concours-des-plus-horribles-citrouilles-et-deguisements/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Exposition virtuelle • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "31/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-8/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Théâtre - Antigone de Sophocle",
