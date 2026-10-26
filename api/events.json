@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-26T00:17:02.678599+01:00",
+  "updated": "2026-10-26T05:48:05.615629+01:00",
   "coverage_start": "2026-10-26",
   "coverage_end": "2027-01-24",
   "sources": [
@@ -20,7 +20,7 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 4
+      "count": 15
     }
   ],
   "events": [
@@ -63,6 +63,86 @@
       "end_date": "2026-10-29",
       "date_label": "Du 15/10/2026 au 29/10/2026",
       "url": "https://www.labaule-guerande.com/offres/randonnee-gourmande-saveurs-doctobre-batz-sur-mer-fr-6790037/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite insolite - à la découverte d'un paludier",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "26/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-insolite-a-la-decouverte-dun-paludier-batz-sur-mer-fr-6818109/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite insolite «À la découverte d'un paludier» - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "26/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-insolite-a-la-decouverte-dun-paludier-saveurs-doctobre-batz-sur-mer-fr-6790068/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Bastien Bompas - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "26/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-bastien-bompas-saveurs-doctobre-guerande-fr-6790069/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite de la Ferme Lait Prés Verts - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-19",
+      "end_date": "2026-10-28",
+      "date_label": "Du 19/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-de-la-ferme-lait-pres-verts-saveurs-doctobre-guerande-fr-6790043/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier - Les petits créateurs",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-26",
+      "end_date": "2026-10-28",
+      "date_label": "Du 26/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-les-petits-createurs-la-baule-escoublac-fr-6819703/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Semaine de l'arbre 2026 - 37e édition",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-24",
+      "end_date": "2026-10-27",
+      "date_label": "Du 24/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/semaine-de-larbre-2026-37e-edition-la-baule-escoublac-fr-6829850/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage - Aquarelle",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-26",
+      "end_date": "2026-10-28",
+      "date_label": "Du 26/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-aquarelle-la-baule-escoublac-fr-6227014/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage - Drape aerien",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-26",
+      "end_date": "2026-10-28",
+      "date_label": "Du 26/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-drape-aerien-la-baule-escoublac-fr-6227016/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -127,6 +207,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Concours de dessins enfants",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-17",
+      "end_date": "2026-10-28",
+      "date_label": "Du 17/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/concours-de-dessins-enfants-piriac-sur-mer-fr-6030239/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition : Visages d'Eau",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-09-12",
+      "end_date": "2026-10-28",
+      "date_label": "Du 12/09/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-visages-deau-piriac-sur-mer-fr-6780979/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -185,6 +285,16 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Spectacle jeune public : Scrooge, le complot",
+      "place": "Pénestin",
+      "date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "date_label": "26/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-jeune-public-scrooge-le-complot-penestin-fr-6698543/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Gaming : Luigi's mansion 3",
@@ -483,6 +593,16 @@
       "end_date": "2026-10-31",
       "date_label": "31/10/2026",
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-8/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Fablab 3D • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "02/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-5/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
