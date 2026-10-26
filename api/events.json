@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-26T05:48:05.615629+01:00",
+  "updated": "2026-10-26T14:03:45.614023+01:00",
   "coverage_start": "2026-10-26",
   "coverage_end": "2027-01-24",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 31
+      "count": 35
     },
     {
       "name": "Ville du Pouliguen",
@@ -23,16 +23,16 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 11
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
       "count": 15
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "cached",
+      "count": 11
     }
   ],
   "events": [
@@ -467,6 +467,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Journée ludique d'halloween",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "Mercredi 28 octobre 2026 de 10h30 à 12h30 et de 15h à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/journee-ludique-dhalloween",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-28",
@@ -495,6 +505,16 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-7/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Les Incontournables",
+      "place": "Pornichet",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "Jeudi 29 octobre 2026 de 10h à 11h30.",
+      "url": "https://www.pornichet.fr/agenda/les-incontournables",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Stage multi-activités",
