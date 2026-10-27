@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-26T21:29:44.772663+01:00",
-  "coverage_start": "2026-10-26",
-  "coverage_end": "2027-01-24",
+  "updated": "2026-10-27T01:26:26.152633+01:00",
+  "coverage_start": "2026-10-27",
+  "coverage_end": "2027-01-25",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 31
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 35
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 15
+      "count": 11
     }
   ],
   "events": [
@@ -67,42 +67,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Visite insolite - à la découverte d'un paludier",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-insolite-a-la-decouverte-dun-paludier-batz-sur-mer-fr-6818109/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite insolite «À la découverte d'un paludier» - Saveurs d'octobre",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-insolite-a-la-decouverte-dun-paludier-saveurs-doctobre-batz-sur-mer-fr-6790068/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Démonstration culinaire avec le chef Bastien Bompas - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-bastien-bompas-saveurs-doctobre-guerande-fr-6790069/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Visite de la Ferme Lait Prés Verts - Saveurs d'octobre",
       "place": "Guérande",
       "date": "2026-10-19",
       "end_date": "2026-10-28",
       "date_label": "Du 19/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-de-la-ferme-lait-pres-verts-saveurs-doctobre-guerande-fr-6790043/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visitez nos entreprises - Ferme Lait Prés Verts",
+      "place": "Guérande",
+      "date": "2026-10-19",
+      "end_date": "2026-10-28",
+      "date_label": "Du 19/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-ferme-lait-pres-verts-guerande-fr-6790094/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -147,16 +127,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier sommeil",
-      "place": "La Turballe",
-      "date": "2026-10-12",
-      "end_date": "2026-10-26",
-      "date_label": "Du 12/10/2026 au 26/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-sommeil-la-turballe-fr-6818118/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
@@ -177,12 +147,32 @@
       "source_key": "croisic"
     },
     {
+      "title": "Gaming : Luigi's mansion 3",
+      "place": "Le Croisic",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1661389/gaming-luigi-s-mansion-3",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Le vampire, figures et symboles",
       "place": "Le Croisic",
       "date": "2026-10-17",
       "end_date": "2026-11-07",
       "date_label": "Du 17/10/2026 au 07/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Repair café",
+      "place": "Le Croisic",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1905997/repair-cafe-4-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -197,14 +187,24 @@
       "source_key": "croisic"
     },
     {
-      "title": "LE TRÉSOR DU CAPITAINE MORGANE",
+      "title": "Les mardis de Baudry : « Le chat Botté » // COMPLET",
       "place": "Le Pouliguen",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/le-tresor-du-capitaine-morgane-4/",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-le-chat-botte/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Spectacle familial - Le chat botté - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://reservation.labaule-guerande.com/spectacle-familial-le-chat-botte-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Concours de dessins enfants",
@@ -237,106 +237,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Festival \"Comme des Images\"",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-30",
-      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Halloween du Dauphin",
-      "place": "Pornichet",
-      "date": "2026-10-24",
-      "end_date": "2026-10-31",
-      "date_label": "Du 24/10 au 31/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Les secrets de la nature",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "Lundi 26 octobre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/les-secrets-de-la-nature",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Photos de voyages",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-11-01",
-      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stage multi-activités",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "Lundi 26 octobre 2026 de 9h30 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Spectacle jeune public : Scrooge, le complot",
-      "place": "Pénestin",
-      "date": "2026-10-26",
-      "end_date": "2026-10-26",
-      "date_label": "26/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/spectacle-jeune-public-scrooge-le-complot-penestin-fr-6698543/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Gaming : Luigi's mansion 3",
-      "place": "Le Croisic",
-      "date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "date_label": "27/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1661389/gaming-luigi-s-mansion-3",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Repair café",
-      "place": "Le Croisic",
-      "date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "date_label": "27/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1905997/repair-cafe-4-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les mardis de Baudry : « Le chat Botté » // COMPLET",
-      "place": "Le Pouliguen",
-      "date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "date_label": "27/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-le-chat-botte/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Spectacle familial - Le chat botté - Mardis de Baudry",
-      "place": "Le Pouliguen",
-      "date": "2026-10-27",
-      "end_date": "2026-10-27",
-      "date_label": "27/10/2026",
-      "url": "https://reservation.labaule-guerande.com/spectacle-familial-le-chat-botte-mardis-de-baudry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
       "title": "Cap sur tes rêves",
       "place": "Pornichet",
       "date": "2026-10-27",
@@ -357,12 +257,42 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Festival \"Comme des Images\"",
+      "place": "Pornichet",
+      "date": "2026-10-19",
+      "end_date": "2026-10-30",
+      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
+      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Halloween du Dauphin",
+      "place": "Pornichet",
+      "date": "2026-10-24",
+      "end_date": "2026-10-31",
+      "date_label": "Du 24/10 au 31/10/2026 tous les jours.",
+      "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Le trésor du capitaine Cavaro",
       "place": "Pornichet",
       "date": "2026-10-27",
       "end_date": "2026-10-27",
       "date_label": "Mardi 27 octobre 2026 de 14h15 à 15h30.",
       "url": "https://www.pornichet.fr/agenda/le-tresor-du-capitaine-cavaro",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Photos de voyages",
+      "place": "Pornichet",
+      "date": "2026-10-26",
+      "end_date": "2026-11-01",
+      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -623,6 +553,16 @@
       "end_date": "2026-11-02",
       "date_label": "02/11/2026",
       "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-5/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Exposition Virtuelle • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "date_label": "04/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-9/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
