@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-27T01:26:26.152633+01:00",
+  "updated": "2026-10-27T10:00:42.002420+01:00",
   "coverage_start": "2026-10-27",
   "coverage_end": "2027-01-25",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 31
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 31
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 11
+      "count": 23
     }
   ],
   "events": [
@@ -57,12 +57,62 @@
       "source_key": "tourism"
     },
     {
+      "title": "Initiation à la pêche à pied",
+      "place": "Batz-sur-Mer",
+      "date": "2026-07-17",
+      "end_date": "2026-10-27",
+      "date_label": "Du 17/07/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/initiation-a-la-peche-a-pied-batz-sur-mer-fr-6425138/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Randonnée gourmande - Saveurs d'octobre",
       "place": "Batz-sur-Mer",
       "date": "2026-10-15",
       "end_date": "2026-10-29",
       "date_label": "Du 15/10/2026 au 29/10/2026",
       "url": "https://www.labaule-guerande.com/offres/randonnee-gourmande-saveurs-doctobre-batz-sur-mer-fr-6790037/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Initiation au vitrail",
+      "place": "Cordemais",
+      "date": "2026-10-20",
+      "end_date": "2026-10-27",
+      "date_label": "Du 20/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/initiation-au-vitrail-cordemais-fr-6819714/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Découverte de la fromagerie - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-10-27",
+      "date_label": "Du 20/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/decouverte-de-la-fromagerie-saveurs-doctobre-guerande-fr-6790049/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Olivier Morice - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-olivier-morice-saveurs-doctobre-guerande-fr-6790072/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les petits boulangers - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-22",
+      "end_date": "2026-10-27",
+      "date_label": "Du 22/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-petits-boulangers-saveurs-doctobre-guerande-fr-6790050/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -87,12 +137,42 @@
       "source_key": "tourism"
     },
     {
+      "title": "Journée Fantasy",
+      "place": "Herbignac",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-fantasy-herbignac-fr-6821782/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Journée Halloween au château - Saveurs d'octobre",
+      "place": "Herbignac",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-halloween-au-chateau-saveurs-doctobre-herbignac-fr-6790078/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier - Les petits créateurs",
       "place": "La Baule-Escoublac",
       "date": "2026-10-26",
       "end_date": "2026-10-28",
       "date_label": "Du 26/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-les-petits-createurs-la-baule-escoublac-fr-6819703/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier enfant Halloween - Saveurs d'octobre",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-20",
+      "end_date": "2026-10-27",
+      "date_label": "Du 20/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-enfant-halloween-saveurs-doctobre-la-baule-escoublac-fr-6790046/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -123,6 +203,16 @@
       "end_date": "2026-10-28",
       "date_label": "Du 26/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/stage-drape-aerien-la-baule-escoublac-fr-6227016/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier : bracelets",
+      "place": "La Turballe",
+      "date": "2026-10-19",
+      "end_date": "2026-10-31",
+      "date_label": "Du 19/10/2026 au 31/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-bracelets-la-turballe-fr-6481706/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -165,6 +255,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Repair Café Le Croisic",
+      "place": "Le Croisic",
+      "date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "date_label": "27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/repair-cafe-le-croisic-le-croisic-fr-6485252/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Repair café",
@@ -223,6 +323,16 @@
       "end_date": "2026-10-28",
       "date_label": "Du 12/09/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-visages-deau-piriac-sur-mer-fr-6780979/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée Louison mène l'enquête",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-20",
+      "end_date": "2026-10-27",
+      "date_label": "Du 20/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-louison-mene-lenquete-piriac-sur-mer-fr-6252834/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -305,6 +415,16 @@
       "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Visite guidée Les lutins et le roseau d'or",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-20",
+      "end_date": "2026-10-27",
+      "date_label": "Du 20/10/2026 au 27/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-les-lutins-et-le-roseau-dor-saint-lyphard-fr-6252828/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Ciné-goûter - Chien Bleu et autres belles histoires",
