@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-28T13:55:37.574327+01:00",
+  "updated": "2026-10-28T21:16:41.803482+01:00",
   "coverage_start": "2026-10-28",
   "coverage_end": "2027-01-26",
   "sources": [
@@ -8,19 +8,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 24
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 10
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
+      "count": 28
     },
     {
       "name": "Ville du Croisic",
@@ -29,10 +17,22 @@
       "count": 12
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 10
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 19
+      "count": 23
     }
   ],
   "events": [
@@ -87,12 +87,42 @@
       "source_key": "tourism"
     },
     {
+      "title": "Un tour ou un sort ?!",
+      "place": "Cordemais",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/un-tour-ou-un-sort-cordemais-fr-6819712/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Raconte-moi une histoire",
+      "place": "Férel",
+      "date": "2026-10-21",
+      "end_date": "2026-10-28",
+      "date_label": "Du 21/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/raconte-moi-une-histoire-ferel-fr-6411583/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Démonstration culinaire avec le chef Thibaut Bellanger - Saveurs d'octobre",
       "place": "Guérande",
       "date": "2026-10-28",
       "end_date": "2026-10-28",
       "date_label": "28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-thibaut-bellanger-saveurs-doctobre-guerande-fr-6790077/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Saveurs de la nature - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-07",
+      "end_date": "2026-10-28",
+      "date_label": "Du 07/10/2026 au 28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/saveurs-de-la-nature-saveurs-doctobre-guerande-fr-6790022/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -123,6 +153,16 @@
       "end_date": "2026-10-28",
       "date_label": "Du 19/10/2026 au 28/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visitez-nos-entreprises-ferme-lait-pres-verts-guerande-fr-6790094/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "À la découverte du verger, cueillette et dégustation de pommes - Saveurs d'octobre",
+      "place": "Herbignac",
+      "date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "date_label": "28/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/a-la-decouverte-du-verger-cueillette-et-degustation-de-pommes-saveurs-doctobre-herbignac-fr-6790073/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
