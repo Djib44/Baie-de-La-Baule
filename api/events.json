@@ -1,18 +1,24 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-29T01:57:57.472368+01:00",
+  "updated": "2026-10-29T10:58:54.140140+01:00",
   "coverage_start": "2026-10-29",
   "coverage_end": "2027-01-27",
   "sources": [
     {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 20
+      "count": 23
     },
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -21,12 +27,6 @@
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
@@ -257,6 +257,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Les Gardiens du Grimoire",
+      "place": "Pornichet",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "Vendredi 30 octobre 2026 de 10h30 à 12h30 et de 15h à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/les-gardiens-du-grimoire",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Soirée Dia de Los Muertos",
+      "place": "Pornichet",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "Vendredi 30 octobre 2026 de 20h30 à 1h.",
+      "url": "https://www.pornichet.fr/agenda/soiree-dia-de-los-muertos",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Stage multi-activités",
       "place": "Pornichet",
       "date": "2026-10-30",
@@ -273,6 +293,16 @@
       "end_date": "2026-10-30",
       "date_label": "Vendredi 30 octobre 2026 de 10h30 à 12h.",
       "url": "https://www.pornichet.fr/agenda/tadam-legor-wedo",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Vertigo en live",
+      "place": "Pornichet",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "Vendredi 30 octobre 2026 à 21h.",
+      "url": "https://www.pornichet.fr/agenda/vertigo-en-live",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },

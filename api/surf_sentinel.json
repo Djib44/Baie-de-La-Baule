@@ -5,7 +5,7 @@
       "name": "Pornichet",
       "reference": "Plage de Pornichet",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/plage-de-pornichet",
-      "fetched_at": "2026-10-29T01:57:56.091671+01:00",
+      "fetched_at": "2026-10-29T10:58:52.467459+01:00",
       "rows": [
         {
           "time": "2026-10-29T06:00:00+01:00",
@@ -517,80 +517,8 @@
       "name": "La Govelle",
       "reference": "La Govelle",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/batz-sur-mer/la-govelle",
-      "fetched_at": "2026-10-29T01:57:57.357368+01:00",
+      "fetched_at": "2026-10-29T10:58:53.956693+01:00",
       "rows": [
-        {
-          "time": "2026-10-28T06:00:00+01:00",
-          "rating": "B3",
-          "quality": "B",
-          "size": 3,
-          "height": 1.4,
-          "period": 13.0,
-          "wind": 8.0,
-          "gusts": 10.0,
-          "wind_direction": "nord (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-28T09:00:00+01:00",
-          "rating": "A3",
-          "quality": "A",
-          "size": 3,
-          "height": 1.4,
-          "period": 12.9,
-          "wind": 6.0,
-          "gusts": 12.0,
-          "wind_direction": "nord-est (offshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-28T12:00:00+01:00",
-          "rating": "A2",
-          "quality": "A",
-          "size": 2,
-          "height": 1.3,
-          "period": 12.8,
-          "wind": 8.0,
-          "gusts": 14.0,
-          "wind_direction": "sud-est (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-28T15:00:00+01:00",
-          "rating": "B2",
-          "quality": "B",
-          "size": 2,
-          "height": 1.2,
-          "period": 12.7,
-          "wind": 5.0,
-          "gusts": 7.0,
-          "wind_direction": "sud-ouest (onshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-28T18:00:00+01:00",
-          "rating": "B2",
-          "quality": "B",
-          "size": 2,
-          "height": 1.1,
-          "period": 12.5,
-          "wind": 8.0,
-          "gusts": 15.0,
-          "wind_direction": "nord-ouest (sideshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
-        {
-          "time": "2026-10-28T21:00:00+01:00",
-          "rating": "A2",
-          "quality": "A",
-          "size": 2,
-          "height": 1.0,
-          "period": 12.3,
-          "wind": 13.0,
-          "gusts": 14.0,
-          "wind_direction": "nord-est (offshore)",
-          "swell_direction": "ouest (orientée idéalement)"
-        },
         {
           "time": "2026-10-29T06:00:00+01:00",
           "rating": "A1",
@@ -1022,6 +950,78 @@
           "gusts": 45.0,
           "wind_direction": "nord-est (offshore)",
           "swell_direction": "nord-est (très mal orientée)"
+        },
+        {
+          "time": "2026-11-04T06:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 27.0,
+          "gusts": 40.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (très mal orientée)"
+        },
+        {
+          "time": "2026-11-04T09:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 28.0,
+          "gusts": 44.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (très mal orientée)"
+        },
+        {
+          "time": "2026-11-04T12:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 29.0,
+          "gusts": 39.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (très mal orientée)"
+        },
+        {
+          "time": "2026-11-04T15:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 15.0,
+          "wind": 30.0,
+          "gusts": 36.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (très mal orientée)"
+        },
+        {
+          "time": "2026-11-04T18:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.4,
+          "period": 16.9,
+          "wind": 30.0,
+          "gusts": 38.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "sud (bien orientée)"
+        },
+        {
+          "time": "2026-11-04T21:00:00+01:00",
+          "rating": "A1",
+          "quality": "A",
+          "size": 1,
+          "height": 0.5,
+          "period": 17.3,
+          "wind": 28.0,
+          "gusts": 40.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "ouest (orientée idéalement)"
         }
       ]
     },
@@ -1029,80 +1029,8 @@
       "name": "La Courance",
       "reference": "La Courance",
       "url": "https://www.surf-sentinel.com/surf-report/france/loire-atlantique/pornichet/la-courance",
-      "fetched_at": "2026-10-29T01:57:54.852732+01:00",
+      "fetched_at": "2026-10-29T10:58:50.929602+01:00",
       "rows": [
-        {
-          "time": "2026-10-28T06:00:00+01:00",
-          "rating": "B3",
-          "quality": "B",
-          "size": 3,
-          "height": 1.4,
-          "period": 13.0,
-          "wind": 8.0,
-          "gusts": 10.0,
-          "wind_direction": "nord (offshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
-        {
-          "time": "2026-10-28T09:00:00+01:00",
-          "rating": "B3",
-          "quality": "B",
-          "size": 3,
-          "height": 1.4,
-          "period": 12.9,
-          "wind": 6.0,
-          "gusts": 11.0,
-          "wind_direction": "nord-est (sideshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
-        {
-          "time": "2026-10-28T12:00:00+01:00",
-          "rating": "C2",
-          "quality": "C",
-          "size": 2,
-          "height": 1.3,
-          "period": 12.8,
-          "wind": 8.0,
-          "gusts": 9.0,
-          "wind_direction": "sud-est (sideshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
-        {
-          "time": "2026-10-28T15:00:00+01:00",
-          "rating": "C2",
-          "quality": "C",
-          "size": 2,
-          "height": 1.2,
-          "period": 12.7,
-          "wind": 5.0,
-          "gusts": 9.0,
-          "wind_direction": "sud-ouest (onshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
-        {
-          "time": "2026-10-28T18:00:00+01:00",
-          "rating": "B2",
-          "quality": "B",
-          "size": 2,
-          "height": 1.1,
-          "period": 12.5,
-          "wind": 8.0,
-          "gusts": 12.0,
-          "wind_direction": "nord-ouest (sideshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
-        {
-          "time": "2026-10-28T21:00:00+01:00",
-          "rating": "B2",
-          "quality": "B",
-          "size": 2,
-          "height": 1.0,
-          "period": 12.3,
-          "wind": 13.0,
-          "gusts": 14.0,
-          "wind_direction": "nord-est (offshore)",
-          "swell_direction": "ouest (bien orientée)"
-        },
         {
           "time": "2026-10-29T06:00:00+01:00",
           "rating": "C1",
@@ -1534,6 +1462,78 @@
           "gusts": 45.0,
           "wind_direction": "nord-est (offshore)",
           "swell_direction": "nord-est (mal orientée)"
+        },
+        {
+          "time": "2026-11-04T06:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 27.0,
+          "gusts": 40.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (mal orientée)"
+        },
+        {
+          "time": "2026-11-04T09:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 28.0,
+          "gusts": 44.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (mal orientée)"
+        },
+        {
+          "time": "2026-11-04T12:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 10.5,
+          "wind": 29.0,
+          "gusts": 39.0,
+          "wind_direction": "nord-est (sideshore)",
+          "swell_direction": "nord-est (mal orientée)"
+        },
+        {
+          "time": "2026-11-04T15:00:00+01:00",
+          "rating": "C1",
+          "quality": "C",
+          "size": 1,
+          "height": 0.5,
+          "period": 15.0,
+          "wind": 30.0,
+          "gusts": 36.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "nord-est (mal orientée)"
+        },
+        {
+          "time": "2026-11-04T18:00:00+01:00",
+          "rating": "A1",
+          "quality": "A",
+          "size": 1,
+          "height": 0.4,
+          "period": 16.9,
+          "wind": 30.0,
+          "gusts": 38.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "sud (orientée idéalement)"
+        },
+        {
+          "time": "2026-11-04T21:00:00+01:00",
+          "rating": "B1",
+          "quality": "B",
+          "size": 1,
+          "height": 0.5,
+          "period": 17.3,
+          "wind": 28.0,
+          "gusts": 40.0,
+          "wind_direction": "nord-est (offshore)",
+          "swell_direction": "ouest (bien orientée)"
         }
       ]
     }
