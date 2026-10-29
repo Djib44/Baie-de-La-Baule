@@ -3,14 +3,14 @@
   "reference": "Saint-Nazaire",
   "code_zone": "44184",
   "updated": "2026-10-28T15:49:22.592+01:00",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "index": 2,
   "label": "moyen",
   "color": "#50ccaa",
   "pollutants": {
     "NO2": 2,
     "O3": 2,
-    "PM10": 2,
+    "PM10": 1,
     "PM2.5": 2,
     "SO2": 1
   }
