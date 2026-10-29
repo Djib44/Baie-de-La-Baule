@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-29T10:58:54.140140+01:00",
+  "updated": "2026-10-29T19:29:01.810935+01:00",
   "coverage_start": "2026-10-29",
   "coverage_end": "2027-01-27",
   "sources": [
@@ -17,22 +17,22 @@
       "count": 23
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 5
+      "count": 17
     }
   ],
   "events": [
@@ -57,6 +57,66 @@
       "source_key": "tourism"
     },
     {
+      "title": "Comme des mosaïques",
+      "place": "Cordemais",
+      "date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "date_label": "Du 28/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/comme-des-mosaiques-cordemais-fr-6819721/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Magi'Créatures",
+      "place": "Cordemais",
+      "date": "2026-10-27",
+      "end_date": "2026-10-29",
+      "date_label": "Du 27/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/magicreatures-cordemais-fr-6819727/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Démonstration culinaire avec le chef Kevin Renier - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/demonstration-culinaire-avec-le-chef-kevin-renier-saveurs-doctobre-guerande-fr-6790079/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Programme des démonstrations culinaires - Saveurs d'Octobre 2026",
+      "place": "Guérande",
+      "date": "2026-10-12",
+      "end_date": "2026-10-29",
+      "date_label": "Du 12/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/programme-des-demonstrations-culinaires-saveurs-doctobre-2026-guerande-fr-6786965/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La visite nocturne - Soirée frissons !",
+      "place": "Herbignac",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-visite-nocturne-soiree-frissons-herbignac-fr-6761744/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée Camille et la villa mystère",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-22",
+      "end_date": "2026-10-29",
+      "date_label": "Du 22/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-camille-et-la-villa-mystere-la-baule-escoublac-fr-6273648/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier : bracelets",
       "place": "La Turballe",
       "date": "2026-10-19",
@@ -67,12 +127,42 @@
       "source_key": "tourism"
     },
     {
+      "title": "Atelier : nœuds marins",
+      "place": "La Turballe",
+      "date": "2026-10-19",
+      "end_date": "2026-10-31",
+      "date_label": "Du 19/10/2026 au 31/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-noeuds-marins-la-turballe-fr-6481685/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier : porte-clés",
       "place": "La Turballe",
       "date": "2026-10-20",
       "end_date": "2026-10-30",
       "date_label": "Du 20/10/2026 au 30/10/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-porte-cles-la-turballe-fr-6323959/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier : triptyque marin",
+      "place": "La Turballe",
+      "date": "2026-10-19",
+      "end_date": "2026-10-31",
+      "date_label": "Du 19/10/2026 au 31/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-triptyque-marin-la-turballe-fr-6732192/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conte de la peur",
+      "place": "La Turballe",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conte-de-la-peur-la-turballe-fr-6818120/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -135,6 +225,26 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-7/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Conférence faune et flore de Piriac",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "date_label": "29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-faune-et-flore-de-piriac-piriac-sur-mer-fr-6821762/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Piriac sous mer, une biodiversité à découvrir",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-09-26",
+      "end_date": "2026-10-29",
+      "date_label": "Du 26/09/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/piriac-sous-mer-une-biodiversite-a-decouvrir-piriac-sur-mer-fr-6803509/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -205,6 +315,16 @@
       "url": "https://www.pornichet.fr/agenda/vide-hotel",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "La grande chasse aux chauve-souris",
+      "place": "Pénestin",
+      "date": "2026-10-22",
+      "end_date": "2026-10-29",
+      "date_label": "Du 22/10/2026 au 29/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-grande-chasse-aux-chauve-souris-penestin-fr-6855648/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "COMPLET Atelier créatif Halloween",
