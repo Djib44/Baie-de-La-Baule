@@ -1,18 +1,24 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-30T11:01:44.451454+01:00",
+  "updated": "2026-10-30T19:00:40.216195+01:00",
   "coverage_start": "2026-10-30",
   "coverage_end": "2027-01-28",
   "sources": [
     {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 19
+      "count": 21
     },
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -23,19 +29,83 @@
       "count": 10
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 5
+      "count": 17
     }
   ],
   "events": [
+    {
+      "title": "Atelier peinture végétale - Saveurs d'octobre",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-20",
+      "end_date": "2026-10-30",
+      "date_label": "Du 20/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-peinture-vegetale-saveurs-doctobre-batz-sur-mer-fr-6790044/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Poupée Envoutée",
+      "place": "Cordemais",
+      "date": "2026-10-26",
+      "end_date": "2026-10-30",
+      "date_label": "Du 26/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/poupee-envoutee-cordemais-fr-6819726/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier - Les P'tits Explorateurs et les bâtisseurs",
+      "place": "Guérande",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-les-ptits-explorateurs-et-les-batisseurs-guerande-fr-6824656/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Au gré des salines - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-23",
+      "end_date": "2026-10-30",
+      "date_label": "Du 23/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/au-gre-des-salines-saveurs-doctobre-guerande-fr-6790064/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage d'Art plastiques",
+      "place": "Guérande",
+      "date": "2026-10-26",
+      "end_date": "2026-10-30",
+      "date_label": "Du 26/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-dart-plastiques-guerande-fr-6359726/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée Balade gourmande - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-09",
+      "end_date": "2026-10-30",
+      "date_label": "Du 09/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-balade-gourmande-saveurs-doctobre-guerande-fr-6636466/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Stage - Dessin manga",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-29",
+      "end_date": "2026-10-30",
+      "date_label": "Du 29/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/stage-dessin-manga-la-baule-escoublac-fr-6030172/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Atelier : bracelets",
       "place": "La Turballe",
@@ -53,6 +123,16 @@
       "end_date": "2026-10-31",
       "date_label": "Du 19/10/2026 au 31/10/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-noeuds-marins-la-turballe-fr-6481685/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier : pomme de touline",
+      "place": "La Turballe",
+      "date": "2026-10-19",
+      "end_date": "2026-10-31",
+      "date_label": "Du 19/10/2026 au 31/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-pomme-de-touline-la-turballe-fr-6679834/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -77,12 +157,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Sortie guidée dans les marais salants de La Turballe",
+      "place": "La Turballe",
+      "date": "2026-10-19",
+      "end_date": "2026-10-30",
+      "date_label": "Du 19/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/sortie-guidee-dans-les-marais-salants-de-la-turballe-la-turballe-fr-6849580/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Visite guidée : le clocher de Trescalan",
       "place": "La Turballe",
       "date": "2026-10-19",
       "end_date": "2026-10-31",
       "date_label": "Du 19/10/2026 au 31/10/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-guidee-le-clocher-de-trescalan-la-turballe-fr-6679841/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier créatif Halloween",
+      "place": "Le Croisic",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-creatif-halloween-le-croisic-fr-6818124/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +257,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Documentaire en Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/documentaire-en-folie-le-pouliguen-fr-6829852/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Documentaire • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-10-30",
@@ -175,6 +285,16 @@
       "url": "https://www.lepouliguen.fr/evenements/soiree-jeux-de-societe-avec-la-participation-du-temple-du-jeu/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Après-midi Halloween",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/apres-midi-halloween-piriac-sur-mer-fr-6029975/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -335,6 +455,56 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-8/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Happy Halloween",
+      "place": "Pornichet",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "Samedi 31 octobre 2026 de 14h à 16h30.",
+      "url": "https://www.pornichet.fr/agenda/happy-halloween",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Karaoké d'Halloween",
+      "place": "Pornichet",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "Samedi 31 octobre 2026 à 21h.",
+      "url": "https://www.pornichet.fr/agenda/karaoke-dhalloween",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "La Grande Dictée du Rotary",
+      "place": "Pornichet",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "Samedi 31 octobre 2026 de 16h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/la-grande-dictee-du-rotary",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "La peur de l'ogre",
+      "place": "Pornichet",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "Samedi 31 octobre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/la-peur-de-logre",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Sorciers et sorcières",
+      "place": "Pornichet",
+      "date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "date_label": "Samedi 31 octobre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/sorciers-et-sorcieres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Cérémonie du Souvenir Français",
