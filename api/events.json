@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-30T19:00:40.216195+01:00",
+  "updated": "2026-10-30T23:20:58.498294+01:00",
   "coverage_start": "2026-10-30",
   "coverage_end": "2027-01-28",
   "sources": [
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 17
+      "count": 23
     }
   ],
   "events": [
@@ -73,6 +73,16 @@
       "end_date": "2026-10-30",
       "date_label": "Du 23/10/2026 au 30/10/2026",
       "url": "https://www.labaule-guerande.com/offres/au-gre-des-salines-saveurs-doctobre-guerande-fr-6790064/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rallye du petit fermier - Saveurs d'octobre",
+      "place": "Guérande",
+      "date": "2026-10-22",
+      "end_date": "2026-10-30",
+      "date_label": "Du 22/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/rallye-du-petit-fermier-saveurs-doctobre-guerande-fr-6790057/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -163,6 +173,26 @@
       "end_date": "2026-10-30",
       "date_label": "Du 19/10/2026 au 30/10/2026",
       "url": "https://www.labaule-guerande.com/offres/sortie-guidee-dans-les-marais-salants-de-la-turballe-la-turballe-fr-6849580/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite de la Criée - Saveurs d'octobre",
+      "place": "La Turballe",
+      "date": "2026-10-02",
+      "end_date": "2026-10-30",
+      "date_label": "Du 02/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-de-la-criee-saveurs-doctobre-la-turballe-fr-6790015/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée : la criée",
+      "place": "La Turballe",
+      "date": "2026-09-11",
+      "end_date": "2026-10-30",
+      "date_label": "Du 11/09/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-la-criee-la-turballe-fr-6310902/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -275,6 +305,16 @@
       "url": "https://www.lepouliguen.fr/evenements/documentaire-micro-folie-6/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Festival comme des images",
+      "place": "Le Pouliguen",
+      "date": "2026-10-19",
+      "end_date": "2026-10-30",
+      "date_label": "Du 19/10/2026 au 30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-comme-des-images-le-pouliguen-fr-6835073/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "SOIRÉE JEUX DE SOCIÉTÉ AVEC LA PARTICIPATION DU TEMPLE DU JEU",
@@ -395,6 +435,26 @@
       "url": "https://www.pornichet.fr/agenda/vide-hotel",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Atelier couture : \"sac\"",
+      "place": "Pénestin",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-couture-sac-penestin-fr-6790103/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Cinéma tout public : La vie d'une femme",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "date_label": "30/10/2026",
+      "url": "https://www.labaule-guerande.com/offres/cinema-tout-public-la-vie-dune-femme-saint-lyphard-fr-6785764/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Halloween",
