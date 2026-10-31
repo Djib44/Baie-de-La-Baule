@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-30T23:20:58.498294+01:00",
-  "coverage_start": "2026-10-30",
-  "coverage_end": "2027-01-28",
+  "updated": "2026-10-31T06:42:08.577795+01:00",
+  "coverage_start": "2026-10-31",
+  "coverage_end": "2027-01-29",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 21
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,93 +23,19 @@
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 23
+      "count": 5
     }
   ],
   "events": [
-    {
-      "title": "Atelier peinture végétale - Saveurs d'octobre",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-20",
-      "end_date": "2026-10-30",
-      "date_label": "Du 20/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-peinture-vegetale-saveurs-doctobre-batz-sur-mer-fr-6790044/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Poupée Envoutée",
-      "place": "Cordemais",
-      "date": "2026-10-26",
-      "end_date": "2026-10-30",
-      "date_label": "Du 26/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/poupee-envoutee-cordemais-fr-6819726/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier - Les P'tits Explorateurs et les bâtisseurs",
-      "place": "Guérande",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-les-ptits-explorateurs-et-les-batisseurs-guerande-fr-6824656/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Au gré des salines - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-23",
-      "end_date": "2026-10-30",
-      "date_label": "Du 23/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/au-gre-des-salines-saveurs-doctobre-guerande-fr-6790064/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Rallye du petit fermier - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-22",
-      "end_date": "2026-10-30",
-      "date_label": "Du 22/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/rallye-du-petit-fermier-saveurs-doctobre-guerande-fr-6790057/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage d'Art plastiques",
-      "place": "Guérande",
-      "date": "2026-10-26",
-      "end_date": "2026-10-30",
-      "date_label": "Du 26/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-dart-plastiques-guerande-fr-6359726/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite guidée Balade gourmande - Saveurs d'octobre",
-      "place": "Guérande",
-      "date": "2026-10-09",
-      "end_date": "2026-10-30",
-      "date_label": "Du 09/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-guidee-balade-gourmande-saveurs-doctobre-guerande-fr-6636466/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stage - Dessin manga",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-29",
-      "end_date": "2026-10-30",
-      "date_label": "Du 29/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/stage-dessin-manga-la-baule-escoublac-fr-6030172/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Atelier : bracelets",
       "place": "La Turballe",
@@ -147,52 +67,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier : porte-clés",
-      "place": "La Turballe",
-      "date": "2026-10-20",
-      "end_date": "2026-10-30",
-      "date_label": "Du 20/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-porte-cles-la-turballe-fr-6323959/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Atelier : triptyque marin",
       "place": "La Turballe",
       "date": "2026-10-19",
       "end_date": "2026-10-31",
       "date_label": "Du 19/10/2026 au 31/10/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-triptyque-marin-la-turballe-fr-6732192/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Sortie guidée dans les marais salants de La Turballe",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-30",
-      "date_label": "Du 19/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/sortie-guidee-dans-les-marais-salants-de-la-turballe-la-turballe-fr-6849580/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite de la Criée - Saveurs d'octobre",
-      "place": "La Turballe",
-      "date": "2026-10-02",
-      "end_date": "2026-10-30",
-      "date_label": "Du 02/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-de-la-criee-saveurs-doctobre-la-turballe-fr-6790015/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite guidée : la criée",
-      "place": "La Turballe",
-      "date": "2026-09-11",
-      "end_date": "2026-10-30",
-      "date_label": "Du 11/09/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-guidee-la-criee-la-turballe-fr-6310902/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -207,16 +87,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier créatif Halloween",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-creatif-halloween-le-croisic-fr-6818124/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
       "date": "2026-06-15",
@@ -225,236 +95,6 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "COMPLET Atelier créatif Halloween",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1880881/complet-atelier-creatif-halloween",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Créneaux Switch spécial Halloween",
-      "place": "Le Croisic",
-      "date": "2026-10-17",
-      "end_date": "2026-10-31",
-      "date_label": "Du 17/10/2026 au 31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1677535/creneaux-switch-special-halloween",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Gabi Hartmann",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1958309/gabi-hartmann",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Le vampire, figures et symboles",
-      "place": "Le Croisic",
-      "date": "2026-10-17",
-      "end_date": "2026-11-07",
-      "date_label": "Du 17/10/2026 au 07/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Marché du Chocolat et des saveurs",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-11-01",
-      "date_label": "Du 30/10/2026 au 01/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1117859/marche-du-chocolat-et-des-saveurs",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Saveurs d'octobre",
-      "place": "Le Croisic",
-      "date": "2026-10-01",
-      "end_date": "2026-10-31",
-      "date_label": "Du 01/10/2026 au 31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1979941/saveurs-d-octobre",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Documentaire en Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/documentaire-en-folie-le-pouliguen-fr-6829852/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Documentaire • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/documentaire-micro-folie-6/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Festival comme des images",
-      "place": "Le Pouliguen",
-      "date": "2026-10-19",
-      "end_date": "2026-10-30",
-      "date_label": "Du 19/10/2026 au 30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/festival-comme-des-images-le-pouliguen-fr-6835073/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "SOIRÉE JEUX DE SOCIÉTÉ AVEC LA PARTICIPATION DU TEMPLE DU JEU",
-      "place": "Le Pouliguen",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/soiree-jeux-de-societe-avec-la-participation-du-temple-du-jeu/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Après-midi Halloween",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/apres-midi-halloween-piriac-sur-mer-fr-6029975/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "7 comptines d'oiselles et d'oiseaux",
-      "place": "Pornichet",
-      "date": "2026-09-26",
-      "end_date": "2026-11-14",
-      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
-      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Festival \"Comme des Images\"",
-      "place": "Pornichet",
-      "date": "2026-10-19",
-      "end_date": "2026-10-30",
-      "date_label": "Du 19/10 au 30/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/festival-comme-des-images",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Halloween du Dauphin",
-      "place": "Pornichet",
-      "date": "2026-10-24",
-      "end_date": "2026-10-31",
-      "date_label": "Du 24/10 au 31/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Les Gardiens du Grimoire",
-      "place": "Pornichet",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "Vendredi 30 octobre 2026 de 10h30 à 12h30 et de 15h à 17h30.",
-      "url": "https://www.pornichet.fr/agenda/les-gardiens-du-grimoire",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Photos de voyages",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-11-01",
-      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Soirée Dia de Los Muertos",
-      "place": "Pornichet",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "Vendredi 30 octobre 2026 de 20h30 à 1h.",
-      "url": "https://www.pornichet.fr/agenda/soiree-dia-de-los-muertos",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stage multi-activités",
-      "place": "Pornichet",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "Vendredi 30 octobre 2026 de 9h30 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/stage-multi-activites",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tadam ! Lego® WeDo",
-      "place": "Pornichet",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "Vendredi 30 octobre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/tadam-legor-wedo",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Vertigo en live",
-      "place": "Pornichet",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "Vendredi 30 octobre 2026 à 21h.",
-      "url": "https://www.pornichet.fr/agenda/vertigo-en-live",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Vide Hôtel",
-      "place": "Pornichet",
-      "date": "2026-10-28",
-      "end_date": "2026-11-01",
-      "date_label": "Du mercredi 28 octobre au dimanche 1er novembre 2026 de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/vide-hotel",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Atelier couture : \"sac\"",
-      "place": "Pénestin",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-couture-sac-penestin-fr-6790103/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Cinéma tout public : La vie d'une femme",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-30",
-      "end_date": "2026-10-30",
-      "date_label": "30/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/cinema-tout-public-la-vie-dune-femme-saint-lyphard-fr-6785764/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Halloween",
@@ -487,6 +127,26 @@
       "source_key": "croisic"
     },
     {
+      "title": "Le vampire, figures et symboles",
+      "place": "Le Croisic",
+      "date": "2026-10-17",
+      "end_date": "2026-11-07",
+      "date_label": "Du 17/10/2026 au 07/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Marché du Chocolat et des saveurs",
+      "place": "Le Croisic",
+      "date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "date_label": "Du 30/10/2026 au 01/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1117859/marche-du-chocolat-et-des-saveurs",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Atelier • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-10-31",
@@ -515,6 +175,26 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-8/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "7 comptines d'oiselles et d'oiseaux",
+      "place": "Pornichet",
+      "date": "2026-09-26",
+      "end_date": "2026-11-14",
+      "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
+      "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Halloween du Dauphin",
+      "place": "Pornichet",
+      "date": "2026-10-24",
+      "end_date": "2026-10-31",
+      "date_label": "Du 24/10 au 31/10/2026 tous les jours.",
+      "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Happy Halloween",
@@ -557,12 +237,32 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Photos de voyages",
+      "place": "Pornichet",
+      "date": "2026-10-26",
+      "end_date": "2026-11-01",
+      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Sorciers et sorcières",
       "place": "Pornichet",
       "date": "2026-10-31",
       "end_date": "2026-10-31",
       "date_label": "Samedi 31 octobre 2026 à partir de 10h30.",
       "url": "https://www.pornichet.fr/agenda/sorciers-et-sorcieres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Vide Hôtel",
+      "place": "Pornichet",
+      "date": "2026-10-28",
+      "end_date": "2026-11-01",
+      "date_label": "Du mercredi 28 octobre au dimanche 1er novembre 2026 de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/vide-hotel",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -597,6 +297,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Café littéraire",
+      "place": "Le Croisic",
+      "date": "2026-11-03",
+      "end_date": "2026-11-03",
+      "date_label": "03/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1437048/cafe-litteraire-5",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Les indispensables du cinéma - The Big Lebowski",
+      "place": "Le Croisic",
+      "date": "2026-11-03",
+      "end_date": "2026-11-03",
+      "date_label": "03/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1575914/les-indispensables-du-cinema-the-big-lebowski",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Exposition Virtuelle • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-11-04",
@@ -605,6 +325,26 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-9/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Présentation de la programmation",
+      "place": "Le Croisic",
+      "date": "2026-11-05",
+      "end_date": "2026-11-05",
+      "date_label": "05/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1954851/presentation-de-la-programmation",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Concert d'Automne - Louise Farrenc, une compositrice à découvrir",
+      "place": "Le Croisic",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1988703/concert-d-automne-louise-farrenc-une-compositrice-a-decouvrir",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Antigone de Sophocle",
@@ -663,6 +403,26 @@
       "end_date": "2026-11-07",
       "date_label": "07/11/2026",
       "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-3/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
+      "place": "Le Pouliguen",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/conference-publique-yves-moreau-le-pouliguen-romantique/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "CÉRÉMONIE COMMÉMORANT L’ARMISTICE DU 11 NOVEMBRE 1918",
+      "place": "Le Pouliguen",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
