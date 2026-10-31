@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-31T06:42:08.577795+01:00",
+  "updated": "2026-10-31T13:30:15.471310+01:00",
   "coverage_start": "2026-10-31",
   "coverage_end": "2027-01-29",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 14
+      "count": 28
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -297,6 +297,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Atelier cuisine",
+      "place": "Pornichet",
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "Lundi 2 novembre 2026 de 14h à 15h30 et de 19h à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/atelier-cuisine-0",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Avant-première surprise !",
+      "place": "Pornichet",
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "Lundi 2 novembre 2026.",
+      "url": "https://www.pornichet.fr/agenda/avant-premiere-surprise",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-11-03",
@@ -325,6 +345,16 @@
       "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-9/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-11-04",
+      "end_date": "2026-11-07",
+      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Présentation de la programmation",
@@ -387,6 +417,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Salon de l'automobile",
+      "place": "Pornichet",
+      "date": "2026-11-06",
+      "end_date": "2026-11-07",
+      "date_label": "Du vendredi 6 au samedi 7 novembre 2026 le vendredi de 10h à 19h. Le samedi de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/salon-de-lautomobile",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Exposition virtuelle • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-11-07",
@@ -437,6 +477,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Muse Rouge - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-11-24",
@@ -457,6 +507,46 @@
       "source_key": "tickets"
     },
     {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-12-02",
+      "end_date": "2026-12-05",
+      "date_label": "Du mercredi 2 au samedi 5 décembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "date_label": "Samedi 5 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Avant-première surprise !",
+      "place": "Pornichet",
+      "date": "2026-12-07",
+      "end_date": "2026-12-07",
+      "date_label": "Lundi 7 décembre 2026.",
+      "url": "https://www.pornichet.fr/agenda/avant-premiere-surprise",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-12-08",
@@ -465,6 +555,26 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-08",
+      "end_date": "2026-12-08",
+      "date_label": "Mardi 8 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-16",
+      "end_date": "2026-12-16",
+      "date_label": "Mercredi 16 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Humour - Jean-Luc Lemoine - Liquidation",
@@ -485,6 +595,26 @@
       "url": "https://reservation.labaule-guerande.com/theatre-je-t-aime-banane.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-22",
+      "end_date": "2026-12-22",
+      "date_label": "Mardi 22 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-28",
+      "end_date": "2026-12-28",
+      "date_label": "Lundi 28 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Concert - Soirée conservatoire de Cap Atlantique : Paris - New York",
