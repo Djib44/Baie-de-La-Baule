@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-31T13:30:15.471310+01:00",
+  "updated": "2026-10-31T20:18:39.981871+01:00",
   "coverage_start": "2026-10-31",
   "coverage_end": "2027-01-29",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 28
+    },
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
