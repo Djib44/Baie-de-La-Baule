@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-01T14:25:25.488611+01:00",
+  "updated": "2026-11-01T20:40:59.497422+01:00",
   "coverage_start": "2026-11-01",
   "coverage_end": "2027-01-30",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 25
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 25
     },
     {
       "name": "Ville du Pouliguen",
@@ -31,11 +31,91 @@
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "unavailable",
-      "count": 0
+      "status": "ok",
+      "count": 12
     }
   ],
   "events": [
+    {
+      "title": "Montée à la Tour Saint-Guénolé",
+      "place": "Batz-sur-Mer",
+      "date": "2026-10-24",
+      "end_date": "2026-11-01",
+      "date_label": "Du 24/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/montee-a-la-tour-saint-guenole-batz-sur-mer-fr-6565658/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Escape game - La chasse",
+      "place": "Guérande",
+      "date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "date_label": "Du 30/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/escape-game-la-chasse-guerande-fr-6853772/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "La chasse Halloween familiale",
+      "place": "Guérande",
+      "date": "2026-10-31",
+      "end_date": "2026-11-01",
+      "date_label": "Du 31/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-chasse-halloween-familiale-guerande-fr-6855649/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite - John Howe et l'architecture médiévale",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-11-01",
+      "date_label": "Du 20/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-john-howe-et-larchitecture-medievale-guerande-fr-6570508/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite - La Porte Saint-Michel de fond en combles",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-11-01",
+      "date_label": "Du 20/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-la-porte-saint-michel-de-fond-en-combles-guerande-fr-6208994/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite famille - La Porte Saint-Michel dans tous les sens !",
+      "place": "Guérande",
+      "date": "2026-10-20",
+      "end_date": "2026-11-01",
+      "date_label": "Du 20/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-famille-la-porte-saint-michel-dans-tous-les-sens-guerande-fr-6208993/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Moment famille",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-19",
+      "end_date": "2026-11-01",
+      "date_label": "Du 19/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/moment-famille-la-baule-escoublac-fr-6629845/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Course de cyclo-cross",
+      "place": "La Turballe",
+      "date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "date_label": "01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/course-de-cyclo-cross-la-turballe-fr-6844510/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
@@ -67,6 +147,26 @@
       "source_key": "croisic"
     },
     {
+      "title": "Marché du Chocolat et des Saveurs",
+      "place": "Le Croisic",
+      "date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "date_label": "Du 30/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-du-chocolat-et-des-saveurs-le-croisic-fr-6030162/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition les amis d'AP2A",
+      "place": "Le Pouliguen",
+      "date": "2026-10-08",
+      "end_date": "2026-11-01",
+      "date_label": "Du 08/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-les-amis-dap2a-le-pouliguen-fr-6565899/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -95,6 +195,26 @@
       "url": "https://www.pornichet.fr/agenda/vide-hotel",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Brunch dominical au Bateau Livre",
+      "place": "Pénestin",
+      "date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "date_label": "01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/brunch-dominical-au-bateau-livre-penestin-fr-6357028/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Halloween Gonflé",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-31",
+      "end_date": "2026-11-01",
+      "date_label": "Du 31/10/2026 au 01/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/halloween-gonfle-saint-lyphard-fr-6795194/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Film mystère ? Coup de cœur surprise",
