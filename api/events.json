@@ -1,18 +1,24 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-10-31T20:18:39.981871+01:00",
-  "coverage_start": "2026-10-31",
-  "coverage_end": "2027-01-29",
+  "updated": "2026-11-01T01:08:44.417930+01:00",
+  "coverage_start": "2026-11-01",
+  "coverage_end": "2027-01-30",
   "sources": [
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 28
+      "count": 25
     },
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -23,69 +29,13 @@
       "count": 10
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "ok",
-      "count": 5
+      "status": "unavailable",
+      "count": 0
     }
   ],
   "events": [
-    {
-      "title": "Atelier : bracelets",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-31",
-      "date_label": "Du 19/10/2026 au 31/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-bracelets-la-turballe-fr-6481706/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier : nœuds marins",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-31",
-      "date_label": "Du 19/10/2026 au 31/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-noeuds-marins-la-turballe-fr-6481685/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier : pomme de touline",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-31",
-      "date_label": "Du 19/10/2026 au 31/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-pomme-de-touline-la-turballe-fr-6679834/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier : triptyque marin",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-31",
-      "date_label": "Du 19/10/2026 au 31/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-triptyque-marin-la-turballe-fr-6732192/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite guidée : le clocher de Trescalan",
-      "place": "La Turballe",
-      "date": "2026-10-19",
-      "end_date": "2026-10-31",
-      "date_label": "Du 19/10/2026 au 31/10/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-guidee-le-clocher-de-trescalan-la-turballe-fr-6679841/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Balades dessinées au Croisic",
       "place": "Le Croisic",
@@ -97,32 +47,12 @@
       "source_key": "croisic"
     },
     {
-      "title": "Halloween",
+      "title": "Cérémonie du Souvenir Français",
       "place": "Le Croisic",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1999688/halloween-70",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Heure du conte d'Halloween",
-      "place": "Le Croisic",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1878125/heure-du-conte-d-halloween",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Initiation & entraînement à la godille",
-      "place": "Le Croisic",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1913641/initiation-entrainement-a-la-godille-1-1-2-1-1",
+      "date": "2026-11-01",
+      "end_date": "2026-11-01",
+      "date_label": "01/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1649793/ceremonie-du-souvenir-francais",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -137,102 +67,12 @@
       "source_key": "croisic"
     },
     {
-      "title": "Marché du Chocolat et des saveurs",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-11-01",
-      "date_label": "Du 30/10/2026 au 01/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1117859/marche-du-chocolat-et-des-saveurs",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Atelier • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/atelier-micro-folie-5/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "CONCOURS DES PLUS HORRIBLES CITROUILLES ET DÉGUISEMENTS",
-      "place": "Le Pouliguen",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/concours-des-plus-horribles-citrouilles-et-deguisements/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Exposition virtuelle • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "31/10/2026",
-      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-8/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
       "end_date": "2026-11-14",
       "date_label": "Du 26/09 au 14/11/2026 le mardi, mercredi et samedi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Fermé le lundi et dimanche.",
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Halloween du Dauphin",
-      "place": "Pornichet",
-      "date": "2026-10-24",
-      "end_date": "2026-10-31",
-      "date_label": "Du 24/10 au 31/10/2026 tous les jours.",
-      "url": "https://www.pornichet.fr/agenda/halloween-du-dauphin",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Happy Halloween",
-      "place": "Pornichet",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Samedi 31 octobre 2026 de 14h à 16h30.",
-      "url": "https://www.pornichet.fr/agenda/happy-halloween",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Karaoké d'Halloween",
-      "place": "Pornichet",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Samedi 31 octobre 2026 à 21h.",
-      "url": "https://www.pornichet.fr/agenda/karaoke-dhalloween",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "La Grande Dictée du Rotary",
-      "place": "Pornichet",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Samedi 31 octobre 2026 de 16h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/la-grande-dictee-du-rotary",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "La peur de l'ogre",
-      "place": "Pornichet",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Samedi 31 octobre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/la-peur-de-logre",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -247,16 +87,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Sorciers et sorcières",
-      "place": "Pornichet",
-      "date": "2026-10-31",
-      "end_date": "2026-10-31",
-      "date_label": "Samedi 31 octobre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/sorciers-et-sorcieres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Vide Hôtel",
       "place": "Pornichet",
       "date": "2026-10-28",
@@ -265,16 +95,6 @@
       "url": "https://www.pornichet.fr/agenda/vide-hotel",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Cérémonie du Souvenir Français",
-      "place": "Le Croisic",
-      "date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "date_label": "01/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1649793/ceremonie-du-souvenir-francais",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
     },
     {
       "title": "Film mystère ? Coup de cœur surprise",
@@ -427,6 +247,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Marathon de la Côte d'Amour - 3e édition",
+      "place": "Le Croisic",
+      "date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1519702/marathon-de-la-cote-d-amour-3e-edition",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Exposition virtuelle • Micro-Folie",
       "place": "Le Pouliguen",
       "date": "2026-11-07",
@@ -457,12 +287,52 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Cérémonie commémorative du 11 Novembre",
+      "place": "Le Croisic",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1782237/ceremonie-commemorative-du-11-novembre-22",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "CÉRÉMONIE COMMÉMORANT L’ARMISTICE DU 11 NOVEMBRE 1918",
       "place": "Le Pouliguen",
       "date": "2026-11-11",
       "end_date": "2026-11-11",
       "date_label": "11/11/2026",
       "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Bla Bla des lecteurs et des lectrices",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/446058/bla-bla-des-lecteurs-et-des-lectrices",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Bourse aux jouets",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1762048/bourse-aux-jouets-40",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "THEÂTRE « MYSTERE AU MANOIR VALLANDRY »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/theatre-mystere-au-manoir-vallandry/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
@@ -485,6 +355,26 @@
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-4/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "MATINÉE JEUX DE SOCIÉTÉ",
+      "place": "Le Pouliguen",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/matinee-jeux-de-societe-2/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Théâtre - Muse Rouge - Mardis de Baudry",
