@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-01T20:40:59.497422+01:00",
-  "coverage_start": "2026-11-01",
-  "coverage_end": "2027-01-30",
+  "updated": "2026-11-02T01:45:14.198037+01:00",
+  "coverage_start": "2026-11-02",
+  "coverage_end": "2027-01-31",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 25
+      "count": 29
     },
     {
       "name": "Ville du Pouliguen",
@@ -31,108 +31,18 @@
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "ok",
-      "count": 12
+      "status": "unavailable",
+      "count": 0
     }
   ],
   "events": [
     {
-      "title": "Montée à la Tour Saint-Guénolé",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-24",
-      "end_date": "2026-11-01",
-      "date_label": "Du 24/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/montee-a-la-tour-saint-guenole-batz-sur-mer-fr-6565658/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Escape game - La chasse",
-      "place": "Guérande",
-      "date": "2026-10-30",
-      "end_date": "2026-11-01",
-      "date_label": "Du 30/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/escape-game-la-chasse-guerande-fr-6853772/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "La chasse Halloween familiale",
-      "place": "Guérande",
-      "date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "date_label": "Du 31/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-chasse-halloween-familiale-guerande-fr-6855649/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite - John Howe et l'architecture médiévale",
-      "place": "Guérande",
-      "date": "2026-10-20",
-      "end_date": "2026-11-01",
-      "date_label": "Du 20/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-john-howe-et-larchitecture-medievale-guerande-fr-6570508/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite - La Porte Saint-Michel de fond en combles",
-      "place": "Guérande",
-      "date": "2026-10-20",
-      "end_date": "2026-11-01",
-      "date_label": "Du 20/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-la-porte-saint-michel-de-fond-en-combles-guerande-fr-6208994/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Visite famille - La Porte Saint-Michel dans tous les sens !",
-      "place": "Guérande",
-      "date": "2026-10-20",
-      "end_date": "2026-11-01",
-      "date_label": "Du 20/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/visite-famille-la-porte-saint-michel-dans-tous-les-sens-guerande-fr-6208993/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Moment famille",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-19",
-      "end_date": "2026-11-01",
-      "date_label": "Du 19/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/moment-famille-la-baule-escoublac-fr-6629845/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Course de cyclo-cross",
-      "place": "La Turballe",
-      "date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "date_label": "01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/course-de-cyclo-cross-la-turballe-fr-6844510/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Balades dessinées au Croisic",
+      "title": "Film mystère ? Coup de cœur surprise",
       "place": "Le Croisic",
-      "date": "2026-06-15",
+      "date": "2026-11-02",
       "end_date": "2026-11-02",
-      "date_label": "Du 15/06/2026 au 02/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1899926/balades-dessinees-au-croisic",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Cérémonie du Souvenir Français",
-      "place": "Le Croisic",
-      "date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "date_label": "01/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1649793/ceremonie-du-souvenir-francais",
+      "date_label": "02/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1954929/film-mystere-coup-de-coeur-surprise",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -147,24 +57,14 @@
       "source_key": "croisic"
     },
     {
-      "title": "Marché du Chocolat et des Saveurs",
-      "place": "Le Croisic",
-      "date": "2026-10-30",
-      "end_date": "2026-11-01",
-      "date_label": "Du 30/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-du-chocolat-et-des-saveurs-le-croisic-fr-6030162/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition les amis d'AP2A",
+      "title": "Fablab 3D • Micro-Folie",
       "place": "Le Pouliguen",
-      "date": "2026-10-08",
-      "end_date": "2026-11-01",
-      "date_label": "Du 08/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-les-amis-dap2a-le-pouliguen-fr-6565899/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "02/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-5/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "7 comptines d'oiselles et d'oiseaux",
@@ -175,66 +75,6 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Photos de voyages",
-      "place": "Pornichet",
-      "date": "2026-10-26",
-      "end_date": "2026-11-01",
-      "date_label": "Du 26/10 au 01/11/2026 tous les jours de 10h30 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/photos-de-voyages",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Vide Hôtel",
-      "place": "Pornichet",
-      "date": "2026-10-28",
-      "end_date": "2026-11-01",
-      "date_label": "Du mercredi 28 octobre au dimanche 1er novembre 2026 de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/vide-hotel",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Brunch dominical au Bateau Livre",
-      "place": "Pénestin",
-      "date": "2026-11-01",
-      "end_date": "2026-11-01",
-      "date_label": "01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/brunch-dominical-au-bateau-livre-penestin-fr-6357028/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Halloween Gonflé",
-      "place": "Saint-Lyphard",
-      "date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "date_label": "Du 31/10/2026 au 01/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/halloween-gonfle-saint-lyphard-fr-6795194/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Film mystère ? Coup de cœur surprise",
-      "place": "Le Croisic",
-      "date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "date_label": "02/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1954929/film-mystere-coup-de-coeur-surprise",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Fablab 3D • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-02",
-      "end_date": "2026-11-02",
-      "date_label": "02/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/fablab-3d-micro-folie-5/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Atelier cuisine",
@@ -307,6 +147,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Soirée cassoulet",
+      "place": "Pornichet",
+      "date": "2026-11-05",
+      "end_date": "2026-11-05",
+      "date_label": "Jeudi 5 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/soiree-cassoulet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Concert d'Automne - Louise Farrenc, une compositrice à découvrir",
       "place": "Le Croisic",
       "date": "2026-11-06",
@@ -357,12 +207,32 @@
       "source_key": "tickets"
     },
     {
+      "title": "Inavouable - Complet",
+      "place": "Pornichet",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "Vendredi 6 novembre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/inavouable-complet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Salon de l'automobile",
       "place": "Pornichet",
       "date": "2026-11-06",
       "end_date": "2026-11-07",
       "date_label": "Du vendredi 6 au samedi 7 novembre 2026 le vendredi de 10h à 19h. Le samedi de 10h à 18h.",
       "url": "https://www.pornichet.fr/agenda/salon-de-lautomobile",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Soirée Impro Cabaret",
+      "place": "Pornichet",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "Vendredi 6 novembre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/soiree-impro-cabaret",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -447,6 +317,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Soirée caritative - Lutte contre le cancer",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1765948/soiree-caritative-lutte-contre-le-cancer",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "THEÂTRE « MYSTERE AU MANOIR VALLANDRY »",
       "place": "Le Pouliguen",
       "date": "2026-11-14",
@@ -475,6 +355,16 @@
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Les indispensables du cinéma - Taxi driver",
+      "place": "Le Croisic",
+      "date": "2026-11-17",
+      "end_date": "2026-11-17",
+      "date_label": "17/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1874095/les-indispensables-du-cinema-taxi-driver",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
