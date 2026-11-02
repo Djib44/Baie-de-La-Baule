@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-02T01:45:14.198037+01:00",
+  "updated": "2026-11-02T12:07:54.380791+01:00",
   "coverage_start": "2026-11-02",
   "coverage_end": "2027-01-31",
   "sources": [
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 29
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
+      "count": 32
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,13 +23,79 @@
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
-      "status": "unavailable",
-      "count": 0
+      "status": "ok",
+      "count": 12
     }
   ],
   "events": [
+    {
+      "title": "Atelier - Relation à soi, relation aux autres",
+      "place": "Guérande",
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "02/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-relation-a-soi-relation-aux-autres-guerande-fr-6849566/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
+      "place": "Guérande",
+      "date": "2026-06-20",
+      "end_date": "2026-11-15",
+      "date_label": "Du 20/06/2026 au 15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-john-howe-chateaux-cites-et-forteresses-guerande-fr-6565853/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
+      "place": "Guérande",
+      "date": "2026-11-02",
+      "end_date": "2026-12-07",
+      "date_label": "Du 02/11/2026 au 07/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier Numérique : Tablette et Smartphone",
+      "place": "La Turballe",
+      "date": "2026-11-02",
+      "end_date": "2026-12-07",
+      "date_label": "Du 02/11/2026 au 07/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Programmation Cinéma Atlantic du 28 octobre au 24 novembre",
+      "place": "La Turballe",
+      "date": "2026-10-28",
+      "end_date": "2026-11-24",
+      "date_label": "Du 28/10/2026 au 24/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/programmation-cinema-atlantic-du-28-octobre-au-24-novembre-la-turballe-fr-6860478/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition : Balades dessinées au Croisic",
+      "place": "Le Croisic",
+      "date": "2026-06-15",
+      "end_date": "2026-11-02",
+      "date_label": "Du 15/06/2026 au 02/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-balades-dessinees-au-croisic-le-croisic-fr-6433188/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Film mystère ? Coup de cœur surprise",
       "place": "Le Croisic",
@@ -67,6 +127,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Initiation à la modélisation et à l'impression 3D",
+      "place": "Le Pouliguen",
+      "date": "2026-11-02",
+      "end_date": "2026-11-02",
+      "date_label": "02/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/initiation-a-la-modelisation-et-a-limpression-3d-le-pouliguen-fr-6754026/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Puzzle collaboratif",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-10-14",
+      "end_date": "2026-11-14",
+      "date_label": "Du 14/10/2026 au 14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/puzzle-collaboratif-piriac-sur-mer-fr-6780983/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "7 comptines d'oiselles et d'oiseaux",
       "place": "Pornichet",
       "date": "2026-09-26",
@@ -95,6 +175,36 @@
       "url": "https://www.pornichet.fr/agenda/avant-premiere-surprise",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Exposition de dessins de Bruno Philipp",
+      "place": "Pénestin",
+      "date": "2026-10-06",
+      "end_date": "2026-11-03",
+      "date_label": "Du 06/10/2026 au 03/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-de-dessins-de-bruno-philipp-penestin-fr-6790099/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Zicotek",
+      "place": "Pénestin",
+      "date": "2026-09-01",
+      "end_date": "2026-12-12",
+      "date_label": "Du 01/09/2026 au 12/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition/vente d'artisanat : Luzalie et Le pas des gazelles",
+      "place": "Saint-Lyphard",
+      "date": "2026-10-16",
+      "end_date": "2026-11-02",
+      "date_label": "Du 16/10/2026 au 02/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-vente-dartisanat-luzalie-et-le-pas-des-gazelles-saint-lyphard-fr-6795200/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Café littéraire",
@@ -265,6 +375,16 @@
       "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-3/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Mission 5R-0D",
+      "place": "Pornichet",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "Samedi 7 novembre 2026 de 10h à 12h30 et de 15h30 à 18h.",
+      "url": "https://www.pornichet.fr/agenda/mission-5r-0d",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
