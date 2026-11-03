@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-03T07:48:19.130433+01:00",
+  "updated": "2026-11-03T18:03:57.491551+01:00",
   "coverage_start": "2026-11-03",
   "coverage_end": "2027-02-01",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "cached",
-      "count": 16
+      "status": "ok",
+      "count": 30
     },
     {
       "name": "Ville du Croisic",
@@ -32,10 +32,20 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 8
+      "count": 15
     }
   ],
   "events": [
+    {
+      "title": "Conférence \"Hervé Lehuédé, du bourg de Batz à New York\"",
+      "place": "Batz-sur-Mer",
+      "date": "2026-11-03",
+      "end_date": "2026-11-03",
+      "date_label": "03/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-herve-lehuede-du-bourg-de-batz-a-new-york-batz-sur-mer-fr-6853765/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -57,12 +67,52 @@
       "source_key": "tourism"
     },
     {
+      "title": "Exposition Jean Sala - L'âme de la belle époque",
+      "place": "La Baule-Escoublac",
+      "date": "2026-10-17",
+      "end_date": "2026-11-15",
+      "date_label": "Du 17/10/2026 au 15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Lorsque naquit l'anésthésie",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-03",
+      "end_date": "2026-11-03",
+      "date_label": "03/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/lorsque-naquit-lanesthesie-la-baule-escoublac-fr-6860480/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition : Affiches de cinéma",
+      "place": "La Turballe",
+      "date": "2026-10-13",
+      "end_date": "2026-11-07",
+      "date_label": "Du 13/10/2026 au 07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-affiches-de-cinema-la-turballe-fr-6832240/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition de Novembre : Michel MOREAU",
+      "place": "La Turballe",
+      "date": "2026-11-03",
+      "end_date": "2026-11-28",
+      "date_label": "Du 03/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-de-novembre-michel-moreau-la-turballe-fr-6759151/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -87,6 +137,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Café littéraire",
+      "place": "Le Croisic",
+      "date": "2026-09-29",
+      "end_date": "2026-12-08",
+      "date_label": "Du 29/09/2026 au 08/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Le vampire, figures et symboles",
       "place": "Le Croisic",
       "date": "2026-10-17",
@@ -105,6 +165,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1575914/les-indispensables-du-cinema-the-big-lebowski",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Exposition \"Trait Cool\"",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-11-03",
+      "end_date": "2026-12-01",
+      "date_label": "Du 03/11/2026 au 01/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-trait-cool-piriac-sur-mer-fr-6853767/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Puzzle collaboratif",
@@ -297,12 +367,32 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Fortunes de mer Fortunes de terre",
+      "place": "Pornichet",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "Samedi 7 novembre 2026 à partir de 18h.",
+      "url": "https://www.pornichet.fr/agenda/fortunes-de-mer-fortunes-de-terre",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Mission 5R-0D",
       "place": "Pornichet",
       "date": "2026-11-07",
       "end_date": "2026-11-07",
       "date_label": "Samedi 7 novembre 2026 de 10h à 12h30 et de 15h30 à 18h.",
       "url": "https://www.pornichet.fr/agenda/mission-5r-0d",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Domingo Latino : Zumba et danses du monde !",
+      "place": "Pornichet",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "Dimanche 8 novembre 2026 de 10h à 12h.",
+      "url": "https://www.pornichet.fr/agenda/domingo-latino-zumba-et-danses-du-monde",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -393,6 +483,16 @@
       "end_date": "2026-11-14",
       "date_label": "Samedi 14 novembre 2026",
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Masikuna",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/masikuna",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -493,16 +593,6 @@
       "end_date": "2026-12-05",
       "date_label": "Samedi 5 décembre 2026",
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Avant-première surprise !",
-      "place": "Pornichet",
-      "date": "2026-12-07",
-      "end_date": "2026-12-07",
-      "date_label": "Lundi 7 décembre 2026.",
-      "url": "https://www.pornichet.fr/agenda/avant-premiere-surprise",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
