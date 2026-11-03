@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-03T18:03:57.491551+01:00",
-  "coverage_start": "2026-11-03",
-  "coverage_end": "2027-02-01",
+  "updated": "2026-11-04T00:24:03.861086+01:00",
+  "coverage_start": "2026-11-04",
+  "coverage_end": "2027-02-02",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 30
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,20 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 15
+      "count": 12
     }
   ],
   "events": [
-    {
-      "title": "Conférence \"Hervé Lehuédé, du bourg de Batz à New York\"",
-      "place": "Batz-sur-Mer",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "date_label": "03/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-herve-lehuede-du-bourg-de-batz-a-new-york-batz-sur-mer-fr-6853765/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -73,16 +63,6 @@
       "end_date": "2026-11-15",
       "date_label": "Du 17/10/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Lorsque naquit l'anésthésie",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "date_label": "03/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/lorsque-naquit-lanesthesie-la-baule-escoublac-fr-6860480/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -129,16 +109,6 @@
     {
       "title": "Café littéraire",
       "place": "Le Croisic",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "date_label": "03/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1437048/cafe-litteraire-5",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Café littéraire",
-      "place": "Le Croisic",
       "date": "2026-09-29",
       "end_date": "2026-12-08",
       "date_label": "Du 29/09/2026 au 08/12/2026",
@@ -157,14 +127,14 @@
       "source_key": "croisic"
     },
     {
-      "title": "Les indispensables du cinéma - The Big Lebowski",
-      "place": "Le Croisic",
-      "date": "2026-11-03",
-      "end_date": "2026-11-03",
-      "date_label": "03/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1575914/les-indispensables-du-cinema-the-big-lebowski",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
+      "title": "Exposition Virtuelle • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "date_label": "04/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-9/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Exposition \"Trait Cool\"",
@@ -197,14 +167,14 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Exposition de dessins de Bruno Philipp",
-      "place": "Pénestin",
-      "date": "2026-10-06",
-      "end_date": "2026-11-03",
-      "date_label": "Du 06/10/2026 au 03/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-de-dessins-de-bruno-philipp-penestin-fr-6790099/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-11-04",
+      "end_date": "2026-11-07",
+      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Zicotek",
@@ -215,26 +185,6 @@
       "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Exposition Virtuelle • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-04",
-      "end_date": "2026-11-04",
-      "date_label": "04/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-9/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-11-04",
-      "end_date": "2026-11-07",
-      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Présentation de la programmation",
@@ -507,12 +457,32 @@
       "source_key": "croisic"
     },
     {
+      "title": "Festival Alimenterre - Les femmes aussi font de l'agriculture",
+      "place": "Le Croisic",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2011869/festival-alimenterre-les-femmes-aussi-font-de-l-agriculture",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Les p'tits dévoreurs",
       "place": "Le Croisic",
       "date": "2026-11-18",
       "end_date": "2026-11-18",
       "date_label": "18/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1848355/les-ptits-devoreurs-2-2",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Ciné-gourmand - Coup de cœur égyptien",
+      "place": "Le Croisic",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1650339/cine-gourmand-coup-de-coeur-egyptien",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
