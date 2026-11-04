@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-04T07:23:07.353488+01:00",
+  "updated": "2026-11-04T18:15:32.578491+01:00",
   "coverage_start": "2026-11-04",
   "coverage_end": "2027-02-02",
   "sources": [
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
@@ -11,8 +17,8 @@
       "count": 30
     },
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 12
     },
@@ -23,19 +29,23 @@
       "count": 10
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 12
+      "count": 16
     }
   ],
   "events": [
+    {
+      "title": "Conférence - L'évolution du cerveau",
+      "place": "Guérande",
+      "date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "date_label": "04/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-levolution-du-cerveau-guerande-fr-6849574/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -53,6 +63,16 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Spectacle - Karl",
+      "place": "Guérande",
+      "date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "date_label": "04/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-karl-guerande-fr-6785766/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -137,6 +157,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Exposition virtuelle",
+      "place": "Le Pouliguen",
+      "date": "2026-11-04",
+      "end_date": "2026-11-07",
+      "date_label": "Du 04/11/2026 au 07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-virtuelle-le-pouliguen-fr-6870860/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -175,6 +205,16 @@
       "url": "https://www.pornichet.fr/agenda/grignote-livres",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Atelier créatif et lectures La grenouille à grande bouche",
+      "place": "Pénestin",
+      "date": "2026-11-04",
+      "end_date": "2026-11-04",
+      "date_label": "04/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-creatif-et-lectures-la-grenouille-a-grande-bouche-penestin-fr-6849579/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Zicotek",
