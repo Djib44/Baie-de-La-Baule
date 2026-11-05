@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-05T00:40:19.901450+01:00",
+  "updated": "2026-11-05T07:46:53.467986+01:00",
   "coverage_start": "2026-11-05",
   "coverage_end": "2027-02-03",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -11,10 +17,10 @@
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 30
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -23,19 +29,23 @@
       "count": 10
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 11
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 13
+      "count": 18
     }
   ],
   "events": [
+    {
+      "title": "Autour d'un jeu",
+      "place": "Guérande",
+      "date": "2026-11-05",
+      "end_date": "2026-11-05",
+      "date_label": "05/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/autour-dun-jeu-guerande-fr-6140642/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -43,6 +53,16 @@
       "end_date": "2026-11-15",
       "date_label": "Du 20/06/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-john-howe-chateaux-cites-et-forteresses-guerande-fr-6565853/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Méditation guidée - relaxation profonde",
+      "place": "Guérande",
+      "date": "2026-11-05",
+      "end_date": "2026-11-05",
+      "date_label": "05/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/meditation-guidee-relaxation-profonde-guerande-fr-6481684/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -63,6 +83,16 @@
       "end_date": "2026-11-15",
       "date_label": "Du 17/10/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Le mystère de la Dame à la Licorne",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-05",
+      "end_date": "2026-11-05",
+      "date_label": "05/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/le-mystere-de-la-dame-a-la-licorne-la-baule-escoublac-fr-6764493/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -103,6 +133,16 @@
       "end_date": "2026-11-24",
       "date_label": "Du 28/10/2026 au 24/11/2026",
       "url": "https://www.labaule-guerande.com/offres/programmation-cinema-atlantic-du-28-octobre-au-24-novembre-la-turballe-fr-6860478/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Repair café",
+      "place": "La Turballe",
+      "date": "2026-09-03",
+      "end_date": "2026-12-03",
+      "date_label": "Du 03/09/2026 au 03/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/repair-cafe-la-turballe-fr-6030199/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -195,6 +235,16 @@
       "url": "https://www.pornichet.fr/agenda/soiree-cassoulet",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Exposition Charlie Duval-Dy",
+      "place": "Pénestin",
+      "date": "2026-10-10",
+      "end_date": "2026-11-09",
+      "date_label": "Du 10/10/2026 au 09/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Zicotek",
@@ -523,6 +573,16 @@
       "end_date": "2026-11-21",
       "date_label": "21/11/2026",
       "url": "https://www.lepouliguen.fr/evenements/telethon-des-sapeurs-pompiers/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Les mardis de Baudry : « Muse rouge »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-muse-rouge/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
