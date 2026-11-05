@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-05T07:46:53.467986+01:00",
+  "updated": "2026-11-05T18:25:22.331180+01:00",
   "coverage_start": "2026-11-05",
   "coverage_end": "2027-02-03",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 30
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
     },
     {
       "name": "Ville du Pouliguen",
@@ -397,12 +397,32 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Braderie de novembre",
+      "place": "Pornichet",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "Dimanche 8 novembre 2026 de 10h à 17h30.",
+      "url": "https://www.pornichet.fr/agenda/braderie-de-novembre",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Domingo Latino : Zumba et danses du monde !",
       "place": "Pornichet",
       "date": "2026-11-08",
       "end_date": "2026-11-08",
       "date_label": "Dimanche 8 novembre 2026 de 10h à 12h.",
       "url": "https://www.pornichet.fr/agenda/domingo-latino-zumba-et-danses-du-monde",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Musique couleurs nomades",
+      "place": "Pornichet",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "Dimanche 8 novembre 2026 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/musique-couleurs-nomades",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
