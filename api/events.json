@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-05T18:25:22.331180+01:00",
-  "coverage_start": "2026-11-05",
-  "coverage_end": "2027-02-03",
+  "updated": "2026-11-06T00:38:47.179629+01:00",
+  "coverage_start": "2026-11-06",
+  "coverage_end": "2027-02-04",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
+      "count": 29
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,23 +23,19 @@
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 18
+      "count": 15
     }
   ],
   "events": [
-    {
-      "title": "Autour d'un jeu",
-      "place": "Guérande",
-      "date": "2026-11-05",
-      "end_date": "2026-11-05",
-      "date_label": "05/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/autour-dun-jeu-guerande-fr-6140642/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -53,16 +43,6 @@
       "end_date": "2026-11-15",
       "date_label": "Du 20/06/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-john-howe-chateaux-cites-et-forteresses-guerande-fr-6565853/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Méditation guidée - relaxation profonde",
-      "place": "Guérande",
-      "date": "2026-11-05",
-      "end_date": "2026-11-05",
-      "date_label": "05/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/meditation-guidee-relaxation-profonde-guerande-fr-6481684/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -83,16 +63,6 @@
       "end_date": "2026-11-15",
       "date_label": "Du 17/10/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Le mystère de la Dame à la Licorne",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-05",
-      "end_date": "2026-11-05",
-      "date_label": "05/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/le-mystere-de-la-dame-a-la-licorne-la-baule-escoublac-fr-6764493/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +127,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Concert d'Automne - Louise Farrenc, une compositrice à découvrir",
+      "place": "Le Croisic",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1988703/concert-d-automne-louise-farrenc-une-compositrice-a-decouvrir",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Le vampire, figures et symboles",
       "place": "Le Croisic",
       "date": "2026-10-17",
@@ -167,14 +147,24 @@
       "source_key": "croisic"
     },
     {
-      "title": "Présentation de la programmation",
-      "place": "Le Croisic",
-      "date": "2026-11-05",
-      "end_date": "2026-11-05",
-      "date_label": "05/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1954851/presentation-de-la-programmation",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
+      "title": "Antigone de Sophocle",
+      "place": "Le Pouliguen",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/antigone-de-sophocle/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-3/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
     },
     {
       "title": "Exposition virtuelle",
@@ -185,6 +175,26 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-virtuelle-le-pouliguen-fr-6870860/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Fablab Couture",
+      "place": "Le Pouliguen",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/fablab-couture/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Théâtre - Antigone de Sophocle",
+      "place": "Le Pouliguen",
+      "date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "date_label": "06/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-antigone-de-sophocle.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Exposition \"Trait Cool\"",
@@ -227,86 +237,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Soirée cassoulet",
-      "place": "Pornichet",
-      "date": "2026-11-05",
-      "end_date": "2026-11-05",
-      "date_label": "Jeudi 5 novembre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/soiree-cassoulet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Exposition Charlie Duval-Dy",
-      "place": "Pénestin",
-      "date": "2026-10-10",
-      "end_date": "2026-11-09",
-      "date_label": "Du 10/10/2026 au 09/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Zicotek",
-      "place": "Pénestin",
-      "date": "2026-09-01",
-      "end_date": "2026-12-12",
-      "date_label": "Du 01/09/2026 au 12/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert d'Automne - Louise Farrenc, une compositrice à découvrir",
-      "place": "Le Croisic",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1988703/concert-d-automne-louise-farrenc-une-compositrice-a-decouvrir",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Antigone de Sophocle",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/antigone-de-sophocle/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-3/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Fablab Couture",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/fablab-couture/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Théâtre - Antigone de Sophocle",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-antigone-de-sophocle.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
       "title": "Inavouable - Complet",
       "place": "Pornichet",
       "date": "2026-11-06",
@@ -345,6 +275,26 @@
       "url": "https://www.pornichet.fr/agenda/soiree-impro-cabaret",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Exposition Charlie Duval-Dy",
+      "place": "Pénestin",
+      "date": "2026-10-10",
+      "end_date": "2026-11-09",
+      "date_label": "Du 10/10/2026 au 09/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Zicotek",
+      "place": "Pénestin",
+      "date": "2026-09-01",
+      "end_date": "2026-12-12",
+      "date_label": "Du 01/09/2026 au 12/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Marathon de la Côte d'Amour - 3e édition",
@@ -563,6 +513,16 @@
       "end_date": "2026-11-20",
       "date_label": "20/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1650339/cine-gourmand-coup-de-coeur-egyptien",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Olivier Messiaen et Pierre Boulez, une relation fertile",
+      "place": "Le Croisic",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2014612/olivier-messiaen-et-pierre-boulez-une-relation-fertile",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
