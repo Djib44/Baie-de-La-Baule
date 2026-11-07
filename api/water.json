@@ -1,10 +1,10 @@
 {
   "bay": {
-    "temperature": 13.1,
+    "temperature": 13.0,
     "source": "Ville de La Baule",
     "url": "https://www.labaule.fr/decouvrir-et-sortir/meteo/",
-    "date": "2026-11-06",
-    "updated": "2026-11-06T17:46:05.533941+01:00"
+    "date": "2026-11-07",
+    "updated": "2026-11-07T06:58:48.569149+01:00"
   },
   "buoy": {
     "temperature": 14.2,

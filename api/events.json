@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-06T17:46:14.282488+01:00",
-  "coverage_start": "2026-11-06",
-  "coverage_end": "2027-02-04",
+  "updated": "2026-11-07T06:58:56.067825+01:00",
+  "coverage_start": "2026-11-07",
+  "coverage_end": "2027-02-05",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -11,20 +17,14 @@
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 29
+      "count": 9
     },
     {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 12
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
     },
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 22
+      "count": 26
     }
   ],
   "events": [
@@ -67,12 +67,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Qi Gong en plein air",
-      "place": "Guérande",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/qi-gong-en-plein-air-guerande-fr-6481683/",
+      "title": "Concert - Okie - Blues Rock",
+      "place": "Herbignac",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-okie-blues-rock-herbignac-fr-6792685/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rdv babillages & Cie",
+      "place": "Herbignac",
+      "date": "2026-04-11",
+      "end_date": "2026-11-07",
+      "date_label": "Du 11/04/2026 au 07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/rdv-babillages-cie-herbignac-fr-6075676/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -87,12 +97,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Origines - Geoffrey Secco - concert sous hypnose",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/origines-geoffrey-secco-concert-sous-hypnose-la-baule-escoublac-fr-6595863/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier Parent/Enfant : Massage",
+      "place": "La Turballe",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-parent-enfant-massage-la-turballe-fr-6865450/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -137,6 +167,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Atelier - Création d'une haie sèche",
+      "place": "Le Croisic",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-creation-dune-haie-seche-le-croisic-fr-6837390/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
@@ -147,44 +187,24 @@
       "source_key": "tourism"
     },
     {
-      "title": "Concert d'Automne - Louise Farrenc, une compositrice à découvrir",
-      "place": "Le Croisic",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1988703/concert-d-automne-louise-farrenc-une-compositrice-a-decouvrir",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "Le vampire, figures et symboles",
       "place": "Le Croisic",
       "date": "2026-10-17",
       "end_date": "2026-11-07",
       "date_label": "Du 17/10/2026 au 07/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969840/le-vampire-figures-et-symboles",
+      "url": "https://www.labaule-guerande.com/offres/le-vampire-figures-et-symboles-le-croisic-fr-6818119/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marathon de la Côte d'Amour - 3e édition",
+      "place": "Le Croisic",
+      "date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1519702/marathon-de-la-cote-d-amour-3e-edition",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "Antigone de Sophocle",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/antigone-de-sophocle/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-3/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Exposition virtuelle",
@@ -197,32 +217,42 @@
       "source_key": "tourism"
     },
     {
-      "title": "Fablab Couture",
+      "title": "Exposition virtuelle • Micro-Folie",
       "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/fablab-couture/",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-10/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
     {
-      "title": "Théâtre - Antigone de Sophocle",
+      "title": "Micro-visite",
       "place": "Le Pouliguen",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-antigone-de-sophocle.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6870865/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
-      "title": "Café Lecture",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/cafe-lecture-piriac-sur-mer-fr-6780980/",
+      "title": "Micro-visite • Micro-Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-3/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Spectacle Moins qu'hier (plus que demain)",
+      "place": "Mesquer",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-moins-quhier-plus-que-demain-mesquer-fr-6669435/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -257,6 +287,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Fortunes de mer Fortunes de terre",
+      "place": "Pornichet",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "Samedi 7 novembre 2026 à partir de 18h.",
+      "url": "https://www.pornichet.fr/agenda/fortunes-de-mer-fortunes-de-terre",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Grignote livres",
       "place": "Pornichet",
       "date": "2026-11-04",
@@ -267,22 +307,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Inavouable - Complet",
+      "title": "Mission 5R-0D",
       "place": "Pornichet",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "Vendredi 6 novembre 2026 à partir de 20h30.",
-      "url": "https://www.pornichet.fr/agenda/inavouable-complet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Karma duo en live",
-      "place": "Pornichet",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "Vendredi 6 novembre 2026 à 21h.",
-      "url": "https://www.pornichet.fr/agenda/karma-duo-en-live",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "Samedi 7 novembre 2026 de 10h à 12h30 et de 15h30 à 18h.",
+      "url": "https://www.pornichet.fr/agenda/mission-5r-0d",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -297,14 +327,14 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Soirée Impro Cabaret",
-      "place": "Pornichet",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "Vendredi 6 novembre 2026 à partir de 20h30.",
-      "url": "https://www.pornichet.fr/agenda/soiree-impro-cabaret",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
+      "title": "Atelier tricot & Co",
+      "place": "Pénestin",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-tricot-co-penestin-fr-6176828/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Exposition Charlie Duval-Dy",
@@ -313,6 +343,16 @@
       "end_date": "2026-11-09",
       "date_label": "Du 10/10/2026 au 09/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Nos petites causeries",
+      "place": "Pénestin",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/nos-petites-causeries-penestin-fr-6178224/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -327,64 +367,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "Cinéma tout public : Ni vu ni connu",
+      "title": "Cinéma tout public : Fausse Note",
       "place": "Saint-Lyphard",
-      "date": "2026-11-06",
-      "end_date": "2026-11-06",
-      "date_label": "06/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/cinema-tout-public-ni-vu-ni-connu-saint-lyphard-fr-6845343/",
+      "date": "2026-11-07",
+      "end_date": "2026-11-07",
+      "date_label": "07/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/cinema-tout-public-fausse-note-saint-lyphard-fr-6845345/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Marathon de la Côte d'Amour - 3e édition",
-      "place": "Le Croisic",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1519702/marathon-de-la-cote-d-amour-3e-edition",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Exposition virtuelle • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-10/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Micro-visite • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-3/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Fortunes de mer Fortunes de terre",
-      "place": "Pornichet",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "Samedi 7 novembre 2026 à partir de 18h.",
-      "url": "https://www.pornichet.fr/agenda/fortunes-de-mer-fortunes-de-terre",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Mission 5R-0D",
-      "place": "Pornichet",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "Samedi 7 novembre 2026 de 10h à 12h30 et de 15h30 à 18h.",
-      "url": "https://www.pornichet.fr/agenda/mission-5r-0d",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Braderie de novembre",
@@ -465,6 +455,36 @@
       "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Je suis trop vert",
+      "place": "Pornichet",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "Mercredi 11 novembre 2026 à partir de 15h30.",
+      "url": "https://www.pornichet.fr/agenda/je-suis-trop-vert",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tricot thé et bal trad",
+      "place": "Pornichet",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "Mercredi 11 novembre 2026 de 17h à 22h.",
+      "url": "https://www.pornichet.fr/agenda/tricot-et-bal-trad",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Matinée jeux",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Bla Bla des lecteurs et des lectrices",
@@ -607,6 +627,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Après-midi Scrabble",
+      "place": "Le Croisic",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969892/apres-midi-scrabble-2",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Le dieu du carnage",
+      "place": "Le Croisic",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1958335/le-dieu-du-carnage",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "MATINÉE JEUX DE SOCIÉTÉ",
       "place": "Le Pouliguen",
       "date": "2026-11-21",
@@ -657,6 +697,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "CONCOURS DE BELOTE",
+      "place": "Le Pouliguen",
+      "date": "2026-11-29",
+      "end_date": "2026-11-29",
+      "date_label": "29/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/concours-de-belote/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Grignote livres",
       "place": "Pornichet",
       "date": "2026-12-02",
@@ -693,6 +743,16 @@
       "end_date": "2026-12-08",
       "date_label": "Mardi 8 décembre 2026",
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Matinée jeux",
+      "place": "Pornichet",
+      "date": "2026-12-11",
+      "end_date": "2026-12-11",
+      "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -753,6 +813,16 @@
       "end_date": "2026-12-28",
       "date_label": "Lundi 28 décembre 2026",
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Matinée jeux",
+      "place": "Pornichet",
+      "date": "2027-01-15",
+      "end_date": "2027-01-15",
+      "date_label": "Vendredi 15 janvier 2027 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
