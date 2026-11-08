@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-07T20:26:29.194533+01:00",
-  "coverage_start": "2026-11-07",
-  "coverage_end": "2027-02-05",
+  "updated": "2026-11-08T01:36:54.803392+01:00",
+  "coverage_start": "2026-11-08",
+  "coverage_end": "2027-02-06",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,13 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
+      "count": 25
     },
     {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,17 +32,27 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 26
+      "count": 20
     }
   ],
   "events": [
     {
-      "title": "Carnet de voyage - La mer en hiver",
-      "place": "Guérande",
-      "date": "2026-11-06",
-      "end_date": "2026-11-07",
-      "date_label": "Du 06/11/2026 au 07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/carnet-de-voyage-la-mer-en-hiver-guerande-fr-6703686/",
+      "title": "Marathon International de la côte d'amour",
+      "place": "Batz-sur-Mer",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marathon-international-de-la-cote-damour-batz-sur-mer-fr-6735053/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Les P'tites Boutiques - Marché de créateurs et producteurs",
+      "place": "Férel",
+      "date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-ptites-boutiques-marche-de-createurs-et-producteurs-ferel-fr-6824655/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -57,32 +67,22 @@
       "source_key": "tourism"
     },
     {
+      "title": "Marathon de la Côte d'Amour Amarris",
+      "place": "Guérande",
+      "date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marathon-de-la-cote-damour-amarris-guerande-fr-6790097/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert - Okie - Blues Rock",
-      "place": "Herbignac",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-okie-blues-rock-herbignac-fr-6792685/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Rdv babillages & Cie",
-      "place": "Herbignac",
-      "date": "2026-04-11",
-      "end_date": "2026-11-07",
-      "date_label": "Du 11/04/2026 au 07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/rdv-babillages-cie-herbignac-fr-6075676/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -97,12 +97,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Origines - Geoffrey Secco - concert sous hypnose",
+      "title": "Marathon de la Côte d'Amour Amarris",
       "place": "La Baule-Escoublac",
       "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/origines-geoffrey-secco-concert-sous-hypnose-la-baule-escoublac-fr-6595863/",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marathon-de-la-cote-damour-amarris-la-baule-escoublac-fr-6775739/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -113,26 +113,6 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier Parent/Enfant : Massage",
-      "place": "La Turballe",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-parent-enfant-massage-la-turballe-fr-6865450/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition : Affiches de cinéma",
-      "place": "La Turballe",
-      "date": "2026-10-13",
-      "end_date": "2026-11-07",
-      "date_label": "Du 13/10/2026 au 07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-affiches-de-cinema-la-turballe-fr-6832240/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -167,16 +147,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier - Création d'une haie sèche",
-      "place": "Le Croisic",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-creation-dune-haie-seche-le-croisic-fr-6837390/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
@@ -187,72 +157,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Le vampire, figures et symboles",
-      "place": "Le Croisic",
-      "date": "2026-10-17",
-      "end_date": "2026-11-07",
-      "date_label": "Du 17/10/2026 au 07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/le-vampire-figures-et-symboles-le-croisic-fr-6818119/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Marathon de la Côte d'Amour - 3e édition",
-      "place": "Le Croisic",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1519702/marathon-de-la-cote-d-amour-3e-edition",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Exposition virtuelle",
+      "title": "Exposition Au bonheur des bennes",
       "place": "Le Pouliguen",
-      "date": "2026-11-04",
-      "end_date": "2026-11-07",
-      "date_label": "Du 04/11/2026 au 07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-virtuelle-le-pouliguen-fr-6870860/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition virtuelle • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/exposition-virtuelle-micro-folie-10/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Micro-visite",
-      "place": "Le Pouliguen",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6870865/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Micro-visite • Micro-Folie",
-      "place": "Le Pouliguen",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/micro-visite-micro-folie-3/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Spectacle Moins qu'hier (plus que demain)",
-      "place": "Mesquer",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/spectacle-moins-quhier-plus-que-demain-mesquer-fr-6669435/",
+      "date": "2026-10-10",
+      "end_date": "2026-11-22",
+      "date_label": "Du 10/10/2026 au 22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -287,96 +197,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Fortunes de mer Fortunes de terre",
-      "place": "Pornichet",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "Samedi 7 novembre 2026 à partir de 18h.",
-      "url": "https://www.pornichet.fr/agenda/fortunes-de-mer-fortunes-de-terre",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-11-04",
-      "end_date": "2026-11-07",
-      "date_label": "Du mercredi 4 au samedi 7 novembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Mission 5R-0D",
-      "place": "Pornichet",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "Samedi 7 novembre 2026 de 10h à 12h30 et de 15h30 à 18h.",
-      "url": "https://www.pornichet.fr/agenda/mission-5r-0d",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Salon de l'automobile",
-      "place": "Pornichet",
-      "date": "2026-11-06",
-      "end_date": "2026-11-07",
-      "date_label": "Du vendredi 6 au samedi 7 novembre 2026 le vendredi de 10h à 19h. Le samedi de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/salon-de-lautomobile",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Atelier tricot & Co",
-      "place": "Pénestin",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-tricot-co-penestin-fr-6176828/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition Charlie Duval-Dy",
-      "place": "Pénestin",
-      "date": "2026-10-10",
-      "end_date": "2026-11-09",
-      "date_label": "Du 10/10/2026 au 09/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Nos petites causeries",
-      "place": "Pénestin",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/nos-petites-causeries-penestin-fr-6178224/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Zicotek",
-      "place": "Pénestin",
-      "date": "2026-09-01",
-      "end_date": "2026-12-12",
-      "date_label": "Du 01/09/2026 au 12/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Cinéma tout public : Fausse Note",
-      "place": "Saint-Lyphard",
-      "date": "2026-11-07",
-      "end_date": "2026-11-07",
-      "date_label": "07/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/cinema-tout-public-fausse-note-saint-lyphard-fr-6845345/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Braderie de novembre",
       "place": "Pornichet",
       "date": "2026-11-08",
@@ -405,6 +225,56 @@
       "url": "https://www.pornichet.fr/agenda/musique-couleurs-nomades",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Exposition Charlie Duval-Dy",
+      "place": "Pénestin",
+      "date": "2026-10-10",
+      "end_date": "2026-11-09",
+      "date_label": "Du 10/10/2026 au 09/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rencontre avec Samir Salameh",
+      "place": "Pénestin",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/rencontre-avec-samir-salameh-penestin-fr-6882031/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Zicotek",
+      "place": "Pénestin",
+      "date": "2026-09-01",
+      "end_date": "2026-12-12",
+      "date_label": "Du 01/09/2026 au 12/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Super Loto",
+      "place": "Saint-Lyphard",
+      "date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "date_label": "08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/super-loto-saint-lyphard-fr-6867738/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Gratiferia - Le marché 100% gratuit à Saint Molf",
+      "place": "Saint-Molf",
+      "date": "2026-11-07",
+      "end_date": "2026-11-08",
+      "date_label": "Du 07/11/2026 au 08/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/gratiferia-le-marche-100-gratuit-a-saint-molf-saint-molf-fr-6855652/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
@@ -655,6 +525,16 @@
       "url": "https://www.lepouliguen.fr/evenements/matinee-jeux-de-societe-2/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Le dieu du carnage",
+      "place": "Le Croisic",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "22/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1958361/le-dieu-du-carnage-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Les mardis de Baudry : « Muse rouge »",
