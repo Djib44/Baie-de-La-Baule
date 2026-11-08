@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-08T18:56:06.386147+01:00",
+  "updated": "2026-11-08T23:06:02.636587+01:00",
   "coverage_start": "2026-11-08",
   "coverage_end": "2027-02-06",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 25
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 25
     },
     {
       "name": "Ville du Pouliguen",
