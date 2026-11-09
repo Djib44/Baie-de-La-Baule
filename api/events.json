@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-09T07:29:49.184852+01:00",
+  "updated": "2026-11-09T20:50:09.926478+01:00",
   "coverage_start": "2026-11-09",
   "coverage_end": "2027-02-07",
   "sources": [
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 19
+      "count": 21
     }
   ],
   "events": [
@@ -63,6 +63,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 02/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Jeu de piste numérique Baludik - Herbignac",
+      "place": "Herbignac",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -163,6 +173,16 @@
       "end_date": "2026-12-01",
       "date_label": "Du 03/11/2026 au 01/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-trait-cool-piriac-sur-mer-fr-6853767/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition permanente \"Jean-Paul Belmondo\"",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -367,32 +387,32 @@
       "source_key": "pornichet"
     },
     {
+      "title": "ANNULÉ - Bourse aux jouets",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1762048/annule-bourse-aux-jouets",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "ANNULÉ - Soirée caritative - Lutte contre le cancer",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1765948/annule-soiree-caritative-lutte-contre-le-cancer",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Bla Bla des lecteurs et des lectrices",
       "place": "Le Croisic",
       "date": "2026-11-14",
       "end_date": "2026-11-14",
       "date_label": "14/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/446058/bla-bla-des-lecteurs-et-des-lectrices",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Bourse aux jouets",
-      "place": "Le Croisic",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1762048/bourse-aux-jouets-40",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Soirée caritative - Lutte contre le cancer",
-      "place": "Le Croisic",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1765948/soiree-caritative-lutte-contre-le-cancer",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
