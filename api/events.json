@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-08T23:06:02.636587+01:00",
-  "coverage_start": "2026-11-08",
-  "coverage_end": "2027-02-06",
+  "updated": "2026-11-09T07:29:49.184852+01:00",
+  "coverage_start": "2026-11-09",
+  "coverage_end": "2027-02-07",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 25
+      "count": 33
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,30 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 19
     }
   ],
   "events": [
-    {
-      "title": "Marathon International de la côte d'amour",
-      "place": "Batz-sur-Mer",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marathon-international-de-la-cote-damour-batz-sur-mer-fr-6735053/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Les P'tites Boutiques - Marché de créateurs et producteurs",
-      "place": "Férel",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-ptites-boutiques-marche-de-createurs-et-producteurs-ferel-fr-6824655/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -63,16 +43,6 @@
       "end_date": "2026-11-15",
       "date_label": "Du 20/06/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-john-howe-chateaux-cites-et-forteresses-guerande-fr-6565853/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Marathon de la Côte d'Amour Amarris",
-      "place": "Guérande",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marathon-de-la-cote-damour-amarris-guerande-fr-6790097/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -87,22 +57,42 @@
       "source_key": "tourism"
     },
     {
+      "title": "Visite jeu La chasse au trésor en autonomie",
+      "place": "Guérande",
+      "date": "2026-01-02",
+      "end_date": "2026-12-31",
+      "date_label": "Du 02/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Découverte insolite avec les habitants",
+      "place": "La Baule-Escoublac",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/decouverte-insolite-avec-les-habitants-la-baule-escoublac-fr-6075628/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition - Sacad'",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-02",
+      "end_date": "2026-12-30",
+      "date_label": "Du 02/11/2026 au 30/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition Jean Sala - L'âme de la belle époque",
       "place": "La Baule-Escoublac",
       "date": "2026-10-17",
       "end_date": "2026-11-15",
       "date_label": "Du 17/10/2026 au 15/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Marathon de la Côte d'Amour Amarris",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marathon-de-la-cote-damour-amarris-la-baule-escoublac-fr-6775739/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -197,52 +187,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Braderie de novembre",
-      "place": "Pornichet",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "Dimanche 8 novembre 2026 de 10h à 17h30.",
-      "url": "https://www.pornichet.fr/agenda/braderie-de-novembre",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Domingo Latino : Zumba et danses du monde !",
-      "place": "Pornichet",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "Dimanche 8 novembre 2026 de 10h à 12h.",
-      "url": "https://www.pornichet.fr/agenda/domingo-latino-zumba-et-danses-du-monde",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Musique couleurs nomades",
-      "place": "Pornichet",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "Dimanche 8 novembre 2026 à 16h.",
-      "url": "https://www.pornichet.fr/agenda/musique-couleurs-nomades",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Exposition Charlie Duval-Dy",
       "place": "Pénestin",
       "date": "2026-10-10",
       "end_date": "2026-11-09",
       "date_label": "Du 10/10/2026 au 09/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Rencontre avec Samir Salameh",
-      "place": "Pénestin",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/rencontre-avec-samir-salameh-penestin-fr-6882031/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -257,22 +207,32 @@
       "source_key": "tourism"
     },
     {
-      "title": "Super Loto",
+      "title": "Jeu de piste numérique Baludik - Saint-Lyphard",
       "place": "Saint-Lyphard",
-      "date": "2026-11-08",
-      "end_date": "2026-11-08",
-      "date_label": "08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/super-loto-saint-lyphard-fr-6867738/",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-saint-lyphard-saint-lyphard-fr-6030058/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
     {
-      "title": "Gratiferia - Le marché 100% gratuit à Saint Molf",
-      "place": "Saint-Molf",
-      "date": "2026-11-07",
-      "end_date": "2026-11-08",
-      "date_label": "Du 07/11/2026 au 08/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/gratiferia-le-marche-100-gratuit-a-saint-molf-saint-molf-fr-6855652/",
+      "title": "Jeu de piste numérique Baludik à Kerhinet",
+      "place": "Saint-Lyphard",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-a-kerhinet-saint-lyphard-fr-6030340/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Parcours Permanent d'Orientation (PPO) au Lac de Saint-Lyphard",
+      "place": "Saint-Lyphard",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -347,12 +307,62 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Stand-up Micro Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_label": "Jeudi 12 novembre 2026 à 19h30.",
+      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "La Mythologie & l’Astronomie",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Vendredi 13 novembre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/la-mythologie-lastronomie",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Matinée jeux",
       "place": "Pornichet",
       "date": "2026-11-13",
       "end_date": "2026-11-13",
       "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
       "url": "https://www.pornichet.fr/agenda/matinee-jeux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Of Metal and Wood",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Vendredi 13 novembre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/metal-and-wood",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Portes ouvertes : Espace & Vie",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-14",
+      "date_label": "Du vendredi 13 au samedi 14 novembre 2026 de 10h à 17h.",
+      "url": "https://www.pornichet.fr/agenda/portes-ouvertes-espace-vie",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "West Coast Swing",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "Vendredi 13 novembre 2026 de 20h à 1h30.",
+      "url": "https://www.pornichet.fr/agenda/west-coast-swing",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -557,6 +567,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Stand-up Micro Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
+      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Les Caprices de Cupidon",
       "place": "Mesquer Quimiac",
       "date": "2026-11-27",
@@ -585,16 +605,6 @@
       "url": "https://www.lepouliguen.fr/evenements/concours-de-belote/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
-    },
-    {
-      "title": "Grignote livres",
-      "place": "Pornichet",
-      "date": "2026-12-02",
-      "end_date": "2026-12-05",
-      "date_label": "Du mercredi 2 au samedi 5 décembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/grignote-livres",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Courses de galop",

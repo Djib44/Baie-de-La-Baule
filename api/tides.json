@@ -1,30 +1,23 @@
 {
   "source": "maree.info Pornichet / fallback Ville de Pornichet",
-  "updated": "2026-11-08T23:06:17.688453+01:00",
+  "updated": "2026-11-09T07:29:57.563657+01:00",
   "next": [
-    {
-      "type": "PM",
-      "date": "2026-11-09",
-      "time": "03:52",
-      "height": 5.36,
-      "coefficient": 84
-    },
     {
       "type": "BM",
       "date": "2026-11-09",
       "time": "10:35",
       "height": 1.22,
       "coefficient": 84
-    }
-  ],
-  "week": [
+    },
     {
       "type": "PM",
       "date": "2026-11-09",
-      "time": "03:52",
-      "height": 5.36,
+      "time": "16:13",
+      "height": 5.32,
       "coefficient": 84
-    },
+    }
+  ],
+  "week": [
     {
       "type": "BM",
       "date": "2026-11-09",
@@ -178,6 +171,34 @@
       "time": "18:55",
       "height": 4.49,
       "coefficient": 54
+    },
+    {
+      "type": "BM",
+      "date": "2026-11-15",
+      "time": "01:48",
+      "height": 2.23,
+      "coefficient": 49
+    },
+    {
+      "type": "PM",
+      "date": "2026-11-15",
+      "time": "07:21",
+      "height": 4.59,
+      "coefficient": 49
+    },
+    {
+      "type": "BM",
+      "date": "2026-11-15",
+      "time": "14:18",
+      "height": 2.2,
+      "coefficient": 49
+    },
+    {
+      "type": "PM",
+      "date": "2026-11-15",
+      "time": "19:35",
+      "height": 4.26,
+      "coefficient": 45
     }
   ]
 }
