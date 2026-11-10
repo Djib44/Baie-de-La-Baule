@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-09T20:50:09.926478+01:00",
-  "coverage_start": "2026-11-09",
-  "coverage_end": "2027-02-07",
+  "updated": "2026-11-10T04:35:05.198045+01:00",
+  "coverage_start": "2026-11-10",
+  "coverage_end": "2027-02-08",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 33
+      "count": 35
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 21
+      "count": 20
     }
   ],
   "events": [
@@ -157,6 +157,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
+      "place": "Le Pouliguen",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/conference-publique-yves-moreau-le-pouliguen-romantique/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Exposition Au bonheur des bennes",
       "place": "Le Pouliguen",
       "date": "2026-10-10",
@@ -207,14 +217,24 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Exposition Charlie Duval-Dy",
-      "place": "Pénestin",
-      "date": "2026-10-10",
-      "end_date": "2026-11-09",
-      "date_label": "Du 10/10/2026 au 09/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-charlie-duval-dy-penestin-fr-6819711/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Ciné-club",
+      "place": "Pornichet",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
+      "url": "https://www.pornichet.fr/agenda/cine-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Soirée Blind Test Live",
+      "place": "Pornichet",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "Mardi 10 novembre 2026 à partir de 20h45.",
+      "url": "https://www.pornichet.fr/agenda/soiree-blind-test-live",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Zicotek",
@@ -255,36 +275,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
-      "place": "Le Pouliguen",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/conference-publique-yves-moreau-le-pouliguen-romantique/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Soirée Blind Test Live",
-      "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "Mardi 10 novembre 2026 à partir de 20h45.",
-      "url": "https://www.pornichet.fr/agenda/soiree-blind-test-live",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Cérémonie commémorative du 11 Novembre",
@@ -453,6 +443,16 @@
       "end_date": "2026-11-14",
       "date_label": "Samedi 14 novembre 2026 à partir de 20h30.",
       "url": "https://www.pornichet.fr/agenda/masikuna",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tournoi de Poker",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-poker",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
