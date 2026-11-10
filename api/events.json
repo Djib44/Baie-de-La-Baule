@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-10T15:53:22.993390+01:00",
+  "updated": "2026-11-10T22:18:31.834013+01:00",
   "coverage_start": "2026-11-10",
   "coverage_end": "2027-02-08",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 35
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 31
     },
     {
       "name": "Ville du Pouliguen",
@@ -597,6 +597,26 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Le Beau Marché",
+      "place": "Pornichet",
+      "date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "date_label": "Du samedi 21 au dimanche 22 novembre 2026 le samedi de 10h à 19h. Le dimanche de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/le-beau-marche",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Voyage dans le temps",
+      "place": "Pornichet",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "Samedi 21 novembre 2026 de 14h30 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Le dieu du carnage",
       "place": "Le Croisic",
       "date": "2026-11-22",
@@ -735,6 +755,16 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Voyage dans le temps",
+      "place": "Pornichet",
+      "date": "2026-12-19",
+      "end_date": "2026-12-19",
+      "date_label": "Samedi 19 décembre 2026 de 14h30 à 16h.",
+      "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Je t'aime banane",
