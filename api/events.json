@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-10T04:35:05.198045+01:00",
+  "updated": "2026-11-10T15:53:22.993390+01:00",
   "coverage_start": "2026-11-10",
   "coverage_end": "2027-02-08",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 35
+    },
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,10 +32,20 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 24
     }
   ],
   "events": [
+    {
+      "title": "Karaoké",
+      "place": "Assérac",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/karaoke-asserac-fr-6849575/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -53,6 +63,16 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Spectacle - Le problème lapin",
+      "place": "Guérande",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-le-probleme-lapin-guerande-fr-6785767/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -177,6 +197,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Les rendez vous du Port : Yves Moreau, Le Pouliguen à la Belle Epoque",
+      "place": "Le Pouliguen",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-rendez-vous-du-port-yves-moreau-le-pouliguen-a-la-belle-epoque-le-pouliguen-fr-6842531/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -215,6 +245,16 @@
       "url": "https://www.pornichet.fr/agenda/7-comptines-doiselles-et-doiseaux",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Blind Test Live",
+      "place": "Pornichet",
+      "date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "date_label": "10/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/blind-test-live-pornichet-fr-6879264/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Ciné-club",
