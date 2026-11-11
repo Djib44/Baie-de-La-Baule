@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-10T22:18:31.834013+01:00",
-  "coverage_start": "2026-11-10",
-  "coverage_end": "2027-02-08",
+  "updated": "2026-11-11T07:21:24.228561+01:00",
+  "coverage_start": "2026-11-11",
+  "coverage_end": "2027-02-09",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 31
-    },
-    {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 8
+      "count": 29
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,23 +23,19 @@
       "count": 9
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 7
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 24
+      "count": 22
     }
   ],
   "events": [
-    {
-      "title": "Karaoké",
-      "place": "Assérac",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/karaoke-asserac-fr-6849575/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -67,16 +57,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Spectacle - Le problème lapin",
-      "place": "Guérande",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/spectacle-le-probleme-lapin-guerande-fr-6785767/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Visite jeu La chasse au trésor en autonomie",
       "place": "Guérande",
       "date": "2026-01-02",
@@ -93,6 +73,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Commémoration 11 novembre",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/commemoration-11-novembre-la-baule-escoublac-fr-6833361/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -177,12 +167,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Conférence publique – Yves Moreau – Le Pouliguen romantique",
+      "title": "Cérémonie commémorative du 11 Novembre",
+      "place": "Le Croisic",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1782237/ceremonie-commemorative-du-11-novembre-22",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "CÉRÉMONIE COMMÉMORANT L’ARMISTICE DU 11 NOVEMBRE 1918",
       "place": "Le Pouliguen",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/conference-publique-yves-moreau-le-pouliguen-romantique/",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
     },
@@ -193,16 +193,6 @@
       "end_date": "2026-11-22",
       "date_label": "Du 10/10/2026 au 22/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Les rendez vous du Port : Yves Moreau, Le Pouliguen à la Belle Epoque",
-      "place": "Le Pouliguen",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-rendez-vous-du-port-yves-moreau-le-pouliguen-a-la-belle-epoque-le-pouliguen-fr-6842531/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -247,34 +237,34 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Blind Test Live",
+      "title": "Je suis trop vert",
       "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "10/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/blind-test-live-pornichet-fr-6879264/",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "Mercredi 11 novembre 2026 à partir de 15h30.",
+      "url": "https://www.pornichet.fr/agenda/je-suis-trop-vert",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tricot thé et bal trad",
+      "place": "Pornichet",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "Mercredi 11 novembre 2026 de 17h à 22h.",
+      "url": "https://www.pornichet.fr/agenda/tricot-et-bal-trad",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Journée de sensibilisation au don d'organes",
+      "place": "Pénestin",
+      "date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "date_label": "11/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/journee-de-sensibilisation-au-don-dorganes-penestin-fr-6862617/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "Mardi 10 novembre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Soirée Blind Test Live",
-      "place": "Pornichet",
-      "date": "2026-11-10",
-      "end_date": "2026-11-10",
-      "date_label": "Mardi 10 novembre 2026 à partir de 20h45.",
-      "url": "https://www.pornichet.fr/agenda/soiree-blind-test-live",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Zicotek",
@@ -315,46 +305,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Cérémonie commémorative du 11 Novembre",
-      "place": "Le Croisic",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1782237/ceremonie-commemorative-du-11-novembre-22",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "CÉRÉMONIE COMMÉMORANT L’ARMISTICE DU 11 NOVEMBRE 1918",
-      "place": "Le Pouliguen",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Je suis trop vert",
-      "place": "Pornichet",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "Mercredi 11 novembre 2026 à partir de 15h30.",
-      "url": "https://www.pornichet.fr/agenda/je-suis-trop-vert",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tricot thé et bal trad",
-      "place": "Pornichet",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "Mercredi 11 novembre 2026 de 17h à 22h.",
-      "url": "https://www.pornichet.fr/agenda/tricot-et-bal-trad",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Stand-up Micro Comedy Club",
