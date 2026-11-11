@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-11T07:21:24.228561+01:00",
+  "updated": "2026-11-11T18:08:25.030476+01:00",
   "coverage_start": "2026-11-11",
   "coverage_end": "2027-02-09",
   "sources": [
@@ -11,16 +11,16 @@
       "count": 12
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 29
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 9
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 29
     },
     {
       "name": "Ville du Pouliguen",
