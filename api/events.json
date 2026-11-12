@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-12T12:10:56.402344+01:00",
+  "updated": "2026-11-12T20:54:35.023942+01:00",
   "coverage_start": "2026-11-12",
   "coverage_end": "2027-02-10",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 29
+    },
+    {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 25
     }
   ],
   "events": [
@@ -77,6 +77,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Balade au blockhaus",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_label": "12/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/balade-au-blockhaus-la-baule-escoublac-fr-6764495/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Découverte insolite avec les habitants",
       "place": "La Baule-Escoublac",
       "date": "2026-01-01",
@@ -107,12 +117,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Rendez-vous de La Baule avec Bernard Mabille",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_label": "12/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/rendez-vous-de-la-baule-avec-bernard-mabille-la-baule-escoublac-fr-6786967/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert : Ephémère",
+      "place": "La Turballe",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_label": "12/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-ephemere-la-turballe-fr-6759152/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -163,6 +193,16 @@
       "end_date": "2026-11-22",
       "date_label": "Du 10/10/2026 au 22/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Randos Toniques",
+      "place": "Mesquer",
+      "date": "2026-09-10",
+      "end_date": "2026-11-19",
+      "date_label": "Du 10/09/2026 au 19/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/randos-toniques-mesquer-fr-6035122/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -253,6 +293,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Repair café Saint-Molf",
+      "place": "Saint-Molf",
+      "date": "2026-09-10",
+      "end_date": "2026-11-12",
+      "date_label": "Du 10/09/2026 au 12/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/repair-cafe-saint-molf-saint-molf-fr-6755874/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -407,6 +457,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Steve Reich - Sextet",
+      "place": "Le Croisic",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "15/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2022594/steve-reich-sextet",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Les indispensables du cinéma - Taxi driver",
       "place": "Le Croisic",
       "date": "2026-11-17",
@@ -533,16 +593,6 @@
       "end_date": "2026-11-22",
       "date_label": "22/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1958361/le-dieu-du-carnage-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "De l'écrit à l'écran - Klara et le soleil",
-      "place": "Le Croisic",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1852658/de-l-ecrit-a-l-ecran-klara-et-le-soleil",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
