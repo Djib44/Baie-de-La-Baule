@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-11T18:08:25.030476+01:00",
-  "coverage_start": "2026-11-11",
-  "coverage_end": "2027-02-09",
+  "updated": "2026-11-12T01:44:12.256433+01:00",
+  "coverage_start": "2026-11-12",
+  "coverage_end": "2027-02-10",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -11,28 +11,28 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 9
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
       "count": 29
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 9
+    },
+    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 22
+      "count": 20
     }
   ],
   "events": [
@@ -73,16 +73,6 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Commémoration 11 novembre",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/commemoration-11-novembre-la-baule-escoublac-fr-6833361/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -167,26 +157,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Cérémonie commémorative du 11 Novembre",
-      "place": "Le Croisic",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1782237/ceremonie-commemorative-du-11-novembre-22",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "CÉRÉMONIE COMMÉMORANT L’ARMISTICE DU 11 NOVEMBRE 1918",
-      "place": "Le Pouliguen",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/ceremonie-commemorant-larmistice-du-11-novembre-1918/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
       "title": "Exposition Au bonheur des bennes",
       "place": "Le Pouliguen",
       "date": "2026-10-10",
@@ -237,34 +207,14 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Je suis trop vert",
+      "title": "Stand-up Micro Comedy Club",
       "place": "Pornichet",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "Mercredi 11 novembre 2026 à partir de 15h30.",
-      "url": "https://www.pornichet.fr/agenda/je-suis-trop-vert",
+      "date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_label": "Jeudi 12 novembre 2026 à 19h30.",
+      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Tricot thé et bal trad",
-      "place": "Pornichet",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "Mercredi 11 novembre 2026 de 17h à 22h.",
-      "url": "https://www.pornichet.fr/agenda/tricot-et-bal-trad",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Journée de sensibilisation au don d'organes",
-      "place": "Pénestin",
-      "date": "2026-11-11",
-      "end_date": "2026-11-11",
-      "date_label": "11/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/journee-de-sensibilisation-au-don-dorganes-penestin-fr-6862617/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Zicotek",
@@ -305,16 +255,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Stand-up Micro Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "date_label": "Jeudi 12 novembre 2026 à 19h30.",
-      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "La Mythologie & l’Astronomie",
@@ -427,12 +367,32 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Fabrication de bee wraps et furoshikis",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/fabrication-de-bee-wraps-et-furoshikis",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Masikuna",
       "place": "Pornichet",
       "date": "2026-11-14",
       "end_date": "2026-11-14",
       "date_label": "Samedi 14 novembre 2026 à partir de 20h30.",
       "url": "https://www.pornichet.fr/agenda/masikuna",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tadam ! Grave ton oiseau",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à partir de 16h.",
+      "url": "https://www.pornichet.fr/agenda/tadam-grave-ton-oiseau",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -577,6 +537,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "De l'écrit à l'écran - Klara et le soleil",
+      "place": "Le Croisic",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1852658/de-l-ecrit-a-l-ecran-klara-et-le-soleil",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Les mardis de Baudry : « Muse rouge »",
       "place": "Le Pouliguen",
       "date": "2026-11-24",
@@ -673,16 +643,6 @@
       "end_date": "2026-12-11",
       "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
       "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Ciné-club",
-      "place": "Pornichet",
-      "date": "2026-12-15",
-      "end_date": "2026-12-15",
-      "date_label": "Mardi 15 décembre 2026 à partir de 20h15.",
-      "url": "https://www.pornichet.fr/agenda/cine-club",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
