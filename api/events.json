@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-12T20:54:35.023942+01:00",
-  "coverage_start": "2026-11-12",
-  "coverage_end": "2027-02-10",
+  "updated": "2026-11-13T02:50:24.158227+01:00",
+  "coverage_start": "2026-11-13",
+  "coverage_end": "2027-02-11",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 29
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,10 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 9
+      "count": 30
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,10 +23,16 @@
       "count": 6
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 9
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 21
     }
   ],
   "events": [
@@ -77,16 +77,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Balade au blockhaus",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "date_label": "12/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/balade-au-blockhaus-la-baule-escoublac-fr-6764495/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Découverte insolite avec les habitants",
       "place": "La Baule-Escoublac",
       "date": "2026-01-01",
@@ -117,32 +107,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Rendez-vous de La Baule avec Bernard Mabille",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "date_label": "12/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/rendez-vous-de-la-baule-avec-bernard-mabille-la-baule-escoublac-fr-6786967/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert : Ephémère",
-      "place": "La Turballe",
-      "date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "date_label": "12/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-ephemere-la-turballe-fr-6759152/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -247,66 +217,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Stand-up Micro Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-12",
-      "end_date": "2026-11-12",
-      "date_label": "Jeudi 12 novembre 2026 à 19h30.",
-      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Zicotek",
-      "place": "Pénestin",
-      "date": "2026-09-01",
-      "end_date": "2026-12-12",
-      "date_label": "Du 01/09/2026 au 12/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Jeu de piste numérique Baludik - Saint-Lyphard",
-      "place": "Saint-Lyphard",
-      "date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "date_label": "Du 01/01/2026 au 31/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-saint-lyphard-saint-lyphard-fr-6030058/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Jeu de piste numérique Baludik à Kerhinet",
-      "place": "Saint-Lyphard",
-      "date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "date_label": "Du 01/01/2026 au 31/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-a-kerhinet-saint-lyphard-fr-6030340/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Parcours Permanent d'Orientation (PPO) au Lac de Saint-Lyphard",
-      "place": "Saint-Lyphard",
-      "date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "date_label": "Du 01/01/2026 au 31/12/2026",
-      "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Repair café Saint-Molf",
-      "place": "Saint-Molf",
-      "date": "2026-09-10",
-      "end_date": "2026-11-12",
-      "date_label": "Du 10/09/2026 au 12/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/repair-cafe-saint-molf-saint-molf-fr-6755874/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "La Mythologie & l’Astronomie",
       "place": "Pornichet",
       "date": "2026-11-13",
@@ -355,6 +265,46 @@
       "url": "https://www.pornichet.fr/agenda/west-coast-swing",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Zicotek",
+      "place": "Pénestin",
+      "date": "2026-09-01",
+      "end_date": "2026-12-12",
+      "date_label": "Du 01/09/2026 au 12/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/zicotek-penestin-fr-6713885/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Jeu de piste numérique Baludik - Saint-Lyphard",
+      "place": "Saint-Lyphard",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-saint-lyphard-saint-lyphard-fr-6030058/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Jeu de piste numérique Baludik à Kerhinet",
+      "place": "Saint-Lyphard",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-a-kerhinet-saint-lyphard-fr-6030340/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Parcours Permanent d'Orientation (PPO) au Lac de Saint-Lyphard",
+      "place": "Saint-Lyphard",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "ANNULÉ - Bourse aux jouets",
@@ -465,6 +415,36 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/2022594/steve-reich-sextet",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Yoga du rire",
+      "place": "Pornichet",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "Dimanche 15 novembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Édith et moi",
+      "place": "Pornichet",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "Dimanche 15 novembre 2026 à partir de 16h30.",
+      "url": "https://www.pornichet.fr/agenda/edith-et-moi",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tournoi de Padel Loisir 4",
+      "place": "Pornichet",
+      "date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "date_label": "Lundi 16 novembre 2026 de 17h45 à 22h15.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-padel-loisir-4",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Les indispensables du cinéma - Taxi driver",
