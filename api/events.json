@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-13T11:59:47.663473+01:00",
+  "updated": "2026-11-13T20:42:27.025489+01:00",
   "coverage_start": "2026-11-13",
   "coverage_end": "2027-02-11",
   "sources": [
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 21
+      "count": 30
     }
   ],
   "events": [
@@ -63,6 +63,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 02/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Damraz Comedy Club",
+      "place": "Herbignac",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/damraz-comedy-club-herbignac-fr-6478879/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -107,12 +117,42 @@
       "source_key": "tourism"
     },
     {
+      "title": "La soirée dansante des célibataires",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/la-soiree-dansante-des-celibataires-la-baule-escoublac-fr-6877501/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier : écriture créative avec Hélène Saudubray",
+      "place": "La Turballe",
+      "date": "2026-08-07",
+      "end_date": "2026-11-13",
+      "date_label": "Du 07/08/2026 au 13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-ecriture-creative-avec-helene-saudubray-la-turballe-fr-6075614/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conférence sur l'évolution de la Pêche à La Turballe",
+      "place": "La Turballe",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-sur-levolution-de-la-peche-a-la-turballe-la-turballe-fr-6860479/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -257,6 +297,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Soirée dansante - Tempo Swing",
+      "place": "Pornichet",
+      "date": "2026-11-13",
+      "end_date": "2026-11-14",
+      "date_label": "Du 13/11/2026 au 14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-dansante-tempo-swing-pornichet-fr-6879265/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "West Coast Swing",
       "place": "Pornichet",
       "date": "2026-11-13",
@@ -265,6 +315,26 @@
       "url": "https://www.pornichet.fr/agenda/west-coast-swing",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Projection du film Paris-Pékin à vélo",
+      "place": "Pénestin",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/projection-du-film-paris-pekin-a-velo-penestin-fr-6893931/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rencontre avec Alexandra Goujon",
+      "place": "Pénestin",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/rencontre-avec-alexandra-goujon-penestin-fr-6882034/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Zicotek",
@@ -303,6 +373,26 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre et Musique - Comment ça se danse ?",
+      "place": "Saint-Lyphard",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/theatre-et-musique-comment-ca-se-danse-saint-lyphard-fr-6681869/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Soirée projection de films - Au fil de l'eau et Au nom de la mer",
+      "place": "Saint-Molf",
+      "date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "date_label": "13/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-projection-de-films-au-fil-de-leau-et-au-nom-de-la-mer-saint-molf-fr-6032778/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
