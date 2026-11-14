@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-14T19:01:54.490992+01:00",
+  "updated": "2026-11-14T23:24:36.344144+01:00",
   "coverage_start": "2026-11-14",
   "coverage_end": "2027-02-12",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -337,16 +337,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Fabrication de bee wraps et furoshikis",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/fabrication-de-bee-wraps-et-furoshikis",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Masikuna",
       "place": "Pornichet",
       "date": "2026-11-14",
@@ -383,16 +373,6 @@
       "end_date": "2026-11-14",
       "date_label": "Samedi 14 novembre 2026 à partir de 16h.",
       "url": "https://www.pornichet.fr/agenda/tadam-grave-ton-oiseau",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tournoi de Poker",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-de-poker",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -547,6 +527,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "date_label": "Jeudi 19 novembre 2026 de 19h à 20h.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Ciné-gourmand - Coup de cœur égyptien",
       "place": "Le Croisic",
       "date": "2026-11-20",
@@ -695,6 +685,16 @@
       "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "Mardi 24 novembre 2026 de 10h45 à 11h45.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Les Caprices de Cupidon",
