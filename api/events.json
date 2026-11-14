@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-13T20:42:27.025489+01:00",
-  "coverage_start": "2026-11-13",
-  "coverage_end": "2027-02-11",
+  "updated": "2026-11-14T02:27:51.466283+01:00",
+  "coverage_start": "2026-11-14",
+  "coverage_end": "2027-02-12",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
+      "count": 27
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,10 +32,20 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 30
+      "count": 32
     }
   ],
   "events": [
+    {
+      "title": "A la découverte des secrets des forêts et de leur gestion à Coët-Couron",
+      "place": "Férel",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/a-la-decouverte-des-secrets-des-forets-et-de-leur-gestion-a-coet-couron-ferel-fr-6803516/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
       "place": "Guérande",
@@ -63,16 +73,6 @@
       "end_date": "2026-12-31",
       "date_label": "Du 02/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Damraz Comedy Club",
-      "place": "Herbignac",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/damraz-comedy-club-herbignac-fr-6478879/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -117,22 +117,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "La soirée dansante des célibataires",
+      "title": "Fabrice Eboué \"SolitudeS\"",
       "place": "La Baule-Escoublac",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/la-soiree-dansante-des-celibataires-la-baule-escoublac-fr-6877501/",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/fabrice-eboue-solitudes-la-baule-escoublac-fr-6322020/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
     {
-      "title": "Atelier : écriture créative avec Hélène Saudubray",
+      "title": "Atelier Cirque",
       "place": "La Turballe",
-      "date": "2026-08-07",
-      "end_date": "2026-11-13",
-      "date_label": "Du 07/08/2026 au 13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-ecriture-creative-avec-helene-saudubray-la-turballe-fr-6075614/",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-cirque-la-turballe-fr-6783575/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -147,12 +147,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Conférence sur l'évolution de la Pêche à La Turballe",
+      "title": "Concours de belote",
       "place": "La Turballe",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-sur-levolution-de-la-peche-a-la-turballe-la-turballe-fr-6860479/",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concours-de-belote-la-turballe-fr-6888404/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -187,12 +187,62 @@
       "source_key": "tourism"
     },
     {
+      "title": "ANNULÉ - Bourse aux jouets",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1762048/annule-bourse-aux-jouets",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "ANNULÉ - Soirée caritative",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/annule-soiree-caritative-le-croisic-fr-6083397/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "ANNULÉ - Soirée caritative - Lutte contre le cancer",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1765948/annule-soiree-caritative-lutte-contre-le-cancer",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Bla Bla des lecteurs et des lectrices",
+      "place": "Le Croisic",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/446058/bla-bla-des-lecteurs-et-des-lectrices",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
       "end_date": "2026-12-08",
       "date_label": "Du 29/09/2026 au 08/12/2026",
       "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Documentaire en Folie",
+      "place": "Le Pouliguen",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/documentaire-en-folie-le-pouliguen-fr-6870866/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -205,6 +255,26 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "THEÂTRE « MYSTERE AU MANOIR VALLANDRY »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/theatre-mystere-au-manoir-vallandry/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Randos Toniques",
@@ -257,32 +327,32 @@
       "source_key": "pornichet"
     },
     {
-      "title": "La Mythologie & l’Astronomie",
+      "title": "Courses de galop",
       "place": "Pornichet",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "Vendredi 13 novembre 2026 à partir de 20h30.",
-      "url": "https://www.pornichet.fr/agenda/la-mythologie-lastronomie",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée jeux",
+      "title": "Fabrication de bee wraps et furoshikis",
       "place": "Pornichet",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "Vendredi 13 novembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 de 10h30 à 12h.",
+      "url": "https://www.pornichet.fr/agenda/fabrication-de-bee-wraps-et-furoshikis",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Of Metal and Wood",
+      "title": "Masikuna",
       "place": "Pornichet",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "Vendredi 13 novembre 2026 à partir de 21h.",
-      "url": "https://www.pornichet.fr/agenda/metal-and-wood",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à partir de 20h30.",
+      "url": "https://www.pornichet.fr/agenda/masikuna",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -307,32 +377,32 @@
       "source_key": "tourism"
     },
     {
-      "title": "West Coast Swing",
+      "title": "Tadam ! Grave ton oiseau",
       "place": "Pornichet",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "Vendredi 13 novembre 2026 de 20h à 1h30.",
-      "url": "https://www.pornichet.fr/agenda/west-coast-swing",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à partir de 16h.",
+      "url": "https://www.pornichet.fr/agenda/tadam-grave-ton-oiseau",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Projection du film Paris-Pékin à vélo",
-      "place": "Pénestin",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/projection-du-film-paris-pekin-a-velo-penestin-fr-6893931/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Tournoi de Poker",
+      "place": "Pornichet",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "Samedi 14 novembre 2026 à 17h.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-poker",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
-      "title": "Rencontre avec Alexandra Goujon",
+      "title": "Ateliers d'écriture",
       "place": "Pénestin",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/rencontre-avec-alexandra-goujon-penestin-fr-6882034/",
+      "date": "2026-10-10",
+      "end_date": "2026-11-14",
+      "date_label": "Du 10/10/2026 au 14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/ateliers-decriture-penestin-fr-6357037/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -367,6 +437,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "L'Histoire de l'Art en conférence - Petits secrets des grands tableaux",
+      "place": "Saint-Lyphard",
+      "date": "2026-11-14",
+      "end_date": "2026-11-14",
+      "date_label": "14/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/lhistoire-de-lart-en-conference-petits-secrets-des-grands-tableaux-saint-lyphard-fr-6856474/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Parcours Permanent d'Orientation (PPO) au Lac de Saint-Lyphard",
       "place": "Saint-Lyphard",
       "date": "2026-01-01",
@@ -375,126 +455,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre et Musique - Comment ça se danse ?",
-      "place": "Saint-Lyphard",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/theatre-et-musique-comment-ca-se-danse-saint-lyphard-fr-6681869/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Soirée projection de films - Au fil de l'eau et Au nom de la mer",
-      "place": "Saint-Molf",
-      "date": "2026-11-13",
-      "end_date": "2026-11-13",
-      "date_label": "13/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-projection-de-films-au-fil-de-leau-et-au-nom-de-la-mer-saint-molf-fr-6032778/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "ANNULÉ - Bourse aux jouets",
-      "place": "Le Croisic",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1762048/annule-bourse-aux-jouets",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "ANNULÉ - Soirée caritative - Lutte contre le cancer",
-      "place": "Le Croisic",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1765948/annule-soiree-caritative-lutte-contre-le-cancer",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Bla Bla des lecteurs et des lectrices",
-      "place": "Le Croisic",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/446058/bla-bla-des-lecteurs-et-des-lectrices",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "THEÂTRE « MYSTERE AU MANOIR VALLANDRY »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/theatre-mystere-au-manoir-vallandry/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "14/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Fabrication de bee wraps et furoshikis",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 de 10h30 à 12h.",
-      "url": "https://www.pornichet.fr/agenda/fabrication-de-bee-wraps-et-furoshikis",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Masikuna",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 à partir de 20h30.",
-      "url": "https://www.pornichet.fr/agenda/masikuna",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tadam ! Grave ton oiseau",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 à partir de 16h.",
-      "url": "https://www.pornichet.fr/agenda/tadam-grave-ton-oiseau",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Tournoi de Poker",
-      "place": "Pornichet",
-      "date": "2026-11-14",
-      "end_date": "2026-11-14",
-      "date_label": "Samedi 14 novembre 2026 à 17h.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-de-poker",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Steve Reich - Sextet",
@@ -565,6 +525,26 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1848355/les-ptits-devoreurs-2-2",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Tournoi jeux de bar",
+      "place": "Pornichet",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "Mercredi 18 novembre 2026 à partir de 19h30.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-jeux-de-bar",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Murder Party",
+      "place": "Pornichet",
+      "date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "date_label": "Jeudi 19 novembre 2026 de 20h30 à 22h30.",
+      "url": "https://www.pornichet.fr/agenda/murder-party",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Ciné-gourmand - Coup de cœur égyptien",
@@ -685,16 +665,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Stand-up Micro Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
-      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Les Caprices de Cupidon",
@@ -865,6 +835,16 @@
       "url": "https://reservation.labaule-guerande.com/humour-musical-oldelaf.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Matinée jeux",
+      "place": "Pornichet",
+      "date": "2027-02-12",
+      "end_date": "2027-02-12",
+      "date_label": "Vendredi 12 février 2027 de 10h à 12h30.",
+      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     }
   ],
   "agenda_url": "https://www.labaule-guerande.com/explorer/agenda/"
