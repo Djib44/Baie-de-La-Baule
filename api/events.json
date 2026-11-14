@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-14T02:27:51.466283+01:00",
+  "updated": "2026-11-14T11:27:11.814048+01:00",
   "coverage_start": "2026-11-14",
   "coverage_end": "2027-02-12",
   "sources": [
@@ -14,19 +14,19 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 27
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 9
+      "count": 25
     },
     {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 6
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 9
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
@@ -587,6 +587,36 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Conférence de Mario Chavez",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/conference-de-mario-chavez",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Delight",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/delight",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Litté'Vox - La rentrée échapée",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 18h.",
+      "url": "https://www.pornichet.fr/agenda/littevox-la-rentree-echapee",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Après-midi Scrabble",
       "place": "Le Croisic",
       "date": "2026-11-21",
@@ -727,16 +757,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée jeux",
-      "place": "Pornichet",
-      "date": "2026-12-11",
-      "end_date": "2026-12-11",
-      "date_label": "Vendredi 11 décembre 2026 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Courses de galop",
       "place": "Pornichet",
       "date": "2026-12-16",
@@ -797,16 +817,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Matinée jeux",
-      "place": "Pornichet",
-      "date": "2027-01-15",
-      "end_date": "2027-01-15",
-      "date_label": "Vendredi 15 janvier 2027 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Concert - Soirée conservatoire de Cap Atlantique : Paris - New York",
       "place": "Pénestin",
       "date": "2027-01-16",
@@ -835,16 +845,6 @@
       "url": "https://reservation.labaule-guerande.com/humour-musical-oldelaf.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Matinée jeux",
-      "place": "Pornichet",
-      "date": "2027-02-12",
-      "end_date": "2027-02-12",
-      "date_label": "Vendredi 12 février 2027 de 10h à 12h30.",
-      "url": "https://www.pornichet.fr/agenda/matinee-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     }
   ],
   "agenda_url": "https://www.labaule-guerande.com/explorer/agenda/"
