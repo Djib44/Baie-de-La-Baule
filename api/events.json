@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-15T17:22:11.237272+01:00",
+  "updated": "2026-11-15T23:49:07.881682+01:00",
   "coverage_start": "2026-11-15",
   "coverage_end": "2027-02-13",
   "sources": [
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -269,9 +269,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -279,9 +279,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -417,6 +417,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Repas Bœuf Bourguignon",
+      "place": "Pornichet",
+      "date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "date_label": "Jeudi 19 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/repas-boeuf-bourguignon",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Yoga du visage",
       "place": "Pornichet",
       "date": "2026-11-19",
@@ -465,6 +475,16 @@
       "url": "https://www.lepouliguen.fr/evenements/telethon-des-sapeurs-pompiers/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Bières de Noël VS Beaujolais nouveau",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/bieres-de-noel-vs-beaujolais-nouveau",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Conférence de Mario Chavez",
@@ -537,6 +557,26 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Quatre mains",
+      "place": "Pornichet",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "Samedi 21 novembre 2026 à partir de 15h et à partir de 18h30.",
+      "url": "https://www.pornichet.fr/agenda/quatre-mains",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Tournoi de fléchettes",
+      "place": "Pornichet",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "Samedi 21 novembre 2026 à 13h30.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-flechettes",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Voyage dans le temps",
       "place": "Pornichet",
       "date": "2026-11-21",
@@ -587,6 +627,16 @@
       "source_key": "tickets"
     },
     {
+      "title": "Portrait de Ludmilla en Nina Simone - Complet",
+      "place": "Pornichet",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "Mardi 24 novembre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/portrait-de-ludmilla-en-nina-simone-complet",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Yoga du visage",
       "place": "Pornichet",
       "date": "2026-11-24",
@@ -627,16 +677,6 @@
       "source_key": "tickets"
     },
     {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "CONCOURS DE BELOTE",
       "place": "Le Pouliguen",
       "date": "2026-11-29",
@@ -647,16 +687,6 @@
       "source_key": "pouliguen"
     },
     {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-12-05",
-      "end_date": "2026-12-05",
-      "date_label": "Samedi 5 décembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-12-08",
@@ -665,26 +695,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-12-08",
-      "end_date": "2026-12-08",
-      "date_label": "Mardi 8 décembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-12-16",
-      "end_date": "2026-12-16",
-      "date_label": "Mercredi 16 décembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Humour - Jean-Luc Lemoine - Liquidation",
@@ -715,26 +725,6 @@
       "url": "https://reservation.labaule-guerande.com/theatre-je-t-aime-banane.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-12-22",
-      "end_date": "2026-12-22",
-      "date_label": "Mardi 22 décembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-12-28",
-      "end_date": "2026-12-28",
-      "date_label": "Lundi 28 décembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Concert - Soirée conservatoire de Cap Atlantique : Paris - New York",
