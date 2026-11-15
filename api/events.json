@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-15T07:33:03.160190+01:00",
+  "updated": "2026-11-15T17:22:11.237272+01:00",
   "coverage_start": "2026-11-15",
   "coverage_end": "2027-02-13",
   "sources": [
@@ -17,22 +17,22 @@
       "count": 21
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 5
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 5
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 28
     }
   ],
   "events": [
@@ -47,12 +47,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Festival du Livre en Bretagne de Guérande",
+      "place": "Guérande",
+      "date": "2026-11-14",
+      "end_date": "2026-11-15",
+      "date_label": "Du 14/11/2026 au 15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-du-livre-en-bretagne-de-guerande-guerande-fr-6821772/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
       "date": "2026-11-02",
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Salon - Bien-être de Noël",
+      "place": "Guérande",
+      "date": "2026-11-14",
+      "end_date": "2026-11-15",
+      "date_label": "Du 14/11/2026 au 15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/salon-bien-etre-de-noel-guerande-fr-6742006/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -127,6 +147,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Fest Deiz",
+      "place": "La Turballe",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/fest-deiz-la-turballe-fr-6858007/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Programmation Cinéma Atlantic du 28 octobre au 24 novembre",
       "place": "La Turballe",
       "date": "2026-10-28",
@@ -153,6 +183,16 @@
       "end_date": "2026-12-08",
       "date_label": "Du 29/09/2026 au 08/12/2026",
       "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert - Steve Reich - Sextet",
+      "place": "Le Croisic",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-steve-reich-sextet-le-croisic-fr-6833368/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -227,6 +267,26 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Zicotek",
       "place": "Pénestin",
       "date": "2026-09-01",
@@ -263,6 +323,26 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "bourse aux jouets et vide puériculture",
+      "place": "Saint-Molf",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/bourse-aux-jouets-et-vide-puericulture-saint-molf-fr-6847190/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "marché de noël à la ferminette",
+      "place": "Saint-Molf",
+      "date": "2026-11-15",
+      "end_date": "2026-11-15",
+      "date_label": "15/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-a-la-ferminette-saint-molf-fr-6844516/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
