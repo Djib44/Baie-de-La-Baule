@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-15T23:49:07.881682+01:00",
-  "coverage_start": "2026-11-15",
-  "coverage_end": "2027-02-13",
+  "updated": "2026-11-16T07:30:23.461199+01:00",
+  "coverage_start": "2026-11-16",
+  "coverage_end": "2027-02-14",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,7 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 22
+      "count": 20
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,30 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 28
+      "count": 20
     }
   ],
   "events": [
-    {
-      "title": "Exposition John Howe - Châteaux, Cités et Forteresses",
-      "place": "Guérande",
-      "date": "2026-06-20",
-      "end_date": "2026-11-15",
-      "date_label": "Du 20/06/2026 au 15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-john-howe-chateaux-cites-et-forteresses-guerande-fr-6565853/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Festival du Livre en Bretagne de Guérande",
-      "place": "Guérande",
-      "date": "2026-11-14",
-      "end_date": "2026-11-15",
-      "date_label": "Du 14/11/2026 au 15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/festival-du-livre-en-bretagne-de-guerande-guerande-fr-6821772/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -63,16 +43,6 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Salon - Bien-être de Noël",
-      "place": "Guérande",
-      "date": "2026-11-14",
-      "end_date": "2026-11-15",
-      "date_label": "Du 14/11/2026 au 15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/salon-bien-etre-de-noel-guerande-fr-6742006/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -117,16 +87,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Exposition Jean Sala - L'âme de la belle époque",
-      "place": "La Baule-Escoublac",
-      "date": "2026-10-17",
-      "end_date": "2026-11-15",
-      "date_label": "Du 17/10/2026 au 15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-jean-sala-lame-de-la-belle-epoque-la-baule-escoublac-fr-6775734/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Atelier Numérique : Tablette et Smartphone",
       "place": "La Turballe",
       "date": "2026-11-02",
@@ -143,16 +103,6 @@
       "end_date": "2026-11-28",
       "date_label": "Du 03/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-de-novembre-michel-moreau-la-turballe-fr-6759151/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Fest Deiz",
-      "place": "La Turballe",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/fest-deiz-la-turballe-fr-6858007/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -185,26 +135,6 @@
       "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Concert - Steve Reich - Sextet",
-      "place": "Le Croisic",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-steve-reich-sextet-le-croisic-fr-6833368/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Steve Reich - Sextet",
-      "place": "Le Croisic",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "15/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2022594/steve-reich-sextet",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
     },
     {
       "title": "Exposition Au bonheur des bennes",
@@ -247,34 +177,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "Yoga du rire",
+      "title": "Tournoi de Padel Loisir 4",
       "place": "Pornichet",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "Dimanche 15 novembre 2026 à partir de 10h30.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-rire",
+      "date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "date_label": "Lundi 16 novembre 2026 de 17h45 à 22h15.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-padel-loisir-4",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Édith et moi",
-      "place": "Pornichet",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "Dimanche 15 novembre 2026 à partir de 16h30.",
-      "url": "https://www.pornichet.fr/agenda/edith-et-moi",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Pièce \"Coup de théâtre\"",
-      "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -282,6 +192,16 @@
       "date": "2026-11-14",
       "end_date": "2026-11-28",
       "date_label": "Du 14/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -325,36 +245,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "bourse aux jouets et vide puériculture",
-      "place": "Saint-Molf",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/bourse-aux-jouets-et-vide-puericulture-saint-molf-fr-6847190/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "marché de noël à la ferminette",
-      "place": "Saint-Molf",
-      "date": "2026-11-15",
-      "end_date": "2026-11-15",
-      "date_label": "15/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-a-la-ferminette-saint-molf-fr-6844516/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Tournoi de Padel Loisir 4",
-      "place": "Pornichet",
-      "date": "2026-11-16",
-      "end_date": "2026-11-16",
-      "date_label": "Lundi 16 novembre 2026 de 17h45 à 22h15.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-de-padel-loisir-4",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Les indispensables du cinéma - Taxi driver",
@@ -663,6 +553,16 @@
       "end_date": "2026-11-26",
       "date_label": "26/11/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1953486/les-escales-mobilites-1-1-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Habiter les littoraux français au vu des risques environnementaux",
+      "place": "Le Croisic",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2002431/habiter-les-littoraux-francais-au-vu-des-risques-environnementaux",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },

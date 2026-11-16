@@ -1,7 +1,12 @@
 {
   "source": "Copernicus Marine ZSD",
-  "updated": "2026-11-06T22:49:18.715198+00:00",
+  "updated": "2026-11-07T06:30:41.490281+00:00",
   "days": [
+    {
+      "date": "2026-11-07",
+      "value": 2.55,
+      "rating": "Moyenne"
+    },
     {
       "date": "2026-11-06",
       "value": 2.09,
@@ -10,11 +15,6 @@
     {
       "date": "2026-11-05",
       "value": 1.7,
-      "rating": "Faible"
-    },
-    {
-      "date": "2026-11-03",
-      "value": 1.43,
       "rating": "Faible"
     }
   ]
