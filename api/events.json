@@ -1,26 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-16T07:30:23.461199+01:00",
+  "updated": "2026-11-16T20:37:14.086897+01:00",
   "coverage_start": "2026-11-16",
   "coverage_end": "2027-02-14",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 22
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 20
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 10
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,10 +23,16 @@
       "count": 5
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 10
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 20
+      "count": 24
     }
   ],
   "events": [
@@ -43,6 +43,16 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-la-madeleine-guerande-fr-6406735/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Ouvrons les livres avec les Bébés - à Saillé",
+      "place": "Guérande",
+      "date": "2026-05-18",
+      "end_date": "2026-12-21",
+      "date_label": "Du 18/05/2026 au 21/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-saille-guerande-fr-6263394/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -63,6 +73,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conférence - Les Têtes Renversantes : Les secrets de Vermeer",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "date_label": "16/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-les-tetes-renversantes-les-secrets-de-vermeer-la-baule-escoublac-fr-6764503/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -93,6 +113,16 @@
       "end_date": "2026-12-07",
       "date_label": "Du 02/11/2026 au 07/12/2026",
       "url": "https://www.labaule-guerande.com/offres/atelier-numerique-tablette-et-smartphone-la-turballe-fr-6761750/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Boîtes solidaires de Noël",
+      "place": "La Turballe",
+      "date": "2026-11-16",
+      "end_date": "2026-12-03",
+      "date_label": "Du 16/11/2026 au 03/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/boites-solidaires-de-noel-la-turballe-fr-6906798/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -203,6 +233,16 @@
       "end_date": "2026-11-29",
       "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Puzzle Participatif",
+      "place": "Pénestin",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/01/2026 au 31/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/puzzle-participatif-penestin-fr-6761725/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
