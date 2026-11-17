@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-16T20:37:14.086897+01:00",
-  "coverage_start": "2026-11-16",
-  "coverage_end": "2027-02-14",
+  "updated": "2026-11-17T04:55:32.597490+01:00",
+  "coverage_start": "2026-11-17",
+  "coverage_end": "2027-02-15",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Ville du Croisic",
@@ -17,22 +17,22 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 5
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 10
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 5
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 24
+      "count": 23
     }
   ],
   "events": [
@@ -73,16 +73,6 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Conférence - Les Têtes Renversantes : Les secrets de Vermeer",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-16",
-      "end_date": "2026-11-16",
-      "date_label": "16/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-les-tetes-renversantes-les-secrets-de-vermeer-la-baule-escoublac-fr-6764503/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -167,6 +157,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Les indispensables du cinéma - Taxi driver",
+      "place": "Le Croisic",
+      "date": "2026-11-17",
+      "end_date": "2026-11-17",
+      "date_label": "17/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1874095/les-indispensables-du-cinema-taxi-driver",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Exposition Au bonheur des bennes",
       "place": "Le Pouliguen",
       "date": "2026-10-10",
@@ -205,16 +205,6 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Tournoi de Padel Loisir 4",
-      "place": "Pornichet",
-      "date": "2026-11-16",
-      "end_date": "2026-11-16",
-      "date_label": "Lundi 16 novembre 2026 de 17h45 à 22h15.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-de-padel-loisir-4",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -285,16 +275,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Les indispensables du cinéma - Taxi driver",
-      "place": "Le Croisic",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "date_label": "17/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1874095/les-indispensables-du-cinema-taxi-driver",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
     },
     {
       "title": "Festival Alimenterre - Les femmes aussi font de l'agriculture",
