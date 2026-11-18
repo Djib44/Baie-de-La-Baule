@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-18T01:57:55.067944+01:00",
+  "updated": "2026-11-18T12:42:40.892850+01:00",
   "coverage_start": "2026-11-18",
   "coverage_end": "2027-02-16",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 22
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 27
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,10 +32,20 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 32
     }
   ],
   "events": [
+    {
+      "title": "Marche citoyenne à Saillé",
+      "place": "Guérande",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-citoyenne-a-saille-guerande-fr-6911364/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -53,6 +63,16 @@
       "end_date": "2026-12-21",
       "date_label": "Du 18/05/2026 au 21/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-saille-guerande-fr-6263394/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "P'tit déj pour bébés lecteurs",
+      "place": "Guérande",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/ptit-dej-pour-bebes-lecteurs-guerande-fr-6140635/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -177,6 +197,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Les femmes aussi font de l'agriculture",
+      "place": "Le Croisic",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-femmes-aussi-font-de-lagriculture-le-croisic-fr-6873768/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Les p'tits dévoreurs",
       "place": "Le Croisic",
       "date": "2026-11-18",
@@ -193,6 +223,16 @@
       "end_date": "2026-11-22",
       "date_label": "Du 10/10/2026 au 22/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Musée numérique : nouvelle collection",
+      "place": "Le Pouliguen",
+      "date": "2026-11-18",
+      "end_date": "2026-11-28",
+      "date_label": "Du 18/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -227,6 +267,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Ateliers créatifs avec Violette Vaïsse",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/ateliers-creatifs-avec-violette-vaisse-piriac-sur-mer-fr-6853768/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -243,6 +293,26 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Rencontre avec l'artiste Violette Vaïsse",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/rencontre-avec-lartiste-violette-vaisse-piriac-sur-mer-fr-6853769/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Soirée tournoi - Jeux de bar",
+      "place": "Pornichet",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-tournoi-jeux-de-bar-pornichet-fr-6879266/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -427,12 +497,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Litté'Vox - La rentrée échapée",
+      "title": "Litté'Vox - La rentrée échappée",
       "place": "Pornichet",
       "date": "2026-11-20",
       "end_date": "2026-11-20",
       "date_label": "Vendredi 20 novembre 2026 à partir de 18h.",
-      "url": "https://www.pornichet.fr/agenda/littevox-la-rentree-echapee",
+      "url": "https://www.pornichet.fr/agenda/littevox-la-rentree-echappee",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -527,7 +597,7 @@
       "source_key": "croisic"
     },
     {
-      "title": "Les mardis de Baudry : « Muse rouge »",
+      "title": "LES MARDIS DE BAUDRY « MUSE ROUGE »",
       "place": "Le Pouliguen",
       "date": "2026-11-24",
       "end_date": "2026-11-24",
@@ -577,6 +647,26 @@
       "source_key": "croisic"
     },
     {
+      "title": "Initiation au numérique - Réunion d'information",
+      "place": "Le Croisic",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2027183/initiation-au-numerique-reunion-d-information",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "La semaine des liens",
+      "place": "Le Croisic",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2027222/la-semaine-des-liens",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Les escales mobilités",
       "place": "Le Croisic",
       "date": "2026-11-26",
@@ -597,16 +687,6 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Habiter les littoraux français au vu des risques environnementaux",
-      "place": "Le Croisic",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2002431/habiter-les-littoraux-francais-au-vu-des-risques-environnementaux",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "Théâtre - Les Caprices de Cupidon",
       "place": "Mesquer Quimiac",
       "date": "2026-11-27",
@@ -617,16 +697,6 @@
       "source_key": "tickets"
     },
     {
-      "title": "Salon des Créateurs Amateurs",
-      "place": "Le Croisic",
-      "date": "2026-11-28",
-      "end_date": "2026-11-29",
-      "date_label": "Du 28/11/2026 au 29/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1754339/salon-des-createurs-amateurs",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
       "title": "CONCOURS DE BELOTE",
       "place": "Le Pouliguen",
       "date": "2026-11-29",
@@ -635,6 +705,16 @@
       "url": "https://www.lepouliguen.fr/evenements/concours-de-belote/",
       "source": "Ville du Pouliguen",
       "source_key": "pouliguen"
+    },
+    {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "date_label": "Jeudi 3 décembre 2026 de 19h30 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
@@ -655,6 +735,16 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-12-18",
+      "end_date": "2026-12-18",
+      "date_label": "Vendredi 18 décembre 2026 de 10h45 à 11h45.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Voyage dans le temps",
