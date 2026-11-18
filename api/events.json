@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-17T17:00:17.381924+01:00",
-  "coverage_start": "2026-11-17",
-  "coverage_end": "2027-02-15",
+  "updated": "2026-11-18T01:57:55.067944+01:00",
+  "coverage_start": "2026-11-18",
+  "coverage_end": "2027-02-16",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Ville du Croisic",
@@ -20,7 +20,7 @@
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,30 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 29
+      "count": 25
     }
   ],
   "events": [
-    {
-      "title": "Quizz",
-      "place": "Assérac",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "date_label": "17/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/quizz-asserac-fr-6849576/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Permanence mobilités Lila Presqu'île",
-      "place": "Batz-sur-Mer",
-      "date": "2026-10-20",
-      "end_date": "2026-11-17",
-      "date_label": "Du 20/10/2026 au 17/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/permanence-mobilites-lila-presquile-batz-sur-mer-fr-6690306/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -93,16 +73,6 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Conférence : Soigner les enfants, construire l'avenir",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "date_label": "17/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-soigner-les-enfants-construire-lavenir-la-baule-escoublac-fr-6873767/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -197,24 +167,24 @@
       "source_key": "tourism"
     },
     {
-      "title": "Les indispensables du cinéma - Taxi driver",
+      "title": "Festival Alimenterre - Les femmes aussi font de l'agriculture",
       "place": "Le Croisic",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "date_label": "17/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1874095/les-indispensables-du-cinema-taxi-driver",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2011869/festival-alimenterre-les-femmes-aussi-font-de-l-agriculture",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
     {
-      "title": "Les indispensables du cinéma : Taxi Driver",
+      "title": "Les p'tits dévoreurs",
       "place": "Le Croisic",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "date_label": "17/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-indispensables-du-cinema-taxi-driver-le-croisic-fr-6884178/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1848355/les-ptits-devoreurs-2-2",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Exposition Au bonheur des bennes",
@@ -225,6 +195,16 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "18/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Théâtre : Mystère au manoir de Vallandry",
@@ -267,14 +247,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "Pièce \"Coup de théâtre\"",
-      "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Tournoi jeux de bar",
+      "place": "Pornichet",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "date_label": "Mercredi 18 novembre 2026 à partir de 19h30.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-jeux-de-bar",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -282,6 +262,16 @@
       "date": "2026-11-15",
       "end_date": "2026-11-29",
       "date_label": "Du 15/11/2026 au 29/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -335,46 +325,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Festival Alimenterre - Les femmes aussi font de l'agriculture",
-      "place": "Le Croisic",
-      "date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "date_label": "18/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2011869/festival-alimenterre-les-femmes-aussi-font-de-l-agriculture",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les p'tits dévoreurs",
-      "place": "Le Croisic",
-      "date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "date_label": "18/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1848355/les-ptits-devoreurs-2-2",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "date_label": "18/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Tournoi jeux de bar",
-      "place": "Pornichet",
-      "date": "2026-11-18",
-      "end_date": "2026-11-18",
-      "date_label": "Mercredi 18 novembre 2026 à partir de 19h30.",
-      "url": "https://www.pornichet.fr/agenda/tournoi-jeux-de-bar",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Murder Party",
@@ -637,6 +587,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Stand-up Micro Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
+      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Habiter les littoraux français au vu des risques environnementaux",
       "place": "Le Croisic",
       "date": "2026-11-27",
@@ -655,6 +615,16 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Salon des Créateurs Amateurs",
+      "place": "Le Croisic",
+      "date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "date_label": "Du 28/11/2026 au 29/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1754339/salon-des-createurs-amateurs",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "CONCOURS DE BELOTE",
@@ -743,6 +713,16 @@
       "end_date": "2027-02-13",
       "date_label": "13/02/2027",
       "url": "https://reservation.labaule-guerande.com/humour-soiree-stand-up.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Conte et théâtre d'objets - Chez Dionysos - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2027-02-16",
+      "end_date": "2027-02-16",
+      "date_label": "16/02/2027",
+      "url": "https://reservation.labaule-guerande.com/conte-et-theatre-d-objets-chez-dionysos-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
     }
