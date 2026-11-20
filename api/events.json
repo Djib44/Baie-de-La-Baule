@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-20T03:19:34.713063+01:00",
+  "updated": "2026-11-20T12:40:16.026978+01:00",
   "coverage_start": "2026-11-20",
   "coverage_end": "2027-02-18",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 29
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 22
     },
     {
       "name": "Ville du Pouliguen",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 32
     }
   ],
   "events": [
@@ -157,12 +157,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Soirée annuelle de Steredenn Vor",
+      "place": "La Turballe",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-annuelle-de-steredenn-vor-la-turballe-fr-6856471/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
       "end_date": "2026-12-08",
       "date_label": "Du 29/09/2026 au 08/12/2026",
       "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Ciné-gourmand - Coup de coeur égyptien",
+      "place": "Le Croisic",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/cine-gourmand-coup-de-coeur-egyptien-le-croisic-fr-6884179/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -185,6 +205,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/2014612/olivier-messiaen-et-pierre-boulez-une-relation-fertile",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "24h pour le Téléthon !",
+      "place": "Le Pouliguen",
+      "date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "date_label": "Du 20/11/2026 au 21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/24h-pour-le-telethon-le-pouliguen-fr-6847188/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
@@ -217,6 +247,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Spectacle : Rock'N'Lol",
+      "place": "Le Pouliguen",
+      "date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "date_label": "Du 20/11/2026 au 22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-rocknlol-le-pouliguen-fr-6837394/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "TELETHON DES SAPEURS-POMPIERS",
       "place": "Le Pouliguen",
       "date": "2026-11-20",
@@ -233,6 +273,16 @@
       "end_date": "2026-11-22",
       "date_label": "Du 14/11/2026 au 22/11/2026",
       "url": "https://www.labaule-guerande.com/offres/theatre-mystere-au-manoir-de-vallandry-le-pouliguen-fr-6785760/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Apéro huîtres et Mumu au Central !",
+      "place": "Mesquer",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/apero-huitres-et-mumu-au-central-mesquer-fr-6258627/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -309,9 +359,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -319,9 +369,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -373,6 +423,26 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Soirée Magique aux Canailles du Marais avec l'Esprit Parapluie",
+      "place": "Saint-Lyphard",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-magique-aux-canailles-du-marais-avec-lesprit-parapluie-saint-lyphard-fr-6030158/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marché de Noël",
+      "place": "Saint-Molf",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-saint-molf-fr-6849570/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -467,12 +537,12 @@
       "source_key": "croisic"
     },
     {
-      "title": "Bourse aux jouets et objets de puériculture",
+      "title": "Bourse aux jouets et objets de puériculture - Annulée",
       "place": "Pornichet",
       "date": "2026-11-22",
       "end_date": "2026-11-22",
-      "date_label": "Dimanche 22 novembre 2026 de 9h à 17h.",
-      "url": "https://www.pornichet.fr/agenda/bourse-aux-jouets-et-objets-de-puericulture",
+      "date_label": "Dimanche 22 novembre 2026 de 9h à 17h",
+      "url": "https://www.pornichet.fr/agenda/bourse-aux-jouets-et-objets-de-puericulture-annulee",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -577,6 +647,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Soirée jeux",
+      "place": "Pornichet",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "Jeudi 26 novembre 2026 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/soiree-jeux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Habiter les littoraux français au vu des risques environnementaux",
       "place": "Le Croisic",
       "date": "2026-11-27",
@@ -595,6 +675,16 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Salon des Créateurs Amateurs",
@@ -627,6 +717,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "date_label": "Samedi 5 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
       "place": "Le Pouliguen",
       "date": "2026-12-08",
@@ -635,6 +735,26 @@
       "url": "https://reservation.labaule-guerande.com/theatre-les-etoile-filantes-ne-font-que-passer-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-08",
+      "end_date": "2026-12-08",
+      "date_label": "Mardi 8 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-16",
+      "end_date": "2026-12-16",
+      "date_label": "Mercredi 16 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Humour - Jean-Luc Lemoine - Liquidation",
@@ -675,6 +795,26 @@
       "url": "https://reservation.labaule-guerande.com/theatre-je-t-aime-banane.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-22",
+      "end_date": "2026-12-22",
+      "date_label": "Mardi 22 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Courses de galop",
+      "place": "Pornichet",
+      "date": "2026-12-28",
+      "end_date": "2026-12-28",
+      "date_label": "Lundi 28 décembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Concert - Soirée conservatoire de Cap Atlantique : Paris - New York",
