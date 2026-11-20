@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-19T21:37:43.656748+01:00",
-  "coverage_start": "2026-11-19",
-  "coverage_end": "2027-02-17",
+  "updated": "2026-11-20T03:19:34.713063+01:00",
+  "coverage_start": "2026-11-20",
+  "coverage_end": "2027-02-18",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -14,13 +14,7 @@
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 21
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 11
+      "count": 22
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,23 +23,19 @@
       "count": 5
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 11
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 32
+      "count": 25
     }
   ],
   "events": [
-    {
-      "title": "Beaujolais nouveau",
-      "place": "Guérande",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/beaujolais-nouveau-guerande-fr-6877499/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -107,16 +97,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Fruits des marins et de la diplomatie: L' ananas",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/fruits-des-marins-et-de-la-diplomatie-l-ananas-la-baule-escoublac-fr-6764494/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Après-midi : Club lecture",
       "place": "La Turballe",
       "date": "2026-09-09",
@@ -143,16 +123,6 @@
       "end_date": "2026-12-03",
       "date_label": "Du 16/11/2026 au 03/12/2026",
       "url": "https://www.labaule-guerande.com/offres/boites-solidaires-de-noel-la-turballe-fr-6906798/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert : Cyril HERICOURT",
-      "place": "La Turballe",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-cyril-hericourt-la-turballe-fr-6761745/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -197,6 +167,36 @@
       "source_key": "tourism"
     },
     {
+      "title": "Ciné-gourmand - Coup de cœur égyptien",
+      "place": "Le Croisic",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1650339/cine-gourmand-coup-de-coeur-egyptien",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Olivier Messiaen et Pierre Boulez, une relation fertile",
+      "place": "Le Croisic",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2014612/olivier-messiaen-et-pierre-boulez-une-relation-fertile",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-4/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Exposition Au bonheur des bennes",
       "place": "Le Pouliguen",
       "date": "2026-10-10",
@@ -217,32 +217,22 @@
       "source_key": "tourism"
     },
     {
+      "title": "TELETHON DES SAPEURS-POMPIERS",
+      "place": "Le Pouliguen",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "20/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/telethon-des-sapeurs-pompiers/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Théâtre : Mystère au manoir de Vallandry",
       "place": "Le Pouliguen",
       "date": "2026-11-14",
       "end_date": "2026-11-22",
       "date_label": "Du 14/11/2026 au 22/11/2026",
       "url": "https://www.labaule-guerande.com/offres/theatre-mystere-au-manoir-de-vallandry-le-pouliguen-fr-6785760/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Atelier Repair Café",
-      "place": "Mesquer",
-      "date": "2026-05-21",
-      "end_date": "2026-11-19",
-      "date_label": "Du 21/05/2026 au 19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-repair-cafe-mesquer-fr-6257399/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Randos Toniques",
-      "place": "Mesquer",
-      "date": "2026-09-10",
-      "end_date": "2026-11-19",
-      "date_label": "Du 10/09/2026 au 19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/randos-toniques-mesquer-fr-6035122/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -267,54 +257,54 @@
       "source_key": "tourism"
     },
     {
-      "title": "Fête du Beaujolais nouveau",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "19/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/fete-du-beaujolais-nouveau-piriac-sur-mer-fr-6833369/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Murder Party",
+      "title": "Bières de Noël VS Beaujolais nouveau",
       "place": "Pornichet",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "Jeudi 19 novembre 2026 de 20h30 à 22h30.",
-      "url": "https://www.pornichet.fr/agenda/murder-party",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/bieres-de-noel-vs-beaujolais-nouveau",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Repas Bœuf Bourguignon",
+      "title": "Conférence de Mario Chavez",
       "place": "Pornichet",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "Jeudi 19 novembre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/repas-boeuf-bourguignon",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/conference-de-mario-chavez",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Yoga du visage",
+      "title": "Delight",
       "place": "Pornichet",
-      "date": "2026-11-19",
-      "end_date": "2026-11-19",
-      "date_label": "Jeudi 19 novembre 2026 de 19h à 20h.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 21h.",
+      "url": "https://www.pornichet.fr/agenda/delight",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Pièce \"Coup de théâtre\"",
-      "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Destock'Arts de créations",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "date_label": "Du vendredi 20 au dimanche 22 novembre 2026 de 10h30 à 12h30 et de 14h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/destockarts-de-creations",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Litté'Vox - La rentrée échappée",
+      "place": "Pornichet",
+      "date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "date_label": "Vendredi 20 novembre 2026 à partir de 18h.",
+      "url": "https://www.pornichet.fr/agenda/littevox-la-rentree-echappee",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -322,6 +312,16 @@
       "date": "2026-11-15",
       "end_date": "2026-11-29",
       "date_label": "Du 15/11/2026 au 29/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -375,86 +375,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Ciné-gourmand - Coup de cœur égyptien",
-      "place": "Le Croisic",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "20/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1650339/cine-gourmand-coup-de-coeur-egyptien",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Olivier Messiaen et Pierre Boulez, une relation fertile",
-      "place": "Le Croisic",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "20/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2014612/olivier-messiaen-et-pierre-boulez-une-relation-fertile",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "BALADE À VÉLO « DÉCOUVERTE DU TERRITOIRE »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "20/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/balade-a-velo-decouverte-du-territoire-4/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "TELETHON DES SAPEURS-POMPIERS",
-      "place": "Le Pouliguen",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "20/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/telethon-des-sapeurs-pompiers/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Bières de Noël VS Beaujolais nouveau",
-      "place": "Pornichet",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "Vendredi 20 novembre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/bieres-de-noel-vs-beaujolais-nouveau",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Conférence de Mario Chavez",
-      "place": "Pornichet",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "Vendredi 20 novembre 2026 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/conference-de-mario-chavez",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Delight",
-      "place": "Pornichet",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "Vendredi 20 novembre 2026 à partir de 21h.",
-      "url": "https://www.pornichet.fr/agenda/delight",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Litté'Vox - La rentrée échappée",
-      "place": "Pornichet",
-      "date": "2026-11-20",
-      "end_date": "2026-11-20",
-      "date_label": "Vendredi 20 novembre 2026 à partir de 18h.",
-      "url": "https://www.pornichet.fr/agenda/littevox-la-rentree-echappee",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Après-midi Scrabble",
@@ -545,6 +465,26 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1958361/le-dieu-du-carnage-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Bourse aux jouets et objets de puériculture",
+      "place": "Pornichet",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "Dimanche 22 novembre 2026 de 9h à 17h.",
+      "url": "https://www.pornichet.fr/agenda/bourse-aux-jouets-et-objets-de-puericulture",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Rencontre : \"Le monde à l'endroit\"",
+      "place": "Pornichet",
+      "date": "2026-11-23",
+      "end_date": "2026-11-23",
+      "date_label": "Lundi 23 novembre 2026 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/rencontre-le-monde-lendroit",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "De l'écrit à l'écran - Klara et le soleil",
