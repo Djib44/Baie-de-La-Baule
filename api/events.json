@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-21T12:01:51.597519+01:00",
+  "updated": "2026-11-21T20:16:16.058699+01:00",
   "coverage_start": "2026-11-21",
   "coverage_end": "2027-02-19",
   "sources": [
@@ -32,10 +32,30 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 27
+      "count": 38
     }
   ],
   "events": [
+    {
+      "title": "Braderie de Noël",
+      "place": "Guérande",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/braderie-de-noel-guerande-fr-6912364/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Fête de l'Automne",
+      "place": "Guérande",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/fete-de-lautomne-guerande-fr-6884187/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -57,6 +77,26 @@
       "source_key": "tourism"
     },
     {
+      "title": "Portes ouvertes - Station d'épuration de Livery",
+      "place": "Guérande",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/portes-ouvertes-station-depuration-de-livery-guerande-fr-6911365/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Visite guidée thématique Le patrimoine caché",
+      "place": "Guérande",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/visite-guidee-thematique-le-patrimoine-cache-guerande-fr-6273650/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Visite jeu La chasse au trésor en autonomie",
       "place": "Guérande",
       "date": "2026-01-02",
@@ -67,12 +107,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Foire aux livres",
+      "place": "Herbignac",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/foire-aux-livres-herbignac-fr-6853773/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Jeu de piste numérique Baludik - Herbignac",
       "place": "Herbignac",
       "date": "2026-01-01",
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier parents-enfants : Art plastique",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-parents-enfants-art-plastique-la-baule-escoublac-fr-6845342/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -93,6 +153,16 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Guihome vous détend",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/guihome-vous-detend-la-baule-escoublac-fr-6030356/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +227,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "A la découverte de l’eau et de ses secrets",
+      "place": "Le Croisic",
+      "date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "date_label": "21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/a-la-decouverte-de-leau-et-de-ses-secrets-le-croisic-fr-6837392/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Après-midi Scrabble",
       "place": "Le Croisic",
       "date": "2026-11-21",
@@ -165,6 +245,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969892/apres-midi-scrabble-2",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Après-midi Scrabble",
+      "place": "Le Croisic",
+      "date": "2026-10-10",
+      "end_date": "2026-11-21",
+      "date_label": "Du 10/10/2026 au 21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/apres-midi-scrabble-le-croisic-fr-6381864/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Café littéraire",
@@ -291,7 +381,7 @@
       "place": "Pornichet",
       "date": "2026-11-21",
       "end_date": "2026-11-22",
-      "date_label": "Du samedi 21 au dimanche 22 novembre 2026 le samedi de 10h à 19h. Le dimanche de 10h à 18h.",
+      "date_label": "Du samedi 21 au dimanche 22 novembre 2026, le samedi de 10h à 19h. Le dimanche de 10h à 18h.",
       "url": "https://www.pornichet.fr/agenda/le-beau-marche",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
@@ -325,6 +415,16 @@
       "url": "https://www.pornichet.fr/agenda/voyage-dans-le-temps",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Ateliers sophrologie",
+      "place": "Pénestin",
+      "date": "2026-10-31",
+      "end_date": "2026-11-21",
+      "date_label": "Du 31/10/2026 au 21/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/ateliers-sophrologie-penestin-fr-6333422/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
