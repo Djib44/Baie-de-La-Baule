@@ -1,18 +1,24 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-21T03:15:32.676535+01:00",
+  "updated": "2026-11-21T12:01:51.597519+01:00",
   "coverage_start": "2026-11-21",
   "coverage_end": "2027-02-19",
   "sources": [
     {
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 26
+      "count": 34
     },
     {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 12
     },
@@ -21,12 +27,6 @@
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 3
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 12
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
@@ -563,6 +563,36 @@
       "end_date": "2026-11-27",
       "date_label": "Vendredi 27 novembre 2026",
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Guillaume & Harold",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/guillaume-harold",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stand-Up Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/stand-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Utilisation de l'IA dans le domaine de la Santé",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/utilisation-de-lia-dans-le-domaine-de-la-sante",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
