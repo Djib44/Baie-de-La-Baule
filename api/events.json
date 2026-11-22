@@ -1,26 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-22T02:19:28.457173+01:00",
+  "updated": "2026-11-22T12:26:20.100077+01:00",
   "coverage_start": "2026-11-22",
   "coverage_end": "2027-02-20",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 31
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
-    },
-    {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 14
     },
     {
       "name": "Ville du Pouliguen",
@@ -29,13 +17,45 @@
       "count": 3
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 31
+    },
+    {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 14
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 26
+      "count": 32
     }
   ],
   "events": [
+    {
+      "title": "Vide ta chambre",
+      "place": "Assérac",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/vide-ta-chambre-asserac-fr-6094433/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marché créatif de Noël",
+      "place": "Guérande",
+      "date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "date_label": "Du 21/11/2026 au 22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-creatif-de-noel-guerande-fr-6912365/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -77,6 +97,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Marché de Noël",
+      "place": "Herbignac",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-herbignac-fr-6849567/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Découverte insolite avec les habitants",
       "place": "La Baule-Escoublac",
       "date": "2026-01-01",
@@ -93,6 +123,16 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Un week-end chargé",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-22",
+      "end_date": "2026-11-22",
+      "date_label": "22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/un-week-end-charge-la-baule-escoublac-fr-6595859/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -175,6 +215,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1958361/le-dieu-du-carnage-1",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Spectacle - Le dieu du carnage - Théatre Ad'Hoc",
+      "place": "Le Croisic",
+      "date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "date_label": "Du 21/11/2026 au 22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/spectacle-le-dieu-du-carnage-theatre-adhoc-le-croisic-fr-6770726/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Exposition Au bonheur des bennes",
@@ -279,9 +329,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -289,9 +339,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -333,6 +383,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-a-kerhinet-saint-lyphard-fr-6030340/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marché de Noël",
+      "place": "Saint-Lyphard",
+      "date": "2026-11-21",
+      "end_date": "2026-11-22",
+      "date_label": "Du 21/11/2026 au 22/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-saint-lyphard-fr-6849571/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
