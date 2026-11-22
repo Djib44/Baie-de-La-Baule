@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-22T12:26:20.100077+01:00",
+  "updated": "2026-11-22T20:40:46.433768+01:00",
   "coverage_start": "2026-11-22",
   "coverage_end": "2027-02-20",
   "sources": [
@@ -11,22 +11,22 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 3
-    },
-    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 14
+    },
+    {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 3
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
@@ -617,6 +617,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Rencontres gourmandes",
+      "place": "Pornichet",
+      "date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "date_label": "Du samedi 28 au dimanche 29 novembre 2026 le samedi de 11h à 20h. Le dimanche de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/rencontres-gourmandes",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Les indispensables du cinéma - Lawrence d'Arabie",
       "place": "Le Croisic",
       "date": "2026-11-29",
@@ -647,6 +657,16 @@
       "source_key": "pouliguen"
     },
     {
+      "title": "Tournoi de Padel Loisir 3",
+      "place": "Pornichet",
+      "date": "2026-11-30",
+      "end_date": "2026-11-30",
+      "date_label": "Lundi 30 novembre 2026 de 17h45 à 22h15.",
+      "url": "https://www.pornichet.fr/agenda/tournoi-de-padel-loisir-3-0",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Les bêtises du lutin farceur",
       "place": "Le Croisic",
       "date": "2026-12-01",
@@ -655,6 +675,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1969931/les-betises-du-lutin-farceur",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Exposition d'Alex W. Inker",
+      "place": "Pornichet",
+      "date": "2026-12-01",
+      "end_date": "2026-12-31",
+      "date_label": "Du 01/12 au 31/12/2026 le mardi et mercredi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Le samedi de 10h à 12h30 et de 15h30 à 18h.",
+      "url": "https://www.pornichet.fr/agenda/exposition-dalex-w-inker",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Yoga du visage",
