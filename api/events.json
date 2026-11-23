@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-22T20:40:46.433768+01:00",
-  "coverage_start": "2026-11-22",
-  "coverage_end": "2027-02-20",
+  "updated": "2026-11-23T02:44:06.964570+01:00",
+  "coverage_start": "2026-11-23",
+  "coverage_end": "2027-02-21",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -11,10 +11,16 @@
       "count": 12
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 3
+    },
+    {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 32
+      "count": 28
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -23,39 +29,13 @@
       "count": 14
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 3
-    },
-    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 32
+      "count": 23
     }
   ],
   "events": [
-    {
-      "title": "Vide ta chambre",
-      "place": "Assérac",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/vide-ta-chambre-asserac-fr-6094433/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Marché créatif de Noël",
-      "place": "Guérande",
-      "date": "2026-11-21",
-      "end_date": "2026-11-22",
-      "date_label": "Du 21/11/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-creatif-de-noel-guerande-fr-6912365/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -97,16 +77,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Marché de Noël",
-      "place": "Herbignac",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-herbignac-fr-6849567/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Découverte insolite avec les habitants",
       "place": "La Baule-Escoublac",
       "date": "2026-01-01",
@@ -123,16 +93,6 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Un week-end chargé",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/un-week-end-charge-la-baule-escoublac-fr-6595859/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -207,72 +167,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Le dieu du carnage",
-      "place": "Le Croisic",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "22/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1958361/le-dieu-du-carnage-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Spectacle - Le dieu du carnage - Théatre Ad'Hoc",
-      "place": "Le Croisic",
-      "date": "2026-11-21",
-      "end_date": "2026-11-22",
-      "date_label": "Du 21/11/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/spectacle-le-dieu-du-carnage-theatre-adhoc-le-croisic-fr-6770726/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Exposition Au bonheur des bennes",
-      "place": "Le Pouliguen",
-      "date": "2026-10-10",
-      "end_date": "2026-11-22",
-      "date_label": "Du 10/10/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/exposition-au-bonheur-des-bennes-le-pouliguen-fr-6837393/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Musée numérique : nouvelle collection",
       "place": "Le Pouliguen",
       "date": "2026-11-18",
       "end_date": "2026-11-28",
       "date_label": "Du 18/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Spectacle : Rock'N'Lol",
-      "place": "Le Pouliguen",
-      "date": "2026-11-20",
-      "end_date": "2026-11-22",
-      "date_label": "Du 20/11/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/spectacle-rocknlol-le-pouliguen-fr-6837394/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "22/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Théâtre : Mystère au manoir de Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-14",
-      "end_date": "2026-11-22",
-      "date_label": "Du 14/11/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/theatre-mystere-au-manoir-de-vallandry-le-pouliguen-fr-6785760/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -297,32 +197,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Bourse aux jouets et objets de puériculture - Annulée",
+      "title": "Rencontre : \"Le monde à l'endroit\"",
       "place": "Pornichet",
-      "date": "2026-11-22",
-      "end_date": "2026-11-22",
-      "date_label": "Dimanche 22 novembre 2026 de 9h à 17h",
-      "url": "https://www.pornichet.fr/agenda/bourse-aux-jouets-et-objets-de-puericulture-annulee",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Destock'Arts de créations",
-      "place": "Pornichet",
-      "date": "2026-11-20",
-      "end_date": "2026-11-22",
-      "date_label": "Du vendredi 20 au dimanche 22 novembre 2026 de 10h30 à 12h30 et de 14h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/destockarts-de-creations",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Le Beau Marché",
-      "place": "Pornichet",
-      "date": "2026-11-21",
-      "end_date": "2026-11-22",
-      "date_label": "Du samedi 21 au dimanche 22 novembre 2026, le samedi de 10h à 19h. Le dimanche de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/le-beau-marche",
+      "date": "2026-11-23",
+      "end_date": "2026-11-23",
+      "date_label": "Lundi 23 novembre 2026 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/rencontre-le-monde-lendroit",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -387,16 +267,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Marché de Noël",
-      "place": "Saint-Lyphard",
-      "date": "2026-11-21",
-      "end_date": "2026-11-22",
-      "date_label": "Du 21/11/2026 au 22/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-saint-lyphard-fr-6849571/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Parcours Permanent d'Orientation (PPO) au Lac de Saint-Lyphard",
       "place": "Saint-Lyphard",
       "date": "2026-01-01",
@@ -405,16 +275,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Rencontre : \"Le monde à l'endroit\"",
-      "place": "Pornichet",
-      "date": "2026-11-23",
-      "end_date": "2026-11-23",
-      "date_label": "Lundi 23 novembre 2026 à 20h30.",
-      "url": "https://www.pornichet.fr/agenda/rencontre-le-monde-lendroit",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "De l'écrit à l'écran - Klara et le soleil",
@@ -443,6 +303,16 @@
       "end_date": "2026-11-24",
       "date_label": "24/11/2026",
       "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
     },
@@ -695,6 +565,16 @@
       "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Téléthon 2026",
+      "place": "Le Croisic",
+      "date": "2026-12-04",
+      "end_date": "2026-12-06",
+      "date_label": "Du 04/12/2026 au 06/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1779806/telethon-2026-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Courses de galop",
