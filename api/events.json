@@ -1,9 +1,15 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-23T02:44:06.964570+01:00",
+  "updated": "2026-11-23T13:41:28.471524+01:00",
   "coverage_start": "2026-11-23",
   "coverage_end": "2027-02-21",
   "sources": [
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 30
+    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,12 +23,6 @@
       "count": 3
     },
     {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 28
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 23
+      "count": 25
     }
   ],
   "events": [
@@ -147,6 +147,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Père-Noël Secret Géant",
+      "place": "La Turballe",
+      "date": "2026-11-23",
+      "end_date": "2026-12-14",
+      "date_label": "Du 23/11/2026 au 14/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/pere-noel-secret-geant-la-turballe-fr-6906797/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Repair café",
       "place": "La Turballe",
       "date": "2026-09-03",
@@ -173,6 +183,16 @@
       "end_date": "2026-11-28",
       "date_label": "Du 18/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Exposition de Guillaume QUERRE",
+      "place": "Mesquer",
+      "date": "2026-11-21",
+      "end_date": "2026-12-19",
+      "date_label": "Du 21/11/2026 au 19/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-de-guillaume-querre-mesquer-fr-6847184/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -209,9 +229,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -219,9 +239,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -553,6 +573,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/12 au 31/12/2026 le mardi et mercredi de 10h à 12h30 et de 15h30 à 18h. Le jeudi de 10h à 14h. Le vendredi de 10h à 12h30 et de 15h30 à 19h. Le samedi de 10h à 12h30 et de 15h30 à 18h.",
       "url": "https://www.pornichet.fr/agenda/exposition-dalex-w-inker",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Grignote livres",
+      "place": "Pornichet",
+      "date": "2026-12-02",
+      "end_date": "2026-12-05",
+      "date_label": "Du mercredi 2 au samedi 5 décembre 2026 à partir de 10h30.",
+      "url": "https://www.pornichet.fr/agenda/grignote-livres",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
