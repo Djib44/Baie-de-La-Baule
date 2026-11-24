@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-24T03:13:16.360765+01:00",
+  "updated": "2026-11-24T14:43:20.640268+01:00",
   "coverage_start": "2026-11-24",
   "coverage_end": "2027-02-22",
   "sources": [
@@ -32,10 +32,30 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 24
+      "count": 31
     }
   ],
   "events": [
+    {
+      "title": "Session irlandaise",
+      "place": "Assérac",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/session-irlandaise-asserac-fr-6849577/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Repair Café à Batz-sur-Mer",
+      "place": "Batz-sur-Mer",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/repair-cafe-a-batz-sur-mer-batz-sur-mer-fr-6865452/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -53,6 +73,16 @@
       "end_date": "2026-12-21",
       "date_label": "Du 18/05/2026 au 21/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-saille-guerande-fr-6263394/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre - Les pieuvres",
+      "place": "Guérande",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/theatre-les-pieuvres-guerande-fr-6785768/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -127,12 +157,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Collecte de jeux et jouets",
+      "place": "La Turballe",
+      "date": "2026-11-24",
+      "end_date": "2026-12-04",
+      "date_label": "Du 24/11/2026 au 04/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/collecte-de-jeux-et-jouets-la-turballe-fr-6783578/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition de Novembre : Michel MOREAU",
       "place": "La Turballe",
       "date": "2026-11-03",
       "end_date": "2026-11-28",
       "date_label": "Du 03/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-de-novembre-michel-moreau-la-turballe-fr-6759151/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Le Café d'Anita",
+      "place": "La Turballe",
+      "date": "2026-01-27",
+      "end_date": "2026-11-24",
+      "date_label": "Du 27/01/2026 au 24/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/le-cafe-danita-la-turballe-fr-6205474/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -269,9 +319,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-14",
-      "end_date": "2026-11-28",
-      "date_label": "Du 14/11/2026 au 28/11/2026",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -279,9 +329,9 @@
     {
       "title": "Pièce \"Coup de théâtre\"",
       "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
+      "date": "2026-11-14",
+      "end_date": "2026-11-28",
+      "date_label": "Du 14/11/2026 au 28/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
