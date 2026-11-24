@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-24T14:43:20.640268+01:00",
-  "coverage_start": "2026-11-24",
-  "coverage_end": "2027-02-22",
+  "updated": "2026-11-25T00:54:07.629448+01:00",
+  "coverage_start": "2026-11-25",
+  "coverage_end": "2027-02-23",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Ville du Croisic",
@@ -26,36 +26,16 @@
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 31
+      "count": 25
     }
   ],
   "events": [
-    {
-      "title": "Session irlandaise",
-      "place": "Assérac",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/session-irlandaise-asserac-fr-6849577/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Repair Café à Batz-sur-Mer",
-      "place": "Batz-sur-Mer",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/repair-cafe-a-batz-sur-mer-batz-sur-mer-fr-6865452/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -73,16 +53,6 @@
       "end_date": "2026-12-21",
       "date_label": "Du 18/05/2026 au 21/12/2026",
       "url": "https://www.labaule-guerande.com/offres/ouvrons-les-livres-avec-les-bebes-a-saille-guerande-fr-6263394/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre - Les pieuvres",
-      "place": "Guérande",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/theatre-les-pieuvres-guerande-fr-6785768/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -177,16 +147,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Le Café d'Anita",
-      "place": "La Turballe",
-      "date": "2026-01-27",
-      "end_date": "2026-11-24",
-      "date_label": "Du 27/01/2026 au 24/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/le-cafe-danita-la-turballe-fr-6205474/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Père-Noël Secret Géant",
       "place": "La Turballe",
       "date": "2026-11-23",
@@ -217,24 +177,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "De l'écrit à l'écran - Klara et le soleil",
+      "title": "Ciné-débat - Antonia et ses filles",
       "place": "Le Croisic",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1852658/de-l-ecrit-a-l-ecran-klara-et-le-soleil",
+      "date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "date_label": "25/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1861641/cine-debat-antonia-et-ses-filles",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "LES MARDIS DE BAUDRY « MUSE ROUGE »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-muse-rouge/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Musée numérique : nouvelle collection",
@@ -245,26 +195,6 @@
       "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre - Muse Rouge - Mardis de Baudry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
     },
     {
       "title": "Exposition de Guillaume QUERRE",
@@ -295,26 +225,6 @@
       "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Portrait de Ludmilla en Nina Simone - Complet",
-      "place": "Pornichet",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "Mardi 24 novembre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/portrait-de-ludmilla-en-nina-simone-complet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Yoga du visage",
-      "place": "Pornichet",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "Mardi 24 novembre 2026 de 10h45 à 11h45.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -385,16 +295,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Ciné-débat - Antonia et ses filles",
-      "place": "Le Croisic",
-      "date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "date_label": "25/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1861641/cine-debat-antonia-et-ses-filles",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
     },
     {
       "title": "Initiation au numérique - Réunion d'information",
@@ -537,6 +437,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
       "title": "Rencontres gourmandes",
       "place": "Pornichet",
       "date": "2026-11-28",
@@ -625,6 +535,16 @@
       "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Les Apéros Bal du Croisic",
+      "place": "Le Croisic",
+      "date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "date_label": "04/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969671/les-aperos-bal-du-croisic",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Téléthon 2026",
@@ -823,6 +743,16 @@
       "end_date": "2027-02-20",
       "date_label": "20/02/2027",
       "url": "https://reservation.labaule-guerande.com/week-end-comedie-theatre-le-bon-plan.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Spectacle familial - Mister Pink le dandy magnifique - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2027-02-23",
+      "end_date": "2027-02-23",
+      "date_label": "23/02/2027",
+      "url": "https://reservation.labaule-guerande.com/spectacle-familial-mister-pink-le-dandy-magnifique-mardis-de-baudry.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
     }
