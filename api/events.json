@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-23T13:41:28.471524+01:00",
-  "coverage_start": "2026-11-23",
-  "coverage_end": "2027-02-21",
+  "updated": "2026-11-24T03:13:16.360765+01:00",
+  "coverage_start": "2026-11-24",
+  "coverage_end": "2027-02-22",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "name": "Ville du Croisic",
@@ -17,22 +17,22 @@
       "count": 12
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
-      "status": "ok",
-      "count": 3
-    },
-    {
       "name": "Office de tourisme — billetterie",
       "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
       "status": "ok",
       "count": 14
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 3
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 24
     }
   ],
   "events": [
@@ -137,16 +137,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Programmation Cinéma Atlantic du 28 octobre au 24 novembre",
-      "place": "La Turballe",
-      "date": "2026-10-28",
-      "end_date": "2026-11-24",
-      "date_label": "Du 28/10/2026 au 24/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/programmation-cinema-atlantic-du-28-octobre-au-24-novembre-la-turballe-fr-6860478/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Père-Noël Secret Géant",
       "place": "La Turballe",
       "date": "2026-11-23",
@@ -177,6 +167,26 @@
       "source_key": "tourism"
     },
     {
+      "title": "De l'écrit à l'écran - Klara et le soleil",
+      "place": "Le Croisic",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1852658/de-l-ecrit-a-l-ecran-klara-et-le-soleil",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "LES MARDIS DE BAUDRY « MUSE ROUGE »",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-muse-rouge/",
+      "source": "Ville du Pouliguen",
+      "source_key": "pouliguen"
+    },
+    {
       "title": "Musée numérique : nouvelle collection",
       "place": "Le Pouliguen",
       "date": "2026-11-18",
@@ -185,6 +195,26 @@
       "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre - Muse Rouge - Mardis de Baudry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "24/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Exposition de Guillaume QUERRE",
@@ -217,24 +247,24 @@
       "source_key": "tourism"
     },
     {
-      "title": "Rencontre : \"Le monde à l'endroit\"",
+      "title": "Portrait de Ludmilla en Nina Simone - Complet",
       "place": "Pornichet",
-      "date": "2026-11-23",
-      "end_date": "2026-11-23",
-      "date_label": "Lundi 23 novembre 2026 à 20h30.",
-      "url": "https://www.pornichet.fr/agenda/rencontre-le-monde-lendroit",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "Mardi 24 novembre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/portrait-de-ludmilla-en-nina-simone-complet",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Pièce \"Coup de théâtre\"",
-      "place": "Pénestin",
-      "date": "2026-11-15",
-      "end_date": "2026-11-29",
-      "date_label": "Du 15/11/2026 au 29/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "date_label": "Mardi 24 novembre 2026 de 10h45 à 11h45.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -242,6 +272,16 @@
       "date": "2026-11-14",
       "end_date": "2026-11-28",
       "date_label": "Du 14/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Pièce \"Coup de théâtre\"",
+      "place": "Pénestin",
+      "date": "2026-11-15",
+      "end_date": "2026-11-29",
+      "date_label": "Du 15/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/piece-coup-de-theatre-penestin-fr-6824657/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
@@ -295,66 +335,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "De l'écrit à l'écran - Klara et le soleil",
-      "place": "Le Croisic",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1852658/de-l-ecrit-a-l-ecran-klara-et-le-soleil",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "LES MARDIS DE BAUDRY « MUSE ROUGE »",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://www.lepouliguen.fr/evenements/les-mardis-de-baudry-muse-rouge/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
-    },
-    {
-      "title": "Théâtre - Muse Rouge - Mardis de Baudry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-muse-rouge-mardis-de-baudry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "24/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Portrait de Ludmilla en Nina Simone - Complet",
-      "place": "Pornichet",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "Mardi 24 novembre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/portrait-de-ludmilla-en-nina-simone-complet",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Yoga du visage",
-      "place": "Pornichet",
-      "date": "2026-11-24",
-      "end_date": "2026-11-24",
-      "date_label": "Mardi 24 novembre 2026 de 10h45 à 11h45.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Ciné-débat - Antonia et ses filles",
