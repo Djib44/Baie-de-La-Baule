@@ -1,20 +1,20 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-25T09:34:54.002969+01:00",
+  "updated": "2026-11-25T20:16:15.793675+01:00",
   "coverage_start": "2026-11-25",
   "coverage_end": "2027-02-23",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 28
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
       "count": 12
+    },
+    {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 25
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,10 +32,20 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 25
+      "count": 30
     }
   ],
   "events": [
+    {
+      "title": "Lectures - Ra'conte moi",
+      "place": "Guérande",
+      "date": "2026-09-23",
+      "end_date": "2026-11-25",
+      "date_label": "Du 23/09/2026 au 25/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/lectures-raconte-moi-guerande-fr-6263399/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -73,6 +83,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Collecte de jouets au profit du Secours Poulaire",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-23",
+      "end_date": "2026-12-24",
+      "date_label": "Du 23/11/2026 au 24/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/collecte-de-jouets-au-profit-du-secours-poulaire-la-baule-escoublac-fr-6914281/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -187,6 +207,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Micro-visite",
+      "place": "Le Pouliguen",
+      "date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "date_label": "25/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6870867/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Musée numérique : nouvelle collection",
       "place": "Le Pouliguen",
       "date": "2026-11-18",
@@ -207,6 +237,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Marche Nordique",
+      "place": "Mesquer",
+      "date": "2026-10-21",
+      "end_date": "2026-12-23",
+      "date_label": "Du 21/10/2026 au 23/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-nordique-mesquer-fr-6559400/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -223,6 +263,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Atelier zéro déchet - composer sa tisane",
+      "place": "Pénestin",
+      "date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "date_label": "25/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-zero-dechet-composer-sa-tisane-penestin-fr-6849581/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -527,22 +577,12 @@
       "source_key": "pornichet"
     },
     {
-      "title": "Yoga du visage",
-      "place": "Pornichet",
+      "title": "Présentation de la programmation",
+      "place": "Le Croisic",
       "date": "2026-12-03",
       "end_date": "2026-12-03",
-      "date_label": "Jeudi 3 décembre 2026 de 19h30 à 20h30.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Les Apéros Bal du Croisic",
-      "place": "Le Croisic",
-      "date": "2026-12-04",
-      "end_date": "2026-12-04",
-      "date_label": "04/12/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1969671/les-aperos-bal-du-croisic",
+      "date_label": "03/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1954851/presentation-de-la-programmation",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -605,16 +645,6 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
-    },
-    {
-      "title": "Yoga du visage",
-      "place": "Pornichet",
-      "date": "2026-12-18",
-      "end_date": "2026-12-18",
-      "date_label": "Vendredi 18 décembre 2026 de 10h45 à 11h45.",
-      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Voyage dans le temps",
