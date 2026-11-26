@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-26T04:34:48.141412+01:00",
+  "updated": "2026-11-26T17:54:39.593772+01:00",
   "coverage_start": "2026-11-26",
   "coverage_end": "2027-02-24",
   "sources": [
-    {
-      "name": "Ville du Croisic",
-      "url": "https://www.lecroisic.fr/fr/",
-      "status": "ok",
-      "count": 12
-    },
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
@@ -17,10 +11,10 @@
       "count": 25
     },
     {
-      "name": "Ville du Pouliguen",
-      "url": "https://www.lepouliguen.fr/evenements/",
+      "name": "Ville du Croisic",
+      "url": "https://www.lecroisic.fr/fr/",
       "status": "ok",
-      "count": 2
+      "count": 12
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -29,10 +23,16 @@
       "count": 14
     },
     {
+      "name": "Ville du Pouliguen",
+      "url": "https://www.lepouliguen.fr/evenements/",
+      "status": "ok",
+      "count": 2
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 28
+      "count": 35
     }
   ],
   "events": [
@@ -67,12 +67,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Concert DINGOPHONIC",
+      "place": "Herbignac",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-dingophonic-herbignac-fr-6882032/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Jeu de piste numérique Baludik - Herbignac",
       "place": "Herbignac",
       "date": "2026-01-01",
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre-Forum : Parlons-en !",
+      "place": "Herbignac",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/theatre-forum-parlons-en-herbignac-fr-6868653/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -103,6 +123,16 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Le loup entre la Loire et la Vilaine",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/le-loup-entre-la-loire-et-la-vilaine-la-baule-escoublac-fr-6764497/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -143,6 +173,16 @@
       "end_date": "2026-12-04",
       "date_label": "Du 24/11/2026 au 04/12/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-de-jeux-et-jouets-la-turballe-fr-6783578/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert : Double Je",
+      "place": "La Turballe",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-double-je-la-turballe-fr-6783579/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -227,6 +267,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Les escales mobilités au Croisic",
+      "place": "Le Croisic",
+      "date": "2026-08-03",
+      "end_date": "2026-11-26",
+      "date_label": "Du 03/08/2026 au 26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/les-escales-mobilites-au-croisic-le-croisic-fr-6587160/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Musée numérique : nouvelle collection",
       "place": "Le Pouliguen",
       "date": "2026-11-18",
@@ -257,6 +307,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Randos Douces",
+      "place": "Mesquer",
+      "date": "2026-10-01",
+      "end_date": "2026-12-10",
+      "date_label": "Du 01/10/2026 au 10/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/randos-douces-mesquer-fr-6030101/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -273,6 +333,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-permanente-jean-paul-belmondo-piriac-sur-mer-fr-6500516/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Repair café de Piriac-sur-Mer",
+      "place": "Piriac-sur-Mer",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/repair-cafe-de-piriac-sur-mer-piriac-sur-mer-fr-6075760/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
