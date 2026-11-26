@@ -1,8 +1,8 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-25T20:16:15.793675+01:00",
-  "coverage_start": "2026-11-25",
-  "coverage_end": "2027-02-23",
+  "updated": "2026-11-26T04:34:48.141412+01:00",
+  "coverage_start": "2026-11-26",
+  "coverage_end": "2027-02-24",
   "sources": [
     {
       "name": "Ville du Croisic",
@@ -17,35 +17,25 @@
       "count": 25
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 14
-    },
-    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 2
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 14
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 30
+      "count": 28
     }
   ],
   "events": [
-    {
-      "title": "Lectures - Ra'conte moi",
-      "place": "Guérande",
-      "date": "2026-09-23",
-      "end_date": "2026-11-25",
-      "date_label": "Du 23/09/2026 au 25/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/lectures-raconte-moi-guerande-fr-6263399/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -167,6 +157,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Programmation Cinéma Atlantic du 25 novembre au 22 décembre",
+      "place": "La Turballe",
+      "date": "2026-11-25",
+      "end_date": "2026-12-22",
+      "date_label": "Du 25/11/2026 au 22/12/2026",
+      "url": "https://www.labaule-guerande.com/offres/programmation-cinema-atlantic-du-25-novembre-au-22-decembre-la-turballe-fr-6928824/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Père-Noël Secret Géant",
       "place": "La Turballe",
       "date": "2026-11-23",
@@ -197,24 +197,34 @@
       "source_key": "tourism"
     },
     {
-      "title": "Ciné-débat - Antonia et ses filles",
+      "title": "Initiation au numérique - Réunion d'information",
       "place": "Le Croisic",
-      "date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "date_label": "25/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1861641/cine-debat-antonia-et-ses-filles",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2027183/initiation-au-numerique-reunion-d-information",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
     {
-      "title": "Micro-visite",
-      "place": "Le Pouliguen",
-      "date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "date_label": "25/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/micro-visite-le-pouliguen-fr-6870867/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "La semaine des liens",
+      "place": "Le Croisic",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2027222/la-semaine-des-liens",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Les escales mobilités",
+      "place": "Le Croisic",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "26/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1953486/les-escales-mobilites-1-1-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Musée numérique : nouvelle collection",
@@ -267,14 +277,24 @@
       "source_key": "tourism"
     },
     {
-      "title": "Atelier zéro déchet - composer sa tisane",
-      "place": "Pénestin",
-      "date": "2026-11-25",
-      "end_date": "2026-11-25",
-      "date_label": "25/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/atelier-zero-dechet-composer-sa-tisane-penestin-fr-6849581/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "title": "Soirée jeux",
+      "place": "Pornichet",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "Jeudi 26 novembre 2026 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/soiree-jeux",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stand-up Micro Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-26",
+      "end_date": "2026-11-26",
+      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
+      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -345,56 +365,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Initiation au numérique - Réunion d'information",
-      "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2027183/initiation-au-numerique-reunion-d-information",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "La semaine des liens",
-      "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2027222/la-semaine-des-liens",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les escales mobilités",
-      "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1953486/les-escales-mobilites-1-1-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Soirée jeux",
-      "place": "Pornichet",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "Jeudi 26 novembre 2026 à 20h30.",
-      "url": "https://www.pornichet.fr/agenda/soiree-jeux",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stand-up Micro Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
-      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Habiter les littoraux français au vu des risques environnementaux",
@@ -583,6 +553,16 @@
       "end_date": "2026-12-03",
       "date_label": "03/12/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1954851/presentation-de-la-programmation",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Les Apéros Bal du Croisic",
+      "place": "Le Croisic",
+      "date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "date_label": "04/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1969671/les-aperos-bal-du-croisic",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
