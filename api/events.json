@@ -1,15 +1,9 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-27T13:20:46.461081+01:00",
-  "coverage_start": "2026-11-27",
-  "coverage_end": "2027-02-25",
+  "updated": "2026-11-28T00:27:44.501167+01:00",
+  "coverage_start": "2026-11-28",
+  "coverage_end": "2027-02-26",
   "sources": [
-    {
-      "name": "Pornichet Tourisme",
-      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
-      "status": "ok",
-      "count": 27
-    },
     {
       "name": "Ville du Croisic",
       "url": "https://www.lecroisic.fr/fr/",
@@ -17,10 +11,16 @@
       "count": 12
     },
     {
+      "name": "Pornichet Tourisme",
+      "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
+      "status": "ok",
+      "count": 24
+    },
+    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Office de tourisme — billetterie",
@@ -32,20 +32,10 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 39
+      "count": 32
     }
   ],
   "events": [
-    {
-      "title": "Conte interactif Perdue dans le désert",
-      "place": "Férel",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conte-interactif-perdue-dans-le-desert-ferel-fr-6879949/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
     {
       "title": "Marché de Noël de l'association Mirabelle",
       "place": "Guérande",
@@ -83,16 +73,6 @@
       "end_date": "2026-12-31",
       "date_label": "Du 02/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert rock - Red Fish & Cheap",
-      "place": "Herbignac",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-rock-red-fish-cheap-herbignac-fr-6882033/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -143,16 +123,6 @@
       "end_date": "2026-11-29",
       "date_label": "Du 27/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/festival-de-theatre-rencontres-en-bord-de-mer-la-baule-escoublac-fr-6801046/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Soirées Terroir et vignoble au restaurant le Saint-Christophe",
-      "place": "La Baule-Escoublac",
-      "date": "2026-09-25",
-      "end_date": "2026-11-27",
-      "date_label": "Du 25/09/2026 au 27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/soirees-terroir-et-vignoble-au-restaurant-le-saint-christophe-la-baule-escoublac-fr-6210402/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -247,16 +217,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Soirée lancement illumination du Moulin de Kerbroué",
-      "place": "La Turballe",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/soiree-lancement-illumination-du-moulin-de-kerbroue-la-turballe-fr-6868654/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
@@ -267,22 +227,22 @@
       "source_key": "tourism"
     },
     {
-      "title": "Conférence : Risques environnementaux. Habiter le littoral",
+      "title": "Le chalet du lutin farceur",
       "place": "Le Croisic",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/conference-risques-environnementaux-habiter-le-littoral-le-croisic-fr-6855645/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1802075/le-chalet-du-lutin-farceur",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
-      "title": "Habiter les littoraux français au vu des risques environnementaux",
+      "title": "Salon des Créateurs Amateurs",
       "place": "Le Croisic",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2002431/habiter-les-littoraux-francais-au-vu-des-risques-environnementaux",
+      "date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "date_label": "Du 28/11/2026 au 29/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1754339/salon-des-createurs-amateurs",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -295,6 +255,16 @@
       "url": "https://www.labaule-guerande.com/offres/musee-numerique-nouvelle-collection-le-pouliguen-fr-6870861/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
+    },
+    {
+      "title": "Théâtre - Mystère au manoir Vallandry",
+      "place": "Le Pouliguen",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
     },
     {
       "title": "Exposition de Guillaume QUERRE",
@@ -329,9 +299,9 @@
     {
       "title": "Théâtre - Les Caprices de Cupidon",
       "place": "Mesquer Quimiac",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
       "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
@@ -357,74 +327,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "Blind test",
+      "title": "Rencontres gourmandes",
       "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à 21h.",
-      "url": "https://www.pornichet.fr/agenda/blind-test",
+      "date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "date_label": "Du samedi 28 au dimanche 29 novembre 2026 le samedi de 11h à 20h. Le dimanche de 10h à 18h.",
+      "url": "https://www.pornichet.fr/agenda/rencontres-gourmandes",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Guillaume & Harold",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/guillaume-harold",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stand Up Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/stand-up-comedy-club-pornichet-fr-6879268/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Stand-Up Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/stand-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Utilisation de l'IA dans le domaine de la Santé",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/utilisation-de-lia-dans-le-domaine-de-la-sante",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Marché de Noël et lancement des illuminations",
-      "place": "Pénestin",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-et-lancement-des-illuminations-penestin-fr-6835085/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
@@ -497,46 +407,6 @@
       "source_key": "tourism"
     },
     {
-      "title": "Le chalet du lutin farceur",
-      "place": "Le Croisic",
-      "date": "2026-11-28",
-      "end_date": "2026-11-28",
-      "date_label": "28/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1802075/le-chalet-du-lutin-farceur",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Salon des Créateurs Amateurs",
-      "place": "Le Croisic",
-      "date": "2026-11-28",
-      "end_date": "2026-11-29",
-      "date_label": "Du 28/11/2026 au 29/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1754339/salon-des-createurs-amateurs",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Théâtre - Mystère au manoir Vallandry",
-      "place": "Le Pouliguen",
-      "date": "2026-11-28",
-      "end_date": "2026-11-28",
-      "date_label": "28/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-mystere-au-manoir-vallandry.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Rencontres gourmandes",
-      "place": "Pornichet",
-      "date": "2026-11-28",
-      "end_date": "2026-11-29",
-      "date_label": "Du samedi 28 au dimanche 29 novembre 2026 le samedi de 11h à 20h. Le dimanche de 10h à 18h.",
-      "url": "https://www.pornichet.fr/agenda/rencontres-gourmandes",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
       "title": "Les indispensables du cinéma - Lawrence d'Arabie",
       "place": "Le Croisic",
       "date": "2026-11-29",
@@ -557,7 +427,7 @@
       "source_key": "croisic"
     },
     {
-      "title": "CONCOURS DE BELOTE",
+      "title": "Concours de belote",
       "place": "Le Pouliguen",
       "date": "2026-11-29",
       "end_date": "2026-11-29",
@@ -615,6 +485,16 @@
       "url": "https://www.lecroisic.fr/fr/ev/748477/1954851/presentation-de-la-programmation",
       "source": "Ville du Croisic",
       "source_key": "croisic"
+    },
+    {
+      "title": "Les RDV Cash",
+      "place": "Pornichet",
+      "date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "date_label": "Jeudi 3 décembre 2026 de 18h à 19h.",
+      "url": "https://www.pornichet.fr/agenda/les-rdv-cash",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Yoga du visage",
@@ -683,6 +563,16 @@
       "end_date": "2026-12-07",
       "date_label": "07/12/2026",
       "url": "https://www.lecroisic.fr/fr/ev/748477/1954929/film-mystere-coup-de-coeur-surprise",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Café littéraire",
+      "place": "Le Croisic",
+      "date": "2026-12-08",
+      "end_date": "2026-12-08",
+      "date_label": "08/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/393837/cafe-litteraire-7",
       "source": "Ville du Croisic",
       "source_key": "croisic"
     },
@@ -775,16 +665,6 @@
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
-    },
-    {
-      "title": "Conférence publique – Catherine Vadon – Les maitres des océans",
-      "place": "Le Pouliguen",
-      "date": "2027-01-03",
-      "end_date": "2027-01-03",
-      "date_label": "03/01/2027",
-      "url": "https://www.lepouliguen.fr/evenements/conference-publique-catherine-vadon-monstres-des-oceans/",
-      "source": "Ville du Pouliguen",
-      "source_key": "pouliguen"
     },
     {
       "title": "Concert - Soirée conservatoire de Cap Atlantique : Paris - New York",
