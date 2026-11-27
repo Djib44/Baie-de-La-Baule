@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-27T02:45:45.103467+01:00",
+  "updated": "2026-11-27T13:20:46.461081+01:00",
   "coverage_start": "2026-11-27",
   "coverage_end": "2027-02-25",
   "sources": [
@@ -17,25 +17,45 @@
       "count": 12
     },
     {
-      "name": "Office de tourisme — billetterie",
-      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
-      "status": "ok",
-      "count": 14
-    },
-    {
       "name": "Ville du Pouliguen",
       "url": "https://www.lepouliguen.fr/evenements/",
       "status": "ok",
       "count": 2
     },
     {
+      "name": "Office de tourisme — billetterie",
+      "url": "https://reservation.labaule-guerande.com/spectacles-et-concerts.html",
+      "status": "ok",
+      "count": 14
+    },
+    {
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 29
+      "count": 39
     }
   ],
   "events": [
+    {
+      "title": "Conte interactif Perdue dans le désert",
+      "place": "Férel",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conte-interactif-perdue-dans-le-desert-ferel-fr-6879949/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marché de Noël de l'association Mirabelle",
+      "place": "Guérande",
+      "date": "2026-11-27",
+      "end_date": "2026-11-28",
+      "date_label": "Du 27/11/2026 au 28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-de-lassociation-mirabelle-guerande-fr-6912366/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Ouvrons les livres avec les Bébés - à La Madeleine",
       "place": "Guérande",
@@ -63,6 +83,16 @@
       "end_date": "2026-12-31",
       "date_label": "Du 02/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/visite-jeu-la-chasse-au-tresor-en-autonomie-guerande-fr-6263383/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concert rock - Red Fish & Cheap",
+      "place": "Herbignac",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concert-rock-red-fish-cheap-herbignac-fr-6882033/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -103,6 +133,26 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Festival de théâtre \"Rencontres en bord de mer\"",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "date_label": "Du 27/11/2026 au 29/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/festival-de-theatre-rencontres-en-bord-de-mer-la-baule-escoublac-fr-6801046/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Soirées Terroir et vignoble au restaurant le Saint-Christophe",
+      "place": "La Baule-Escoublac",
+      "date": "2026-09-25",
+      "end_date": "2026-11-27",
+      "date_label": "Du 25/09/2026 au 27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soirees-terroir-et-vignoble-au-restaurant-le-saint-christophe-la-baule-escoublac-fr-6210402/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -157,6 +207,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Exposition de peinture",
+      "place": "La Turballe",
+      "date": "2026-11-27",
+      "end_date": "2026-11-29",
+      "date_label": "Du 27/11/2026 au 29/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/exposition-de-peinture-la-turballe-fr-6835076/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Programmation Cinéma Atlantic du 25 novembre au 22 décembre",
       "place": "La Turballe",
       "date": "2026-11-25",
@@ -187,12 +247,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Soirée lancement illumination du Moulin de Kerbroué",
+      "place": "La Turballe",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/soiree-lancement-illumination-du-moulin-de-kerbroue-la-turballe-fr-6868654/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Café littéraire",
       "place": "Le Croisic",
       "date": "2026-09-29",
       "end_date": "2026-12-08",
       "date_label": "Du 29/09/2026 au 08/12/2026",
       "url": "https://www.labaule-guerande.com/offres/cafe-litteraire-le-croisic-fr-6402803/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Conférence : Risques environnementaux. Habiter le littoral",
+      "place": "Le Croisic",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/conference-risques-environnementaux-habiter-le-littoral-le-croisic-fr-6855645/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -307,6 +387,16 @@
       "source_key": "pornichet"
     },
     {
+      "title": "Stand Up Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/stand-up-comedy-club-pornichet-fr-6879268/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Stand-Up Comedy Club",
       "place": "Pornichet",
       "date": "2026-11-27",
@@ -325,6 +415,16 @@
       "url": "https://www.pornichet.fr/agenda/utilisation-de-lia-dans-le-domaine-de-la-sante",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Marché de Noël et lancement des illuminations",
+      "place": "Pénestin",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-de-noel-et-lancement-des-illuminations-penestin-fr-6835085/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
