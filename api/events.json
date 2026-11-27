@@ -1,14 +1,14 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-26T17:54:39.593772+01:00",
-  "coverage_start": "2026-11-26",
-  "coverage_end": "2027-02-24",
+  "updated": "2026-11-27T02:45:45.103467+01:00",
+  "coverage_start": "2026-11-27",
+  "coverage_end": "2027-02-25",
   "sources": [
     {
       "name": "Pornichet Tourisme",
       "url": "https://www.pornichet.fr/sejourner/tous-les-evenements-pornichet",
       "status": "ok",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Ville du Croisic",
@@ -32,7 +32,7 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 35
+      "count": 29
     }
   ],
   "events": [
@@ -67,32 +67,12 @@
       "source_key": "tourism"
     },
     {
-      "title": "Concert DINGOPHONIC",
-      "place": "Herbignac",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-dingophonic-herbignac-fr-6882032/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
       "title": "Jeu de piste numérique Baludik - Herbignac",
       "place": "Herbignac",
       "date": "2026-01-01",
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Théâtre-Forum : Parlons-en !",
-      "place": "Herbignac",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/theatre-forum-parlons-en-herbignac-fr-6868653/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -123,16 +103,6 @@
       "end_date": "2026-12-30",
       "date_label": "Du 02/11/2026 au 30/12/2026",
       "url": "https://www.labaule-guerande.com/offres/exposition-sacad-la-baule-escoublac-fr-6860483/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Le loup entre la Loire et la Vilaine",
-      "place": "La Baule-Escoublac",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/le-loup-entre-la-loire-et-la-vilaine-la-baule-escoublac-fr-6764497/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -173,16 +143,6 @@
       "end_date": "2026-12-04",
       "date_label": "Du 24/11/2026 au 04/12/2026",
       "url": "https://www.labaule-guerande.com/offres/collecte-de-jeux-et-jouets-la-turballe-fr-6783578/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Concert : Double Je",
-      "place": "La Turballe",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/concert-double-je-la-turballe-fr-6783579/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -237,44 +197,14 @@
       "source_key": "tourism"
     },
     {
-      "title": "Initiation au numérique - Réunion d'information",
+      "title": "Habiter les littoraux français au vu des risques environnementaux",
       "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2027183/initiation-au-numerique-reunion-d-information",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/2002431/habiter-les-littoraux-francais-au-vu-des-risques-environnementaux",
       "source": "Ville du Croisic",
       "source_key": "croisic"
-    },
-    {
-      "title": "La semaine des liens",
-      "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2027222/la-semaine-des-liens",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les escales mobilités",
-      "place": "Le Croisic",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/1953486/les-escales-mobilites-1-1-1",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Les escales mobilités au Croisic",
-      "place": "Le Croisic",
-      "date": "2026-08-03",
-      "end_date": "2026-11-26",
-      "date_label": "Du 03/08/2026 au 26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/les-escales-mobilites-au-croisic-le-croisic-fr-6587160/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
     },
     {
       "title": "Musée numérique : nouvelle collection",
@@ -317,6 +247,16 @@
       "source_key": "tourism"
     },
     {
+      "title": "Théâtre - Les Caprices de Cupidon",
+      "place": "Mesquer Quimiac",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "27/11/2026",
+      "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
+      "source": "Office de tourisme — billetterie",
+      "source_key": "tickets"
+    },
+    {
       "title": "Exposition \"Trait Cool\"",
       "place": "Piriac-sur-Mer",
       "date": "2026-11-03",
@@ -337,32 +277,52 @@
       "source_key": "tourism"
     },
     {
-      "title": "Repair café de Piriac-sur-Mer",
-      "place": "Piriac-sur-Mer",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "26/11/2026",
-      "url": "https://www.labaule-guerande.com/offres/repair-cafe-de-piriac-sur-mer-piriac-sur-mer-fr-6075760/",
-      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
-      "source_key": "tourism"
-    },
-    {
-      "title": "Soirée jeux",
+      "title": "Blind test",
       "place": "Pornichet",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "Jeudi 26 novembre 2026 à 20h30.",
-      "url": "https://www.pornichet.fr/agenda/soiree-jeux",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à 21h.",
+      "url": "https://www.pornichet.fr/agenda/blind-test",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
     {
-      "title": "Stand-up Micro Comedy Club",
+      "title": "Courses de galop",
       "place": "Pornichet",
-      "date": "2026-11-26",
-      "end_date": "2026-11-26",
-      "date_label": "Jeudi 26 novembre 2026 à 19h30.",
-      "url": "https://www.pornichet.fr/agenda/stand-micro-comedy-club",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026",
+      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Guillaume & Harold",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à partir de 19h.",
+      "url": "https://www.pornichet.fr/agenda/guillaume-harold",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Stand-Up Comedy Club",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à partir de 20h.",
+      "url": "https://www.pornichet.fr/agenda/stand-comedy-club",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
+      "title": "Utilisation de l'IA dans le domaine de la Santé",
+      "place": "Pornichet",
+      "date": "2026-11-27",
+      "end_date": "2026-11-27",
+      "date_label": "Vendredi 27 novembre 2026 à 18h30.",
+      "url": "https://www.pornichet.fr/agenda/utilisation-de-lia-dans-le-domaine-de-la-sante",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
     },
@@ -435,76 +395,6 @@
       "url": "https://www.labaule-guerande.com/offres/parcours-permanent-dorientation-ppo-au-lac-de-saint-lyphard-saint-lyphard-fr-6190944/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
-    },
-    {
-      "title": "Habiter les littoraux français au vu des risques environnementaux",
-      "place": "Le Croisic",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://www.lecroisic.fr/fr/ev/748477/2002431/habiter-les-littoraux-francais-au-vu-des-risques-environnementaux",
-      "source": "Ville du Croisic",
-      "source_key": "croisic"
-    },
-    {
-      "title": "Théâtre - Les Caprices de Cupidon",
-      "place": "Mesquer Quimiac",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "27/11/2026",
-      "url": "https://reservation.labaule-guerande.com/theatre-les-caprices-de-cupidon.html",
-      "source": "Office de tourisme — billetterie",
-      "source_key": "tickets"
-    },
-    {
-      "title": "Blind test",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à 21h.",
-      "url": "https://www.pornichet.fr/agenda/blind-test",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Courses de galop",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026",
-      "url": "https://www.pornichet.fr/agenda/courses-de-galop",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Guillaume & Harold",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à partir de 19h.",
-      "url": "https://www.pornichet.fr/agenda/guillaume-harold",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Stand-Up Comedy Club",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à partir de 20h.",
-      "url": "https://www.pornichet.fr/agenda/stand-comedy-club",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
-    },
-    {
-      "title": "Utilisation de l'IA dans le domaine de la Santé",
-      "place": "Pornichet",
-      "date": "2026-11-27",
-      "end_date": "2026-11-27",
-      "date_label": "Vendredi 27 novembre 2026 à 18h30.",
-      "url": "https://www.pornichet.fr/agenda/utilisation-de-lia-dans-le-domaine-de-la-sante",
-      "source": "Pornichet Tourisme",
-      "source_key": "pornichet"
     },
     {
       "title": "Le chalet du lutin farceur",
@@ -627,6 +517,16 @@
       "source_key": "croisic"
     },
     {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "date_label": "Jeudi 3 décembre 2026 de 19h30 à 20h30.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
+    },
+    {
       "title": "Les Apéros Bal du Croisic",
       "place": "Le Croisic",
       "date": "2026-12-04",
@@ -647,6 +547,26 @@
       "source_key": "croisic"
     },
     {
+      "title": "Atelier d'écriture",
+      "place": "Le Croisic",
+      "date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "date_label": "05/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1844884/atelier-decriture-9-1",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
+      "title": "Hommage aux Morts pour la France",
+      "place": "Le Croisic",
+      "date": "2026-12-05",
+      "end_date": "2026-12-05",
+      "date_label": "05/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1784382/hommage-aux-morts-pour-la-france",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
+    },
+    {
       "title": "Courses de galop",
       "place": "Pornichet",
       "date": "2026-12-05",
@@ -655,6 +575,16 @@
       "url": "https://www.pornichet.fr/agenda/courses-de-galop",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Film mystère ? Coup de cœur surprise",
+      "place": "Le Croisic",
+      "date": "2026-12-07",
+      "end_date": "2026-12-07",
+      "date_label": "07/12/2026",
+      "url": "https://www.lecroisic.fr/fr/ev/748477/1954929/film-mystere-coup-de-coeur-surprise",
+      "source": "Ville du Croisic",
+      "source_key": "croisic"
     },
     {
       "title": "Théâtre - Les étoile filantes ne font que passer - Mardis de Baudry",
@@ -695,6 +625,16 @@
       "url": "https://reservation.labaule-guerande.com/humour-jean-luc-lemoine-liquidation.html",
       "source": "Office de tourisme — billetterie",
       "source_key": "tickets"
+    },
+    {
+      "title": "Yoga du visage",
+      "place": "Pornichet",
+      "date": "2026-12-18",
+      "end_date": "2026-12-18",
+      "date_label": "Vendredi 18 décembre 2026 de 10h45 à 11h45.",
+      "url": "https://www.pornichet.fr/agenda/yoga-du-visage",
+      "source": "Pornichet Tourisme",
+      "source_key": "pornichet"
     },
     {
       "title": "Voyage dans le temps",
