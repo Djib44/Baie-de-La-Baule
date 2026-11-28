@@ -1,6 +1,6 @@
 {
   "source": "Agendas officiels de la presqu’île",
-  "updated": "2026-11-28T08:49:13.608566+01:00",
+  "updated": "2026-11-28T18:33:09.103289+01:00",
   "coverage_start": "2026-11-28",
   "coverage_end": "2027-02-26",
   "sources": [
@@ -32,10 +32,50 @@
       "name": "Office de tourisme La Baule–Presqu’île de Guérande",
       "url": "https://www.labaule-guerande.com/explorer/agenda/",
       "status": "ok",
-      "count": 32
+      "count": 41
     }
   ],
   "events": [
+    {
+      "title": "Animations et défilé de tracteurs illuminés",
+      "place": "Assérac",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/animations-et-defile-de-tracteurs-illumines-asserac-fr-6892033/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Concours de belote",
+      "place": "Camoël",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/concours-de-belote-camoel-fr-6835086/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Fest-Noz",
+      "place": "Férel",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/fest-noz-ferel-fr-6323960/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Jeux vidéo - Tournoi Moving out",
+      "place": "Guérande",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/jeux-video-tournoi-moving-out-guerande-fr-6785769/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
     {
       "title": "Marché de Noël de l'association Mirabelle",
       "place": "Guérande",
@@ -77,12 +117,32 @@
       "source_key": "tourism"
     },
     {
+      "title": "Brière en Jeu - Festival international de jeu",
+      "place": "Herbignac",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/briere-en-jeu-festival-international-de-jeu-herbignac-fr-6075593/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
       "title": "Jeu de piste numérique Baludik - Herbignac",
       "place": "Herbignac",
       "date": "2026-01-01",
       "end_date": "2026-12-31",
       "date_label": "Du 01/01/2026 au 31/12/2026",
       "url": "https://www.labaule-guerande.com/offres/jeu-de-piste-numerique-baludik-herbignac-herbignac-fr-6030066/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Carmen - ballet Julien Lestel",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/carmen-ballet-julien-lestel-la-baule-escoublac-fr-6786968/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -123,6 +183,16 @@
       "end_date": "2026-11-29",
       "date_label": "Du 27/11/2026 au 29/11/2026",
       "url": "https://www.labaule-guerande.com/offres/festival-de-theatre-rencontres-en-bord-de-mer-la-baule-escoublac-fr-6801046/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Vente du 28 Novembre 2026",
+      "place": "La Baule-Escoublac",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/vente-du-28-novembre-2026-la-baule-escoublac-fr-6911373/",
       "source": "Office de tourisme La Baule–Presqu’île de Guérande",
       "source_key": "tourism"
     },
@@ -335,6 +405,26 @@
       "url": "https://www.pornichet.fr/agenda/rencontres-gourmandes",
       "source": "Pornichet Tourisme",
       "source_key": "pornichet"
+    },
+    {
+      "title": "Atelier zéro déchet - atelier pâtes de fruits",
+      "place": "Pénestin",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/atelier-zero-dechet-atelier-pates-de-fruits-penestin-fr-6851689/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
+    },
+    {
+      "title": "Marche aquatique",
+      "place": "Pénestin",
+      "date": "2026-11-28",
+      "end_date": "2026-11-28",
+      "date_label": "28/11/2026",
+      "url": "https://www.labaule-guerande.com/offres/marche-aquatique-penestin-fr-6916548/",
+      "source": "Office de tourisme La Baule–Presqu’île de Guérande",
+      "source_key": "tourism"
     },
     {
       "title": "Pièce \"Coup de théâtre\"",
